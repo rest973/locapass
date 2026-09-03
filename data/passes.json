@@ -1,0 +1,334 @@
+[
+ {
+  "pass_id": "jp-kintetsu-mawaryanse",
+  "name": {
+   "local": "まわりゃんせ",
+   "local_lang": "ja",
+   "ko": "마와리얀세",
+   "en": "Mawaryanse"
+  },
+  "type": "T3",
+  "issuer": {
+   "local": "近畿日本鉄道",
+   "ko": "킨테츠"
+  },
+  "country": "JP",
+  "region": "JP-24",
+  "region_aliases": {
+   "ko": [
+    "이세시마",
+    "이세·토바·시마",
+    "미에"
+   ]
+  },
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 12100,
+    "category": "adult",
+    "as_of": "2026-01-14"
+   },
+   {
+    "currency": "JPY",
+    "amount": 6700,
+    "category": "child",
+    "as_of": "2026-01-14"
+   },
+   {
+    "currency": "JPY",
+    "amount": 12000,
+    "category": "adult_digital",
+    "as_of": "2026-01-14"
+   },
+   {
+    "currency": "JPY",
+    "amount": 6600,
+    "category": "child_digital",
+    "as_of": "2026-01-14"
+   }
+  ],
+  "validity": {
+   "days": 4,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "近鉄",
+     "scope": "출발역↔마츠사카~카시코지마 왕복 승차권 + 왕복 특급권 교환권",
+     "count": 1
+    },
+    {
+     "operator": "近鉄",
+     "scope": "프리구간(마츠사카~카시코지마) 무제한 + 특급권 교환권 4장"
+    },
+    {
+     "operator": "三重交通",
+     "scope": "마츠사카 지정구간·이세·토바·시마 노선버스 4일"
+    },
+    {
+     "operator": "鳥羽市",
+     "scope": "카모메버스, 토바시영 정기선 4일"
+    },
+    {
+     "operator": "志摩マリンレジャー",
+     "scope": "아고만 정기선 4일"
+    },
+    {
+     "operator": "パールシャトル",
+     "scope": "편도 1회, 사전예약"
+    }
+   ],
+   "facility": {
+    "count": 23,
+    "note": "각 시설 1인 1회",
+    "highlights": [
+     "鳥羽水族館",
+     "ミキモト真珠島",
+     "鳥羽湾めぐりとイルカ島",
+     "志摩スペイン村パルケエスパーニャ(パスポート)",
+     "賢島エスパーニャクルーズ"
+    ]
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "킨테츠 주요 역 창구 34역",
+    "online": false,
+    "commission": false,
+    "same_day": true
+   },
+   {
+    "channel": "킨테츠 디지털 킷푸",
+    "online": true,
+    "commission": false,
+    "same_day": true,
+    "url": "https://www.kintetsu.co.jp/senden/Railway/eticket/mawaryanse/"
+   },
+   {
+    "channel": "라쿠텐트래블·VELTRA·잘란",
+    "online": true,
+    "commission": true,
+    "note": "지정 역 창구에서 바우처 교환"
+   }
+  ],
+  "counter_phrase": {
+   "ja": "まわりゃんせを大人1枚お願いします。乗車開始日は〇月〇日、大阪難波発です。往復の特急も座席指定をお願いします。"
+  },
+  "sale_period": {
+   "from": "2026-01-14",
+   "to": "2026-12-26"
+  },
+  "use_period": {
+   "from": "2026-02-14",
+   "to": "2026-12-29"
+  },
+  "rules": [
+   "귀로하차시종료",
+   "특급좌석별도교환",
+   "시설1회한정",
+   "관광특급요금별도",
+   "이세시마전타지역경유불가"
+  ],
+  "not_for": {
+   "ko": "이세신궁만 볼 일정, 스페인 마을만 갈 일정, 오사카를 중간에 들렀다 다시 오는 일정, 왕복 네 시간 대비 1박 이하"
+  },
+  "sources": [
+   {
+    "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/",
+    "checked": "2026-09-02"
+   },
+   {
+    "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/service.html",
+    "checked": "2026-09-02"
+   },
+   {
+    "url": "https://kintetsu-faq.dga.jp/faq_detail.html?id=680",
+    "checked": "2026-09-02"
+   }
+  ],
+  "trust_level": "L3",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0"
+ },
+ {
+  "pass_id": "jp-kintetsu-isejingu-sanpai",
+  "name": {
+   "local": "伊勢神宮参拝きっぷ",
+   "local_lang": "ja",
+   "ko": "이세신궁 왕복 패스",
+   "en": "Ise Jingu Round-trip Ticket"
+  },
+  "type": "T3",
+  "issuer": {
+   "local": "近畿日本鉄道",
+   "ko": "킨테츠"
+  },
+  "country": "JP",
+  "region": "JP-24",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 7600,
+    "category": "adult_kansai",
+    "as_of": "2026-01-01"
+   },
+   {
+    "currency": "JPY",
+    "amount": 6800,
+    "category": "adult_tokai",
+    "as_of": "2026-01-01"
+   }
+  ],
+  "validity": {
+   "days": 3,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "近鉄",
+     "scope": "왕복 승차권+특급권 교환권, 프리구간 특급권 2장"
+    },
+    {
+     "operator": "三重交通",
+     "scope": "이세·후타미·아사마 지정 노선 3일"
+    }
+   ],
+   "facility": {
+    "count": 0
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·여행사",
+    "online": false,
+    "commission": false,
+    "same_day": false,
+    "note": "전날까지"
+   }
+  ],
+  "rules": [
+   "사전구매필수",
+   "귀로하차시종료",
+   "특급좌석별도교환"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/sanpai/",
+    "checked": "2026-09-02"
+   }
+  ],
+  "trust_level": "L3",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "card_status": "no_card",
+  "card_status_reason": "왕복 네 시간 대비 1박 전제. 2박이면 마와리얀세가 낫다"
+ },
+ {
+  "pass_id": "jp-kintetsu-parque-espana-free",
+  "name": {
+   "local": "志摩スペイン村 パルケエスパーニャ・フリーきっぷ",
+   "local_lang": "ja",
+   "ko": "스페인촌 프리킷푸",
+   "en": "Shima Spain Village Free Ticket"
+  },
+  "type": "T3",
+  "issuer": {
+   "local": "近畿日本鉄道",
+   "ko": "킨테츠"
+  },
+  "country": "JP",
+  "region": "JP-24",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 10400,
+    "category": "adult",
+    "as_of": "2026-01-01"
+   }
+  ],
+  "validity": {
+   "days": 4,
+   "basis": "first_use",
+   "consecutive": true,
+   "note": "패스포트는 입원 당일 한정"
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·편의점·여행사",
+    "online": false,
+    "commission": false,
+    "same_day": false,
+    "note": "전날까지"
+   }
+  ],
+  "rules": [
+   "사전구매필수",
+   "귀로하차시종료",
+   "패스포트당일한정"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/W20072a.html",
+    "checked": "2026-09-02"
+   }
+  ],
+  "trust_level": "L3",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "card_status": "no_card",
+  "card_status_reason": "거점 도시 테마파크(USJ·지브리파크 등) 대비 여행 이유 부족"
+ },
+ {
+  "pass_id": "jp-kintetsu-rail-pass-5day-plus",
+  "name": {
+   "local": "KINTETSU RAIL PASS 5day plus",
+   "local_lang": "en",
+   "ko": "킨테츠 레일패스 5일 플러스",
+   "en": "KINTETSU RAIL PASS 5day plus"
+  },
+  "type": "T5",
+  "issuer": {
+   "local": "近畿日本鉄道",
+   "ko": "킨테츠"
+  },
+  "country": "JP",
+  "region": "JP-27",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 6700,
+    "category": "adult",
+    "as_of": "2026-01-01"
+   }
+  ],
+  "validity": {
+   "days": 5,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "eligibility": "foreign_temporary_visitor",
+  "rules": [
+   "외국인전용",
+   "특급별도",
+   "정기선미포함"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kintetsu.co.jp/foreign/english/ticket/krp_5dayplus.html",
+    "checked": "2026-09-02"
+   }
+  ],
+  "trust_level": "L3",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "card_status": "no_card",
+  "card_status_reason": "이세시마엔 특급·배가 안 들어감. 간사이 덱에서 재검토"
+ }
+]
