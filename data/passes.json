@@ -2551,5 +2551,771 @@
   "last_verified_at": "2026-09-02",
   "license": "ODbL-1.0",
   "note": "온천패스. 두 곳 이상이면 본전"
+ },
+ {
+  "pass_id": "tw-haoxing-856-golden-fulong-1day",
+  "name": {
+   "local": "台灣好行 856 黃金福隆線 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 856 황금푸룽선 1일권",
+   "en": "Taiwan Trip 856 Gold Fulong 1-day"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "台灣好行 / 基隆客運",
+   "ko": "타이완하오싱·지룽객운"
+  },
+  "country": "TW",
+  "region": "TW-NWT",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 50,
+    "category": "adult"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "基隆客運",
+     "scope": "루이팡~진과스~지우펀~푸룽 23개 정류장 승하차 자유"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "차내(이지카드)·Taipei Fun Pass 온라인",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://funpass.travel.taipei/tour/pWyE",
+    "checked": "2026-09-02",
+    "kind": "판매 페이지"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": ""
+ },
+ {
+  "pass_id": "tw-taipei-funpass-transport-1day",
+  "name": {
+   "local": "北北基好玩卡 交通暢遊版 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "베이베이지 하오완카 교통 1일권",
+   "en": "Taipei Fun Pass Transportation 1-day"
+  },
+  "type": "T2",
+  "issuer": {
+   "local": "臺北市政府 / 悠遊卡",
+   "ko": "타이베이시·이지카드"
+  },
+  "country": "TW",
+  "region": "TW-NWT",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 180,
+    "category": "adult_1day"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "臺北捷運·公車",
+     "scope": "MRT·시내버스 무제한"
+    },
+    {
+     "operator": "台灣好行",
+     "scope": "일부 노선"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "MRT 역·Klook 등",
+    "online": true,
+    "commission": true
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.easycard.com.tw/easycard?cls=1514964214&id=1510819513",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 검색 요약)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "무한창유판(시설 포함) 1일 1,300·2일 1,700·3일 2,000 별도"
+ },
+ {
+  "pass_id": "tw-haoxing-sunmoonlake-roundtrip",
+  "name": {
+   "local": "台灣好行 日月潭線 來回票",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 르웨탄선 왕복표",
+   "en": "Taiwan Trip Sun Moon Lake Round-trip"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "南投客運",
+   "ko": "난터우객운"
+  },
+  "country": "TW",
+  "region": "TW-NAN",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 360,
+    "category": "adult_roundtrip"
+   },
+   {
+    "currency": "TWD",
+    "amount": 193,
+    "category": "adult_oneway"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar",
+   "note": "왕복 유효기간 확인 필요"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "南投客運",
+     "scope": "타이중 간청역·고속철 타이중역↔르웨탄 수이서"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "타이중 간청역·고속철 타이중역 창구, ibon, 온라인",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://nantou.welcometw.com/tour/w71w",
+    "checked": "2026-09-02",
+    "kind": "판매 페이지"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "수륙공 세트권(遊湖·纜車·環湖버스 묶음)은 창구 판매. 세트 가격 미확인. 온라인 海空套票(400)는 판매 중지"
+ },
+ {
+  "pass_id": "tw-sunmoonlake-boat-loop",
+  "name": {
+   "local": "日月潭 遊湖船 環湖票",
+   "local_lang": "zh-Hant",
+   "ko": "르웨탄 유람선 환호표",
+   "en": "Sun Moon Lake Boat Loop Ticket"
+  },
+  "type": "T4",
+  "issuer": {
+   "local": "日月潭 船運業者",
+   "ko": "르웨탄 선박업자"
+  },
+  "country": "TW",
+  "region": "TW-NAN",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 300,
+    "category": "adult"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "遊湖船",
+     "scope": "수이서~쉬안광~이다샤오 한 바퀴, 각 부두 승하차"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "부두 창구·온라인",
+    "online": true,
+    "commission": true
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.welcometw.com/%E6%97%A5%E6%9C%88%E6%BD%AD%E9%81%8A%E6%B9%96-%E4%B9%98%E8%88%B9%E8%B7%AF%E7%B7%9A%E7%A5%A8%E5%83%B9%E8%B3%87%E8%A8%8A/",
+    "checked": "2026-09-02",
+    "kind": "2차"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "케이블카 왕복은 별도(약 NT$300, 확인 중)"
+ },
+ {
+  "pass_id": "tw-haoxing-alishan-roundtrip",
+  "name": {
+   "local": "台灣好行 阿里山線 來回票",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 아리산선 왕복표",
+   "en": "Taiwan Trip Alishan Round-trip"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "台灣好行 / 嘉義縣公車",
+   "ko": "타이완하오싱·자이현"
+  },
+  "country": "TW",
+  "region": "TW-CYI",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 480,
+    "category": "adult_roundtrip"
+   },
+   {
+    "currency": "TWD",
+    "amount": 630,
+    "category": "adult_with_park_entry"
+   },
+   {
+    "currency": "TWD",
+    "amount": 750,
+    "category": "adult_with_entry_bento"
+   }
+  ],
+  "validity": {
+   "days": 3,
+   "basis": "first_use",
+   "note": "왕복 4회 승하차, 3일 내"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "台灣好行 A선(고속철 자이)·B선(타이철 자이)",
+     "scope": "자이↔아리산, 일부 편 펀치후 경유"
+    }
+   ],
+   "facility": {
+    "count": 1,
+    "highlights": [
+     "阿里山國家森林遊樂區 입장(세트권)"
+    ]
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "타이완하오싱 온라인·ibon·자이역 창구",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "사전예약권장"
+  ],
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012",
+    "checked": "2026-09-02",
+    "kind": "공식"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "정가 630, 할인 480. 삼림철도는 별도"
+ },
+ {
+  "pass_id": "tw-tainan-8899-1day",
+  "name": {
+   "local": "台南 8899 一日無限搭乘券",
+   "local_lang": "zh-Hant",
+   "ko": "타이난 88·99 1일 무제한권",
+   "en": "Tainan 88/99 1-day Pass"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "台南市政府 / 府城客運",
+   "ko": "타이난시"
+  },
+  "country": "TW",
+  "region": "TW-TNN",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 80,
+    "category": "adult"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "88 府城巡迴線·99 安平台江線",
+     "scope": "타이난 시내 옛 시가지·안핑·타이장 순환 관광버스"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "차내·Klook·KKday·PChome",
+    "online": true,
+    "commission": true
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.klook.com/zh-TW/activity/37288-tainan-tourist-bus-number-88-99-day-pass/",
+    "checked": "2026-09-02",
+    "kind": "판매 페이지"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "원가 80. 88 구매 시 99 증정 행사 있음"
+ },
+ {
+  "pass_id": "tw-kenting-express-roundtrip",
+  "name": {
+   "local": "9189 墾丁快線 來回票",
+   "local_lang": "zh-Hant",
+   "ko": "9189 컨딩 익스프레스 왕복표",
+   "en": "Kenting Express 9189 Round-trip"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "屏東客運·高雄客運 ほか",
+   "ko": "핑둥객운 외"
+  },
+  "country": "TW",
+  "region": "TW-PIF",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 650,
+    "category": "adult_roundtrip"
+   }
+  ],
+  "validity": {
+   "days": 30,
+   "basis": "purchase_day",
+   "note": "왕복 유효기간 확인 필요"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "9189 墾丁快線",
+     "scope": "가오슝 고속철 쭤잉역↔컨딩 샤오완, 약 2시간"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "쭤잉역 창구·온라인 예약",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.ptbus.com.tw/news_info/0/1/118?status=5",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 검색 요약)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": ""
+ },
+ {
+  "pass_id": "tw-kenting-street-bus-1day",
+  "name": {
+   "local": "墾丁街車 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "컨딩 제처 1일권",
+   "en": "Kenting Street Bus 1-day"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "屏東客運",
+   "ko": "핑둥객운"
+  },
+  "country": "TW",
+  "region": "TW-PIF",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 150,
+    "category": "adult_1day"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "墾丁街車 (橘·藍·綠·黃線)",
+     "scope": "컨딩 반도 순환 4노선 승하차 자유"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "차내·온라인",
+    "online": true,
+    "commission": true
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.ptbus.com.tw/news_info/0/1/281?status=8",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 2차)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "2일권도 존재(가격 확인 중)"
+ },
+ {
+  "pass_id": "tw-haoxing-east-coast-1day",
+  "name": {
+   "local": "台灣好行 8101A 東部海岸線 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 동부해안선 1일권",
+   "en": "Taiwan Trip East Coast 1-day"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "台灣好行 / 鼎東客運",
+   "ko": "타이완하오싱·딩둥객운"
+  },
+  "country": "TW",
+  "region": "TW-TTT",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 399,
+    "category": "adult_1day"
+   },
+   {
+    "currency": "TWD",
+    "amount": 250,
+    "category": "adult_1day_promo"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "8101A 郵輪式公車",
+     "scope": "타이둥역~두란~싼셴타이 해안 순환, 정류장 체류 시간 있음"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "타이완하오싱 온라인·차내",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "편수적음"
+  ],
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073",
+    "checked": "2026-09-02",
+    "kind": "공식"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "우수룬식(郵輪式) 버스: 정류장마다 내려 구경하는 시간이 있음"
+ },
+ {
+  "pass_id": "tw-haoxing-penghu-magong-north-1day",
+  "name": {
+   "local": "台灣好行 媽宮北環線 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 마궁 북환선 1일권",
+   "en": "Taiwan Trip Magong North Loop 1-day"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "台灣好行 / 澎湖縣",
+   "ko": "타이완하오싱·펑후현"
+  },
+  "country": "TW",
+  "region": "TW-PEN",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 300,
+    "category": "adult_1day"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "媽宮北環線 郵輪式公車",
+     "scope": "마궁~콰하이대교~얼칸~다궈예 현무암~샤오먼 순환"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "온라인 예약(예약제)·마궁 관광안내소",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "사전예약필수",
+   "계절운행"
+  ],
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 2차)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "비수기(11월) 무료 운행 사례. 2일권 별도"
+ },
+ {
+  "pass_id": "tw-taichung-double-decker",
+  "name": {
+   "local": "臺中雙層觀光巴士",
+   "local_lang": "zh-Hant",
+   "ko": "타이중 2층 관광버스",
+   "en": "Taichung Double-decker Sightseeing Bus"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "臺中市政府",
+   "ko": "타이중시"
+  },
+  "country": "TW",
+  "region": "TW-TXG",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 100,
+    "category": "adult_single"
+   },
+   {
+    "currency": "TWD",
+    "amount": 300,
+    "category": "adult_4hour"
+   }
+  ],
+  "validity": {
+   "hours": 4,
+   "basis": "first_use"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "雙層觀光巴士",
+     "scope": "타이중 시내 순환"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "차내·온라인",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.taichungsightseeingbus.com.tw/ticket",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 검색 요약)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "",
+  "card_status": "no_card",
+  "card_status_reason": "타이중은 거점 도시. 4시간권으로 2박의 이유가 서지 않음"
+ },
+ {
+  "pass_id": "tw-haoxing-jiaoxi",
+  "name": {
+   "local": "台灣好行 礁溪線",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 자오시선",
+   "en": "Taiwan Trip Jiaoxi Line"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "台灣好行 / 葛瑪蘭客運",
+   "ko": "타이완하오싱"
+  },
+  "country": "TW",
+  "region": "TW-ILA",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 20,
+    "category": "adult_per_ride"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "礁溪線",
+     "scope": "자오시역~온천공원~우펑치 폭포, 회당 20"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "차내",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0001",
+    "checked": "2026-09-02",
+    "kind": "공식"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "1일권 없음(회당 20)",
+  "card_status": "no_card",
+  "card_status_reason": "회당 20의 노선이라 패스라 할 것이 없음. 자오시 온천은 타이베이 근교 당일 대안"
+ },
+ {
+  "pass_id": "tw-haoxing-taroko",
+  "name": {
+   "local": "台灣好行 太魯閣線 310",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 타이루거선",
+   "en": "Taiwan Trip Taroko Line"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "台灣好行 / 太魯閣客運",
+   "ko": "타이완하오싱"
+  },
+  "country": "TW",
+  "region": "TW-HUA",
+  "price": [
+   {
+    "currency": "TWD",
+    "amount": 154,
+    "category": "adult_oneway_full"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "310",
+     "scope": "화롄역~톈샹, 거리 요금"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "차내·Klook 1일권",
+    "online": true,
+    "commission": true
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0071",
+    "checked": "2026-09-02",
+    "kind": "공식"
+   }
+  ],
+  "trust_level": "L1",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "2024 지진 이후 협곡 개방 구간 유동적",
+  "card_status": "no_card",
+  "card_status_reason": "타이루거 협곡의 개방 구간이 확정되지 않아 여행 이유를 보증할 수 없음. 재확인 후"
  }
 ]

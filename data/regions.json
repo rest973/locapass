@@ -1252,7 +1252,7 @@
     "北北基好玩卡"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "TW-KEE-keelung",
@@ -1288,8 +1288,8 @@
     "北北基好玩卡",
     "台灣好行 龍宮尋寶線"
    ],
-   "note": "",
-   "status": "planned"
+   "note": "카드 없음: 지룽은 타이베이 근교 당일 대안. 지우펀 카드(51)에 언급",
+   "status": "no_card"
   },
   {
    "region_id": "TW-NAN-sunmoonlake",
@@ -1331,7 +1331,7 @@
     "台灣好行 日月潭線"
    ],
    "note": "0-B 대상",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "TW-TXG-taichung",
@@ -1367,8 +1367,8 @@
     "台中 雙層觀光巴士",
     "台灣好行 谷關線"
    ],
-   "note": "타이중 자체가 거점",
-   "status": "planned"
+   "note": "카드 없음: 거점 도시. 4시간 관광버스로 2박의 이유 없음",
+   "status": "no_card"
   },
   {
    "region_id": "TW-CYI-alishan",
@@ -1410,7 +1410,7 @@
     "阿里山森林鐵路 套票"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "TW-TNN-tainan",
@@ -1452,7 +1452,7 @@
     "台南 一日券"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "TW-PIF-kenting",
@@ -1489,7 +1489,7 @@
     "墾丁街車 一日券"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "TW-ILA-yilan",
@@ -1525,8 +1525,8 @@
     "台灣好行 礁溪線",
     "宜蘭 套票"
    ],
-   "note": "",
-   "status": "planned"
+   "note": "카드 없음: 자오시선은 회당 20의 노선. 타이베이 근교 당일 대안",
+   "status": "no_card"
   },
   {
    "region_id": "TW-HUA-hualien",
@@ -1562,8 +1562,8 @@
     "台灣好行 太魯閣線",
     "花蓮 套票"
    ],
-   "note": "타이루거 재개 상황 확인",
-   "status": "planned"
+   "note": "카드 없음: 타이루거 개방 구간 미확정. 재확인 후",
+   "status": "no_card"
   },
   {
    "region_id": "TW-TTT-taitung",
@@ -1605,7 +1605,7 @@
     "台東 套票"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "TW-PEN-penghu",
@@ -1647,7 +1647,7 @@
     "台灣好行 媽宮北環線"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   }
  ]
 }
