@@ -912,7 +912,7 @@
     "由布院"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-42-nagasaki",
@@ -949,7 +949,7 @@
     "SUNQパス"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-43-kumamoto",
@@ -987,7 +987,7 @@
     "阿蘇"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-46-kagoshima",
@@ -1025,7 +1025,7 @@
     "指宿"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-04-sendai",
