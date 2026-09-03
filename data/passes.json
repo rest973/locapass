@@ -1907,5 +1907,649 @@
   "last_verified_at": "2026-09-02",
   "license": "ODbL-1.0",
   "note": "2026년도 설정. 판매 기간 재확인"
+ },
+ {
+  "pass_id": "jp-alpico-kamikochi-norikura-2day",
+  "name": {
+   "local": "上高地・乗鞍2デーフリーパスポート",
+   "local_lang": "ja",
+   "ko": "가미코치·노리쿠라 2일 프리패스포트",
+   "en": "Kamikochi-Norikura 2-day Free Passport"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "アルピコ交通",
+   "ko": "알피코교통"
+  },
+  "country": "JP",
+  "region": "JP-20",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 6000,
+    "category": "adult_2day"
+   },
+   {
+    "currency": "JPY",
+    "amount": 3000,
+    "category": "child_2day"
+   },
+   {
+    "currency": "JPY",
+    "amount": 7200,
+    "category": "adult_3day"
+   }
+  ],
+  "validity": {
+   "days": 2,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "アルピコ交通",
+     "scope": "마쓰모토~신시마시마 전철, 신시마시마~가미코치·노리쿠라고원·시라호네온천 버스, 노리쿠라 산정 버스, 마쓰모토 시내버스"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "마쓰모토 버스터미널·알피코 창구",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "계절운행",
+   "가미코치버스예약우선"
+  ],
+  "sources": [
+   {
+    "url": "https://www.alpico.co.jp/traffic/ticket/",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 2차)"
+   }
+  ],
+  "trust_level": "L1",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "가격 6,000은 2차 출처. 2026 개정 여부 확인 필요. 0-B 대상"
+ },
+ {
+  "pass_id": "jp-nouhi-takayama-shirakawago-set",
+  "name": {
+   "local": "高山～白川郷 往復バス＋合掌造り民家園セット券",
+   "local_lang": "ja",
+   "ko": "다카야마↔시라카와고 왕복 세트권",
+   "en": "Takayama-Shirakawago Round-trip Set"
+  },
+  "type": "T3",
+  "issuer": {
+   "local": "濃飛バス",
+   "ko": "노히버스"
+  },
+  "country": "JP",
+  "region": "JP-21",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 5200,
+    "category": "adult_estimate"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "濃飛バス",
+     "scope": "다카야마 노히버스센터↔시라카와고 왕복 (편도 약 2,600)"
+    }
+   ],
+   "facility": {
+    "count": 1,
+    "highlights": [
+     "白川郷 合掌造り民家園"
+    ]
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "노히버스센터·VELTRA",
+    "online": true,
+    "commission": true,
+    "note": "왕복은 예약제"
+   }
+  ],
+  "rules": [
+   "사전예약"
+  ],
+  "sources": [
+   {
+    "url": "https://www.nouhibus.co.jp/hida/ticket/",
+    "checked": "2026-09-02",
+    "kind": "공식(세트 가격 미확인)"
+   }
+  ],
+  "trust_level": "L1",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "왕복+민가원 세트 가격 미확인. 편도 약 2,600 기준 추정"
+ },
+ {
+  "pass_id": "jp-hokutetsu-kanazawa-1day",
+  "name": {
+   "local": "北鉄バス 1日フリー乗車券",
+   "local_lang": "ja",
+   "ko": "호쿠테쓰 버스 1일 프리승차권",
+   "en": "Hokutetsu Bus 1-day"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "北陸鉄道",
+   "ko": "호쿠리쿠철도"
+  },
+  "country": "JP",
+  "region": "JP-17",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 600,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 300,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "北鉄バス",
+     "scope": "가나자와 시내 지정구역, 주유버스"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "호쿠테쓰 역앞센터·차내",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 검색 요약)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "2026-04부터 600엔"
+ },
+ {
+  "pass_id": "jp-alpen-route-through",
+  "name": {
+   "local": "立山黒部アルペンルート 通り抜け（立山駅～扇沢）",
+   "local_lang": "ja",
+   "ko": "다테야마쿠로베 알펜루트 통과 승차권",
+   "en": "Tateyama Kurobe Alpine Route Through Ticket"
+  },
+  "type": "T2",
+  "issuer": {
+   "local": "立山黒部貫光",
+   "ko": "다테야마쿠로베관광"
+  },
+  "country": "JP",
+  "region": "JP-16",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 10940,
+    "category": "adult_oneway"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar",
+   "note": "구간별 유효기간 상이"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "立山黒部貫光 ほか",
+     "scope": "케이블카·고원버스·트롤리버스·로프웨이·케이블카·버스 6종 편도 통과"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "WEB킷푸·다테야마역·오기자와역 창구",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "계절운행",
+   "예약권장"
+  ],
+  "sources": [
+   {
+    "url": "https://www.alpen-route.com/access_new/fare/person/index.php",
+    "checked": "2026-09-02",
+    "kind": "공식(2026-02 기준)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "4월 중순~11월 말 개통. 王복은 약 16,000"
+ },
+ {
+  "pass_id": "jp-tobu-nikko-pass-all-area",
+  "name": {
+   "local": "NIKKO PASS all area",
+   "local_lang": "ja",
+   "ko": "닛코 패스 올에어리어",
+   "en": "NIKKO PASS all area"
+  },
+  "type": "T5",
+  "issuer": {
+   "local": "東武鉄道",
+   "ko": "도부철도"
+  },
+  "country": "JP",
+  "region": "JP-09",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 8000,
+    "category": "adult_4day_digital"
+   }
+  ],
+  "validity": {
+   "days": 4,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "東武鉄道",
+     "scope": "아사쿠사↔시모이마이치 왕복(특급권 별도)"
+    },
+    {
+     "operator": "東武バス",
+     "scope": "닛코·주젠지·유모토·기누가와 버스 무제한"
+    },
+    {
+     "operator": "기타",
+     "scope": "주젠지호 유람선, 로프웨이 등"
+    }
+   ]
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "디지털(NIKKO MaaS)·아사쿠사 도부관광서비스센터",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "외국인전용",
+   "특급권별도"
+  ],
+  "sources": [
+   {
+    "url": "https://www.tobu.co.jp/en/ticket/nikko/all.html",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 검색 요약)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "일본 거주자는 NIKKO MaaS 프리패스 별도"
+ },
+ {
+  "pass_id": "jp-odakyu-hakone-freepass",
+  "name": {
+   "local": "箱根フリーパス（新宿発 2日）",
+   "local_lang": "ja",
+   "ko": "하코네 프리패스 신주쿠 2일",
+   "en": "Hakone Free Pass"
+  },
+  "type": "T3",
+  "issuer": {
+   "local": "小田急電鉄",
+   "ko": "오다큐전철"
+  },
+  "country": "JP",
+  "region": "JP-14",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 7100,
+    "category": "adult_2day_shinjuku"
+   }
+  ],
+  "validity": {
+   "days": 2,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "小田急",
+     "scope": "신주쿠↔오다와라 왕복(로망스카 특급권 별도)"
+    },
+    {
+     "operator": "箱根登山鉄道·ケーブル·ロープウェイ·海賊船·登山バス",
+     "scope": "8종 무제한"
+    }
+   ],
+   "facility": {
+    "count": 0,
+    "note": "제휴시설 할인"
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "오다큐 역·앱(EMot)·はこチケ",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "로망스카별도"
+  ],
+  "sources": [
+   {
+    "url": "https://www.odakyu-freepass.jp/hakone/buy.html",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 검색 요약, 2025-10 개정)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "주류 패스. 아는 지역 대조군"
+ },
+ {
+  "pass_id": "jp-hiroden-1day-tram-ferry",
+  "name": {
+   "local": "電車・宮島フェリー 一日乗車乗船券",
+   "local_lang": "ja",
+   "ko": "히로덴 전차·미야지마 페리 1일권",
+   "en": "Hiroden Tram + Miyajima Ferry 1-day"
+  },
+  "type": "T2",
+  "issuer": {
+   "local": "広島電鉄",
+   "ko": "히로시마전철"
+  },
+  "country": "JP",
+  "region": "JP-34",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 1000,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 550,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "広島電鉄",
+     "scope": "노면전차 전선"
+    },
+    {
+     "operator": "宮島松大汽船",
+     "scope": "미야지마 페리 왕복 (방문세 100엔 포함)"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "전차 차내·창구·MOBIRY 디지털",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html",
+    "checked": "2026-09-02",
+    "kind": "공식"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": ""
+ },
+ {
+  "pass_id": "jp-okaden-1day",
+  "name": {
+   "local": "岡山電気軌道 路面電車1日乗車券",
+   "local_lang": "ja",
+   "ko": "오카덴 노면전차 1일권",
+   "en": "Okayama Tram 1-day"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "岡山電気軌道",
+   "ko": "오카야마전기궤도"
+  },
+  "country": "JP",
+  "region": "JP-33",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 400,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 200,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "岡山電気軌道",
+     "scope": "노면전차 전선"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "차내·tabiwa 디지털",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://okayama-kido.co.jp/tram/",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 검색 요약)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "",
+  "card_status": "no_card",
+  "card_status_reason": "오카야마·구라시키는 반나절 거리라 2박의 이유가 약하고, 패스도 400엔 전차권뿐. 거점(직항·신칸센 환승)으로만 사전에 유지"
+ },
+ {
+  "pass_id": "jp-nankai-koyasan-sekaiisan",
+  "name": {
+   "local": "高野山・世界遺産きっぷ",
+   "local_lang": "ja",
+   "ko": "고야산 세계유산 킷푸",
+   "en": "Koyasan World Heritage Ticket"
+  },
+  "type": "T2",
+  "issuer": {
+   "local": "南海電鉄",
+   "ko": "난카이전철"
+  },
+  "country": "JP",
+  "region": "JP-30",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 4210,
+    "category": "adult_namba_2day"
+   }
+  ],
+  "validity": {
+   "days": 2,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "南海",
+     "scope": "난바↔고야산 왕복(케이블카 포함), 특급권 별도"
+    },
+    {
+     "operator": "南海りんかんバス",
+     "scope": "고야산 내 버스 2일 무제한"
+    }
+   ],
+   "facility": {
+    "count": 0,
+    "note": "시설·점포 할인"
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "난카이 역 창구·디지털 킷푸",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "특급권별도"
+  ],
+  "sources": [
+   {
+    "url": "https://www.nankai.co.jp/traffic/otoku/koyasan.html",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 2차)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "특급 포함판 별도"
+ },
+ {
+  "pass_id": "jp-kinosaki-yumepa",
+  "name": {
+   "local": "城崎温泉 外湯めぐり 1日券「ゆめぱ」",
+   "local_lang": "ja",
+   "ko": "기노사키온천 바깥탕 1일권 유메파",
+   "en": "Kinosaki Sotoyu 1-day Yumepa"
+  },
+  "type": "T4",
+  "issuer": {
+   "local": "城崎温泉",
+   "ko": "기노사키온천"
+  },
+  "country": "JP",
+  "region": "JP-28",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 1500,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 750,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "facility": {
+    "count": 7,
+    "highlights": [
+     "さとの湯",
+     "地蔵湯",
+     "柳湯",
+     "一の湯",
+     "御所の湯",
+     "まんだら湯",
+     "鴻の湯"
+    ],
+    "note": "당일 무제한. 숙박객은 숙소에서 무료 패스"
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "각 바깥탕 창구",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://kinosaki-spa.gr.jp/about/spa/",
+    "checked": "2026-09-02",
+    "kind": "관광협회(가격은 검색 요약)"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "온천패스. 두 곳 이상이면 본전"
  }
 ]

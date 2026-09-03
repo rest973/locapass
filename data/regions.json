@@ -347,7 +347,7 @@
     "南紀・熊野"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-28-kinosaki",
@@ -389,7 +389,7 @@
     "JR 関西ワイド"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-37-takamatsu",
@@ -595,7 +595,7 @@
     "アルピコ交通"
    ],
    "note": "0-B 대상",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-21-takayama",
@@ -637,7 +637,7 @@
     "高山・白川郷"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-17-kanazawa",
@@ -679,7 +679,7 @@
     "金沢周遊バス"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-16-tateyama",
@@ -721,7 +721,7 @@
     "アルペンルート 通り抜け"
    ],
    "note": "도야마 공항 직항은 운항 여부 확인 필요",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-09-nikko",
@@ -758,7 +758,7 @@
     "東武 日光"
    ],
    "note": "주류에 가까움. 아는 지역 대조군",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-14-hakone",
@@ -794,7 +794,7 @@
     "箱根フリーパス"
    ],
    "note": "주류. 아는 지역 대조군",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-34-hiroshima",
@@ -837,7 +837,7 @@
     "瀬戸内"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-33-okayama",
@@ -873,8 +873,8 @@
     "岡山電気軌道 1日乗車券",
     "倉敷"
    ],
-   "note": "",
-   "status": "planned"
+   "note": "카드 없음: 반나절 거리·400엔 전차권뿐. 거점으로 유지",
+   "status": "no_card"
   },
   {
    "region_id": "JP-44-oita",
