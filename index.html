@@ -86,12 +86,30 @@ header{display:flex;align-items:center;justify-content:space-between;gap:12px;pa
 .opts{display:flex;flex-wrap:wrap;gap:8px}
 .opts button{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:8px 14px;font-size:14px}
 .opts button.sel{border-color:var(--accent);background:var(--accent-soft);color:var(--accent);font-weight:600}
-.mapview{border:1px dashed var(--line);border-radius:12px;padding:14px;margin-top:18px;background:var(--card)}
+.mapview{margin-top:4px}
 .mapview[hidden]{display:none}
-.mapview h3{margin:0 0 6px;font-size:16px}
-.mapview ul{margin:0;padding-left:18px;font-size:14px}
-.mapview .url{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--mute);word-break:break-all;margin-top:8px}
-.mapview .empty{color:var(--mute);font-size:14px}
+.mapview h3{margin:0 0 4px;font-size:18px}
+.mapview .sub{color:var(--mute);font-size:13px;margin:0 0 12px}
+.pins{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:0 0 16px}
+.pin{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card);position:relative}
+.pin .ph{height:110px;background-size:cover;background-position:center}
+.pin .t{padding:8px 10px 10px;font-size:12.5px;line-height:1.4;font-weight:600}
+.pin .t small{display:block;font-weight:400;color:var(--mute);margin-top:3px}
+.pin button{position:absolute;top:6px;right:6px;border:0;background:rgba(0,0,0,.55);color:#fff;border-radius:999px;width:24px;height:24px;font-size:14px;line-height:1}
+.mapview .empty{color:var(--mute);font-size:14px;border:1px dashed var(--line);border-radius:10px;padding:18px;text-align:center}
+.maptools{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
+.maptools button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 14px;font-size:13.5px}
+.maptools button.primary{border-color:var(--accent);background:var(--accent);color:#fff;font-weight:600}
+.maptools button:disabled{opacity:.45;cursor:default}
+.mapview .url{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--mute);word-break:break-all}
+.banner{border:1px solid var(--accent);background:var(--accent-soft);color:var(--ink);border-radius:10px;padding:10px 12px;font-size:13.5px;display:flex;gap:10px;align-items:center;justify-content:space-between;margin:0 0 12px}
+.banner[hidden]{display:none}
+.banner button{border:0;background:var(--accent);color:#fff;border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600;white-space:nowrap}
+.shareout{margin-top:12px}
+.shareout[hidden]{display:none}
+.shareout img{width:100%;max-width:300px;border:1px solid var(--line);border-radius:8px;display:block}
+.shareout a{display:inline-block;margin-top:8px;font-size:13px;color:var(--accent)}
+.back-to-deck{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 12px;font-size:13px}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:56px;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:30}
 .toast.show{opacity:1}
 a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -101,13 +119,15 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <body>
 <div class="app">
   <header>
-    <div class="wordmark">로카패스 <small>DECK PROTOTYPE v1.3</small></div>
+    <div class="wordmark">로카패스 <small>DECK PROTOTYPE v1.4</small></div>
     <div style="display:flex;gap:8px;align-items:center">
       <button class="hub" id="hubBtn" aria-label="출발 거점 바꾸기">거점 <b id="hubLabel">안 정함</b></button>
       <button class="mapbtn" id="mapBtn">언젠가 지도 <span id="pinCount">0</span></button>
     </div>
   </header>
-  <p class="hint">카드를 누르면 뒤집힙니다. 옆으로 밀면 다음 카드. 사진은 위키미디어 공용 자유 라이선스(v1.3).</p>
+  <div class="banner" id="recvBanner" hidden><span id="recvText"></span><button id="recvBtn">내 지도로 만들기</button></div>
+  <div id="deckView">
+  <p class="hint">카드를 누르면 뒤집힙니다. 옆으로 밀면 다음 카드. 사진은 위키미디어 공용 자유 라이선스(v1.4).</p>
 
   <div class="deck" id="deck" aria-label="여행 한 장 덱"></div>
 
@@ -115,11 +135,21 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
     <button id="skipBtn">넘기기</button>
     <button class="pin" id="pinBtn">지도에 꽂기</button>
   </div>
+  </div>
 
   <section class="mapview" id="mapview" hidden>
-    <h3>언젠가 지도 <span style="font-weight:400;color:var(--mute);font-size:13px">(0-A 최소판: 목록만)</span></h3>
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+      <h3>언젠가 지도</h3>
+      <button class="back-to-deck" id="backBtn">← 카드로</button>
+    </div>
+    <p class="sub">꽂아 둔 여행. 이 지도는 주소에만 저장돼요. 주소를 잃으면 지도도 사라져요.</p>
+    <div class="maptools">
+      <button class="primary" id="copyBtn">내 지도 링크 복사</button>
+      <button id="imgBtn">공유 이미지 만들기</button>
+    </div>
     <div id="mapList"></div>
     <div class="url" id="mapUrl"></div>
+    <div class="shareout" id="shareout" hidden></div>
   </section>
 </div>
 
@@ -128,6 +158,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
   <div><span class="l">꽂기</span> <b id="mPin">0</b></div>
   <div><span class="l">공유</span> <b id="mShare">0</b></div>
   <div><span class="l">넘기기</span> <b id="mSkip">0</b></div>
+  <div><span class="l">링크복사</span> <b id="mCopy">0</b></div>
+  <div><span class="l">이미지</span> <b id="mImage">0</b></div>
+  <div><span class="l">받은링크</span> <b id="mReceived">0</b></div>
   <div><span class="l">측정은 이 브라우저 안에서만</span></div>
 </div>
 
@@ -203,7 +236,7 @@ const LSset = (k,v) => { try { localStorage.setItem(k,v); } catch(e){} };
 let hub = LS('lp_hub'); // null = not asked yet
 let pins = new Set();
 try { const m = location.hash.match(/p=([\d,]+)/); if (m) m[1].split(',').forEach(x=>pins.add(+x)); } catch(e){}
-const metrics = { flip:0, pin:0, share:0, skip:0 };
+const metrics = { flip:0, pin:0, share:0, skip:0, copy:0, image:0, received:0 };
 try { Object.assign(metrics, JSON.parse(LS('lp_metrics')||'{}')); } catch(e){}
 const flipped = new Set();
 
@@ -264,7 +297,7 @@ function act(a, c, card){
   if (a==='pin'){
     if (pins.has(c.id)) { pins.delete(c.id); toast('지도에서 뺐어요'); }
     else { pins.add(c.id); metrics.pin++; toast('언젠가 지도에 꽂았어요'); }
-    saveMetrics(); syncHash(); render();
+    saveMetrics(); syncHash(); LSset('lp_mypins',[...pins].join(',')); render(); if(!document.getElementById('mapview').hidden) renderMap();
   } else if (a==='share'){
     metrics.share++; saveMetrics(); renderMetrics();
     const text = `${c.scene} · ${c.l2}`;
@@ -288,8 +321,20 @@ document.getElementById('skipBtn').addEventListener('click', ()=>{
 document.getElementById('pinBtn').addEventListener('click', ()=>{
   const s=current(); if(!s) return; const id=+s.dataset.id; const c=CARDS.find(x=>x.id===id); act('pin', c, s.firstElementChild);
 });
-document.getElementById('mapBtn').addEventListener('click', ()=>{
-  const v=document.getElementById('mapview'); v.hidden=!v.hidden; if(!v.hidden) v.scrollIntoView({behavior:'smooth'});
+function showMap(on){
+  document.getElementById('mapview').hidden=!on; document.getElementById('deckView').hidden=on;
+  if(on){ renderMap(); window.scrollTo({top:0}); }
+}
+document.getElementById('mapBtn').addEventListener('click', ()=>showMap(document.getElementById('mapview').hidden));
+document.getElementById('backBtn').addEventListener('click', ()=>showMap(false));
+document.getElementById('copyBtn').addEventListener('click', ()=>{
+  metrics.copy++; saveMetrics(); renderMetrics();
+  const url=location.href;
+  if(navigator.clipboard){ navigator.clipboard.writeText(url).then(()=>toast('내 지도 링크를 복사했어요')).catch(()=>toast(url)); } else toast(url);
+});
+document.getElementById('imgBtn').addEventListener('click', makeShareImage);
+document.getElementById('recvBtn').addEventListener('click', ()=>{
+  LSset('lp_mypins', [...pins].join(',')); document.getElementById('recvBanner').hidden=true; toast('내 지도가 됐어요'); showMap(true);
 });
 document.getElementById('hubBtn').addEventListener('click', ()=>{ document.getElementById('hubSheet').hidden=false; });
 document.getElementById('hubOpts').addEventListener('click', e=>{
@@ -299,15 +344,67 @@ document.getElementById('hubOpts').addEventListener('click', e=>{
 function syncHash(){ const p=[...pins].join(','); history.replaceState(null,'', p? '#p='+p : location.pathname); }
 function renderMap(){
   const list=document.getElementById('mapList');
-  if(!pins.size){ list.innerHTML='<p class="empty">아직 꽂은 카드가 없어요. 마음에 드는 카드 뒷면에서 "지도에 꽂기".</p>'; }
-  else { list.innerHTML='<ul>'+[...pins].map(id=>{const c=CARDS.find(x=>x.id===id); return `<li>${c.scene.split('.')[0]} <span style="color:var(--mute)">· ${c.l2}</span></li>`;}).join('')+'</ul>'; }
+  document.getElementById('imgBtn').disabled = !pins.size; document.getElementById('copyBtn').disabled = !pins.size;
+  if(!pins.size){ list.innerHTML='<p class="empty">아직 꽂은 카드가 없어요.<br>마음에 드는 카드 뒷면에서 "지도에 꽂기".</p>'; }
+  else {
+    list.innerHTML='<div class="pins">'+[...pins].map(id=>{const c=CARDS.find(x=>x.id===id); const p=PHOTOS[c.id];
+      return `<div class="pin"><div class="ph" style="${p?`background-image:url(${p.src});background-position:${p.pos}`:''}"></div><div class="t">${c.scene.split('.')[0]}<small>${c.l2}</small></div><button data-unpin="${c.id}" aria-label="빼기">×</button></div>`;}).join('')+'</div>';
+    list.querySelectorAll('button[data-unpin]').forEach(b=>b.addEventListener('click',()=>{ pins.delete(+b.dataset.unpin); syncHash(); LSset('lp_mypins',[...pins].join(',')); render(); renderMap(); }));
+  }
   document.getElementById('mapUrl').textContent = pins.size ? '이 지도의 주소: '+location.href : '';
 }
-function renderMetrics(){ for(const k of ['flip','pin','share','skip']) document.getElementById('m'+k[0].toUpperCase()+k.slice(1)).textContent=metrics[k]; }
+function wrapText(ctx, text, maxW){
+  const lines=[]; let line='';
+  for(const ch of text){ const t=line+ch; if(ctx.measureText(t).width>maxW && line){ lines.push(line); line=ch; } else line=t; }
+  if(line) lines.push(line); return lines;
+}
+function loadImg(src){ return new Promise(res=>{ const im=new Image(); im.onload=()=>res(im); im.onerror=()=>res(null); im.src=src; }); }
+async function makeShareImage(){
+  if(!pins.size) return;
+  metrics.image++; saveMetrics(); renderMetrics();
+  const W=1080,H=1920; const cv=document.createElement('canvas'); cv.width=W; cv.height=H; const ctx=cv.getContext('2d');
+  ctx.fillStyle='#F5F6F2'; ctx.fillRect(0,0,W,H);
+  ctx.fillStyle='#0E6F6A'; ctx.font='600 34px "IBM Plex Sans KR", sans-serif'; ctx.fillText('로카패스 · 언젠가 지도', 72, 120);
+  ctx.fillStyle='#1B2530'; ctx.font='700 64px "IBM Plex Sans KR", sans-serif'; ctx.fillText('꽂아 둔 여행 '+pins.size+'장', 72, 210);
+  const ids=[...pins].slice(0,4); const cardH= ids.length<=2? 560: 360; let y=280; const credits=[];
+  for(const id of ids){
+    const c=CARDS.find(x=>x.id===id); const p=PHOTOS[id];
+    const x=72, w=W-144, h=cardH;
+    ctx.save(); ctx.beginPath(); ctx.roundRect(x,y,w,h,28); ctx.clip();
+    ctx.fillStyle='#3E7C8C'; ctx.fillRect(x,y,w,h);
+    if(p){ const im=await loadImg(p.src); if(im){ const sc=Math.max(w/im.width,h/im.height); const dw=im.width*sc, dh=im.height*sc; ctx.drawImage(im, x+(w-dw)/2, y+(h-dh)*0.45, dw, dh); } credits.push(p.credit); }
+    const g=ctx.createLinearGradient(0,y+h*0.35,0,y+h); g.addColorStop(0,'rgba(0,0,0,0)'); g.addColorStop(1,'rgba(0,0,0,.72)'); ctx.fillStyle=g; ctx.fillRect(x,y,w,h);
+    ctx.fillStyle='#fff'; ctx.font='700 40px "IBM Plex Sans KR", sans-serif';
+    const lines=wrapText(ctx, c.scene, w-72).slice(0,2); let ty=y+h-40-(lines.length-1)*50;
+    for(const l of lines){ ctx.fillText(l, x+36, ty); ty+=50; }
+    ctx.font='500 28px "IBM Plex Sans KR", sans-serif'; ctx.fillStyle='rgba(255,255,255,.9)'; ctx.fillText(c.l2, x+36, y+h-40-lines.length*50);
+    ctx.restore(); y+=h+28;
+  }
+  if(pins.size>4){ ctx.fillStyle='#4A555D'; ctx.font='500 30px "IBM Plex Sans KR", sans-serif'; ctx.fillText('외 '+(pins.size-4)+'장', 72, y+20); }
+  ctx.fillStyle='#1B2530'; ctx.font='600 30px "IBM Plex Mono", monospace'; ctx.fillText(location.host+location.pathname, 72, H-150);
+  ctx.fillStyle='#4A555D'; ctx.font='500 26px "IBM Plex Sans KR", sans-serif'; ctx.fillText('너도 꽂아 봐. 계정 없이, 주소 하나로.', 72, H-105);
+  ctx.fillStyle='#7A8580'; ctx.font='400 20px "IBM Plex Mono", monospace';
+  const cr='사진 '+[...new Set(credits)].join(' · ')+' · Wikimedia Commons · 일부 자름'; wrapText(ctx, cr, W-144).slice(0,2).forEach((l,i)=>ctx.fillText(l, 72, H-58+i*26));
+  const out=document.getElementById('shareout'); out.hidden=false;
+  cv.toBlob(async blob=>{
+    const url=URL.createObjectURL(blob); const file=new File([blob],'locapass-map.png',{type:'image/png'});
+    out.innerHTML='<img src="'+url+'" alt="공유 이미지"><a href="'+url+'" download="locapass-map.png">이미지 저장</a>';
+    if(navigator.canShare && navigator.canShare({files:[file]})){ try{ await navigator.share({files:[file], text:'내 언젠가 지도 · '+location.href}); metrics.share++; saveMetrics(); renderMetrics(); }catch(e){} }
+  },'image/png');
+}
+function renderMetrics(){ for(const k of ['flip','pin','share','skip','copy','image','received']) document.getElementById('m'+k[0].toUpperCase()+k.slice(1)).textContent=metrics[k]; }
 function saveMetrics(){ LSset('lp_metrics', JSON.stringify(metrics)); }
 let toastT; function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('show'),1600); }
 
 render();
+(function(){
+  const mine=LS('lp_mypins'); const cur=[...pins].join(',');
+  if(pins.size && mine!==cur && !LS('lp_recv_'+cur)){
+    metrics.received++; saveMetrics(); renderMetrics(); LSset('lp_recv_'+cur,'1');
+    document.getElementById('recvText').textContent=pins.size+'장이 꽂힌 지도를 받았어요.';
+    document.getElementById('recvBanner').hidden=false;
+  }
+})();
 if (hub===null) document.getElementById('hubSheet').hidden=false;
 </script>
 
