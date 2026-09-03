@@ -2,7 +2,6 @@
  {
   "id": 1,
   "pass_id": "jp-kintetsu-mawaryanse",
-  "region": "JP-24",
   "region_ko": "이세시마",
   "hub": "오사카",
   "days": "2박 3일",
@@ -34,12 +33,12 @@
    "level": "L3",
    "label": "원문 대조 확인 · 2026년 9월"
   },
-  "status": "published"
+  "status": "published",
+  "region_id": "JP-24-iseshima"
  },
  {
   "id": 2,
   "pass_id": "jp-kintetsu-mawaryanse",
-  "region": "JP-24",
   "region_ko": "이세시마",
   "hub": "나고야",
   "days": "2박 3일",
@@ -71,12 +70,12 @@
    "level": "L3",
    "label": "원문 대조 확인 · 2026년 9월"
   },
-  "status": "published"
+  "status": "published",
+  "region_id": "JP-24-iseshima"
  },
  {
   "id": 3,
   "pass_id": "jp-kintetsu-mawaryanse",
-  "region": "JP-24",
   "region_ko": "이세시마",
   "hub": "",
   "days": "2박 3일",
@@ -108,12 +107,12 @@
    "level": "L3",
    "label": "원문 대조 확인 · 2026년 9월"
   },
-  "status": "published"
+  "status": "published",
+  "region_id": "JP-24-iseshima"
  },
  {
   "id": 7,
   "pass_id": "jp-kintetsu-mawaryanse",
-  "region": "JP-24",
   "region_ko": "이세시마",
   "hub": "오사카",
   "days": "2박 3일",
@@ -145,12 +144,12 @@
    "level": "L3",
    "label": "원문 대조 확인 · 2026년 9월"
   },
-  "status": "published"
+  "status": "published",
+  "region_id": "JP-24-iseshima"
  },
  {
   "id": 8,
   "pass_id": "jp-kintetsu-mawaryanse",
-  "region": "JP-24",
   "region_ko": "이세시마",
   "hub": "",
   "days": "3박 4일",
@@ -182,6 +181,7 @@
    "level": "L3",
    "label": "원문 대조 확인 · 2026년 9월"
   },
-  "status": "published"
+  "status": "published",
+  "region_id": "JP-24-iseshima"
  }
 ]
