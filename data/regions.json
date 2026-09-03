@@ -431,7 +431,7 @@
     "ことでん 1日フリーきっぷ"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-38-matsuyama",
@@ -468,7 +468,7 @@
     "伊予鉄 1Dayチケット"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-39-kochi",
@@ -511,7 +511,7 @@
     "土佐くろしお鉄道"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-36-tokushima",
@@ -553,7 +553,7 @@
     "徳島バス"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-20-matsumoto",

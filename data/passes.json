@@ -330,5 +330,691 @@
   "license": "ODbL-1.0",
   "card_status": "no_card",
   "card_status_reason": "이세시마엔 특급·배가 안 들어감. 간사이 덱에서 재검토"
+ },
+ {
+  "pass_id": "jp-jrshikoku-birthday",
+  "name": {
+   "local": "バースデイきっぷ",
+   "local_lang": "ja",
+   "ko": "버스데이킷푸",
+   "en": "Birthday Ticket"
+  },
+  "type": "T7",
+  "issuer": {
+   "local": "JR四国",
+   "ko": "JR시코쿠"
+  },
+  "country": "JP",
+  "region": "JP-37",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 12000,
+    "category": "adult_free_seat"
+   },
+   {
+    "currency": "JPY",
+    "amount": 6000,
+    "category": "child_free_seat"
+   },
+   {
+    "currency": "JPY",
+    "amount": 15000,
+    "category": "adult_green"
+   }
+  ],
+  "validity": {
+   "days": 3,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "JR四国",
+     "scope": "전선 특급·보통 자유석 무제한 (그린판은 지정석·그린)"
+    },
+    {
+     "operator": "土佐くろしお鉄道",
+     "scope": "전선"
+    }
+   ]
+  },
+  "eligibility": "anyone_birthday_month",
+  "purchase_channels": [
+   {
+    "channel": "JR시코쿠 역 창구",
+    "online": false,
+    "commission": false,
+    "note": "생일 달 확인 가능한 신분증"
+   }
+  ],
+  "rules": [
+   "생일월한정",
+   "동행3명동일가",
+   "특급좌석별도"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
+    "checked": "2026-09-02",
+    "kind": "2차"
+   }
+  ],
+  "trust_level": "L1",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "동행 3명까지 같은 값은 기억 수준. 공식 확인 필요"
+ },
+ {
+  "pass_id": "jp-jrshikoku-free",
+  "name": {
+   "local": "四国フリーきっぷ",
+   "local_lang": "ja",
+   "ko": "시코쿠 프리킷푸",
+   "en": "Shikoku Free Ticket"
+  },
+  "type": "T2",
+  "issuer": {
+   "local": "JR四国",
+   "ko": "JR시코쿠"
+  },
+  "country": "JP",
+  "region": "JP-37",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 18000,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 9000,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 3,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "JR四国",
+     "scope": "전선 특급·보통 자유석 무제한"
+    },
+    {
+     "operator": "土佐くろしお鉄道",
+     "scope": "일부 구간"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "JR시코쿠 역 창구",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "특급좌석별도"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
+    "checked": "2026-09-02",
+    "kind": "2차"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "",
+  "card_status": "no_card",
+  "card_status_reason": "특급을 하루 두 번은 타야 본전. 버스데이킷푸 카드의 접힘에 비교로만"
+ },
+ {
+  "pass_id": "jp-jrshikoku-green",
+  "name": {
+   "local": "四国グリーン紀行",
+   "local_lang": "ja",
+   "ko": "시코쿠 그린기행",
+   "en": "Shikoku Green Kiko"
+  },
+  "type": "T2",
+  "issuer": {
+   "local": "JR四国",
+   "ko": "JR시코쿠"
+  },
+  "country": "JP",
+  "region": "JP-37",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 23000,
+    "category": "adult"
+   }
+  ],
+  "validity": {
+   "days": 4,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "JR四国",
+     "scope": "전선 그린·지정석·자유석"
+    },
+    {
+     "operator": "土佐くろしお鉄道",
+     "scope": "전선"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "JR시코쿠 역 창구",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
+    "checked": "2026-09-02",
+    "kind": "2차"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "",
+  "card_status": "no_card",
+  "card_status_reason": "4일 그린 무제한은 이용자층이 좁음. 데이터만"
+ },
+ {
+  "pass_id": "jp-jrshikoku-weekend",
+  "name": {
+   "local": "週末乗り放題きっぷ",
+   "local_lang": "ja",
+   "ko": "주말 승방제 킷푸",
+   "en": "Weekend Free Ticket"
+  },
+  "type": "T2",
+  "issuer": {
+   "local": "JR四国",
+   "ko": "JR시코쿠"
+  },
+  "country": "JP",
+  "region": "JP-37",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 12000,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 6000,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar",
+   "note": "토·일·공휴일"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "JR四国",
+     "scope": "전선 특급 자유석 1일"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "JR시코쿠 역 창구",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "주말한정"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
+    "checked": "2026-09-02",
+    "kind": "2차"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "",
+  "card_status": "no_card",
+  "card_status_reason": "1일권, 최소 체류 기준 미달. 데이터만"
+ },
+ {
+  "pass_id": "jp-jrshikoku-tokushima-muroto-kochi55",
+  "name": {
+   "local": "徳島・室戸・高知55フリーきっぷ",
+   "local_lang": "ja",
+   "ko": "도쿠시마·무로토·고치 55 프리킷푸",
+   "en": "Tokushima-Muroto-Kochi 55 Free Ticket"
+  },
+  "type": "T2",
+  "issuer": {
+   "local": "JR四国",
+   "ko": "JR시코쿠"
+  },
+  "country": "JP",
+  "region": "JP-36",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 5800,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 2900,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 3,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "JR四国",
+     "scope": "도쿠시마~고치 남회 구간 특급 자유석"
+    },
+    {
+     "operator": "阿佐海岸鉄道",
+     "scope": "DMV"
+    },
+    {
+     "operator": "버스",
+     "scope": "무로토 구간 노선버스"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "JR시코쿠 역 창구",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "특급좌석별도",
+   "DMV예약필요가능"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
+    "checked": "2026-09-02",
+    "kind": "2차"
+   }
+  ],
+  "trust_level": "L1",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "판매 2027-04까지. DMV 예약·편수 확인 필요"
+ },
+ {
+  "pass_id": "jp-kotoden-48h",
+  "name": {
+   "local": "ことでん48時間フリーきっぷ",
+   "local_lang": "ja",
+   "ko": "고토덴 48시간 프리킷푸",
+   "en": "Kotoden 48h Free Ticket"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "高松琴平電気鉄道",
+   "ko": "고토덴"
+  },
+  "country": "JP",
+  "region": "JP-37",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 2700,
+    "category": "adult_48h"
+   },
+   {
+    "currency": "JPY",
+    "amount": 1400,
+    "category": "adult_24h"
+   }
+  ],
+  "validity": {
+   "hours": 48,
+   "basis": "first_use"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "ことでん",
+     "scope": "전선 (고토히라선·나가오선·시도선)"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "RYDE PASS 앱 (디지털)",
+    "online": true,
+    "commission": false,
+    "url": "https://pass.ryde-go.com/products/9G8M61S79WRW"
+   }
+  ],
+  "rules": [
+   "스마트폰필수"
+  ],
+  "sources": [
+   {
+    "url": "https://pass.ryde-go.com/products/9G8M61S79WRW",
+    "checked": "2026-09-02",
+    "kind": "판매 페이지"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "종이 1일권 별도 존재 가능"
+ },
+ {
+  "pass_id": "jp-iyotetsu-1day",
+  "name": {
+   "local": "市内電車・郊外電車1Dayチケット",
+   "local_lang": "ja",
+   "ko": "이요테츠 시내·교외전차 1Day",
+   "en": "Iyotetsu 1Day Ticket"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "伊予鉄道",
+   "ko": "이요테츠"
+  },
+  "country": "JP",
+  "region": "JP-38",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 2000,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 1000,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "伊予鉄",
+     "scope": "시내전차·교외전차 (봇짱열차 제외)"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "역·차내·みきゃんアプリ",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "봇짱열차별도"
+  ],
+  "sources": [
+   {
+    "url": "https://www.iyotetsu.co.jp/ticket/",
+    "checked": "2026-09-02",
+    "kind": "공식(가격은 2차)"
+   }
+  ],
+  "trust_level": "L1",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "ALL IYOTETSU 패스는 2024-02 판매 종료"
+ },
+ {
+  "pass_id": "jp-dogo-onsen-shuyu",
+  "name": {
+   "local": "道後温泉 周湯チケット",
+   "local_lang": "ja",
+   "ko": "도고온천 세 곳 순환권",
+   "en": "Dogo Onsen 3-bath Ticket"
+  },
+  "type": "T4",
+  "issuer": {
+   "local": "松山市 道後温泉事務所",
+   "ko": "마쓰야마시"
+  },
+  "country": "JP",
+  "region": "JP-38",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 1440,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 680,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 2,
+   "basis": "purchase_day",
+   "consecutive": true
+  },
+  "coverage": {
+   "facility": {
+    "count": 3,
+    "highlights": [
+     "道後温泉本館",
+     "別館 飛鳥乃湯泉",
+     "椿の湯"
+    ],
+    "note": "각 1회"
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "도고온천 각 시설 창구",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "시설1회한정"
+  ],
+  "sources": [
+   {
+    "url": "https://dogo.jp/onsen/",
+    "checked": "2026-09-02",
+    "kind": "공식"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "온천패스. 정가 대비 20% 할인"
+ },
+ {
+  "pass_id": "jp-kochi-myyu-bus",
+  "name": {
+   "local": "MY遊バス 桂浜券",
+   "local_lang": "ja",
+   "ko": "MY유 버스 가쓰라하마권",
+   "en": "MY-YU Bus Katsurahama Ticket"
+  },
+  "type": "T3",
+  "issuer": {
+   "local": "高知県観光コンベンション協会",
+   "ko": "고치현 관광컨벤션협회"
+  },
+  "country": "JP",
+  "region": "JP-39",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 1500,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 750,
+    "category": "child"
+   },
+   {
+    "currency": "JPY",
+    "amount": 700,
+    "category": "adult_godaisan"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "MY遊バス",
+     "scope": "고치역~고다이산~가쓰라하마 순환, 승하차 자유"
+    },
+    {
+     "operator": "とさでん",
+     "scope": "노면전차 시내 균일구간 무료"
+    },
+    {
+     "operator": "とさでん交通",
+     "scope": "가쓰라하마선 노선버스 편도 무료"
+    }
+   ],
+   "facility": {
+    "count": 20,
+    "note": "협찬시설 할인"
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "고치역 관광안내소·호텔·JR역·공항·조르단 앱",
+    "online": true,
+    "commission": false
+   }
+  ],
+  "rules": [],
+  "sources": [
+   {
+    "url": "http://kochi-tabi.jp/my-bus/",
+    "checked": "2026-09-02",
+    "kind": "공식"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "2026-04-01~2027-03-31 요금"
+ },
+ {
+  "pass_id": "jp-shikokukotsu-oboke-iya-bus",
+  "name": {
+   "local": "大歩危・祖谷定期観光バス",
+   "local_lang": "ja",
+   "ko": "오보케·이야 정기관광버스",
+   "en": "Oboke-Iya Sightseeing Bus"
+  },
+  "type": "T3",
+  "issuer": {
+   "local": "四国交通",
+   "ko": "시코쿠교통"
+  },
+  "country": "JP",
+  "region": "JP-36",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 13000,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 12250,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 1,
+   "basis": "calendar",
+   "note": "약 6시간, 아와이케다역 10:45 출발"
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "四国交通",
+     "scope": "정기관광버스"
+    }
+   ],
+   "facility": {
+    "count": 4,
+    "highlights": [
+     "平家屋敷",
+     "かずら橋",
+     "小便小僧",
+     "大歩危峡観光遊覧船"
+    ],
+    "note": "점심 포함"
+   }
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "시코쿠교통 예약 (전화·웹)",
+    "online": true,
+    "commission": false,
+    "note": "6개월 전~2일 전 예약"
+   }
+  ],
+  "rules": [
+   "주말한정",
+   "사전구매필수"
+  ],
+  "sources": [
+   {
+    "url": "https://www.awanavi.jp/archives/spot/3036",
+    "checked": "2026-09-02",
+    "kind": "관광협회"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-02",
+  "license": "ODbL-1.0",
+  "note": "정기관광버스. 패스 정의의 경계 사례. 렌터카 없이 이야에 가는 거의 유일한 방법이라 채택"
  }
 ]
