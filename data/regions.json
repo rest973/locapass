@@ -1062,7 +1062,7 @@
     "JR EAST PASS (Tohoku)"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-06-yamagata",
@@ -1099,7 +1099,7 @@
     "山交バス"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-02-aomori",
@@ -1141,7 +1141,7 @@
     "十和田・奥入瀬 バス"
    ],
    "note": "",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-01-doo",
@@ -1173,7 +1173,7 @@
     "札幌 地下鉄 1日券"
    ],
    "note": "삿포로 자체가 거점",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "JP-01-donan",
@@ -1215,7 +1215,7 @@
     "はこだて旅するパスポート"
    ],
    "note": "하코다테 공항 직항은 계절·운항 여부 확인",
-   "status": "planned"
+   "status": "has_cards"
   },
   {
    "region_id": "TW-NWT-jiufen",
