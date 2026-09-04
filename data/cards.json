@@ -194,13 +194,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card11.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "松山城 / 琴平 参道 石段 / 桂浜"
+   "credit": "Benlisquare",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:South_view_from_main_keep_of_Matsuyama_Castle.jpg",
+   "cropped": true,
+   "search_terms": "松山城 / 琴平 参道 石段 / 桂浜",
+   "title": "South view from main keep of Matsuyama Castle.jpg"
   },
   "front": {
    "scene": "생일 달이면 시코쿠 특급이 사흘 12,000엔. 같이 온 세 명까지 같은 값이에요.",
@@ -235,13 +236,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card12.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "道後温泉本館 / 飛鳥乃湯泉 / 松山 路面電車"
+   "credit": "lienyuan lee",
+   "license": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Dogo_Onsen_Honkan_%E9%81%93%E5%BE%8C%E6%BA%AB%E6%B3%89%E6%9C%AC%E9%A4%A8_-_panoramio.jpg",
+   "cropped": true,
+   "search_terms": "道後温泉本館 / 飛鳥乃湯泉 / 松山 路面電車",
+   "title": "Dogo Onsen Honkan 道後溫泉本館 - panoramio.jpg"
   },
   "front": {
    "scene": "일본에서 가장 오래된 온천 마을. 세 곳 온천을 다 들어가는 표가 1,440엔이에요.",
@@ -274,13 +276,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card13.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "讃岐うどん / 金刀比羅宮 石段 / 直島 南瓜"
+   "credit": "Sei F",
+   "license": "CC BY-SA 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ritsurin_Garden,_Kagawa_Prefecture;_November_2019_(03).jpg",
+   "cropped": true,
+   "search_terms": "讃岐うどん / 金刀比羅宮 石段 / 直島 南瓜",
+   "title": "Ritsurin Garden, Kagawa Prefecture; November 2019 (03).jpg"
   },
   "front": {
    "scene": "우동 두 그릇, 고토히라 785계단, 이튿날 배 타고 예술의 섬 나오시마.",
@@ -313,13 +316,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card14.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "DMV 阿佐海岸鉄道 / 室戸岬 / 桂浜"
+   "credit": "Rsa",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Asa-Kaigan-Kannoura-Station-Dmv-Bus_stop_20250824.jpg",
+   "cropped": true,
+   "search_terms": "DMV 阿佐海岸鉄道 / 室戸岬 / 桂浜",
+   "title": "Asa-Kaigan-Kannoura-Station-Dmv-Bus stop 20250824.jpg"
   },
   "front": {
    "scene": "철로를 달리다 도로로 내려오는 버스 DMV. 도쿠시마에서 무로토곶을 돌아 고치까지.",
@@ -352,13 +356,14 @@
   "days": "시코쿠 여행 중 하루",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card15.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "桂浜 / 高知 路面電車 / ひろめ市場"
+   "credit": "ノボホショコロトソ",
+   "license": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Statue_of_Sakamoto_Ryoma_in_Katsurahama_03.jpg",
+   "cropped": true,
+   "search_terms": "桂浜 / 高知 路面電車 / ひろめ市場",
+   "title": "Statue of Sakamoto Ryoma in Katsurahama 03.jpg"
   },
   "front": {
    "scene": "가쓰라하마 바다, 료마 기념관, 시내 노면전차까지 하루 1,500엔.",
@@ -391,13 +396,14 @@
   "days": "시코쿠 여행 중 하루",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card16.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "祖谷のかずら橋 / 大歩危峡 遊覧船 / 小便小僧"
+   "credit": "Motokoka",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Okuiya_double_waddle_bridge_01.jpg",
+   "cropped": true,
+   "search_terms": "祖谷のかずら橋 / 大歩危峡 遊覧船 / 小便小僧",
+   "title": "Okuiya double waddle bridge 01.jpg"
   },
   "front": {
    "scene": "덩굴로 엮은 다리를 건너고 협곡 배를 타는 하루. 점심까지 버스 한 장 13,000엔.",
@@ -432,13 +438,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card21.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "別府 海地獄 / 湯けむり 別府 / 由布院 金鱗湖"
+   "credit": "Marie-Sophie Mejan",
+   "license": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Japan_Kyushu,_Beppu_hot_spring_03.jpg",
+   "cropped": true,
+   "search_terms": "別府 海地獄 / 湯けむり 別府 / 由布院 金鱗湖",
+   "title": "Japan Kyushu, Beppu hot spring 03.jpg"
   },
   "front": {
    "scene": "김이 올라오는 온천 마을 벳푸, 파란 바다지옥, 이튿날 버스로 유후인까지.",
@@ -471,13 +478,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card22.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "高速バス 九州 / 由布院 / 黒川温泉"
+   "credit": "Miya.m",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Yufuin_morning_fog_01.JPG",
+   "cropped": true,
+   "search_terms": "高速バス 九州 / 由布院 / 黒川温泉",
+   "title": "Yufuin morning fog 01.JPG"
   },
   "front": {
    "scene": "후쿠오카에서 버스만으로 유후인, 벳푸, 구로카와온천을 사흘. 예약하고 타는 고속버스예요.",
@@ -510,13 +518,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card23.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "長崎 稲佐山 夜景 / 軍艦島 / 長崎 路面電車"
+   "credit": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Nagasaki_night_view_(49658520116).jpg",
+   "cropped": true,
+   "search_terms": "長崎 稲佐山 夜景 / 軍艦島 / 長崎 路面電車",
+   "title": "Nagasaki night view (49658520116).jpg"
   },
   "front": {
    "scene": "언덕 위 야경, 바다 위 폐허 군칸지마, 골목마다 전차. 전차 1일권은 600엔이에요.",
@@ -549,13 +558,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card24.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "熊本城 / 阿蘇 草千里 / 熊本市電"
+   "credit": "hyolee2",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:2016_Kumamoto_earthquake_Kumamoto_Castle_Uto_Turret-Boan_Slope-Main_Castle_Tower.JPG",
+   "cropped": true,
+   "search_terms": "熊本城 / 阿蘇 草千里 / 熊本市電",
+   "title": "2016 Kumamoto earthquake Kumamoto Castle Uto Turret-Boan Slope-Main Castle Tower.JPG"
   },
   "front": {
    "scene": "복원 중인 구마모토성과 아소 화산의 초원. 현 전체 버스·전차 24시간권이 2,300엔이에요.",
@@ -588,13 +598,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card25.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "桜島 噴煙 / 桜島フェリー / 鹿児島 市電"
+   "credit": "lumoplank",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_-_Kagoshima40.jpg",
+   "cropped": true,
+   "search_terms": "桜島 噴煙 / 桜島フェリー / 鹿児島 市電",
+   "title": "Kagoshima - Kagoshima40.jpg"
   },
   "front": {
    "scene": "도시 앞바다에 연기 나는 화산. 페리 15분이면 사쿠라지마에 내려요.",
@@ -627,13 +638,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card31.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "松島 五大堂 / 山寺 立石寺 / 仙台 定禅寺通"
+   "credit": "663highland",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:211030_Godaido_Zuigan-ji_Matsushima_Miyagi_pref_Japan02s3.jpg",
+   "cropped": true,
+   "search_terms": "松島 五大堂 / 山寺 立石寺 / 仙台 定禅寺通",
+   "title": "211030 Godaido Zuigan-ji Matsushima Miyagi pref Japan02s3.jpg"
   },
   "front": {
    "scene": "소나무 섬 260개가 뜬 마쓰시마 바다, 산 위 절 야마데라의 1,015계단. 센다이에서 전철로.",
@@ -666,13 +678,14 @@
   "days": "4박 5일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card32.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "銀山温泉 雪 夜 / 蔵王 樹氷 / 山形新幹線"
+   "credit": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mt._Zao_snow_monsters_(51843330833).jpg",
+   "cropped": true,
+   "search_terms": "銀山温泉 雪 夜 / 蔵王 樹氷 / 山形新幹線",
+   "title": "Mt. Zao snow monsters (51843330833).jpg"
   },
   "front": {
    "scene": "눈 내린 밤의 긴잔온천 목조 여관 거리, 자오의 얼음 나무. 도쿄에서 신칸센으로.",
@@ -707,13 +720,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card33.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "奥入瀬渓流 / 十和田湖 / 弘前城 桜"
+   "credit": "Yoshio Kohara",
+   "license": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E5%A5%A5%E5%85%A5%E7%80%AC%E6%B8%93%E6%B5%81_-_panoramio_(3).jpg",
+   "cropped": true,
+   "search_terms": "奥入瀬渓流 / 十和田湖 / 弘前城 桜",
+   "title": "奥入瀬渓流 - panoramio (3).jpg"
   },
   "front": {
    "scene": "물소리 따라 걷는 오이라세 계류 14km, 그 끝의 화산 호수. 버스 2일권으로 갔다 와요.",
@@ -748,13 +762,14 @@
   "days": "3박 4일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card34.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "小樽運河 / 美瑛 丘 / 札幌 大通公園"
+   "credit": "くろふね",
+   "license": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3_-_panoramio_(7).jpg",
+   "cropped": true,
+   "search_terms": "小樽運河 / 美瑛 丘 / 札幌 大通公園",
+   "title": "小樽運河 - panoramio (7).jpg"
   },
   "front": {
    "scene": "주말이면 JR 하루 2,540엔으로 오타루 운하도, 비에이 언덕도 갔다 와요.",
@@ -787,13 +802,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card35.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "函館山 夜景 / 大沼公園 / 函館 朝市"
+   "credit": "Perry Li",
+   "license": "CC BY-SA 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:2017-04-28_View_from_Mount_Hakodate_at_night.jpg",
+   "cropped": true,
+   "search_terms": "函館山 夜景 / 大沼公園 / 函館 朝市",
+   "title": "2017-04-28 View from Mount Hakodate at night.jpg"
   },
   "front": {
    "scene": "언덕 위 야경으로 유명한 항구 도시, 전차와 버스와 오누마 호수행 열차까지 한 장.",
@@ -826,13 +842,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card41.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "上高地 河童橋 / 乗鞍高原 / 松本城"
+   "credit": "663highland",
+   "license": "CC BY 2.5",
+   "source": "https://commons.wikimedia.org/wiki/File:150920_Kappa-bashi_Kamikochi_Japan01n.jpg",
+   "cropped": true,
+   "search_terms": "上高地 河童橋 / 乗鞍高原 / 松本城",
+   "title": "150920 Kappa-bashi Kamikochi Japan01n.jpg"
   },
   "front": {
    "scene": "자가용이 못 들어가는 알프스 계곡 가미코치. 강물 색이 파란 다리 앞까지 버스로.",
@@ -865,13 +882,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card42.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "白川郷 合掌造り / 高山 古い町並 / 飛騨牛"
+   "credit": "雷太",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Shirakawa_in_winter;_Gifu_Prefecture;_February_2018_(07).jpg",
+   "cropped": true,
+   "search_terms": "白川郷 合掌造り / 高山 古い町並 / 飛騨牛",
+   "title": "Shirakawa in winter; Gifu Prefecture; February 2018 (07).jpg"
   },
   "front": {
    "scene": "지붕이 손 모은 모양인 마을 시라카와고. 다카야마에서 버스 50분, 왕복에 입장까지 한 장.",
@@ -904,13 +922,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card43.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "兼六園 雪吊り / 東茶屋街 / 金沢21世紀美術館"
+   "credit": "Ltd.super Express bound for E235",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E5%85%BC%E5%85%AD%E5%9C%92_%E3%80%9C%E9%9B%AA%E8%A7%A3%E3%81%91%E5%BE%8C%E3%81%AE%E9%9B%AA%E5%90%8A%E3%82%8A%E3%80%9C.jpg",
+   "cropped": true,
+   "search_terms": "兼六園 雪吊り / 東茶屋街 / 金沢21世紀美術館",
+   "title": "兼六園 〜雪解け後の雪吊り〜.jpg"
   },
   "front": {
    "scene": "정원 겐로쿠엔, 찻집 거리 히가시차야, 유리 미술관. 버스 하루 600엔이면 다 닿아요.",
@@ -943,13 +962,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card44.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "雪の大谷 / 黒部ダム 放水 / 立山ロープウェイ"
+   "credit": "くろふね",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E5%AE%A4%E5%A0%82%E9%9B%AA%E3%81%AE%E5%A4%A7%E8%B0%B701.jpg",
+   "cropped": true,
+   "search_terms": "雪の大谷 / 黒部ダム 放水 / 立山ロープウェイ",
+   "title": "室堂雪の大谷01.jpg"
   },
   "front": {
    "scene": "높이 20m 눈 벽 사이를 버스가 지나는 길. 케이블카부터 댐까지 여섯 가지 탈것이 한 장이에요.",
@@ -982,13 +1002,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card45.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "中禅寺湖 / 華厳の滝 / いろは坂 紅葉"
+   "credit": "Joli Rumi",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kegon_Falls,_Nikko_National_Park,_Japan.jpg",
+   "cropped": true,
+   "search_terms": "中禅寺湖 / 華厳の滝 / いろは坂 紅葉",
+   "title": "Kegon Falls, Nikko National Park, Japan.jpg"
   },
   "front": {
    "scene": "폭포 97m 게곤, 산 위 호수 주젠지, 48번 굽이치는 이로하자카. 도쿄에서 왕복까지 한 장.",
@@ -1021,13 +1042,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card46.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "箱根 海賊船 芦ノ湖 / 大涌谷 黒たまご / 箱根登山電車"
+   "credit": "Guilhem Vellut from Annecy, France",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Sightseeing_Cruise_@_Lake_Ashi_@_From_Togendai_to_Hakone-Machi_(10621186405).jpg",
+   "cropped": true,
+   "search_terms": "箱根 海賊船 芦ノ湖 / 大涌谷 黒たまご / 箱根登山電車",
+   "title": "Sightseeing Cruise @ Lake Ashi @ From Togendai to Hakone-Machi (10621186405).jpg"
   },
   "front": {
    "scene": "산악열차, 케이블카, 로프웨이, 호수 해적선. 갈아탈 때마다 풍경이 바뀌는 하코네.",
@@ -1060,13 +1082,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card47.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "宮島 大鳥居 / 広島 原爆ドーム / 広島風お好み焼き"
+   "credit": "shankar s.",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Itsukushima_Shrine_Torii_seen_from_the_east_corridor_at_low_tide_-_spring_2019.jpg",
+   "cropped": true,
+   "search_terms": "宮島 大鳥居 / 広島 原爆ドーム / 広島風お好み焼き",
+   "title": "Itsukushima Shrine Torii seen from the east corridor at low tide - spring 2019.jpg"
   },
   "front": {
    "scene": "바다 위에 선 붉은 큰 문, 사슴이 걷는 섬 미야지마. 전차와 배가 하루 1,000엔이에요.",
@@ -1099,13 +1122,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card48.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "高野山 奥之院 杉並木 / 高野山 宿坊 精進料理 / 高野山ケーブル"
+   "credit": "nobu3withfoxy",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Nankai_Cable_Line_2018-07-21_01.jpg",
+   "cropped": true,
+   "search_terms": "高野山 奥之院 杉並木 / 高野山 宿坊 精進料理 / 高野山ケーブル",
+   "title": "Nankai Cable Line 2018-07-21 01.jpg"
   },
   "front": {
    "scene": "케이블카로 오르는 산 위 절 마을. 삼나무 숲길을 걷고 절에서 하룻밤, 아침은 채소 정식.",
@@ -1138,13 +1162,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card49.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "城崎温泉 柳並木 浴衣 / 城崎 外湯 御所の湯 / 城崎温泉駅"
+   "credit": "663highland",
+   "license": "CC BY 2.5",
+   "source": "https://commons.wikimedia.org/wiki/File:161030_Kinosaki_Onsen_Toyooka_Hyogo_pref_Japan04s3.jpg",
+   "cropped": true,
+   "search_terms": "城崎温泉 柳並木 浴衣 / 城崎 外湯 御所の湯 / 城崎温泉駅",
+   "title": "161030 Kinosaki Onsen Toyooka Hyogo pref Japan04s3.jpg"
   },
   "front": {
    "scene": "유카타 입고 개울가 버드나무 길을 걸어 바깥탕 일곱 곳. 하루 1,500엔이면 다 들어가요.",
@@ -1179,13 +1204,14 @@
   "days": "타이베이 여행 중 하루",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card51.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "九份 阿妹茶樓 夜 / 金瓜石 黃金博物館 / 福隆 海岸"
+   "credit": "Another Believer",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Jiufen,_November_27,_2024_-_181.jpg",
+   "cropped": true,
+   "search_terms": "九份 阿妹茶樓 夜 / 金瓜石 黃金博物館 / 福隆 海岸",
+   "title": "Jiufen, November 27, 2024 - 181.jpg"
   },
   "front": {
    "scene": "홍등 켜진 지우펀 계단 골목, 옛 금광 마을 진과스, 바다까지. 버스 하루 50위안이에요.",
@@ -1220,13 +1246,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card53.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "日月潭 日出 / 日月潭纜車 / 伊達邵 碼頭"
+   "credit": "rheins",
+   "license": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%87%BA%E6%97%A5%E6%9C%88%E6%BD%AD_-_Sunrise_at_the_Sun_Moon_Lake_-_2012.02_-_panoramio.jpg",
+   "cropped": true,
+   "search_terms": "日月潭 日出 / 日月潭纜車 / 伊達邵 碼頭",
+   "title": "日出日月潭 - Sunrise at the Sun Moon Lake - 2012.02 - panoramio.jpg"
   },
   "front": {
    "scene": "산속 호수 르웨탄. 배로 부두 세 곳을 건너고 케이블카로 호수 전체를 내려다봐요.",
@@ -1259,13 +1286,14 @@
   "days": "2박 3일",
   "editor_pick": true,
   "photo": {
-   "src": null,
+   "src": "photos/web/card55.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "阿里山 日出 雲海 / 阿里山森林鐵路 / 阿里山 神木"
+   "credit": "Linchiachi",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E9%98%BF%E9%87%8C%E5%B1%B1%E6%97%A5%E5%87%BA%E8%88%87%E9%9B%B2%E6%B5%B7.jpg",
+   "cropped": true,
+   "search_terms": "阿里山 日出 雲海 / 阿里山森林鐵路 / 阿里山 神木",
+   "title": "阿里山日出與雲海.jpg"
   },
   "front": {
    "scene": "구름바다 위로 뜨는 해, 붉은 숲속 열차, 천 년 넘은 삼나무. 산 위에서 하룻밤.",
@@ -1298,13 +1326,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card56.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "台南 赤崁樓 / 安平樹屋 / 台南 神農街"
+   "credit": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Tainan_Taiwan_Fort-Provintia-01.jpg",
+   "cropped": true,
+   "search_terms": "台南 赤崁樓 / 安平樹屋 / 台南 神農街",
+   "title": "Tainan Taiwan Fort-Provintia-01.jpg"
   },
   "front": {
    "scene": "대만에서 가장 오래된 도시. 골목마다 노점 국수, 나무가 삼킨 옛 창고 안핑. 관광버스 하루 80위안.",
@@ -1339,13 +1368,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card57.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "墾丁 白沙灣 / 鵝鑾鼻燈塔 / 墾丁大街 夜市"
+   "credit": "黃鈞奕",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kenting_National_Park_Baishawan.jpg",
+   "cropped": true,
+   "search_terms": "墾丁 白沙灣 / 鵝鑾鼻燈塔 / 墾丁大街 夜市",
+   "title": "Kenting National Park Baishawan.jpg"
   },
   "front": {
    "scene": "대만 남쪽 끝 바다. 등대와 흰 모래, 밤에는 컨딩대가의 야시장. 가오슝에서 버스 두 시간.",
@@ -1378,13 +1408,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card60.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "三仙台 / 都蘭 海岸 / 池上 伯朗大道"
+   "credit": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Taitung-County_Taiwan_Sansiantai-Bridge-01.jpg",
+   "cropped": true,
+   "search_terms": "三仙台 / 都蘭 海岸 / 池上 伯朗大道",
+   "title": "Taitung-County Taiwan Sansiantai-Bridge-01.jpg"
   },
   "front": {
    "scene": "태평양이 바로 옆인 해안길. 정류장마다 내려 구경하는 버스가 하루 399위안이에요.",
@@ -1417,13 +1448,14 @@
   "days": "2박 3일",
   "editor_pick": false,
   "photo": {
-   "src": null,
+   "src": "photos/web/card61.jpg",
    "pos": "50% 50%",
-   "credit": null,
-   "license": null,
-   "source": null,
-   "cropped": false,
-   "search_terms": "澎湖 跨海大橋 / 二崁聚落 / 大菓葉玄武岩"
+   "credit": "Chia Chia Kuo",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%83%E7%BE%8E%E5%B3%B6%E7%9A%84%E9%9B%99%E5%BF%83%E7%9F%B3%E6%BB%AC.jpg",
+   "cropped": true,
+   "search_terms": "澎湖 跨海大橋 / 二崁聚落 / 大菓葉玄武岩",
+   "title": "七美島的雙心石滬.jpg"
   },
   "front": {
    "scene": "비행기 한 시간이면 현무암 기둥과 바다 위 다리, 돌담 마을이 있는 섬. 버스 하루 300위안.",
