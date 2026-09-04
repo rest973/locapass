@@ -153,7 +153,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <body>
 <div class="app">
   <header>
-    <div class="wordmark">로카패스 <small>DECK PROTOTYPE v2.3 · 37 cards</small></div>
+    <div class="wordmark">로카패스 <small>DECK PROTOTYPE v2.4 · 37 cards</small></div>
     <div style="display:flex;gap:8px;align-items:center">
       <button class="hub" id="hubBtn" aria-label="출발 거점 바꾸기">거점 <b id="hubLabel">안 정함</b></button>
       <button class="mapbtn" id="mapBtn">언젠가 지도 <span id="pinCount">0</span></button>
@@ -296,7 +296,7 @@ function render(){
               <p>${c.buy}</p><code>${c.phrase}</code><p>근거: ${c.basis}</p>
             </details>
           </div>
-          <div class="trust">${c.trust.label} · 가격은 창구에서 최종 확인</div>
+          <div class="trust">${c.trust.label} · 가격은 창구에서 최종 확인 · <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform" target="_blank" rel="noopener" style="color:var(--accent)">틀린 곳 알려주기</a></div>
           <div class="foot">
             <button class="primary" data-act="pin">${pins.has(c.id)?'지도에서 빼기':'지도에 꽂기'}</button>
             <button data-act="share">공유</button>
