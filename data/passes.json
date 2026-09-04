@@ -1691,10 +1691,10 @@
  {
   "pass_id": "jp-jrbus-towada-free",
   "name": {
-   "local": "青森・八戸・十和田湖フリーきっぷ (みずうみ号, 명칭 2차)",
+   "local": "青森・八戸・十和田湖フリーきっぷ",
    "local_lang": "ja",
-   "ko": "도와다코·오이라세 프리킷푸",
-   "en": "Towada-Oirase Free Ticket"
+   "ko": "아오모리·하치노헤·도와다코 프리킷푸(판매 종료)",
+   "en": "Aomori-Hachinohe-Towadako Free Ticket (discontinued)"
   },
   "type": "T1",
   "issuer": {
@@ -1706,14 +1706,9 @@
   "price": [
    {
     "currency": "JPY",
-    "amount": 5800,
-    "category": "adult_2day",
-    "note": "2차 출처, 5,000 표기도 있음. 미확인"
-   },
-   {
-    "currency": "JPY",
     "amount": 3050,
-    "category": "adult_oneway_aomori_towadako"
+    "category": "adult_oneway_aomori_towadako",
+    "note": "프리킷푸 아님, 미즈우미호 편도 운임"
    },
    {
     "currency": "JPY",
@@ -1755,18 +1750,18 @@
    {
     "url": "https://howtojourney.com/15221/",
     "checked": "2026-09-04",
-    "kind": "2차"
+    "kind": "2차(2026-08-31 갱신)"
    },
    {
-    "url": "https://www.jrbustohoku.co.jp/route/11/274/",
-    "checked": "2026-09-02",
-    "kind": "공식(가격은 검색 요약)"
+    "url": "https://ja.wikipedia.org/wiki/青森・八戸・十和田湖フリーきっぷ",
+    "checked": "2026-09-04",
+    "kind": "2차"
    }
   ],
-  "trust_level": "L1",
+  "trust_level": "retired",
   "last_verified_at": "2026-09-04",
   "license": "ODbL-1.0",
-  "note": "공식 페이지에서 확인된 것: 편도 青森駅→奥入瀬渓流館 2,270 / →十和田湖(休屋) 3,050, 아오모리발 무예약(현금·IC), 하치노헤발 오이라세호 예약제(300엔), 2026-04-01~ 운행(계류-호수 구간 4/11~). 프리킷푸(青森・八戸・十和田湖フリーきっぷ, 2일)는 공식 페이지 미발견, 2차 출처 5,000/5,800 불일치. JR EAST PASS로 미즈우미호 탑승 가능(공식)"
+  "note": "프리킷푸는 2024-03 말 판매 종료(2차 2건. 공식 신착 \"十和田湖線 各乗車券の発売終了について\" 페이지는 현재 404). 공식 노선 페이지 \"各種フリーパス\" 항목에 자사 프리킷푸 없음(JR EAST PASS·JAPAN RAIL PASS만 이용 가능). 운임 편도 3,050/2,270, 아오모리발 무예약, 하치노헤발 오이라세호 예약 300엔, 2026-04-01~ 운행은 공식"
  },
  {
   "pass_id": "jp-oirase-shuttle-1day",
@@ -2055,17 +2050,26 @@
    {
     "currency": "JPY",
     "amount": 6000,
-    "category": "adult_2day"
+    "category": "adult_2day",
+    "note": "2차 출처, 2026 공식 목록 부재"
    },
    {
     "currency": "JPY",
-    "amount": 3000,
-    "category": "child_2day"
+    "amount": 3100,
+    "category": "adult_oneway_shinshimashima_kamikochi",
+    "note": "프리패스 아님, 버스 편도 운임(2026-04-17 개정)"
    },
    {
     "currency": "JPY",
-    "amount": 7200,
-    "category": "adult_3day"
+    "amount": 4600,
+    "category": "adult_oneway_matsumotoBT_kamikochi",
+    "note": "직행 NPL. 5:30편은 5,000"
+   },
+   {
+    "currency": "JPY",
+    "amount": 710,
+    "category": "adult_oneway_matsumoto_shinshimashima_rail",
+    "note": "2차"
    }
   ],
   "validity": {
@@ -2100,20 +2104,25 @@
     "kind": "공식"
    },
    {
-    "url": "https://tabi.iinaa.net/JapnPass/nagano_W.html",
+    "url": "https://www.alpico.co.jp/traffic/datas/files/2026/03/18/7542b35a63119a016ccce55e62cbb4ae1f310769.pdf",
+    "checked": "2026-09-04",
+    "kind": "공식 운임표 PDF"
+   },
+   {
+    "url": "https://lodge.gosenjaku.co.jp/2026/04/02/4131/",
     "checked": "2026-09-04",
     "kind": "2차"
    },
    {
-    "url": "https://www.alpico.co.jp/traffic/ticket/",
-    "checked": "2026-09-02",
-    "kind": "공식(가격은 2차)"
+    "url": "https://matsu-hiro.com/kamikochi2026shimashimabus/373/",
+    "checked": "2026-09-04",
+    "kind": "2차"
    }
   ],
-  "trust_level": "L1",
+  "trust_level": "retired",
   "last_verified_at": "2026-09-04",
   "license": "ODbL-1.0",
-  "note": "2026-09-04 알피코 공식 お得な切符 목록에 2デーフリーパスポート 없음(上高地線電車 1일권 1,420만 게재). 판매 종료 여부 미확인. 가격 6,000은 2차. 2차 목록엔 上高地・乗鞍エリア通行券 1,420이 별도로 있음"
+  "note": "2026-09-04 알피코 공식 お得な切符 목록에 2デーフリーパスポート 없음 → 판매 종료 추정(확정 아님). 운임: 新島々↔上高地 3,100, 松本BT 직행 4,600(5:30편 5,000), 전철 松本↔新島々 710(2차). 2025년부터 예약 우선. 2026 운행 4/17~11/15"
  },
  {
   "pass_id": "jp-nouhi-takayama-shirakawago-set",
@@ -2187,12 +2196,22 @@
     "url": "https://www.nouhibus.co.jp/hida/ticket/",
     "checked": "2026-09-02",
     "kind": "공식(세트 가격 미확인)"
+   },
+   {
+    "url": "https://www.nouhibus.co.jp/route_bus/shirakawago/",
+    "checked": "2026-09-04",
+    "kind": "공식"
+   },
+   {
+    "url": "https://www.nouhibus.co.jp/other/areafree-ticket/",
+    "checked": "2026-09-04",
+    "kind": "공식"
    }
   ],
   "trust_level": "L2",
   "last_verified_at": "2026-09-04",
   "license": "ODbL-1.0",
-  "note": "편도 2,800(예약제). 白川郷 合掌造り民家園セット券 6,200 = 왕복 5,600 + 민가원 입장 600. 당일 유효. 할인 없이 묶음만"
+  "note": "편도 2,800(전편 예약제, 발차오라이넷). 세트권 6,200 = 왕복 5,600 + 민가원 600, 할인 0(공식 재확인 2026-09-04). 노선 페이지에 왕복 할인 없음. 대안: 濃飛バスエリアフリーきっぷ 3일 8,000(高山~白川郷~牧·平湯·新穂高·下呂 포함, 단 高山~白川郷 예약제 편 이용 불가). 昇龍道 버스패스(외국인, 高山·白川郷·金沢 3일)는 2025년 판매 종료 정보(2차)"
  },
  {
   "pass_id": "jp-hokutetsu-kanazawa-1day",
@@ -3495,5 +3514,70 @@
   "note": "2024 지진 이후 협곡 개방 구간 유동적",
   "card_status": "no_card",
   "card_status_reason": "타이루거 협곡의 개방 구간이 확정되지 않아 여행 이유를 보증할 수 없음. 재확인 후"
+ },
+ {
+  "pass_id": "jp-nouhi-areafree-3day",
+  "name": {
+   "local": "濃飛バスエリアフリーきっぷ",
+   "local_lang": "ja",
+   "ko": "노히버스 에리어 프리킷푸 3일",
+   "en": "Nohi Bus Area Free Ticket 3-day"
+  },
+  "type": "T1",
+  "issuer": {
+   "local": "濃飛バス",
+   "ko": "노히버스"
+  },
+  "country": "JP",
+  "region": "JP-21",
+  "price": [
+   {
+    "currency": "JPY",
+    "amount": 8000,
+    "category": "adult"
+   },
+   {
+    "currency": "JPY",
+    "amount": 4000,
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": 3,
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "transport": [
+    {
+     "operator": "濃飛バス",
+     "scope": "高山~白川郷~牧, 高山~平湯~新穂高(노히 담당편), 高山~下呂. 高山~白川郷 예약제 편은 이용 불가"
+    }
+   ]
+  },
+  "eligibility": "anyone",
+  "purchase_channels": [
+   {
+    "channel": "高山濃飛バスセンター·平湯BT·白川郷BT·下呂BC·神岡·古川",
+    "online": false,
+    "commission": false
+   }
+  ],
+  "rules": [
+   "시라카와고예약편불가"
+  ],
+  "sources": [
+   {
+    "url": "https://www.nouhibus.co.jp/other/areafree-ticket/",
+    "checked": "2026-09-04",
+    "kind": "공식"
+   }
+  ],
+  "trust_level": "L2",
+  "last_verified_at": "2026-09-04",
+  "license": "ODbL-1.0",
+  "note": "시라카와고 카드(42)의 대안. 사흘 안에 신호타카·게로까지 갈 때만 세트권보다 유리",
+  "card_status": "no_card",
+  "card_status_reason": "카드 42의 대안으로만 기재. 시라카와고 예약제 편 불가 조건 때문에 단독 카드는 보류"
  }
 ]
