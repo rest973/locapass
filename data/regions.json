@@ -594,8 +594,8 @@
     "上高地・乗鞍2デーフリーパスポート",
     "アルピコ交通"
    ],
-   "note": "0-B 대상",
-   "status": "has_cards"
+   "note": "카드 41 보류: 2デーフリーパスポート가 2026 알피코 공식 목록에 없음(2026-09-04)",
+   "status": "hold"
   },
   {
    "region_id": "JP-21-takayama",
@@ -1098,8 +1098,8 @@
     "JR EAST PASS (Tohoku)",
     "山交バス"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": "카드 32 보류: 신 JR EAST PASS 35,000엔으로 도쿄↔야마가타 코스 본전 미달(2026-09-04)",
+   "status": "hold"
   },
   {
    "region_id": "JP-02-aomori",
