@@ -1,0 +1,60 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR나라 안내소·긴테츠나라 안내소",
+     "online": false
+    },
+    {
+     "name": "가쿠엔마에·오지·야기 안내소",
+     "online": false
+    },
+    {
+     "name": "대형 여행대리점",
+     "online": false,
+     "note": "판매 수수료가 붙는다"
+    }
+   ],
+   "src": "https://www.narakotsu.co.jp/route/ticket/1day-pass/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "나라공원 에리어와 니시노쿄 에리어의 노선버스 1일 무제한 — 도다이지·가스가타이샤·고후쿠지·도쇼다이지·야쿠시지",
+   "src": "https://www.narakotsu.co.jp/route/ticket/1day-pass/"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.narakotsu.co.jp/route/ticket/1day-pass/",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.pref.nara.lg.jp/site/nara-access-navi/oneday/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불·우대·디지털권",
+   "how": "기재 없음"
+  },
+  {
+   "what": "제외 노선",
+   "how": "고속버스·커뮤니티버스의 취급이 기재 없음"
+  }
+ ],
+ "pass_id": "jp-narakotsu-nara-nishinokyo-1day",
+ "name": {
+  "local": "奈良公園・西ノ京 世界遺産 1-Day Pass",
+  "local_lang": "ja",
+  "ko": "나라공원·니시노쿄 세계유산 1-Day Pass",
+  "en": "Nara Park & Nishinokyo World Heritage 1-Day Pass"
+ },
+ "built_at": "2026-09-07"
+}

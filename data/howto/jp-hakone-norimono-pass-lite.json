@@ -1,0 +1,55 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "하코네나비·미야노시타역·고라역·소운잔역·모토하코네/하코네/도겐다이 안내소·EMot",
+     "online": true
+    }
+   ],
+   "src": "https://www.hakonenavi.jp/transportation/ticket/"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.hakonenavi.jp/transportation/ticket/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "trap": {
+   "v": "**2025-09-30로 판매를 끝냈다.** 9회차 조사가 \"대도시권 렌터카 여행객을 잡는 현실적인 길\"로 지목했던 상품인데 사라졌다 — B축 방향을 다시 볼 자리다",
+   "src": "https://www.hakonenavi.jp/transportation/ticket/"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.hakonenavi.jp/transportation/ticket/",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.emot.jp/service/detail/norimono_pass_lite.html",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.hakonenavi.jp/_wp/wp-content/uploads/2025/06/290ca0f7c7a1ddbe6315ef5cd7a724b2-1.pdf",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "대체 상품",
+   "how": "하코네 프리패스(오다와라 발 2일 6,000〜)가 대안이 되는지, 왕복 없는 현지 패스가 하코네에 남아 있는지 확인 필요"
+  }
+ ],
+ "pass_id": "jp-hakone-norimono-pass-lite",
+ "name": {
+  "local": "箱根のりものパス Lite",
+  "local_lang": "ja",
+  "ko": "하코네 노리모노 패스 라이트",
+  "en": "Hakone Norimono Pass Lite"
+ },
+ "built_at": "2026-09-07"
+}

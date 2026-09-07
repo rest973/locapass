@@ -1,0 +1,59 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "신키버스 히메지역앞 안내소",
+     "online": false
+    },
+    {
+     "name": "PassRu·공식 디지털 티켓 사이트",
+     "online": true
+    }
+   ],
+   "src": "https://www.himeji-kanko.jp/oyakudachi/21/"
+  },
+  "get_what": {
+   "v": "**종이판과 디지털판의 내용이 다르다** — 종이판에만 히메지성 루프버스 1회 승차권이 붙는다. 디지털은 1세 이상 1,900(0세 무료)",
+   "src": "https://www.himeji-kanko.jp/oyakudachi/21/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "신키버스 「히메지역~250엔 구간」 2일 무제한 + 10계통 「히메지역~서사산 로프웨이」 + 서사산 로프웨이 왕복",
+   "src": "https://www.himeji-kanko.jp/oyakudachi/21/"
+  },
+  "trap": {
+   "v": "**히메지성 입장은 포함이 아니라 1할 할인이다**(고코엔도 1할, 미술관 2할). **다른 할인권과 병용 불가**",
+   "src": "https://www.himeji-kanko.jp/oyakudachi/21/"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.himeji-kanko.jp/oyakudachi/21/",
+   "checked": "2026-09-07"
+  },
+  {
+   "url": "https://www.shinkibus.co.jp/bus/deal/index.html",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불·발매기간",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-shinki-shiro-machimeguri-2day",
+ "name": {
+  "local": "しろのまちめぐり2DAYきっぷ",
+  "local_lang": "ja",
+  "ko": "시로노마치메구리 2DAY 킷푸",
+  "en": "Shiro-no-Machimeguri 2-Day Ticket"
+ },
+ "built_at": "2026-09-07"
+}

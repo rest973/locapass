@@ -1,0 +1,85 @@
+{
+ "before": {
+  "app_or_account": {
+   "v": "**「TOHOKU MaaS」 웹사이트에 접속한 스마트폰에서만 산다.** みどりの窓口·지정석 발매기에서는 못 산다. 메일 주소 등 프로필 + 신용카드 등록(또는 모바일Suica 앱 설치·회원 등록)이 필요하다",
+   "q": "みどりの窓口・指定席券売機等での購入はできません。",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  },
+  "when": {
+   "v": "**이용일을 정하지 않고 사 두고, 구매일부터 30일 안에 사용 개시**하면 된다",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "TOHOKU MaaS 웹(스마트폰 전용)",
+     "online": true
+    }
+   ],
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  },
+  "get_what": {
+   "v": "디지털 프리패스. **어른·소인 합쳐 최대 5명분**까지 한 번에 산다",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  }
+ },
+ "issue": {
+  "activate": {
+   "v": "**사용 개시 버튼을 탭하면 시작된다.** 여러 명분을 한 번에 사면 **전부 동시에 사용**되고 나눠 쓸 수 없다. 구매 뒤 인원 변경도 안 된다",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "**유인 개찰에서 화면을 보인다** — 자동 개찰이 아니다",
+   "q": "デジタルフリーパスの画面を有人改札にて呈示することで改札を行います",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  },
+  "count_rules": {
+   "v": "프리에리어의 JR선(오우본선 아오모리~이카리가세키, 고노선 가와베~고쇼가와라)·고난철도선·쓰가루철도선(쓰가루고쇼가와라~가나기) 보통·쾌속 자유석과 **고난버스**. **신칸센·특급·급행은 전부 못 탄다**",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  },
+  "trap": {
+   "v": "**쓰가루철도의 스토브 열차와 히로사키~쓰가루토게 직행버스는 못 탄다.** 다만 **신아오모리~아오모리 구간만은 특례로 특급 자유석을 이 표로 탄다** — 그 구간을 벗어나면 전 구간 운임·요금을 따로 낸다",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**사용 개시(버튼 탭) 전이고 구매일부터 30일 이내**일 때만. 신용카드 결제는 마이페이지 구매이력에서, 모바일Suica 결제는 문의 폼으로. **여러 장 중 일부만 환불할 수는 없다.** 사용 개시 후에는 일부 교통기관 운행 불능으로도 환불하지 않는다",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "TOHOKU MaaS의 다국어 대응은 미확인"
+ },
+ "sources": [
+  {
+   "url": "https://www.jreast.co.jp/sendai/tohoku_tickets/",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2863",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "버스에서 무엇을 보이나",
+   "how": "개찰은 유인 제시라고 적혀 있으나 고난버스 하차 시 절차는 기재 없음"
+  }
+ ],
+ "pass_id": "jp-jreast-tsugaru-free-pass",
+ "name": {
+  "local": "津軽フリーパス",
+  "local_lang": "ja",
+  "ko": "쓰가루 프리패스",
+  "en": "Tsugaru Free Pass"
+ },
+ "built_at": "2026-09-07"
+}

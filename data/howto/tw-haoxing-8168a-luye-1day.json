@@ -1,0 +1,59 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "차내(종이 일일권)",
+     "online": false
+    },
+    {
+     "name": "타이둥 환승역 여객서비스대",
+     "online": false
+    },
+    {
+     "name": "온라인 ttdiway.com·7-11 ibon·FamiPort",
+     "online": true
+    }
+   ],
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0012"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0012"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "일일권 全票 180·優惠票 100, 당일 유효",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0012"
+  },
+  "trap": {
+   "v": "**하루 2편뿐이다** — 표보다 시각표가 먼저인 노선이다. 열기구 기간(2026-07-04~08-20)에는 화요일을 뺀 날의 오전이 유람선식, 오후가 일반형으로 바뀐다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0012"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0012",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "tw-haoxing-8168a-luye-1day",
+ "name": {
+  "local": "台灣好行 8168A 縱谷鹿野線 一日券",
+  "local_lang": "zh-Hant",
+  "ko": "타이완하오싱 8168A 종곡 루예선 1일권",
+  "en": "Taiwan Tourist Shuttle 8168A Luye Line 1-Day Pass"
+ },
+ "built_at": "2026-09-07"
+}

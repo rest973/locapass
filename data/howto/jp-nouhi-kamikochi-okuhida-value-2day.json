@@ -1,0 +1,60 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "다카야마 노히버스센터",
+     "online": false
+    },
+    {
+     "name": "히라유 버스터미널",
+     "online": false
+    }
+   ],
+   "src": "https://www.nouhibus.co.jp/hida/ticket/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "오쿠히다판에 **히라유온천~가미코치 왕복 승차권**이 더해진 것. **노히버스 운행편만 대상**",
+   "src": "https://www.nouhibus.co.jp/hida/ticket/"
+  },
+  "trap": {
+   "v": "**가미코치는 마이카 규제 구간이라 버스가 유일한 길이다.** 로프웨이 운휴 시 차액 환불은 없다. 히라유 발착판은 8,200/4,100으로 따로 있다",
+   "src": "https://www.nouhibus.co.jp/hida/ticket/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**이용 개시 후 환불 불가**",
+   "src": "https://www.nouhibus.co.jp/hida/ticket/"
+  }
+ },
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.nouhibus.co.jp/hida/ticket/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "가미코치 개산·폐산 기간",
+   "how": "가미코치는 겨울에 닫는데 이 페이지에 기간이 없다"
+  },
+  {
+   "what": "예약 요부",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-nouhi-kamikochi-okuhida-value-2day",
+ "name": {
+  "local": "上高地・奥飛騨まるごとバリューきっぷ（高山発2日）",
+  "local_lang": "ja",
+  "ko": "가미코치·오쿠히다 마루고토 밸류 킷푸 2일",
+  "en": "Kamikochi & Okuhida Value Ticket 2-Day"
+ },
+ "built_at": "2026-09-07"
+}

@@ -1,0 +1,124 @@
+{
+ "before": {
+  "when": {
+   "v": "렌터카를 먼저 예약하되 **그 회사가 이 패스 취급점인지 미리 확인한다**(32사 목록). 이용 기간 4~8일이고 **렌터카 대여 기간과 같아야 하며 중간 연장이 안 된다**",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "bring": {
+   "v": "**여권 + 일본에서 유효한 면허**(국제운전면허증 등). 고속도로에서 **휴대 의무**가 있다(약관 §7)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "who_can_buy": {
+   "v": "일본 외 여권 소지자, 또는 **해외 영주권이 있는 일본인**",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "app_or_account": {
+   "v": "앱·계정 불필요",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "렌터카를 받는 그 창구(토요타·오릭스·닛폰·닛산·타임즈·JR북해도렌터리스 등 32사)",
+     "online": false
+    }
+   ],
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "how": {
+   "v": "창구에서 **신청서**를 쓴다 — 신청일·이름·차종·국적·이용기간(약관 §6)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "pay": {
+   "v": "렌터카 창구에서 지불(약관 §9)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "get_what": {
+   "v": "**지정 ETC 카드**. 대여료는 별도이고 회사마다 다르다",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  }
+ },
+ "issue": {
+  "activate": {
+   "v": "ETC 카드를 차의 ETC 단말에 꽂으면 준비 끝",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "대상 구간 IC를 **ETC 레인으로** 지난다. 횟수 제한 없음(약관 §8-4)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "count_rules": {
+   "v": "요금소 표시기·단말 음성이 통상 요금을 말해도 **무시해도 된다** — 정산 때 패스 요금이 적용된다(§8-5)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "when_lane_closed": {
+   "v": "**ETC 레인이 닫혀 있으면** 입구 일반 레인에서 통행권을 받고, 출구 일반 레인 직원에게 **통행권과 ETC 카드를 함께 건넨다**(§8-3)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "trap": {
+   "v": "**대상 구간 밖 IC로 나가면 그 구간은 따로 청구된다**(§9-4, 예: 도토자동차도 본베쓰·아쇼로 너머). **등록한 차종보다 큰 차로 달리면 패스가 무효**가 된다(§9-5)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  }
+ },
+ "end": {
+  "return": {
+   "v": "차를 반납할 때 **ETC 카드를 함께 반환**(§8-6)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "refund": {
+   "v": "기간 중 한 번도 고속도로를 안 탔으면 **신청 무효·무청구**(§9-2). 한 번이라도 탔으면 **중도 해약·환불 없음**(§10-1)",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  },
+  "overuse": {
+   "v": "초과일과 구역 밖 통행은 별도 청구",
+   "src": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh-Hant",
+   "zh-Hans",
+   "ko",
+   "th"
+  ],
+  "note": "창구 언어는 미기재"
+ },
+ "sources": [
+  {
+   "url": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://en.driveplaza.com/drawari/hokkaido_expass/",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.driveplaza.com/etc/drawari/hokkaido_expass/shoplist_jp.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "ETC 카드 대여료",
+   "how": "회사별이고 약관에 없다 → 렌터카 예약 때 그 회사에 확인"
+  },
+  {
+   "what": "창구에서 뭐라고 말하나",
+   "how": "약관에 없다. \"Hokkaido Expressway Pass, 4 days\"로 통한다는 것은 추정이라 적지 않는다"
+  }
+ ],
+ "pass_id": "jp-nexco-e-hokkaido-expressway-pass",
+ "name": {
+  "local": "Hokkaido Expressway Pass",
+  "local_lang": "ja",
+  "ko": "홋카이도 익스프레스웨이 패스(HEP)",
+  "en": "Hokkaido Expressway Pass"
+ },
+ "built_at": "2026-09-07"
+}

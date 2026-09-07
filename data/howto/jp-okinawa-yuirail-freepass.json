@@ -1,0 +1,64 @@
+{
+ "before": {
+  "when": {
+   "v": "**구매 시각부터 24시간(1일권)·48시간(2일권)이라 공식이 「乗車直前にお買求め下さい」라고 적는다**",
+   "src": "https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/1day-pass/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "유이레일 각 역 발매기·창구",
+     "online": false
+    },
+    {
+     "name": "모바일",
+     "online": true
+    }
+   ],
+   "src": "https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/1day-pass/"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/1day-pass/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "유이레일 전 역 승하차 자유. 유효기간 안에는 제휴 시설 할인도 받는다",
+   "src": "https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/1day-pass/"
+  },
+  "trap": {
+   "v": "**날짜가 아니라 시간이다.** 아침 9시에 사면 다음 날 9시까지 — 아침 일찍 사 두면 마지막 날 저녁을 못 쓴다",
+   "src": "https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/1day-pass/"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/1day-pass/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  },
+  {
+   "what": "모바일판의 개시 조작",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-okinawa-yuirail-freepass",
+ "name": {
+  "local": "ゆいレール フリー乗車券",
+  "local_lang": "ja",
+  "ko": "유이레일 프리 승차권",
+  "en": "Yui Rail Free Pass"
+ },
+ "built_at": "2026-09-07"
+}

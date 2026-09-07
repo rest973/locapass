@@ -1,0 +1,47 @@
+{
+ "before": {
+  "when": {
+   "v": "**사전 구매 필수** — 삿포로에서 미리 사고 출발한다",
+   "src": "https://www.chuo-bus.co.jp/main/setticket/index.cgi?ope=det&n=18"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "중앙버스 삿포로터미널",
+     "online": false
+    },
+    {
+     "name": "삿포로역앞 안내소",
+     "online": false
+    }
+   ],
+   "src": "https://www.chuo-bus.co.jp/main/setticket/index.cgi?ope=det&n=18"
+  }
+ },
+ "issue": {},
+ "use": {},
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.chuo-bus.co.jp/main/setticket/index.cgi?ope=det&n=18",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "세트 내용·유효기간·환불",
+   "how": "이 상품 페이지를 오늘 열지 못했다 — chuo-bus.co.jp setticket n=18을 확인할 것"
+  }
+ ],
+ "pass_id": "jp-chuobus-otaru-1day-freeset",
+ "name": {
+  "local": "【札幌発着】小樽1日フリーセット券",
+  "local_lang": "ja",
+  "ko": "오타루 1일 프리 세트권(삿포로 발착)",
+  "en": "Otaru 1-Day Free Set (from Sapporo)"
+ },
+ "built_at": "2026-09-07"
+}

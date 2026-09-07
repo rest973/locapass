@@ -1,0 +1,55 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "도부닛코역 버스안내소",
+     "online": false
+    },
+    {
+     "name": "차내",
+     "online": false
+    }
+   ],
+   "src": "https://www.tobu-bus.com/pc/service/ticket/nikko.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "2일간 유효",
+   "src": "https://www.tobu-bus.com/pc/service/ticket/nikko.html"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.tobu-bus.com/pc/service/ticket/nikko.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "구간·제외·환불",
+   "how": "도부버스 공식에 요금과 일수만 있다"
+  },
+  {
+   "what": "저공해버스",
+   "how": "오쿠닛코 마이카 규제 구간의 저공해버스를 탈 수 있는지 기재 없음"
+  },
+  {
+   "what": "겨울 운행",
+   "how": "유모토온천은 적설 지대인데 겨울 운행 기재가 없다"
+  }
+ ],
+ "pass_id": "jp-tobubus-nikko-yumoto-freepass",
+ "name": {
+  "local": "湯元温泉フリーパス",
+  "local_lang": "ja",
+  "ko": "유모토온천 프리패스",
+  "en": "Yumoto Onsen Free Pass"
+ },
+ "built_at": "2026-09-07"
+}

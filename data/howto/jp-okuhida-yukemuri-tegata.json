@@ -1,0 +1,63 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "가맹 숙박시설 16곳",
+     "online": false
+    },
+    {
+     "name": "오쿠히다온천향 관광협회·히라유온천 관광안내소",
+     "online": false
+    },
+    {
+     "name": "미치노에키·쓰루야상점 등",
+     "online": false
+    }
+   ],
+   "src": "http://wired-j.sakura.ne.jp/okuhida_wp/sp/tegata"
+  },
+  "get_what": {
+   "v": "手形. **발행일로부터 1년**",
+   "src": "http://wired-j.sakura.ne.jp/okuhida_wp/sp/tegata"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "가맹 16곳 중에서 고른다. **시설마다 필요한 스티커 수가 다르다**",
+   "src": "http://wired-j.sakura.ne.jp/okuhida_wp/sp/tegata"
+  },
+  "trap": {
+   "v": "**다른 쿠폰·할인권과 함께 쓸 수 없다.** 「奥飛騨温泉郷」 마크 3개를 모으면 오리지널 목욕수건을 준다",
+   "src": "http://wired-j.sakura.ne.jp/okuhida_wp/sp/tegata"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "http://wired-j.sakura.ne.jp/okuhida_wp/sp/tegata",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "시설별 필요 스티커 수",
+   "how": "\"시설마다 다르다\"고만 적혀 있고 표가 없다"
+  },
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-okuhida-yukemuri-tegata",
+ "name": {
+  "local": "奥飛騨 湯けむり手形（奥飛騨湯けむり達人）",
+  "local_lang": "ja",
+  "ko": "오쿠히다 유케무리 데가타",
+  "en": "Okuhida Yukemuri Tegata"
+ },
+ "built_at": "2026-09-07"
+}

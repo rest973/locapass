@@ -1,0 +1,42 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "고토덴 역·JR 창구",
+     "online": false
+    }
+   ],
+   "src": "https://www.kotoden.co.jp/publichtm/kotoden/ticket/index.htm"
+  }
+ },
+ "issue": {},
+ "use": {},
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.kotoden.co.jp/publichtm/kotoden/ticket/index.htm",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.jr-eki.com/ticket/brand",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "절차 전반",
+   "how": "**고토덴 공식에 요금(2,200/1,100)만 있고 유효기간·범위·제약·환불이 없다.** JR시코쿠 쪽(jr-eki.com) 상품 페이지를 열어야 한다 — 오늘 알아낸 대로 목록 페이지에서 링크를 긁으면 상품 코드가 나온다"
+  }
+ ],
+ "pass_id": "jp-kotoden-jr-kururin",
+ "name": {
+  "local": "ことでん・JRくるり～んきっぷ",
+  "local_lang": "ja",
+  "ko": "고토덴·JR 쿠루린 킷푸",
+  "en": "Kotoden & JR Kururin Ticket"
+ },
+ "built_at": "2026-09-07"
+}

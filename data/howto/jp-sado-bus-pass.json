@@ -1,0 +1,71 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "니가타교통 사도 창구",
+     "online": false
+    },
+    {
+     "name": "사도기선 종합안내소(나오에쓰항)·사도관광교류기구 안내소(료쓰항·미나미사도)",
+     "online": false
+    },
+    {
+     "name": "버스 차내·일부 숙박 시설",
+     "online": false
+    },
+    {
+     "name": "조르단 모바일",
+     "online": true
+    }
+   ],
+   "src": "https://www.visitsado.com/tosado/insado/freepass/"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.sado-bus.com/sd/wp-content/uploads/2023/05/unlimited_bus_rides.pdf"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "니가타교통사도가 운행하는 사도섬 내 노선버스 전선. **「라이너버스」 등은 못 탄다**",
+   "src": "https://www.visitsado.com/tosado/insado/freepass/"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.sado-bus.com/sd/wp-content/uploads/2023/05/unlimited_bus_rides.pdf",
+   "checked": "2026-09-07"
+  },
+  {
+   "url": "https://www.visitsado.com/tosado/insado/freepass/",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "가격 충돌",
+   "how": "**관광기구 공식(2,000/3,000/3,500)과 운행사 2023-05 PDF(1,500/2,500/3,500)가 어긋난다** — 운행사 현행 페이지로 한 번 더 확인할 자리"
+  },
+  {
+   "what": "연속/비연속",
+   "how": "2day·3day가 연속인지 아닌지 기재 없음"
+  },
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-sado-bus-pass",
+ "name": {
+  "local": "佐渡1day・2day・3dayパス",
+  "local_lang": "ja",
+  "ko": "사도 1day·2day·3day 패스",
+  "en": "Sado Bus 1/2/3-Day Pass"
+ },
+ "built_at": "2026-09-07"
+}

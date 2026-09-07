@@ -1,0 +1,55 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "고베시 종합인포메이션센터·신고베역 안내소",
+     "online": false
+    },
+    {
+     "name": "신키버스 고베산노미야 터미널·패밀리마트 고베공항점 등",
+     "online": false
+    },
+    {
+     "name": "RYDE PASS·PassRu·Mobers(디지털)",
+     "online": true
+    }
+   ],
+   "src": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "**시티루프와 포트루프 둘 다**. 산노미야~포트아일랜드선, 고베역~포트아일랜드선 등도 대상",
+   "src": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/"
+  },
+  "trap": {
+   "v": "「見せトク」 제휴 시설 할인이 붙는데 **목록이 다른 페이지에 있다**",
+   "src": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "유효기간 표기·환불",
+   "how": "공식 페이지에 없다"
+  }
+ ],
+ "pass_id": "jp-kobe-cityloop-1day",
+ "name": {
+  "local": "シティーループ 1日乗車券",
+  "local_lang": "ja",
+  "ko": "고베 시티루프 1일 승차권",
+  "en": "Kobe City Loop 1-Day Pass"
+ },
+ "built_at": "2026-09-07"
+}

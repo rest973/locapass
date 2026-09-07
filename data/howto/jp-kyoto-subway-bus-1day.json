@@ -1,0 +1,55 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "지하철 역 창구·발매기·시버스 영업소·안내소",
+     "online": false
+    }
+   ],
+   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000357060.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "교토시영 지하철·시버스 전선 + 교토버스·게이한버스·서일본JR버스(**각각 일부 노선 제외**) + 토·휴일의 관광특급버스",
+   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000019521.html"
+  },
+  "trap": {
+   "v": "**\"일부 노선 제외\"의 목록이 공식에 없다** — 어느 버스가 빠지는지 타기 전에 알 수 없다. 시내 약 50곳에서 할인·우대를 받지만 임시 휴관·시간 단축이 잦다",
+   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000019521.html"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000357060.html",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000019521.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "요금·유효기간·환불",
+   "how": "이 페이지에 없고 교통국 안내소로 안내한다"
+  },
+  {
+   "what": "제외 노선 목록",
+   "how": "\"一部路線を除く\"로만 적혀 있다"
+  }
+ ],
+ "pass_id": "jp-kyoto-subway-bus-1day",
+ "name": {
+  "local": "地下鉄・バス1日券",
+  "local_lang": "ja",
+  "ko": "교토 지하철·버스 1일권",
+  "en": "Kyoto Subway & Bus 1-Day Pass"
+ },
+ "built_at": "2026-09-07"
+}

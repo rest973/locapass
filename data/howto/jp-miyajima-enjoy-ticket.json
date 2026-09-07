@@ -1,0 +1,51 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "미야지마마쓰다이키센 「미야지마구치」 창구 (8:30~15:00)",
+     "online": false
+    }
+   ],
+   "src": "https://miyajima-matsudai.co.jp/ticket.html"
+  },
+  "where_note": {
+   "v": "**섬 안에서는 팔지 않는다.** 미야지마구치에서 사고 건너가야 한다",
+   "src": "https://miyajima-matsudai.co.jp/ticket.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "구매일 포함 2일. 페리 왕복(**미야지마 방문세 포함**) + 로프웨이 왕복",
+   "src": "https://miyajima-matsudai.co.jp/ticket.html"
+  },
+  "trap": {
+   "v": "**악천후 때·로프웨이 정기점검일·12/31~1/3에는 아예 팔지 않는다.** 강풍·낙뢰로 로프웨이가 운휴하면 어른 1,660·소인 830을 환불해 준다",
+   "src": "https://miyajima-matsudai.co.jp/ticket.html"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://miyajima-matsudai.co.jp/ticket.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "로프웨이 정기점검일",
+   "how": "\"있다\"고만 적혀 있고 날짜가 없다 — 미야지마 로프웨이 쪽 공지 확인"
+  }
+ ],
+ "pass_id": "jp-miyajima-enjoy-ticket",
+ "name": {
+  "local": "宮島エンジョイチケット",
+  "local_lang": "ja",
+  "ko": "미야지마 엔조이 티켓",
+  "en": "Miyajima Enjoy Ticket"
+ },
+ "built_at": "2026-09-07"
+}

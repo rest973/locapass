@@ -1,0 +1,52 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "야마가타역앞 야마코버스 안내소",
+     "online": false
+    }
+   ],
+   "src": "http://zaochuoropeway.co.jp/jp/summer/info.php?p=2222"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "야마가타역앞⇔자오온천 왕복 버스 + 자오중앙로프웨이 왕복. **버스는 날짜·편 지정이 없고 로프웨이는 구매 3일 안에** 쓴다",
+   "src": "http://zaochuoropeway.co.jp/jp/summer/info.php?p=2222"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**악천후로 로프웨이가 운휴하면 로프웨이분을 환불**해 준다",
+   "src": "http://zaochuoropeway.co.jp/jp/summer/info.php?p=2222"
+  }
+ },
+ "languages": {},
+ "sources": [
+  {
+   "url": "http://zaochuoropeway.co.jp/jp/summer/info.php?p=2222",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "樹氷(수빙) 쪽 세트와의 차이",
+   "how": "蔵王ロープウェイ(樹氷) 세트는 별개 상품이고 가격 미확인"
+  },
+  {
+   "what": "겨울 운행",
+   "how": "자오는 겨울이 본철인데 겨울 운행·요금 기재가 없다"
+  }
+ ],
+ "pass_id": "jp-yamako-zao-chuo-ropeway-set",
+ "name": {
+  "local": "山交バス＋蔵王中央ロープウェイ セット券",
+  "local_lang": "ja",
+  "ko": "야마코버스+자오 중앙로프웨이 세트권",
+  "en": "Yamako Bus & Zao Chuo Ropeway Set"
+ },
+ "built_at": "2026-09-07"
+}

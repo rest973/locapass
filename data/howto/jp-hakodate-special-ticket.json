@@ -1,0 +1,99 @@
+{
+ "before": {
+  "who_can_buy": {
+   "v": "자격 제한 없음",
+   "src": "https://www.hakobura.jp/tickets/49"
+  },
+  "when": {
+   "v": "당일 구매 가능. 사전 예약은 협회 사이트·KKday·Veltra",
+   "src": "https://www.hakobura.jp/tickets/49"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR하코다테역 관광안내소 (9:00~18:00)",
+     "online": false
+    },
+    {
+     "name": "하코다테공항 국내선 도착로비 (8:00~19:30)",
+     "online": false
+    },
+    {
+     "name": "쓰가루해협 페리터미널 (6:30~22:00)",
+     "online": false
+    },
+    {
+     "name": "헤이세이칸 시오사이테이·THE DANSHAKU LOUNGE·일부 호텔",
+     "online": false
+    }
+   ],
+   "src": "https://www.hakobura.jp/tickets/49"
+  },
+  "get_what": {
+   "v": "**책자 하나 — のりもの券 1장 + ポイント券 12장**",
+   "src": "https://www.hakobura.jp/tickets/49"
+  }
+ },
+ "issue": {
+  "exchange": {
+   "v": "**시전을 타고 내릴 때 운전사에게 のりもの券을 건네면 그 자리에서 시전 1일권으로 바꿔 준다.** 교환하러 따로 갈 곳이 없다",
+   "src": "https://www.hakobura.jp/tickets/49"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "시설 창구에서 **필요한 장수만큼 ポイント券을 낸다** — 하코다테산 로프웨이 왕복 7장, 고료카쿠타워 4장, 봉행소 2장, 구 공회당·문학관 등 1장",
+   "src": "https://www.hakobura.jp/tickets/49"
+  },
+  "count_rules": {
+   "v": "**조합은 자유이고 날짜를 걸쳐 써도 된다. 거스름은 없다**",
+   "src": "https://www.hakobura.jp/tickets/49"
+  },
+  "trap": {
+   "v": "**로프웨이가 7장이라 로프웨이와 타워를 하면 남는 게 1장뿐이다**",
+   "src": "https://www.hakobura.jp/tickets/49"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "현금 환불 불가",
+   "src": "https://www.hakobura.jp/tickets/49"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "외국어 안내 미기재"
+ },
+ "sources": [
+  {
+   "url": "https://www.hakobura.jp/tickets/49",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "사용 기한",
+   "how": "판매는 2026-04-01~2027-03-31인데 **표 자체의 사용 기한이 없다** → 하코다테 관광협회 0138-27-3535"
+  },
+  {
+   "what": "결제수단",
+   "how": "기재 없음"
+  },
+  {
+   "what": "호텔·역 판매처 목록",
+   "how": "\"일부\"라고만 적혀 있다"
+  }
+ ],
+ "pass_id": "jp-hakodate-special-ticket",
+ "name": {
+  "local": "はこだてスペシャルチケット",
+  "local_lang": "ja",
+  "ko": "하코다테 스페셜 티켓",
+  "en": "Hakodate Special Ticket"
+ },
+ "built_at": "2026-09-07"
+}

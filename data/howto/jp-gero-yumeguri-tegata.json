@@ -1,0 +1,72 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "가맹 여관",
+     "online": false
+    },
+    {
+     "name": "토산품점(야마카와 역전점·다케다야·사쿠라엔)",
+     "online": false
+    },
+    {
+     "name": "데일리야마자키·패밀리마트",
+     "online": false
+    },
+    {
+     "name": "게로온천 종합관광안내소",
+     "online": false
+    }
+   ],
+   "src": "https://www.gero-spa.or.jp/yu_meguri/"
+  },
+  "get_what": {
+   "v": "**스티커 3장이 붙은 手形.** 가맹 여관 세 곳의 목욕에 쓴다(페이지에 실린 가맹 약 20곳)",
+   "src": "https://www.gero-spa.or.jp/yu_meguri/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "trap": {
+   "v": "**숙소마다 이용 시간대가 다르고(오전만·오후만) 정기휴일이 있다** — 白鷺乃湯 수요일, クアガーデン露天風呂 목요일, 睦館 매주 목요일. 吉泉館竹翠亭은 모든 시간대에 가족탕 불가",
+   "src": "https://www.gero-spa.or.jp/yu_meguri/"
+  },
+  "show": {
+   "v": "여관 프론트에 手形를 내고 스티커를 뗀다",
+   "src": "https://www.gero-spa.or.jp/yu_meguri/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "구매로부터 6개월. 환불은 기재 없음",
+   "src": "https://www.gero-spa.or.jp/yu_meguri/"
+  }
+ },
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.gero-spa.or.jp/yu_meguri/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "결제수단·환불",
+   "how": "기재 없음"
+  },
+  {
+   "what": "가맹 여관 전체 목록·당일 휴탕 확인",
+   "how": "페이지에 약 20곳만 실려 있다"
+  }
+ ],
+ "pass_id": "jp-gero-yumeguri-tegata",
+ "name": {
+  "local": "下呂温泉 湯めぐり手形（湯名人 湯めぐり手形セット）",
+  "local_lang": "ja",
+  "ko": "게로온천 유메구리 데가타",
+  "en": "Gero Onsen Yumeguri Tegata"
+ },
+ "built_at": "2026-09-07"
+}

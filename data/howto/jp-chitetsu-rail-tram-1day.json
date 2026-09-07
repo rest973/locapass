@@ -1,0 +1,51 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "도야마 승차권센터·니시초 승차권센터·유인역",
+     "online": false
+    },
+    {
+     "name": "시내 호텔(ANA크라운플라자·JAL시티)",
+     "online": false
+    },
+    {
+     "name": "디지털 앱 「my route」",
+     "online": true
+    }
+   ],
+   "src": "https://www.chitetsu.co.jp/?p=20987"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "철도선·궤도선 전선. **특급 자유석 요금이 포함돼 있다** — 특급권을 따로 사는 다른 사철 패스와 다른 점이다",
+   "src": "https://www.chitetsu.co.jp/?p=20987"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.chitetsu.co.jp/?p=20987",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불·제외일",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-chitetsu-rail-tram-1day",
+ "name": {
+  "local": "鉄道線・市内電車1日フリーきっぷ",
+  "local_lang": "ja",
+  "ko": "도야마지테츠 철도선·시내전차 1일권",
+  "en": "Toyama Chitetsu Rail & Tram 1-Day"
+ },
+ "built_at": "2026-09-07"
+}

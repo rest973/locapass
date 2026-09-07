@@ -1,0 +1,51 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "고라쿠엔·오카야마성 매표소",
+     "online": false
+    }
+   ],
+   "src": "https://www.city.okayama.jp/shisei/0000009759.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "고라쿠엔 + 오카야마성 800. 하야시바라미술관을 더하면 1,280, 유메지향토미술관을 더하면 1,440",
+   "src": "https://www.okayama-kanko.jp/spot/detail_10001.html"
+  },
+  "trap": {
+   "v": "**고라쿠엔은 65세 이상 200·고교생 이하 무료**라 그 경우 공통권이 손해일 수 있다. 개원은 3/20~9/30 7:30~18:00, 10/1~3/19 8:00~17:00(입원 마감 15분 전), 휴원일 없음",
+   "src": "https://www.okayama-kanko.jp/spot/detail_10001.html"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.city.okayama.jp/shisei/0000009759.html",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.okayama-kanko.jp/spot/detail_10001.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "유효기간·판매처·환불",
+   "how": "**오카야마시 페이지에서 공통권 표가 없어졌고 고라쿠엔 공식 요금 페이지는 404다**"
+  }
+ ],
+ "pass_id": "jp-okayama-korakuen-castle",
+ "name": {
+  "local": "岡山後楽園・岡山城 共通券",
+  "local_lang": "ja",
+  "ko": "고라쿠엔·오카야마성 공통권",
+  "en": "Korakuen & Okayama Castle Combo"
+ },
+ "built_at": "2026-09-07"
+}

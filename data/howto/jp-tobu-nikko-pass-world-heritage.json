@@ -1,0 +1,83 @@
+{
+ "before": {
+  "who_can_buy": {
+   "v": "**외국인 여행자 전용. 동행하는 일본 국적자도 살 수 있다**",
+   "q": "Japanese nationals accompanying foreign travelers can also purchase the pass",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/city.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "온라인(디지털 티켓)",
+     "online": true
+    },
+    {
+     "name": "TOBU 투어리스트 인포메이션 센터 아사쿠사",
+     "online": false
+    },
+    {
+     "name": "AC호텔 바이 메리어트 도쿄 긴자·코트야드 긴자 도부호텔(종이 바우처)",
+     "online": false
+    }
+   ],
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/city.html"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/city.html"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "**특급은 특급권을 따로 산다.** 증기기관차 「大樹」는 좌석 지정권을 따로 산다",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/city.html"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "2일간. 아사쿠사~시모이마이치 왕복 + 세계유산 구역 도부버스",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/city.html"
+  },
+  "trap": {
+   "v": "**신사·사찰 배관료와 테마파크 입장료는 안 들어 있다** — 표만으로 도쇼구에 못 들어간다",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/city.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용·유효기간 내면 판매처에서. 별도 취소 수수료",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/city.html"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "확인한 것은 영어판"
+ },
+ "sources": [
+  {
+   "url": "https://www.tobu.co.jp/en/ticket/nikko/city.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "all area판과의 차이",
+   "how": "이쪽은 2일·세계유산 구역, all area는 4일·오쿠닛코까지. 어느 쪽을 살지 기준이 페이지에 없다"
+  }
+ ],
+ "pass_id": "jp-tobu-nikko-pass-world-heritage",
+ "name": {
+  "local": "NIKKO PASS world heritage area",
+  "local_lang": "ja",
+  "ko": "닛코 패스 월드헤리티지 에리어",
+  "en": "NIKKO PASS world heritage area"
+ },
+ "built_at": "2026-09-07"
+}

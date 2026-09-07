@@ -1,0 +1,91 @@
+{
+ "before": {
+  "bring": {
+   "v": "일본에서 쓸 수 있는 운전면허가 있어야 한다",
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  },
+  "who_can_buy": {
+   "v": "**일본 외 여권 소지자와 해외 영주권이 있는 일본 국적자**",
+   "q": "Those with non-Japanese passports and Japanese citizens with permanent residence permits in a foreign country",
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  },
+  "when": {
+   "v": "**2일부터 10일까지 여덟 가지**에서 고른다 — 홋카이도·도호쿠판의 최소 4일과 다르다",
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "참가 렌터카 회사(Times·Nissan·Nippon 등). Toyota·Budget·ORIX는 신규 접수 일시 중단",
+     "online": false
+    }
+   ],
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  },
+  "how": {
+   "v": "렌터카를 예약할 때 신청하고, **지정 렌터카 회사 영업소에서 수속·지불한 뒤 차와 ETC 카드를 함께 받는다**",
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  },
+  "get_what": {
+   "v": "지정 ETC 카드",
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "ETC 카드로 요금소를 **서지 않고** 지난다",
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  },
+  "trap": {
+   "v": "**대상 에리어 밖을 달린 부분은 추가 요금**이 붙는다",
+   "q": "additional fees must be paid for parts where you have traveled outside the ride area",
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  }
+ },
+ "end": {
+  "return": {
+   "v": "반납할 때 에리어 밖 주행분을 정산한다",
+   "src": "https://global.w-nexco.co.jp/en/kep/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "NEXCO 서일본 글로벌 사이트"
+ },
+ "sources": [
+  {
+   "url": "https://global.w-nexco.co.jp/en/kep/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "ETC 레인이 닫혔을 때",
+   "how": "홋카이도판 약관에는 있는데 규슈판 영어 페이지에는 없다"
+  },
+  {
+   "what": "환불·중도 해약",
+   "how": "기재 없음"
+  },
+  {
+   "what": "ETC 카드 대여료",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-nexco-w-kyushu-expressway-pass",
+ "name": {
+  "local": "Kyushu Expressway Pass",
+  "local_lang": "ja",
+  "ko": "규슈 익스프레스웨이 패스(KEP)",
+  "en": "Kyushu Expressway Pass"
+ },
+ "built_at": "2026-09-07"
+}

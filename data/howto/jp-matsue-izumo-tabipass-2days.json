@@ -1,0 +1,60 @@
+{
+ "before": {
+  "app_or_account": {
+   "v": "**「tabiwa by WESTER」 웹에서만 판다 — 창구 판매가 없다**",
+   "src": "https://www.kankou-shimane.com/news/50890.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "이치바타 각 역·이즈모공항·마쓰에 안내소",
+     "online": true
+    }
+   ],
+   "src": "https://www.kankou-shimane.com/news/50890.html"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.kankou-shimane.com/news/50890.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "이치바타전차 + 이치바타버스(고속·임시 제외) + 마쓰에시 교통국(레이크라인 포함·임시 제외). 2일간",
+   "src": "https://www.kankou-shimane.com/news/50890.html"
+  },
+  "trap": {
+   "v": "**JR서일본 철도와 요나고·이즈모 두 공항 연락버스는 못 탄다** — 공항에서 들어오는 길에는 쓸 수 없다",
+   "src": "https://www.kankou-shimane.com/news/50890.html"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.kankou-shimane.com/news/50890.html",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.ichibata.co.jp/railway/enmusubi.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불·개시 조작·제시 방법",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-matsue-izumo-tabipass-2days",
+ "name": {
+  "local": "松江・出雲 旅PASS 2Days",
+  "local_lang": "ja",
+  "ko": "마쓰에·이즈모 여행 PASS 2Days",
+  "en": "Matsue-Izumo Travel PASS 2Days"
+ },
+ "built_at": "2026-09-07"
+}
