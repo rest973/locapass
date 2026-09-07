@@ -1,6 +1,6 @@
 {
  "version": "2026-09-02",
- "note": "region_id = 국가-행정코드-표시슬러그. block은 덱의 '같은 지역 연속 금지' 단위. direct_flight_kr.confidence는 L1(기억)·L2(2차 출처)·L3(공식 확인). candidate_passes는 후보이며 사실표 검증 전.",
+ "note": "region_id = 국가-행정코드-표시슬러그. block은 덱의 '같은 지역 연속 금지' 단위. direct_flight_kr.confidence는 L1(기억)·L2(2차 출처)·L3(공식 확인). candidate_passes는 후보이며 사실표 검증 전. / 2026-09-07 공항 전수 조사 2회차: 정기 국제선이 **없음**을 확인한 공항 — 이즈모(IZO)(베트남 전세기만. 정기 국제선 없음(시마네현·공항 공식). → 이즈모·마쓰에 지역의 거점은 요나고가 맞다) · 고베(UKB)(국제선은 전세기만. **정기편은 2030년 4월 개시 예정**) · 야마구치우베(UBJ)(전세기만) · 고치(KCZ)(국내선 6개 노선뿐)",
  "blocks": {
   "JP": [
    "홋카이도",
@@ -10,7 +10,8 @@
    "긴키",
    "주고쿠",
    "시코쿠",
-   "규슈"
+   "규슈",
+   "오키나와"
   ],
   "TW": [
    "북부",
@@ -30,9 +31,19 @@
    },
    "airport": "간사이(KIX)",
    "direct_kr": true,
-   "confidence": "L3",
+   "confidence": "L2",
    "lat": 34.69,
-   "lng": 135.5
+   "lng": 135.5,
+   "note": " / 2026-09-06 공항 전수 조사 1회차: **아직 확인 안 함.** 근거 URL이 없어 confidence를 unverified로 낮춘다(공항전수조사_2026-09-06.md §3)",
+   "kr_route": {
+    "freq": "인천·김해·대구·청주 4개 공항",
+    "source": "https://www.mlit.go.jp/common/001471955.pdf",
+    "checked": "2026-09-07",
+    "note": "간사이공항(KIX). 인천은 대한항공 + **파라타항공이 2026-01-19 정기 취항**(1일 1왕복 A320). 김해는 에어부산·제주항공·티웨이·진에어. 대구·청주 노선도 있다. 공항 공식 본문 미확인",
+    "freq_asof": "2024-03 (국토교통성 자료 — 낡음)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 간사이공항 공식 시간표 403"
+   }
   },
   {
    "hub_id": "tokyo",
@@ -43,9 +54,19 @@
    },
    "airport": "나리타·하네다",
    "direct_kr": true,
-   "confidence": "L3",
+   "confidence": "L2",
    "lat": 35.68,
-   "lng": 139.77
+   "lng": 139.77,
+   "note": " / 2026-09-06 공항 전수 조사 1회차: **아직 확인 안 함.** 근거 URL이 없어 confidence를 unverified로 낮춘다(공항전수조사_2026-09-06.md §3)",
+   "kr_route": {
+    "freq": "인천·김포",
+    "source": "https://www.mlit.go.jp/common/001471955.pdf",
+    "checked": "2026-09-07",
+    "note": "하네다는 **김포 4사**(대한·아시아나·JAL·ANA) + 인천(대한·아시아나·피치 등). 나리타는 대한·아시아나·에어프레미아·제주·티웨이·진에어·에어서울·에어부산·이스타·ZIPAIR 등 다수. 공항 공식 본문 미확인",
+    "freq_asof": "2024-03 (국토교통성 자료 — 낡음)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 나리타·하네다 공식 모두 동적 페이지"
+   }
   },
   {
    "hub_id": "nagoya",
@@ -56,9 +77,19 @@
    },
    "airport": "주부(NGO)",
    "direct_kr": true,
-   "confidence": "L3",
+   "confidence": "L2",
    "lat": 35.17,
-   "lng": 136.88
+   "lng": 136.88,
+   "note": " / 2026-09-06 공항 전수 조사 1회차: **아직 확인 안 함.** 근거 URL이 없어 confidence를 unverified로 낮춘다(공항전수조사_2026-09-06.md §3)",
+   "kr_route": {
+    "freq": "인천·김포",
+    "source": "https://sky-budget.com/2026/03/28/chubu-centrair-international-airport-announces-summer-schedule-for-2026/",
+    "checked": "2026-09-07",
+    "note": "주부국제공항(NGO). 인천·김포 양쪽. **2026 하계 다이어에서 한국선이 개항 이래 최다 편수**. FSC(대한·아시아나) + LCC(에어부산·티웨이·제주)",
+    "freq_asof": "2024-03 (국토교통성 자료 — 낡음)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 센트레아 공식 월간 스케줄 미열람"
+   }
   },
   {
    "hub_id": "fukuoka",
@@ -69,9 +100,19 @@
    },
    "airport": "후쿠오카(FUK)",
    "direct_kr": true,
-   "confidence": "L3",
+   "confidence": "L2",
    "lat": 33.59,
-   "lng": 130.4
+   "lng": 130.4,
+   "note": " / 2026-09-06 공항 전수 조사 1회차: **아직 확인 안 함.** 근거 URL이 없어 confidence를 unverified로 낮춘다(공항전수조사_2026-09-06.md §3)",
+   "kr_route": {
+    "freq": "서울·부산·대구 (2024-03 기준 주195)",
+    "source": "https://www.mlit.go.jp/common/001471955.pdf",
+    "checked": "2026-09-07",
+    "note": "국토교통성 「各空港における国際線就航状況調べ」(PDF 생성일 2024-03-18, 2024년 하계 기준) — **편수는 낡았다. 공항 목록의 하한선으로만 쓴다**. 제주·대한·진에어·아시아나·티웨이·이스타(서울) / 제주·에어부산·대한(부산) / 에어부산·티웨이(대구). **간사이 다음으로 큰 한국 관문**이고 부산·대구까지 닿는다",
+    "freq_asof": "2024-03 (국토교통성 자료 — 낡음)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 후쿠오카공항 공식 국제선 페이지 404"
+   }
   },
   {
    "hub_id": "sapporo",
@@ -82,9 +123,19 @@
    },
    "airport": "신치토세(CTS)",
    "direct_kr": true,
-   "confidence": "L3",
+   "confidence": "L2",
    "lat": 43.06,
-   "lng": 141.35
+   "lng": 141.35,
+   "note": " / 2026-09-06 공항 전수 조사 1회차: **아직 확인 안 함.** 근거 URL이 없어 confidence를 unverified로 낮춘다(공항전수조사_2026-09-06.md §3)",
+   "kr_route": {
+    "freq": "서울·부산·대구 (2024-03 기준 주66)",
+    "source": "https://www.mlit.go.jp/common/001471955.pdf",
+    "checked": "2026-09-07",
+    "note": "국토교통성 「各空港における国際線就航状況調べ」(PDF 생성일 2024-03-18, 2024년 하계 기준) — **편수는 낡았다. 공항 목록의 하한선으로만 쓴다**. 신치토세. 제주·대한·진에어·아시아나·티웨이·이스타(서울) / 에어부산·대한(부산) / 에어부산(대구). 오늘 별도 확인: 대한항공이 2026-07-01~08-31 기간 증편으로 1일 최대 3왕복, 파라타항공 2026-07-06 취항",
+    "freq_asof": "2024-03 (국토교통성 자료 — 낡음)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 신치토세 공식 리다이렉트 후 404"
+   }
   },
   {
    "hub_id": "sendai",
@@ -97,7 +148,16 @@
    "direct_kr": true,
    "confidence": "L2",
    "lat": 38.27,
-   "lng": 140.87
+   "lng": 140.87,
+   "kr_route": {
+    "freq": "인천 매일",
+    "source": "https://kahoku.news/articles/20260220khn000081.html",
+    "checked": "2026-09-06",
+    "note": "아시아나. 2026-04-02부터 데일리(구 주5 월·화·수·금·일). 공항 공식 월간 페이지 미확인",
+    "freq_asof": "2026-09 (2차 출처 — 공항 공식 미확인)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 센다이공항 공식 월간 페이지에 항공사 목록만 있고 편수 없음"
+   }
   },
   {
    "hub_id": "hiroshima",
@@ -110,7 +170,15 @@
    "direct_kr": true,
    "confidence": "L2",
    "lat": 34.39,
-   "lng": 132.46
+   "lng": 132.46,
+   "kr_route": {
+    "freq": "인천 1일 2~3편",
+    "source": "https://www.hij.airport.jp/flight/kokusai/korea.html",
+    "checked": "2026-09-06",
+    "note": "제주항공 7C1611/1612·7C1615/1616 매일 + 7C1673/1674 월·금·토·일(2026-09-01~10-24). **대한항공이 2026-12-23 신규 취항 예정**(매일, A321neo)",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "okayama",
@@ -121,9 +189,17 @@
    },
    "airport": "오카야마(OKJ)",
    "direct_kr": true,
-   "confidence": "L1",
+   "confidence": "L2",
    "lat": 34.66,
-   "lng": 133.92
+   "lng": 133.92,
+   "kr_route": {
+    "freq": "인천 주4",
+    "source": "https://www.okayama-airport.org/topics/26985",
+    "checked": "2026-09-06",
+    "note": "대한항공(JAL 코드셰어). 월·수·금·일, 2026-03-29 하계 다이어",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "takamatsu",
@@ -136,7 +212,15 @@
    "direct_kr": true,
    "confidence": "L2",
    "lat": 34.35,
-   "lng": 134.05
+   "lng": 134.05,
+   "kr_route": {
+    "freq": "인천 2사 취항",
+    "source": "https://www.takamatsu-airport.com/seoul/",
+    "checked": "2026-09-06",
+    "note": "에어서울 + 진에어(2024-07-18 취항). **편수 미확인**",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "matsuyama",
@@ -147,9 +231,17 @@
    },
    "airport": "마쓰야마(MYJ)",
    "direct_kr": true,
-   "confidence": "L1",
+   "confidence": "L2",
    "lat": 33.84,
-   "lng": 132.77
+   "lng": 132.77,
+   "kr_route": {
+    "freq": "인천 주7(1일 1왕복)",
+    "source": "https://www.pref.ehime.jp/page/2635.html",
+    "checked": "2026-09-06",
+    "note": "제주항공. 10/29부터 데일리로 증편",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "kanazawa",
@@ -160,9 +252,17 @@
    },
    "airport": "고마쓰(KMQ)",
    "direct_kr": true,
-   "confidence": "L1",
+   "confidence": "L2",
    "lat": 36.56,
-   "lng": 136.66
+   "lng": 136.66,
+   "kr_route": {
+    "freq": "인천 매일",
+    "source": "https://www.komatsuairport.jp/info/20260216114902.html",
+    "checked": "2026-09-06",
+    "note": "고마쓰공항(KMQ). 대한항공. **2026-03-29부터 매일**(구 주3 화·목·토). 고마쓰 10:15발 / 인천 07:30발",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "kumamoto",
@@ -175,7 +275,15 @@
    "direct_kr": true,
    "confidence": "L2",
    "lat": 32.8,
-   "lng": 130.71
+   "lng": 130.71,
+   "kr_route": {
+    "freq": "인천 하루 2왕복 · 부산",
+    "source": "https://www.kumamoto-airport.co.jp/ko/타임테이블-int/",
+    "checked": "2026-09-06",
+    "note": "티웨이 TWB287/288 매일 + 대한항공 계열 KAL2155/2156(JAL·델타·아시아나 코드셰어) 매일. 대만 4개 도시(타이베이·타이난·가오슝·타이중)도. 대구 운휴. **규슈 지방공항 중 가장 두껍다**",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "kagoshima",
@@ -188,7 +296,15 @@
    "direct_kr": true,
    "confidence": "L2",
    "lat": 31.6,
-   "lng": 130.56
+   "lng": 130.56,
+   "kr_route": {
+    "freq": "인천 주3 → 9/21부터 주7",
+    "source": "https://www.koj-ab.co.jp/flight/monthly/icn_d.html",
+    "checked": "2026-09-06",
+    "note": "대한항공 KE2180. 화·목·토 운항, 9/21부터 월·수·금·일 증편. **제주항공 7C1824·이스타 ZE652는 전편 운휴** — 2차 출처가 \"제주항공 증편\"이라 한 것과 다르다",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "nagasaki",
@@ -199,9 +315,18 @@
    },
    "airport": "나가사키(NGS)",
    "direct_kr": true,
-   "confidence": "L1",
+   "confidence": "L2",
    "lat": 32.75,
-   "lng": 129.87
+   "lng": 129.87,
+   "kr_route": {
+    "freq": "인천 주3",
+    "source": "https://www.mlit.go.jp/common/001471955.pdf",
+    "checked": "2026-09-06",
+    "note": "대한항공. 2026-03-30부터 화·목·토로 감편. 그 공항의 유일한 국제선. 공식 시간표 PDF 미확인",
+    "freq_asof": "2026-09 (2차 출처 — 공항 공식 시간표 PDF 미확인)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 나가사키공항 월간 시간표 페이지가 링크만 제공"
+   }
   },
   {
    "hub_id": "oita",
@@ -212,22 +337,17 @@
    },
    "airport": "오이타(OIT)",
    "direct_kr": true,
-   "confidence": "L1",
+   "confidence": "L2",
    "lat": 33.24,
-   "lng": 131.61
-  },
-  {
-   "hub_id": "kyoto",
-   "country": "JP",
-   "name": {
-    "ko": "교토",
-    "local": "京都"
-   },
-   "airport": "없음 (오사카 경유)",
-   "direct_kr": false,
-   "confidence": "L3",
-   "lat": 35.01,
-   "lng": 135.76
+   "lng": 131.61,
+   "kr_route": {
+    "freq": "인천 매일(1일 1왕복)",
+    "source": "https://www.oita-airport.jp/news/detail/486",
+    "checked": "2026-09-07",
+    "note": "제주항공. 인천 11:05발 / 오이타 14:00발. 2023-06-22 취항 후 증편 — 오이타공항 공식 공지",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "taipei",
@@ -238,9 +358,18 @@
    },
    "airport": "타오위안(TPE)·쑹산(TSA)",
    "direct_kr": true,
-   "confidence": "L3",
+   "confidence": "L2",
    "lat": 25.03,
-   "lng": 121.57
+   "lng": 121.57,
+   "note": " / 2026-09-06 공항 전수 조사 1회차: **아직 확인 안 함.** 근거 URL이 없어 confidence를 unverified로 낮춘다(공항전수조사_2026-09-06.md §3) / 2026-09-06 공항 전수 조사: airport 표기에서 **쑹산(TSA) 제거** — 쑹산~인천은 직항이 없고 환승이 필요하다(L1, 재확인 필요) / 2026-09-07 공항 전수 조사: 국토교통성 자료는 **일본 공항 자료**라 대만 거점은 덮지 못한다. 타오위안·가오슝 모두 인천 직항이 있는 것은 알려져 있으나 공식 대조 전이라 unverified 유지",
+   "kr_route": {
+    "freq": "타오위안: 인천·부산·대구·제주 / 쑹산: 김포",
+    "source": "https://www.caa.gov.tw/article.aspx?a=1744&lang=1",
+    "checked": "2026-09-07",
+    "note": "대만 교통부 민용항공국 「國際及兩岸定期班機航線－客運」 114년(2025)판, 2026-05-26 갱신. **편수 단위는 자료에 명시가 없어 미확인**(주/연 판별 못 함) — 노선 존재와 도착 공항만 채택. 타오위안(TPE)→인천 156·부산 140·대구 28·제주 56, **쑹산(TSA)→김포(GMP) 28**. **2026-09-06에 내가 \"쑹산은 한국 직항이 없다\"며 표기에서 뺀 것은 오류였다** — 쑹산~인천이 없는 것이지 쑹산~김포는 있다. 도착 공항을 뭉뚱그려 판단했다. 되돌린다",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "taichung",
@@ -253,7 +382,15 @@
    "direct_kr": true,
    "confidence": "L2",
    "lat": 24.15,
-   "lng": 120.67
+   "lng": 120.67,
+   "kr_route": {
+    "freq": "인천·제주",
+    "source": "https://www.caa.gov.tw/article.aspx?a=1744&lang=1",
+    "checked": "2026-09-07",
+    "note": "대만 교통부 민용항공국 「國際及兩岸定期班機航線－客運」 114년(2025)판, 2026-05-26 갱신. **편수 단위는 자료에 명시가 없어 미확인**(주/연 판별 못 함) — 노선 존재와 도착 공항만 채택. 타이중(RMQ)→인천 56·제주 4. 별도 확인: 대한항공이 2026-10-25부터 타이중~인천 매일 재개(A220-300)를 발표했다 — 민항국 자료(2025)에 이미 노선이 있으므로 **다른 항공사가 운항 중이거나 자료 시점이 다르다.** 재확인 필요",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
   },
   {
    "hub_id": "kaohsiung",
@@ -264,9 +401,210 @@
    },
    "airport": "가오슝(KHH)",
    "direct_kr": true,
-   "confidence": "L3",
+   "confidence": "L2",
    "lat": 22.63,
-   "lng": 120.3
+   "lng": 120.3,
+   "note": " / 2026-09-06 공항 전수 조사 1회차: **아직 확인 안 함.** 근거 URL이 없어 confidence를 unverified로 낮춘다(공항전수조사_2026-09-06.md §3) / 2026-09-07 공항 전수 조사: 국토교통성 자료는 **일본 공항 자료**라 대만 거점은 덮지 못한다. 타오위안·가오슝 모두 인천 직항이 있는 것은 알려져 있으나 공식 대조 전이라 unverified 유지",
+   "kr_route": {
+    "freq": "인천·김포·부산·제주",
+    "source": "https://www.caa.gov.tw/article.aspx?a=1744&lang=1",
+    "checked": "2026-09-07",
+    "note": "대만 교통부 민용항공국 「國際及兩岸定期班機航線－客運」 114년(2025)판, 2026-05-26 갱신. **편수 단위는 자료에 명시가 없어 미확인**(주/연 판별 못 함) — 노선 존재와 도착 공항만 채택. 가오슝(KHH)→인천 54·김포 28·부산 28·제주 16. **한국 4개 도시와 연결된다**",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
+  },
+  {
+   "hub_id": "naha",
+   "country": "JP",
+   "name": {
+    "ko": "나하",
+    "local": "那覇"
+   },
+   "airport": "나하(OKA)",
+   "direct_kr": true,
+   "confidence": "L2",
+   "lat": 26.21,
+   "lng": 127.68,
+   "note": "2026-09-06 거점 재설계로 추가. 인천 직항(제주항공·티웨이 등). 제주~나하는 전세기만",
+   "kr_route": {
+    "freq": "서울·부산·대구 (2024-03 기준 주65)",
+    "source": "https://www.mlit.go.jp/common/001471955.pdf",
+    "checked": "2026-09-07",
+    "note": "국토교통성 「各空港における国際線就航状況調べ」(PDF 생성일 2024-03-18, 2024년 하계 기준) — **편수는 낡았다. 공항 목록의 하한선으로만 쓴다**. 제주·대한·진에어·피치·아시아나·티웨이·이스타(서울) / 제주·진에어·아시아나(부산) / 티웨이(대구)",
+    "freq_asof": "2024-03 (국토교통성 자료 — 낡음)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 나하공항 공식은 취항 도시 목록(서울)만 있고 편수 없음"
+   }
+  },
+  {
+   "hub_id": "kitakyushu",
+   "country": "JP",
+   "name": {
+    "ko": "기타큐슈",
+    "local": "北九州"
+   },
+   "airport": "기타큐슈(KKJ)",
+   "direct_kr": true,
+   "lat": 33.85,
+   "lng": 131.04,
+   "confidence": "L2",
+   "kr_route": {
+    "freq": "인천 매일",
+    "source": "https://www.kitakyu-air.jp/rev-boarding/timetable.php",
+    "checked": "2026-09-06",
+    "note": "진에어 LJ349/350(대한항공 KE5749/5750 코드셰어). 기타큐슈 18:15발 / 인천 15:45발. 2026-03-29~10-24",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
+  },
+  {
+   "hub_id": "tokushima",
+   "country": "JP",
+   "name": {
+    "ko": "도쿠시마",
+    "local": "徳島"
+   },
+   "airport": "도쿠시마 아와오도리(TKS)",
+   "direct_kr": true,
+   "lat": 34.13,
+   "lng": 134.61,
+   "confidence": "L2",
+   "kr_route": {
+    "freq": "인천 주3",
+    "source": "https://www.tokushima-airport.co.jp/kokusai/",
+    "checked": "2026-09-06",
+    "note": "이스타항공 ZE671/672. 화·목·토. 2024-12-26 취항. 하계 16:30발 / 동계 13:05발",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
+  },
+  {
+   "hub_id": "yonago",
+   "country": "JP",
+   "name": {
+    "ko": "요나고",
+    "local": "米子"
+   },
+   "airport": "요나고 기타로(YGJ)",
+   "direct_kr": true,
+   "lat": 35.49,
+   "lng": 133.24,
+   "confidence": "L2",
+   "kr_route": {
+    "freq": "인천 매일",
+    "source": "https://www.pref.tottori.lg.jp/yonagoseoul/",
+    "checked": "2026-09-06",
+    "note": "에어서울. 2025-12-23부터 데일리(구 주5). **산인 지방 유일의 국제 정기편**(2001-04 개설)",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
+  },
+  {
+   "hub_id": "miyazaki",
+   "country": "JP",
+   "name": {
+    "ko": "미야자키",
+    "local": "宮崎"
+   },
+   "airport": "미야자키 부겐빌레아(KMI)",
+   "direct_kr": true,
+   "lat": 31.88,
+   "lng": 131.45,
+   "confidence": "L2",
+   "kr_route": {
+    "freq": "인천 주3",
+    "source": "https://www.miyazaki-airport.co.jp/flight/int_dep",
+    "checked": "2026-09-06",
+    "note": "아시아나 OZ157(ANA·대한항공 코드셰어). 수·금 12:30발 / 일 19:10발(2026-08-24~12-16). 타이베이 노선도(IT743 월·금)",
+    "freq_asof": "2026-09 (공항·현 공식 시간표)",
+    "freq_grade": "L2"
+   }
+  },
+  {
+   "hub_id": "saga",
+   "country": "JP",
+   "name": {
+    "ko": "사가",
+    "local": "佐賀"
+   },
+   "airport": "규슈사가국제(HSG)",
+   "direct_kr": true,
+   "lat": 33.15,
+   "lng": 130.3,
+   "confidence": "L2",
+   "kr_route": {
+    "freq": "인천 주4(동계)",
+    "source": "https://www.saga-s.co.jp/articles/-/1319913",
+    "checked": "2026-09-06",
+    "note": "티웨이. 동계 다이어 월·수·금·일. 현 공식 시간표 페이지는 리다이렉트로 본문 미확인",
+    "freq_asof": "2026-09 (2차 출처 사가신문 — 현 공식 페이지 리다이렉트로 본문 미확인)",
+    "freq_grade": "L1",
+    "freq_fail": "2026-09-07 승급 시도 실패 — 사가현 공식 시간표 페이지가 리다이렉트"
+   }
+  },
+  {
+   "hub_id": "shizuoka",
+   "country": "JP",
+   "name": {
+    "ko": "시즈오카",
+    "local": "静岡"
+   },
+   "airport": "후지산시즈오카(FSZ)",
+   "direct_kr": true,
+   "lat": 34.8,
+   "lng": 138.19,
+   "kr_route": {
+    "freq": "인천 주14(1일 2왕복)",
+    "source": "https://www.mtfuji-shizuokaairport.jp/information/2025_summer_jeju-58362-10717-42389-42885/",
+    "checked": "2026-09-07",
+    "freq_asof": "2026-09 (공항·현 공식)",
+    "freq_grade": "L2",
+    "note": "제주항공. **2026-06-01부터 주14편으로 증편**(국토교통성 2024-03 자료의 주6에서 크게 늘었다). 2026년 봄 에어부산 부산선 예정"
+   },
+   "confidence": "L2"
+  },
+  {
+   "hub_id": "aomori",
+   "country": "JP",
+   "name": {
+    "ko": "아오모리",
+    "local": "青森"
+   },
+   "airport": "아오모리(AOJ)",
+   "direct_kr": true,
+   "lat": 40.73,
+   "lng": 140.69,
+   "kr_route": {
+    "freq": "인천 주5",
+    "source": "https://www.aomori-airport.co.jp/aoj-international/post-10967",
+    "checked": "2026-09-07",
+    "freq_asof": "2026-09 (공항·현 공식)",
+    "freq_grade": "L2",
+    "note": "대한항공. 2026 하계(2026-03-29~10-24) 월·수·목·금·일 주5편. 아오모리 12:45발 / 인천 09:05발, A321neo(182석). **2026 동계도 주5 유지 예정**(2025 동계 주3에서 증편) — 국토교통성 2024-03 자료는 주5"
+   },
+   "confidence": "L2"
+  },
+  {
+   "hub_id": "niigata",
+   "country": "JP",
+   "name": {
+    "ko": "니가타",
+    "local": "新潟"
+   },
+   "airport": "니가타(KIJ)",
+   "direct_kr": true,
+   "lat": 37.96,
+   "lng": 139.11,
+   "kr_route": {
+    "freq": "인천 주7(매일)",
+    "source": "https://www.niigata-airport.gr.jp/news/detail/?id=283",
+    "checked": "2026-09-07",
+    "freq_asof": "2026-09 (공항·현 공식)",
+    "freq_grade": "L2",
+    "note": "대한항공. **2026-06-01부터 주3(화·목·토) → 주7 매일로 증편**(국토교통성 2024-03 자료는 주4)"
+   },
+   "confidence": "L2"
   }
  ],
  "regions": [
@@ -310,7 +648,13 @@
     "伊勢神宮参拝きっぷ"
    ],
    "note": "카드 5장 있음",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 7,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_긴키_2026-09-06.md",
+    "status": "**의도적 제외** — 킨테츠 4종이 L3(0-B 파이프라인 정본)이라 책상 조사로 덮지 않는다. 확장은 파이프라인 6회전 이후"
+   }
   },
   {
    "region_id": "JP-30-koyasan",
@@ -344,10 +688,18 @@
    ],
    "candidate_passes": [
     "高野山・世界遺産きっぷ",
-    "南紀・熊野"
+    "南紀・熊野",
+    "高野山内1日フリー乗車券",
+    "諸堂共通内拝券"
    ],
    "note": "",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 7,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_긴키_2026-09-06.md",
+    "status": "B축 공백(KSEP는 2017 기간한정 시범으로 종료) · 이세시마는 0-B 파이프라인 정본이라 제외"
+   }
   },
   {
    "region_id": "JP-28-kinosaki",
@@ -379,17 +731,25 @@
      "how": "JR 특급 고노토리"
     },
     {
-     "hub_id": "kyoto",
-     "hours": 2.5,
-     "how": "JR 특급 기노사키"
+     "hub_id": "yonago",
+     "hours": 2.0,
+     "how": "산인본선(요나고공항 인천 직항 매일)"
     }
    ],
    "candidate_passes": [
     "城崎温泉 外湯めぐり",
-    "JR 関西ワイド"
+    "JR 関西ワイド",
+    "但馬バス乗り放題きっぷ",
+    "城崎温泉・湯村温泉・但馬バス乗り放題きっぷ"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-07 정합성 검사가 잡은 결함: **없어진 거점 `kyoto`를 가리키고 있었다**(어제 교토를 hubs에서 뺄 때 참조를 안 고쳤다). 기존 ['osaka', 'kyoto'] → 오사카(특급 고노토리)·요나고(산인본선, 인천 직항 매일)로 교정. **교토는 지역이지 거점이 아니다** — 한국발 직항이 없다. 소요시간은 근사치(L1)로 재확인 필요",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 7,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_긴키_2026-09-06.md",
+    "status": "B축 공백(KSEP는 2017 기간한정 시범으로 종료) · 이세시마는 0-B 파이프라인 정본이라 제외"
+   }
   },
   {
    "region_id": "JP-37-takamatsu",
@@ -416,6 +776,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "takamatsu",
+     "hours": 0.0,
+     "how": "인천 직항(다카마쓰공항, 에어서울·진에어)"
+    },
+    {
      "hub_id": "okayama",
      "hours": 1.0,
      "how": "JR 마린라이너"
@@ -428,10 +793,24 @@
    ],
    "candidate_passes": [
     "四国フリーきっぷ",
-    "ことでん 1日フリーきっぷ"
+    "ことでん 1日フリーきっぷ",
+    "ALL SHIKOKU Rail Pass",
+    "ことでん1日フリーきっぷ",
+    "ことでんデジタル24時間フリーきっぷ",
+    "小豆島フリー乗車券（1日）",
+    "四国再発見早トクきっぷ",
+    "San'in-Setouchi-Shikoku Expressway Pass",
+    "ことでん・JRくるり～んきっぷ",
+    "ことでんおんせん乗車入浴券"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — 다카마쓰공항에 에어서울·진에어 2사 취항. 첫 거점이 오카야마로 돼 있었다",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 4,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_시코쿠_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 2종 L1 등록)"
+   }
   },
   {
    "region_id": "JP-38-matsuyama",
@@ -458,6 +837,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "matsuyama",
+     "hours": 0.0,
+     "how": "인천 직항(마쓰야마공항, 제주항공 1일 1왕복)"
+    },
+    {
      "hub_id": "osaka",
      "hours": 3.5,
      "how": "고속버스·신칸센+특급"
@@ -465,10 +849,19 @@
    ],
    "candidate_passes": [
     "四国フリーきっぷ",
-    "伊予鉄 1Dayチケット"
+    "伊予鉄 1Dayチケット",
+    "ALL SHIKOKU Rail Pass",
+    "四国再発見早トクきっぷ",
+    "San'in-Setouchi-Shikoku Expressway Pass"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — **1일 1왕복 직항이 있는데 첫 거점이 오사카 3.5시간이었다.** 카드 12가 이 전제 위에 있다",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 4,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_시코쿠_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 2종 L1 등록)"
+   }
   },
   {
    "region_id": "JP-39-kochi",
@@ -497,21 +890,32 @@
     {
      "hub_id": "takamatsu",
      "hours": 2.0,
-     "how": "JR 특급 시만토"
+     "how": "JR 특급"
     },
     {
-     "hub_id": "osaka",
-     "hours": 3.5,
-     "how": "고속버스"
+     "hub_id": "matsuyama",
+     "hours": 2.5,
+     "how": "JR 특급·고속버스"
     }
    ],
    "candidate_passes": [
     "四国フリーきっぷ",
     "MY遊バス",
-    "土佐くろしお鉄道"
+    "土佐くろしお鉄道",
+    "ALL SHIKOKU Rail Pass",
+    "電車一日乗車券（市内均一・全線）",
+    "バス・路面電車一日乗車券",
+    "四国再発見早トクきっぷ",
+    "San'in-Setouchi-Shikoku Expressway Pass"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — **고치공항은 정기 국제선이 없다**(국내선 6개 노선뿐). 다카마쓰·마쓰야마 경유가 맞다",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 4,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_시코쿠_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 2종 L1 등록)"
+   }
   },
   {
    "region_id": "JP-36-tokushima",
@@ -538,22 +942,36 @@
    },
    "nearby_hubs": [
     {
-     "hub_id": "takamatsu",
-     "hours": 1.0,
-     "how": "JR 특급 우즈시오"
+     "hub_id": "tokushima",
+     "hours": 0.0,
+     "how": "인천 직항(도쿠시마공항, 이스타 주3)"
     },
     {
-     "hub_id": "osaka",
-     "hours": 2.5,
-     "how": "고속버스"
+     "hub_id": "takamatsu",
+     "hours": 1.0,
+     "how": "JR 특급"
     }
    ],
    "candidate_passes": [
     "四国フリーきっぷ",
-    "徳島バス"
+    "徳島バス",
+    "ALL SHIKOKU Rail Pass",
+    "一般路線バス1日オールフリー乗車券",
+    "徳島市内250円均一区間乗車券",
+    "四国再発見早トクきっぷ",
+    "San'in-Setouchi-Shikoku Expressway Pass",
+    "阿波おどり会館＋眉山ロープウェイ セット券",
+    "渦の道＋大鳴門橋架橋記念館エディ セット券",
+    "うずしお汽船＋渦の道 セット券"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — **도쿠시마공항에 인천 직항이 있는데 `hubs`에 도쿠시마가 아예 없었다.** 카드 16이 \"다카마쓰에서 특급 1시간\"으로만 안내",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 4,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_시코쿠_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 2종 L1 등록)"
+   }
   },
   {
    "region_id": "JP-20-matsumoto",
@@ -592,10 +1010,22 @@
    ],
    "candidate_passes": [
     "上高地・乗鞍2デーフリーパスポート",
-    "アルピコ交通"
+    "アルピコ交通",
+    "タウンスニーカー1日乗車券",
+    "上高地線電車 わくわく一日フリー乗車券",
+    "タウンスニーカーPLUS 24時間券",
+    "上高地・奥飛騨まるごとバリューきっぷ（高山発2日）",
+    "上高地・奥飛騨まるごとバリューきっぷ（高山発3日）",
+    "新穂高・上高地トレッキングきっぷ"
    ],
    "note": "카드 공개 복귀(운임·신패스 기준). 채택 판단 대기(2026-09-04)",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 5,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_주부_2026-09-06.md",
+    "status": "B축 공백(CEP 신규 판매 종료) · 하야타비 드라이브 플랜 미조사"
+   }
   },
   {
    "region_id": "JP-21-takayama",
@@ -634,10 +1064,25 @@
    ],
    "candidate_passes": [
     "濃飛バス セット券",
-    "高山・白川郷"
+    "高山・白川郷",
+    "高山・新穂高2日フリー乗車券",
+    "奥飛騨温泉郷2日フリー乗車券",
+    "下呂温泉 湯めぐり手形（湯名人 湯めぐり手形セット）",
+    "奥飛騨 湯けむり手形（奥飛騨湯けむり達人）",
+    "奥飛騨まるごとバリューきっぷ（高山発2日）",
+    "奥飛騨まるごとバリューきっぷ（高山発3日）",
+    "上高地・奥飛騨まるごとバリューきっぷ（高山発2日）",
+    "上高地・奥飛騨まるごとバリューきっぷ（高山発3日）",
+    "新穂高・上高地トレッキングきっぷ"
    ],
    "note": "",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 5,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_주부_2026-09-06.md",
+    "status": "B축 공백(CEP 신규 판매 종료) · 하야타비 드라이브 플랜 미조사"
+   }
   },
   {
    "region_id": "JP-17-kanazawa",
@@ -664,6 +1109,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "kanazawa",
+     "hours": 0.0,
+     "how": "인천 직항(고마쓰공항, 대한항공 매일)"
+    },
+    {
      "hub_id": "osaka",
      "hours": 2.7,
      "how": "JR 특급 선더버드+신칸센"
@@ -676,10 +1126,17 @@
    ],
    "candidate_passes": [
     "北鉄バス 1日フリー乗車券",
-    "金沢周遊バス"
+    "金沢周遊バス",
+    "鉄道線全線(石川線・浅野川線)1日フリー乗車券"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — 고마쓰공항 대한항공이 2026-03-29부터 매일. 첫 거점이 오사카였다",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 5,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_주부_2026-09-06.md",
+    "status": "B축 공백(CEP 신규 판매 종료) · 하야타비 드라이브 플랜 미조사"
+   }
   },
   {
    "region_id": "JP-16-tateyama",
@@ -718,10 +1175,22 @@
    ],
    "candidate_passes": [
     "立山黒部アルペンきっぷ",
-    "アルペンルート 通り抜け"
+    "アルペンルート 通り抜け",
+    "市内電車・バス1日ふりーきっぷ",
+    "鉄道線・市内電車1日フリーきっぷ",
+    "立山黒部アルペンフリーきっぷ（普通車指定席用）",
+    "立山黒部アルペンルート 往復（立山駅～扇沢）",
+    "立山黒部アルペンルート 往復（扇沢～室堂）",
+    "黒部峡谷鉄道 トロッコ電車 往復"
    ],
    "note": "도야마 공항 직항은 운항 여부 확인 필요",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 5,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_주부_2026-09-06.md",
+    "status": "B축 공백(CEP 신규 판매 종료) · 하야타비 드라이브 플랜 미조사"
+   }
   },
   {
    "region_id": "JP-09-nikko",
@@ -755,10 +1224,23 @@
    ],
    "candidate_passes": [
     "NIKKO PASS",
-    "東武 日光"
+    "東武 日光",
+    "湯元温泉フリーパス",
+    "中禅寺温泉フリーパス",
+    "霧降高原フリーパス",
+    "世界遺産めぐり手形",
+    "Japan Expressway Pass",
+    "NIKKO PASS world heritage area",
+    "中禅寺湖遊覧船 一周フリー乗船券"
    ],
    "note": "주류에 가까움. 아는 지역 대조군",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 6,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_간토_2026-09-06.md",
+    "status": "C축 부재 확인 · B축은 전국형 JEP만(판매 상태 미확인)"
+   }
   },
   {
    "region_id": "JP-14-hakone",
@@ -791,10 +1273,22 @@
     }
    ],
    "candidate_passes": [
-    "箱根フリーパス"
+    "箱根フリーパス",
+    "箱根登山電車1日券",
+    "Japan Expressway Pass",
+    "箱根フリーパス「はこチケ」プラス",
+    "登山電車・ロープウェイ「大涌谷きっぷ」",
+    "箱根のりものパス Lite",
+    "海賊船・ロープウェイ乗り放題パス"
    ],
    "note": "주류. 아는 지역 대조군",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 6,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_간토_2026-09-06.md",
+    "status": "C축 부재 확인 · B축은 전국형 JEP만(판매 상태 미확인)"
+   }
   },
   {
    "region_id": "JP-34-hiroshima",
@@ -821,6 +1315,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "hiroshima",
+     "hours": 0.0,
+     "how": "인천 직항(히로시마공항, 제주항공 1일 2~3편)"
+    },
+    {
      "hub_id": "osaka",
      "hours": 1.5,
      "how": "신칸센"
@@ -834,10 +1333,21 @@
    "candidate_passes": [
     "広島電鉄 一日乗車券",
     "宮島 フリーパス",
-    "瀬戸内"
+    "瀬戸内",
+    "広島たびパス",
+    "電車一日乗車券",
+    "宮島エンジョイチケット",
+    "宮島ロープウエー 往復",
+    "San'in-Setouchi-Shikoku Expressway Pass"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — **1일 2~3편 직항이 있는데 첫 거점이 오사카였다**",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 8,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_주고쿠_2026-09-06.md",
+    "status": "B축은 SEP가 덮음 · C축 부재 · 카드 47에 동가·광범위 대안 발견"
+   }
   },
   {
    "region_id": "JP-33-okayama",
@@ -864,6 +1374,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "okayama",
+     "hours": 0.0,
+     "how": "인천 직항(오카야마공항, 대한항공 주4)"
+    },
+    {
      "hub_id": "osaka",
      "hours": 0.8,
      "how": "신칸센"
@@ -871,10 +1386,22 @@
    ],
    "candidate_passes": [
     "岡山電気軌道 1日乗車券",
-    "倉敷"
+    "倉敷",
+    "倉敷フリーパス1日乗車券",
+    "岡山後楽園・岡山城 共通券",
+    "岡山後楽園・岡山県立博物館 共通券",
+    "岡山後楽園・岡山城・林原美術館 共通券",
+    "岡山後楽園・岡山城・夢二郷土美術館 共通券",
+    "San'in-Setouchi-Shikoku Expressway Pass"
    ],
-   "note": "카드 없음: 반나절 거리·400엔 전차권뿐. 거점으로 유지",
-   "status": "no_card"
+   "note": "카드 없음: 반나절 거리·400엔 전차권뿐. 거점으로 유지 / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — 첫 거점이 오사카였다",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 8,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_주고쿠_2026-09-06.md",
+    "status": "B축은 SEP가 덮음 · C축 부재 · 카드 47에 동가·광범위 대안 발견"
+   }
   },
   {
    "region_id": "JP-44-oita",
@@ -901,6 +1428,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "oita",
+     "hours": 0.0,
+     "how": "인천 직항(오이타공항)"
+    },
+    {
      "hub_id": "fukuoka",
      "hours": 2.0,
      "how": "JR 특급 소닉·고속버스"
@@ -909,10 +1441,27 @@
    "candidate_passes": [
     "SUNQパス",
     "別府 MyべっぷFree",
-    "由布院"
+    "由布院",
+    "MyべっぷFree 1日ミニフリー乗車券",
+    "MyべっぷFree 2日ミニフリー乗車券",
+    "JR KYUSHU RAIL PASS",
+    "ぐるっと九州きっぷ",
+    "旅名人の九州満喫きっぷ",
+    "Kyushu Expressway Pass",
+    "別府地獄きっぷ",
+    "とりっぷきっぷ別府・ゆふいん",
+    "九重夢大吊橋きっぷ",
+    "定期観光バス 別府地獄めぐりコース",
+    "城島高原パーク エンジョイきっぷ"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 거점 재설계: **자기 직항 공항을 첫 번째 거점으로 복구.** `direct_flight_kr: true`인데 nearby_hubs가 후쿠오카 하나만 가리키고 있었다(한 레코드 안에서 모순). 제주항공 인천선(2023-06-22 취항 후 증편)",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 2,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_규슈_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 3종 보류)"
+   }
   },
   {
    "region_id": "JP-42-nagasaki",
@@ -939,6 +1488,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "nagasaki",
+     "hours": 0.0,
+     "how": "인천 직항(나가사키공항)"
+    },
+    {
      "hub_id": "fukuoka",
      "hours": 1.5,
      "how": "신칸센 가모메+릴레이"
@@ -946,10 +1500,26 @@
    ],
    "candidate_passes": [
     "長崎電気軌道 一日乗車券",
-    "SUNQパス"
+    "SUNQパス",
+    "長崎バス1日PASSプラス（紙式）",
+    "JR KYUSHU RAIL PASS",
+    "ぐるっと九州きっぷ",
+    "旅名人の九州満喫きっぷ",
+    "Kyushu Expressway Pass",
+    "長崎市内定期観光バス 平和の祈りコース（午前）",
+    "長崎市内定期観光バス 平和の祈り＋異国情緒 1日",
+    "長崎バス 1日／24時間PASSプラス（デジタル）",
+    "長崎電気軌道 24時間乗車券",
+    "ながさき観光選べるセットチケット"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 거점 재설계: **자기 직항 공항을 첫 번째 거점으로 복구.** `direct_flight_kr: true`인데 nearby_hubs가 후쿠오카 하나만 가리키고 있었다(한 레코드 안에서 모순). **주 3회(화·목·토)로 감편 중**(2026-03-30~). 나가사키공항의 유일한 국제선이라 편수가 안 맞으면 후쿠오카에서 육로가 현실적이다 — 카드에 이 사정을 써야 한다",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 2,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_규슈_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 3종 보류)"
+   }
   },
   {
    "region_id": "JP-43-kumamoto",
@@ -976,6 +1546,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "kumamoto",
+     "hours": 0.0,
+     "how": "인천 직항(구마모토공항)"
+    },
+    {
      "hub_id": "fukuoka",
      "hours": 0.7,
      "how": "신칸센"
@@ -984,10 +1559,28 @@
    "candidate_passes": [
     "わくわく1dayパス",
     "SUNQパス",
-    "阿蘇"
+    "阿蘇",
+    "熊本市電1日乗車券（紙券）",
+    "熊本市電24時間乗車券（モバイル）",
+    "阿蘇登山線1日乗車券",
+    "あそ旅のレールバス",
+    "みなみあそ旅のレールバス",
+    "JR KYUSHU RAIL PASS",
+    "ぐるっと九州きっぷ",
+    "旅名人の九州満喫きっぷ",
+    "Kyushu Expressway Pass",
+    "黒川温泉 入湯手形",
+    "熊本城・わくわく座 2館共通券",
+    "ASO Caldera LINE"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 거점 재설계: **자기 직항 공항을 첫 번째 거점으로 복구.** `direct_flight_kr: true`인데 nearby_hubs가 후쿠오카 하나만 가리키고 있었다(한 레코드 안에서 모순). **규슈 지방공항 중 가장 두껍다** — 인천 하루 2왕복(티웨이 매일 + 대한항공 계열 매일)에 부산 노선, 대만 4개 도시(타이베이·타이난·가오슝·타이중)까지. 대구는 운휴(구마모토공항 공식 시간표)",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 2,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_규슈_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 3종 보류)"
+   }
   },
   {
    "region_id": "JP-46-kagoshima",
@@ -1014,6 +1607,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "kagoshima",
+     "hours": 0.0,
+     "how": "인천 직항(가고시마공항)"
+    },
+    {
      "hub_id": "fukuoka",
      "hours": 1.5,
      "how": "신칸센"
@@ -1022,10 +1620,25 @@
    "candidate_passes": [
     "CUTE (鹿児島市交通局)",
     "SUNQパス",
-    "指宿"
+    "指宿",
+    "市電・市バス・シティビュー一日乗車券",
+    "市電・市バス・シティビュー24時間乗車券",
+    "ナイトパス",
+    "CUTE 2日券",
+    "JR KYUSHU RAIL PASS",
+    "ぐるっと九州きっぷ",
+    "旅名人の九州満喫きっぷ",
+    "Kyushu Expressway Pass",
+    "指宿・知覧定期観光バス"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 거점 재설계: **자기 직항 공항을 첫 번째 거점으로 복구.** `direct_flight_kr: true`인데 nearby_hubs가 후쿠오카 하나만 가리키고 있었다(한 레코드 안에서 모순). 대한항공(JAL 코드셰어) + 제주항공. **제주항공이 2025-10-26부터 주3왕복 → 1일 1왕복으로 증편**, 이스타는 2026-03-03 단항",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 2,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_규슈_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 3종 보류)"
+   }
   },
   {
    "region_id": "JP-04-sendai",
@@ -1052,6 +1665,11 @@
    },
    "nearby_hubs": [
     {
+     "hub_id": "sendai",
+     "hours": 0.0,
+     "how": "인천 직항(센다이공항, 아시아나 매일)"
+    },
+    {
      "hub_id": "tokyo",
      "hours": 1.6,
      "how": "도호쿠 신칸센"
@@ -1059,10 +1677,24 @@
    ],
    "candidate_passes": [
     "仙台まるごとパス",
-    "JR EAST PASS (Tohoku)"
+    "JR EAST PASS (Tohoku)",
+    "仙台市地下鉄一日乗車券",
+    "るーぷる仙台一日乗車券",
+    "るーぷる仙台・地下鉄共通一日乗車券",
+    "仙台市バス一日乗車券",
+    "仙台まるごとパスワイド",
+    "小さな旅ホリデー・パス",
+    "Tohoku Expressway Pass",
+    "瀾覧プラン（松島遊覧＋抹茶体験＋笹かま手焼き）"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — 첫 거점이 도쿄였다",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 3,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_도호쿠_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 4종 보류)"
+   }
   },
   {
    "region_id": "JP-06-yamagata",
@@ -1096,10 +1728,22 @@
    ],
    "candidate_passes": [
     "JR EAST PASS (Tohoku)",
-    "山交バス"
+    "山交バス",
+    "小さな旅ホリデー・パス",
+    "やまがた1日乗車券",
+    "Tohoku Expressway Pass",
+    "蔵王温泉 湯めぐりこけし",
+    "山交バス＋蔵王中央ロープウェイ セット券",
+    "樹氷観賞乗車券（山交バス往復＋蔵王ロープウェイ）"
    ],
    "note": "카드 공개 복귀(운임·신패스 기준). 채택 판단 대기(2026-09-04)",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 3,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_도호쿠_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 4종 보류)"
+   }
   },
   {
    "region_id": "JP-02-aomori",
@@ -1126,22 +1770,35 @@
    },
    "nearby_hubs": [
     {
-     "hub_id": "sendai",
-     "hours": 1.5,
-     "how": "도호쿠 신칸센"
+     "hub_id": "aomori",
+     "hours": 0.0,
+     "how": "인천 직항(아오모리공항)"
     },
     {
-     "hub_id": "tokyo",
-     "hours": 3.0,
+     "hub_id": "sendai",
+     "hours": 1.5,
      "how": "도호쿠 신칸센"
     }
    ],
    "candidate_passes": [
     "JR EAST PASS (Tohoku)",
-    "十和田・奥入瀬 バス"
+    "十和田・奥入瀬 バス",
+    "津軽フリーパス",
+    "あおもりホリデーパス",
+    "市内循環バス1日乗車券（土手町循環・城東循環）",
+    "弘南鉄道1日フリーパス",
+    "あおもりシャトルdeルートバス ねぶたん号 1日/2日乗車券",
+    "Tohoku Expressway Pass",
+    "弘前公園 3施設共通券"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-07 공항 전수 조사: **아오모리공항에 인천 직항이 있는데 거점이 센다이로 돼 있었다.** 거점을 아오모리 우선으로 교정. 편수는 2024-03 기준(주5, 대한항공)이라 재확인 필요",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 3,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_도호쿠_2026-09-06.md",
+    "status": "출처 소진(가격 미확인 4종 보류)"
+   }
   },
   {
    "region_id": "JP-01-doo",
@@ -1166,14 +1823,53 @@
     "value": true,
     "confidence": "L3"
    },
-   "nearby_hubs": [],
+   "nearby_hubs": [
+    {
+     "hub_id": "sapporo",
+     "hours": 0.0,
+     "how": "인천 직항(신치토세공항)"
+    }
+   ],
    "candidate_passes": [
     "小樽 フリーきっぷ",
     "JR 北海道 フリーパス",
-    "札幌 地下鉄 1日券"
+    "札幌 地下鉄 1日券",
+    "地下鉄専用1日乗車券",
+    "札幌市電1日乗車券",
+    "どサンこパス",
+    "市電24時間乗車券",
+    "札幌市内1日乗車券",
+    "小樽市内1日乗車券",
+    "【札幌発着】小樽1日フリーセット券",
+    "【小樽発・札幌着】小樽1日・札幌片道セット券",
+    "北海道フリーパス",
+    "北海道＆東日本パス",
+    "Hokkaido Expressway Pass",
+    "小樽芸術村 5館共通券",
+    "小樽市総合博物館 共通入館券",
+    "【札幌発着】おたる水族館バスセット券",
+    "【小樽発札幌着】おたる水族館バスセット券",
+    "小樽貴賓館バスセット券",
+    "【札幌発着】小樽天狗山バスセット券",
+    "【小樽発着】小樽天狗山バスセット券",
+    "【札幌発着】しゃこたん水中展望船セット",
+    "【小樽発着】しゃこたん水中展望船セット",
+    "[A] さっぽろ午前観光（白い恋人パーク・大倉山・場外市場）",
+    "[B] さっぽろ午後観光（大倉山・羊ヶ丘展望台）",
+    "[D] 支笏湖・洞爺湖周遊コース",
+    "[H] 日本遺産のまち小樽と白い恋人パーク",
+    "[N] 積丹神威岬・小樽運河・白い恋人パーク",
+    "[P] ROYCE' CACAO & CHOCOLATE TOWN・藻岩山ロープウェイ・場外市場",
+    "[Q] 秋の豊平峡と紅葉ゴンドラ・小樽散策"
    ],
-   "note": "삿포로 자체가 거점",
-   "status": "has_cards"
+   "note": "삿포로 자체가 거점 / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — **`nearby_hubs`가 비어 있었다.** 자기가 거점인 지역도 그 사실을 적어야 한다",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 1,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_홋카이도_2026-09-06.md",
+    "status": "출처 소진"
+   }
   },
   {
    "region_id": "JP-01-donan",
@@ -1212,10 +1908,28 @@
    ],
    "candidate_passes": [
     "函館市電 1日乗車券",
-    "はこだて旅するパスポート"
+    "はこだて旅するパスポート",
+    "北海道フリーパス",
+    "北海道＆東日本パス",
+    "函館市電1日乗車券",
+    "市電24時間乗車券",
+    "市電・函館バス共通1日乗車券",
+    "市電・函館バス共通2日乗車券",
+    "カンパス（1日乗車券）",
+    "カンパス 24時間",
+    "バス・いさりび鉄道1日乗車券",
+    "Hokkaido Expressway Pass",
+    "名湯巡る ホッと函館！温泉チケット",
+    "はこだてスペシャルチケット"
    ],
-   "note": "하코다테 공항 직항은 계절·운항 여부 확인",
-   "status": "has_cards"
+   "note": "하코다테 공항 직항은 계절·운항 여부 확인 / 2026-09-07 공항 전수 조사: **거점(hub)으로 넣지 않기로 했다.** 제주항공 하코다테~인천선이 2025-06-05 취항해 주2 → 주4(화·목·토·일)로 늘었으나 **2026-06-08부터 운휴**이고 재개 예정이 없다(TRAICY 2026-02-24). 하코다테 발착 국제선은 **타이베이/타오위안선만** 남는다. **그래서 카드 35의 셋째 줄 \"삿포로에서 특급 3시간 반, 하코다테 직항도\"는 지금 틀렸다** — 사실 정정 대상. 거점은 삿포로가 맞다.",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 1,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_홋카이도_2026-09-06.md",
+    "status": "출처 소진"
+   }
   },
   {
    "region_id": "TW-NWT-jiufen",
@@ -1249,10 +1963,17 @@
    ],
    "candidate_passes": [
     "台灣好行 黃金福隆線",
-    "北北基好玩卡"
+    "北北基好玩卡",
+    "台灣好行 716 皇冠北海岸線"
    ],
    "note": "",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "대만 5권역 통합 조사 · B/C축 부재(계획대로) · 공급자가 台灣好行으로 수렴"
+   }
   },
   {
    "region_id": "TW-KEE-keelung",
@@ -1286,10 +2007,16 @@
    ],
    "candidate_passes": [
     "北北基好玩卡",
-    "台灣好行 龍宮尋寶線"
+    "台灣好行 T99 濱海奇基線"
    ],
-   "note": "카드 없음: 지룽은 타이베이 근교 당일 대안. 지우펀 카드(51)에 언급",
-   "status": "no_card"
+   "note": "카드 없음: 지룽은 타이베이 근교 당일 대안. 지우펀 카드(51)에 언급 / **2026-09-06: 빼기 제안 취소.** 점검 §3에서 \"패스 0종\"을 근거로 빼기를 제안했는데, 이 지역의 `candidate_passes`에 이미 적혀 있던 「台灣好行 龍宮尋寶線」이 실재했다(전표 130·반표 65, 하루 무제한). **9회차 조사와 빼기 판단이 둘 다 기존 데이터를 안 보고 내려졌다** — 점검 §0-3과 같은 실수. 지역은 그대로 둔다. / 2026-09-07 후보 패스 이름 정정: 台灣好行 龍宮尋寶線→台灣好行 T99 濱海奇基線",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/지역사전점검_2026-09-06.md",
+    "status": "龍宮尋寶線(L1) 등록. 빼기 제안은 취소 — 근거가 틀렸다"
+   }
   },
   {
    "region_id": "TW-NAN-sunmoonlake",
@@ -1328,10 +2055,18 @@
    ],
    "candidate_passes": [
     "日月潭 套票 (南投客運)",
-    "台灣好行 日月潭線"
+    "台灣好行 日月潭線",
+    "台灣好行 6883 溪頭線",
+    "台灣好行 日月潭線 全覽四合一套票"
    ],
    "note": "0-B 대상",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "대만 5권역 통합 조사 · B/C축 부재(계획대로) · 공급자가 台灣好行으로 수렴"
+   }
   },
   {
    "region_id": "TW-TXG-taichung",
@@ -1364,18 +2099,23 @@
     }
    ],
    "candidate_passes": [
-    "台中 雙層觀光巴士",
-    "台灣好行 谷關線"
+    "台中 雙層觀光巴士"
    ],
-   "note": "카드 없음: 거점 도시. 4시간 관광버스로 2박의 이유 없음",
-   "status": "no_card"
+   "note": "카드 없음: 거점 도시. 4시간 관광버스로 2박의 이유 없음 / 2026-09-07 후보 패스 이름 정정: 台灣好行 谷關線→(삭제)",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "기존 등록분(臺中雙層觀光巴士) 외 신규 없음. 溪頭線은 난터우현이라 별도 지역 후보"
+   }
   },
   {
    "region_id": "TW-CYI-alishan",
    "country": "TW",
    "block": "남부",
    "admin": {
-    "code": "TW-CYI",
+    "code": "TW-CYQ",
     "ko": "자이현",
     "local": "嘉義縣"
    },
@@ -1409,8 +2149,14 @@
     "台灣好行 阿里山線",
     "阿里山森林鐵路 套票"
    ],
-   "note": "",
-   "status": "has_cards"
+   "note": " / 2026-09-06 지역 사전 점검: admin.code를 TW-CYI(자이시) → **TW-CYQ(자이현)**으로 정정. 아리산은 嘉義縣 阿里山鄉 소재이고 admin.ko는 원래 \"자이현\"으로 맞게 적혀 있었다. **region_id `TW-CYI-alishan`은 참조가 걸려 있어 그대로 둔다** — 개명은 사용자 판단.",
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "기존 등록분(阿里山線 왕복·입장·도시락 3권종)이 이미 이 지역의 하오싱을 덮는다. 신규 없음"
+   }
   },
   {
    "region_id": "TW-TNN-tainan",
@@ -1452,7 +2198,13 @@
     "台南 一日券"
    ],
    "note": "",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "기존 등록분(8899 1일권) 외 신규 없음"
+   }
   },
   {
    "region_id": "TW-PIF-kenting",
@@ -1489,7 +2241,13 @@
     "墾丁街車 一日券"
    ],
    "note": "",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "기존 등록분(墾丁快線 왕복·墾丁街車 1일권) 외 신규 없음. 大鵬灣琉球線은 샤오류추라 별도 지역 후보"
+   }
   },
   {
    "region_id": "TW-ILA-yilan",
@@ -1523,10 +2281,17 @@
    ],
    "candidate_passes": [
     "台灣好行 礁溪線",
-    "宜蘭 套票"
+    "宜蘭 套票",
+    "台灣好行 綠21 冬山河線"
    ],
    "note": "카드 없음: 자오시선은 회당 20의 노선. 타이베이 근교 당일 대안",
-   "status": "no_card"
+   "status": "no_card",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "대만 5권역 통합 조사 · B/C축 부재(계획대로) · 공급자가 台灣好行으로 수렴"
+   }
   },
   {
    "region_id": "TW-HUA-hualien",
@@ -1563,7 +2328,13 @@
     "花蓮 套票"
    ],
    "note": "카드 없음: 타이루거 개방 구간 미확정. 재확인 후",
-   "status": "no_card"
+   "status": "no_card",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "太魯閣線 310을 L1→L2 승급. **2024-04-12부터 낙석 관리로 화롄전운참~타이루거 유객중심으로 구간 축소 운행** — 카드로 만들 때 필수 기재"
+   }
   },
   {
    "region_id": "TW-TTT-taitung",
@@ -1602,10 +2373,17 @@
    ],
    "candidate_passes": [
     "台灣好行 東部海岸線",
-    "台東 套票"
+    "台東 套票",
+    "台灣好行 8168A 縱谷鹿野線 一日券"
    ],
    "note": "",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "대만 5권역 통합 조사 · B/C축 부재(계획대로) · 공급자가 台灣好行으로 수렴"
+   }
   },
   {
    "region_id": "TW-PEN-penghu",
@@ -1644,10 +2422,378 @@
    ],
    "candidate_passes": [
     "澎湖 套票",
-    "台灣好行 媽宮北環線"
+    "台灣好行 媽宮北環線",
+    "台灣好行 媽宮湖西線 一日券",
+    "台灣好行 媽宮澎南線 一日券"
    ],
    "note": "",
-   "status": "has_cards"
+   "status": "has_cards",
+   "survey": {
+    "axis_round": 9,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_대만_2026-09-06.md",
+    "status": "대만 5권역 통합 조사 · B/C축 부재(계획대로) · 공급자가 台灣好行으로 수렴"
+   }
+  },
+  {
+   "region_id": "JP-26-kyoto",
+   "country": "JP",
+   "block": "긴키",
+   "admin": {
+    "code": "JP-26",
+    "ko": "교토부",
+    "local": "京都府"
+   },
+   "display": {
+    "ko": "교토",
+    "local": "京都"
+   },
+   "base_city": {
+    "ko": "교토",
+    "local": "京都",
+    "lat": 35.01,
+    "lng": 135.77
+   },
+   "direct_flight_kr": {
+    "value": false,
+    "confidence": "L3"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "osaka",
+     "hours": 0.5,
+     "how": "JR 신쾌속"
+    }
+   ],
+   "candidate_passes": [
+    "地下鉄・バス1日券",
+    "京都地下鉄・嵐電1dayチケット",
+    "京阪電車 京都1日乗車券"
+   ],
+   "note": "2026-09-06 지역 사전 점검 §4-1로 추가(계획 §4-4가 지목). **패스 조사 전.** **주의: `hubs`에 이미 `kyoto`가 거점으로 들어 있다**(direct_kr=false, \"없음(오사카 경유)\"). 거점이면서 지역인 첫 사례라 기획서 §5.2의 \"거점에서 옆동네로\" 구조와 어떻게 맞물릴지 정리가 필요하다 — 사용자 판단.",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 10,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_신규지역_2026-09-06.md",
+    "status": "신규 지역 첫 조사 — 종료 상품 4건 확인(§1-1)"
+   }
+  },
+  {
+   "region_id": "JP-29-nara",
+   "country": "JP",
+   "block": "긴키",
+   "admin": {
+    "code": "JP-29",
+    "ko": "나라현",
+    "local": "奈良県"
+   },
+   "display": {
+    "ko": "나라",
+    "local": "奈良"
+   },
+   "base_city": {
+    "ko": "나라",
+    "local": "奈良",
+    "lat": 34.69,
+    "lng": 135.81
+   },
+   "direct_flight_kr": {
+    "value": false,
+    "confidence": "L3"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "osaka",
+     "hours": 0.6,
+     "how": "킨테츠 특급"
+    }
+   ],
+   "candidate_passes": [
+    "奈良公園・西ノ京 世界遺産 1-Day Pass",
+    "奈良・斑鳩1dayチケット"
+   ],
+   "note": "2026-09-06 지역 사전 점검 §4-1로 추가(계획 §4-4가 지목). **패스 조사 전.** 킨테츠·JR서일본 프리패스가 밀집한 곳으로 보인다",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 10,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_신규지역_2026-09-06.md",
+    "status": "신규 지역 첫 조사 — 종료 상품 4건 확인(§1-1)"
+   }
+  },
+  {
+   "region_id": "JP-28-kobe",
+   "country": "JP",
+   "block": "긴키",
+   "admin": {
+    "code": "JP-28",
+    "ko": "효고현 남부",
+    "local": "兵庫県南部"
+   },
+   "display": {
+    "ko": "고베",
+    "local": "神戸"
+   },
+   "base_city": {
+    "ko": "고베",
+    "local": "神戸",
+    "lat": 34.69,
+    "lng": 135.2
+   },
+   "direct_flight_kr": {
+    "value": false,
+    "confidence": "L3"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "osaka",
+     "hours": 0.4,
+     "how": "JR 신쾌속"
+    }
+   ],
+   "candidate_passes": [
+    "シティーループ 1日乗車券",
+    "市バス・地下鉄共通1日乗車券",
+    "有馬温泉 太閤の湯クーポン（神戸市営地下鉄版）"
+   ],
+   "note": "2026-09-06 지역 사전 점검 §4-2로 추가. 계획 §4-4가 \"긴키 근교(교토·나라·고베)\"로 지목했는데 **효고현(JP-28)이 기노사키온천 하나로만 덮여 있어 고베가 실제로는 비어 있었다.** 기노사키의 admin.ko가 \"효고현 북부\"라 이쪽은 \"효고현 남부\"로 나눈다. **패스 조사 전.** / 2026-09-07 사용자 판단: **\"고베는 오사카에서 곁들임 형식으로 가는 경우가 많지, 고베 자체를 위해 관광을 가는 수요는 거의 없을 것\"**. 목소리규칙의 카드 채택 기준(\"거점 도시에 있는 대안과 견줘 이유가 약하면 만들지 않는다\")에 비추면 **고베는 단독 카드 후보로 약하다.** 지역으로는 남기되 카드는 만들지 않는 쪽으로 본다. 같은 효고현에서 **히메지(JP-28-himeji)가 히메지성이라는 단독 이유를 가진다** — 그쪽이 카드 후보다.",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 10,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_신규지역_2026-09-06.md",
+    "status": "신규 지역 첫 조사 — 종료 상품 4건 확인(§1-1)"
+   }
+  },
+  {
+   "region_id": "JP-47-okinawa",
+   "country": "JP",
+   "block": "오키나와",
+   "admin": {
+    "code": "JP-47",
+    "ko": "오키나와현",
+    "local": "沖縄県"
+   },
+   "display": {
+    "ko": "오키나와",
+    "local": "沖縄"
+   },
+   "base_city": {
+    "ko": "나하",
+    "local": "那覇",
+    "lat": 26.21,
+    "lng": 127.68
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "naha",
+     "hours": 0.0,
+     "how": "인천 직항(나하공항)"
+    }
+   ],
+   "candidate_passes": [
+    "ゆいレール フリー乗車券",
+    "沖縄路線バス周遊パス",
+    "那覇バス 市内均一区間 1日乗車券",
+    "バスモノパス"
+   ],
+   "note": "2026-09-06 지역 사전 점검 §4-1로 추가(계획 §4-4가 명시적으로 지목). **패스 조사 전.** 인천 직항이 있어 자체 거점에 가깝다 — `hubs`에 넣을지도 검토 대상. 블록은 규슈로 뒀으나(행정 구분) 실제로는 별개 축이라 블록 신설을 볼 여지가 있다. / 2026-09-06 거점 재설계: block 규슈 → **오키나와**. 행정 구분으로는 규슈지방에 넣기도 하지만 **거점이 완전히 다르다**(인천→나하 직항, 본섬 안은 버스·모노레일). \"규슈\"를 하나의 개체로 놓으면 후쿠오카가 대표하게 되어 이용자에게 틀린 그림이 된다. 나하를 거점으로 추가 / 2026-09-07 후보 패스 이름 정정: 美ら海水族館＋やんばる急行バス セット券→(삭제)",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 10,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_신규지역_2026-09-06.md",
+    "status": "신규 지역 첫 조사 — 종료 상품 4건 확인(§1-1)"
+   }
+  },
+  {
+   "region_id": "JP-32-izumo",
+   "country": "JP",
+   "block": "주고쿠",
+   "admin": {
+    "code": "JP-32",
+    "ko": "시마네현",
+    "local": "島根県"
+   },
+   "display": {
+    "ko": "이즈모·마쓰에",
+    "local": "出雲·松江"
+   },
+   "base_city": {
+    "ko": "마쓰에",
+    "local": "松江",
+    "lat": 35.47,
+    "lng": 133.05
+   },
+   "direct_flight_kr": {
+    "value": false,
+    "confidence": "L1"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "yonago",
+     "hours": 0.5,
+     "how": "인천 직항(요나고공항, 에어서울 매일) → 마쓰에까지 약 30분"
+    },
+    {
+     "hub_id": "okayama",
+     "hours": 2.7,
+     "how": "JR 특급 야쿠모"
+    },
+    {
+     "hub_id": "hiroshima",
+     "hours": 3.2,
+     "how": "고속버스"
+    }
+   ],
+   "candidate_passes": [
+    "一畑電車 1日フリー乗車券",
+    "ぐるっと松江レイクライン 1日乗車券",
+    "松江・出雲 旅PASS 2Days"
+   ],
+   "note": "2026-09-06 지역 사전 점검 §4-3으로 추가. **SEP 이름에 \"산인\"이 들어가는데 산인 지역이 사전에 하나도 없었다.** 시마네는 SEP 대상 10현. **패스 조사 전.** 이치바타전차 프리패스가 있는 것으로 알려졌으나 미조사. 거점 소요시간은 근사치(L1) — 확인 전. 돗토리(JP-31)·야마구치(JP-35)는 §4-3 제안대로 이번엔 넣지 않았다. / 2026-09-06 공항 전수 조사 1회차: nearby_hubs 교정 — **오늘 만든 지역인데 이미 틀렸다.** 산인 유일의 국제 정기편인 요나고(매일)를 빼고 오카야마·히로시마만 넣었다",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 10,
+    "date": "2026-09-06",
+    "doc": "조사_성격축/조사표_신규지역_2026-09-06.md",
+    "status": "신규 지역 첫 조사 — 종료 상품 4건 확인(§1-1)"
+   }
+  },
+  {
+   "region_id": "JP-28-himeji",
+   "country": "JP",
+   "block": "긴키",
+   "admin": {
+    "code": "JP-28",
+    "ko": "효고현 서부",
+    "local": "兵庫県西部"
+   },
+   "display": {
+    "ko": "히메지",
+    "local": "姫路"
+   },
+   "base_city": {
+    "ko": "히메지",
+    "local": "姫路",
+    "lat": 34.83,
+    "lng": 134.69
+   },
+   "direct_flight_kr": {
+    "value": false,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "osaka",
+     "hours": 1.0,
+     "how": "JR 신쾌속(신칸센이면 신오사카에서 30분)"
+    }
+   ],
+   "candidate_passes": [
+    "姫路城おでかけQR1dayチケット",
+    "しろのまちめぐり2DAYきっぷ",
+    "姫路城周辺観光ループバス 1日乗車券"
+   ],
+   "note": "2026-09-07 사용자 지적으로 추가 — \"히메지성은 일본 최고의 성인데 딱히 없냐\". 효고현은 기노사키(북부)·고베(남부)가 있었고 **히메지(서부)가 비어 있었다.** **히메지성이 2026-03-01부터 이중가격제**: 히메지시민 1,000엔 / 시민 외 **2,500엔**(2.5배), 18세 미만 무료. 국적이 아니라 거주지 기준이라 **히메지시 거주 외국인은 1,000엔, 시외 거주 일본인은 2,500엔**이다. 현존 천수 12성 중 최고가(마쓰모토성 1,300 상회). 오버투어리즘 대응 겸 석축·벽 보수 재원. **카드에 쓸 때 \"외국인 요금\"이라고 쓰면 틀린다** — 거주지 기준이다.",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 11,
+    "date": "2026-09-07",
+    "doc": "조사_성격축/조사표_히메지_2026-09-07.md",
+    "status": "신규 지역 첫 조사 — 패스 4종"
+   }
+  },
+  {
+   "region_id": "JP-22-shizuoka",
+   "country": "JP",
+   "block": "주부",
+   "admin": {
+    "code": "JP-22",
+    "ko": "시즈오카현",
+    "local": "静岡県"
+   },
+   "display": {
+    "ko": "시즈오카",
+    "local": "静岡"
+   },
+   "base_city": {
+    "ko": "시즈오카",
+    "local": "静岡",
+    "lat": 34.98,
+    "lng": 138.38
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "shizuoka",
+     "hours": 0.0,
+     "how": "인천 직항(후지산시즈오카공항, 제주항공 주14)"
+    }
+   ],
+   "candidate_passes": [
+    "電車・バス1日フリー乗車券"
+   ],
+   "note": "2026-09-07 공항 전수 조사로 추가 — **거점(시즈오카공항)은 있는데 지역이 없던 곳.** 제주항공 인천선이 2026-06-01부터 주14편(1일 2왕복)으로 늘었다. **패스 조사는 1종만 했다.**",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 12,
+    "date": "2026-09-07",
+    "doc": "공항전수조사_2026-09-06.md",
+    "status": "거점 확정 후 지역 신설 — 패스 조사 최소"
+   }
+  },
+  {
+   "region_id": "JP-15-niigata",
+   "country": "JP",
+   "block": "주부",
+   "admin": {
+    "code": "JP-15",
+    "ko": "니가타현",
+    "local": "新潟県"
+   },
+   "display": {
+    "ko": "니가타·사도",
+    "local": "新潟·佐渡"
+   },
+   "base_city": {
+    "ko": "니가타",
+    "local": "新潟",
+    "lat": 37.92,
+    "lng": 139.04
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "niigata",
+     "hours": 0.0,
+     "how": "인천 직항(니가타공항, 대한항공 매일)"
+    }
+   ],
+   "candidate_passes": [
+    "新潟市観光循環バス 1日乗車券",
+    "佐渡1day・2day・3dayパス"
+   ],
+   "note": "2026-09-07 공항 전수 조사로 추가 — **거점(니가타공항)은 있는데 지역이 없던 곳.** 대한항공 인천선이 2026-06-01부터 매일로 증편. **사도(佐渡)를 함께 담았다** — 섬 안 노선버스 전선 프리패스가 따로 있고(1day 1,500), 니가타에서 배로 들어간다. 사도를 별도 지역으로 쪼갤지는 카드 만들 때 판단",
+   "status": "no_card",
+   "survey": {
+    "axis_round": 12,
+    "date": "2026-09-07",
+    "doc": "공항전수조사_2026-09-06.md",
+    "status": "거점 확정 후 지역 신설"
+   }
   }
- ]
+ ],
+ "hub_grade_note": "2026-09-07 등급 정의 정리 — `confidence`는 **노선이 존재하는가**만 뜻한다(공식 자료 확인 = L2). **편수는 별개다**: `kr_route.freq_asof`가 기준일, `kr_route.freq_grade`가 등급. L2 = 2026-09 공항·현 공식 시간표로 직접 확인 / L1 = 2024-03 국토교통성 자료(낡음) 또는 2차 출처. **카드에 편수를 쓸 때는 freq_grade가 L2인 것만 쓴다.** 정본은 `공항전수조사_2026-09-06.md`"
 }
