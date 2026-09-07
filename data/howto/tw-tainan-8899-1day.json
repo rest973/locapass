@@ -1,0 +1,83 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "차내",
+     "online": false
+    },
+    {
+     "name": "Klook·KKday·PChome(판매 수수료)",
+     "online": true
+    }
+   ],
+   "src": "https://tainan.funcard.com.tw/product/info/AzOy"
+  },
+  "how": {
+   "v": "我要買8899一日券一張。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.klook.com/zh-TW/activity/37288-tainan-tourist-bus-number-88-99-day-pass/"
+  }
+ },
+ "issue": {
+  "exchange": {
+   "v": "**99선은 타이난역 남측 매표소에서 종이 표로 바꾼 뒤 탄다.** 88선은 탈 때 QR을 보이면 직원이 인식한다",
+   "src": "https://tainan.funcard.com.tw/product/info/AzOy"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "**QR 한 장에 한 사람**, 나눠 쓰거나 날짜를 넘겨 쓸 수 없다",
+   "q": "每張QR Code限1人使用，不得分次使用",
+   "src": "https://tainan.funcard.com.tw/product/info/AzOy"
+  },
+  "trap": {
+   "v": "88선과 99선의 타는 방식이 다르다 — 99선만 종이 교환이 필요하다",
+   "src": "https://tainan.funcard.com.tw/product/info/AzOy"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**미사용분만** 台南好玩卡 사이트·앱·메일로 환불 신청",
+   "src": "https://tainan.funcard.com.tw/product/info/AzOy"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "zh"
+  ],
+  "note": "중국어. 판매처(Klook 등)는 다국어"
+ },
+ "sources": [
+  {
+   "url": "https://www.klook.com/zh-TW/activity/37288-tainan-tourist-bus-number-88-99-day-pass/",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://tainan.funcard.com.tw/product/info/AzOy",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "공식 요금 근거",
+   "how": "**출처가 판매처뿐이라 등급을 L1로 내렸다.** 台南市 공식 요금 페이지를 찾아야 한다"
+  },
+  {
+   "what": "台南好玩卡 페이지가 낡음",
+   "how": "優惠期間이 2020-03-31로 적혀 있다 — 현행 조건인지 확인 필요"
+  }
+ ],
+ "pass_id": "tw-tainan-8899-1day",
+ "name": {
+  "local": "台南 8899 一日無限搭乘券",
+  "local_lang": "zh-Hant",
+  "ko": "타이난 88·99 1일 무제한권",
+  "en": "Tainan 88/99 1-day Pass"
+ },
+ "built_at": "2026-09-07"
+}

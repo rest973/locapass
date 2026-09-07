@@ -1,0 +1,72 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "차내(현금·悠遊卡 등 전자표증)",
+     "online": false
+    },
+    {
+     "name": "Taipei Fun Pass 온라인",
+     "online": true
+    }
+   ],
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0014"
+  },
+  "how": {
+   "v": "我要買856黃金福隆線一日券。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://funpass.travel.taipei/tour/pWyE"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "루이팡~진과스~지우펀~푸룽 23개 정류장 승하차 자유",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0014"
+  },
+  "trap": {
+   "v": "**1일권 NT$50의 근거를 2026-09-07 재확인에서 찾지 못했다.** 台灣好行 공식 노선 페이지와 東北角國家風景區 공식은 段票 全票 15·學生 12·半票 8만 적는다. 창구·차내에서 1일권이 실제로 있는지 확인이 필요하다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0014"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "zh"
+  ],
+  "note": "중국어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://funpass.travel.taipei/tour/pWyE",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0014",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "1일권의 실재",
+   "how": "**카드 51이 앞면에 NT$50을 쓰고 있는데 공식 근거가 없다.** Taipei Fun Pass 페이지가 403이라 재확인 못 함"
+  },
+  {
+   "what": "대안",
+   "how": "北北基好玩卡 교통 暢遊版(1일 180元)이 이 노선을 포함한 台灣好行 6개 노선과 수도권 지하철·버스를 덮는다 — 이쪽이 답일 수 있다"
+  }
+ ],
+ "pass_id": "tw-haoxing-856-golden-fulong-1day",
+ "name": {
+  "local": "台灣好行 856 黃金福隆線 一日券",
+  "local_lang": "zh-Hant",
+  "ko": "타이완하오싱 856 황금푸룽선 1일권",
+  "en": "Taiwan Trip 856 Gold Fulong 1-day"
+ },
+ "built_at": "2026-09-07"
+}

@@ -1,0 +1,68 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "도고온천 각 시설 창구",
+     "online": false
+    }
+   ],
+   "src": "https://dogo.jp/onsen/"
+  },
+  "how": {
+   "v": "周湯チケットを大人1枚お願いします。",
+   "src": "카드 본문"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "**판매일과 다음 날 2일간** 유효. 세 곳(본관·아스카노유·쓰바키노유)을 한 번씩",
+   "src": "https://dogo.jp/onsen/"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://dogo.jp/onsen/",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.city.matsuyama.ehime.jp/hodo/202503/sankanshuyukeizoku.html",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://dogo.jp/news/4146.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "사는 곳",
+   "how": "도고온천 공식에 **어디서 파는지 적혀 있지 않다** — 각 관 창구로 알려져 있으나 원문 확인 필요"
+  },
+  {
+   "what": "쓰는 순서·환불",
+   "how": "입관 때 무엇을 보이는지, 환불이 되는지 기재 없음"
+  },
+  {
+   "what": "각 관 영업시간·휴관일",
+   "how": "요금 페이지에 없다 — 본관은 시간대별 코스가 있어 특히 중요하다"
+  }
+ ],
+ "pass_id": "jp-dogo-onsen-shuyu",
+ "name": {
+  "local": "道後温泉3館周湯チケット",
+  "local_lang": "ja",
+  "ko": "도고온천 3관 주유 티켓",
+  "en": "Dogo Onsen 3-Facility Shuyu Ticket"
+ },
+ "built_at": "2026-09-07"
+}

@@ -1,0 +1,64 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "각 바깥탕 창구",
+     "online": false
+    }
+   ],
+   "src": "https://kinosaki-spa.gr.jp/about/spa/"
+  },
+  "how": {
+   "v": "外湯めぐりの1日券、ゆめぱを大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "종이권. 어른 1,500·소인 750으로 바깥탕 무제한",
+   "src": "https://kinosaki-spa.gr.jp/about/spa/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "trap": {
+   "v": "**바깥탕마다 정기휴일과 영업시간이 다르다** — 하루에 다 돌 수 있다는 뜻이 아니다",
+   "src": "https://kinosaki-spa.gr.jp/about/spa/"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://kinosaki-spa.gr.jp/about/spa/",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.city.toyooka.lg.jp/kanko/onsen/index.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "이용 제약 전반",
+   "how": "**기노사키온천 관광협회 공식에 환불·재입장·시간 제약이 아예 적혀 있지 않다.** 창구에서 확인하거나 도요오카시 페이지를 함께 본다"
+  },
+  {
+   "what": "바깥탕별 휴일·영업시간",
+   "how": "공식 요금 페이지에 없다 — 바깥탕 개별 페이지 7곳을 열어야 한다"
+  }
+ ],
+ "pass_id": "jp-kinosaki-yumepa",
+ "name": {
+  "local": "城崎温泉 外湯めぐり 1日券「ゆめぱ」",
+  "local_lang": "ja",
+  "ko": "기노사키온천 바깥탕 1일권 유메파",
+  "en": "Kinosaki Sotoyu 1-day Yumepa"
+ },
+ "built_at": "2026-09-07"
+}

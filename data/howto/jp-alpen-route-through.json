@@ -1,0 +1,93 @@
+{
+ "before": {
+  "when": {
+   "v": "사전 예약을 권한다(자리·편이 한정)",
+   "src": "https://www.alpen-route.com/access_new/fare/person/index.php"
+  },
+  "app_or_account": {
+   "v": "WEB킷푸는 **신용카드만**(VISA·Mastercard·JCB·AMEX·Diners). **체크카드·선불카드는 못 쓴다**",
+   "src": "https://www.alpen-route.com/information/web_ticket.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "WEB킷푸 사이트",
+     "online": true
+    },
+    {
+     "name": "다테야마역·오기사와역 창구",
+     "online": false
+    }
+   ],
+   "src": "https://www.alpen-route.com/information/web_ticket.html"
+  },
+  "how": {
+   "v": "立山から扇沢までの通り抜けきっぷを大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.alpen-route.com/access_new/fare/person/index.php"
+  }
+ },
+ "issue": {
+  "exchange": {
+   "v": "**오기사와역·다테야마역·덴테쓰토야마역의 자동 수취기에서 QR을 읽혀 실권으로 바꾼다.** 장애인 할인은 창구 교환",
+   "src": "https://www.alpen-route.com/information/web_ticket.html"
+  },
+  "seat": {
+   "v": "**승차 시간대를 고르는 방식이고 남은 자리가 없는 시각은 선택되지 않는다**",
+   "src": "https://www.alpen-route.com/information/web_ticket.html"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "15명 이상은 단체 예약이 필요하다",
+   "src": "https://www.alpen-route.com/information/web_ticket.html"
+  },
+  "trap": {
+   "v": "**혼잡기에는 자동 수취기가 밀린다** — 공식이 \"출발역에 30분 전까지 오고 승차 15분 전까지 수속을 끝내라\"고 적는다",
+   "src": "https://www.alpen-route.com/information/web_ticket.html"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "알펜루트 공식은 다국어"
+ },
+ "sources": [
+  {
+   "url": "https://www.alpen-route.com/access_new/fare/person/index.php",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.alpen-route.com/information/web_ticket.html",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "변경·환불",
+   "how": "WEB킷푸 안내 페이지에 기재 없음"
+  },
+  {
+   "what": "전선 개통 기간",
+   "how": "요금·안내 페이지 어디에도 그해 개통·폐쇄 날짜가 없다 — 시즌마다 공지로 나온다"
+  }
+ ],
+ "pass_id": "jp-alpen-route-through",
+ "name": {
+  "local": "立山黒部アルペンルート 通り抜け（立山駅～扇沢）",
+  "local_lang": "ja",
+  "ko": "다테야마쿠로베 알펜루트 통과 승차권",
+  "en": "Tateyama Kurobe Alpine Route Through Ticket"
+ },
+ "built_at": "2026-09-07"
+}

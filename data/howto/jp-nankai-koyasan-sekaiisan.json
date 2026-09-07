@@ -1,0 +1,86 @@
+{
+ "before": {
+  "when": {
+   "v": "통년 발매, 승차일 1개월 전부터",
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "난바·신이마미야·덴가차야·사카이·하고로모·이즈미오쓰·기시와다·가이즈카·이즈미사노·와카야마시·린쿠타운·간사이공항 등 역 창구",
+     "online": false
+    },
+    {
+     "name": "「고야산·세계유산 디지털킷푸」(스마트폰 사전 구매)",
+     "online": true
+    }
+   ],
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  },
+  "how": {
+   "v": "高野山・世界遺産きっぷを大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "**특급 「고야」의 특급권은 왕로 편도만** 붙는다 — 난바 출발 대인 5,200(보통 4,210)",
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "**자동 개찰기를 이용한다**",
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  },
+  "count_rules": {
+   "v": "이용 개시일부터 **연속 2일**. 고야산역까지 왕복 + 고야산 내 버스 2일 프리(일부 노선 제외) + 관람 할인 쿠폰",
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  },
+  "trap": {
+   "v": "고야산 안 버스 프리는 **일부 노선이 빠진다** — 급행 다테리선·고야류진선은 별개다",
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "유효기간 내에 **총괄권을 포함한 모든 券片이 미사용일 때만** 구매한 발매처에서, 수수료 520엔",
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "난카이 공식에 다국어 페이지가 있다"
+ },
+ "sources": [
+  {
+   "url": "https://www.nankai.co.jp/traffic/otoku/koyasan.html",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "디지털킷푸의 개시·제시 방법",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-nankai-koyasan-sekaiisan",
+ "name": {
+  "local": "高野山・世界遺産きっぷ",
+  "local_lang": "ja",
+  "ko": "고야산 세계유산 킷푸",
+  "en": "Koyasan World Heritage Ticket"
+ },
+ "built_at": "2026-09-07"
+}

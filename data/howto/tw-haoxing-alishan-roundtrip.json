@@ -1,0 +1,79 @@
+{
+ "before": {
+  "when": {
+   "v": "예약은 필요 없다. 다만 차농 체험 같은 일부는 최소 2명·7일 전 예약",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "阿里山 easy go(온라인)",
+     "online": true
+    },
+    {
+     "name": "ibon·자이역 창구",
+     "online": false
+    }
+   ],
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  },
+  "how": {
+   "v": "我要買阿里山線來回票加入園券的套票一張。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "**메일로 오는 전자 바우처(QR)**. 여럿이면 인원수만큼 코드를 보여야 한다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  }
+ },
+ "issue": {
+  "exchange": {
+   "v": "QR을 스캔해 승차한다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "A선·B선으로 **왕복 4회 승하차**, **3일 안에** 쓴다. 기본 套票는 구매일부터 1년 안에 개시하면 되고, 복합 套票는 첫 사용부터 3~14일",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  },
+  "trap": {
+   "v": "480(왕복)·630(+삼림유락구 입장)·750(+입장+도시락) 셋이 있다 — 입장료를 따로 낼 거면 480이 맞다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**하나라도 쓰면 전체 환불이 안 된다.** 미사용이면 「阿里山EASYGO」에서 신청",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "zh"
+  ],
+  "note": "중국어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "A선·B선의 차이",
+   "how": "고속철 자이 출발과 타이철 자이 출발인데 어느 쪽을 골라 타는지 절차가 없다"
+  }
+ ],
+ "pass_id": "tw-haoxing-alishan-roundtrip",
+ "name": {
+  "local": "台灣好行 阿里山線 來回票",
+  "local_lang": "zh-Hant",
+  "ko": "타이완하오싱 아리산선 왕복표",
+  "en": "Taiwan Trip Alishan Round-trip"
+ },
+ "built_at": "2026-09-07"
+}

@@ -1,0 +1,77 @@
+{
+ "before": {
+  "when": {
+   "v": "**반드시 미리 좌석을 잡으라고 공식이 적는다**(「請務必事先訂位」). 만석이면 더 받지 않는다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "차내(현금·전자표증·모바일 결제)",
+     "online": false
+    },
+    {
+     "name": "공식 사이트 예약·구매",
+     "online": true
+    }
+   ],
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073"
+  },
+  "how": {
+   "v": "我要買東部海岸線一日券一張。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "일일권 全票 399·優惠票 250",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073"
+  },
+  "trap": {
+   "v": "**「郵輪式公車」다** — 정류장마다 정해진 시간만 머물고 다시 타는 방식이라 마음대로 오래 머물 수 없다. 가이드가 함께 탄다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "zh"
+  ],
+  "note": "중국어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "정류장별 체류 시간",
+   "how": "유람선식 버스인데 각 정류장에서 몇 분 머무는지 이 페이지에 없다"
+  },
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  },
+  {
+   "what": "250의 성격",
+   "how": "우리 데이터의 250이 優惠票(할인 대상자)인지 판촉가인지 이 페이지로는 갈리지 않는다"
+  }
+ ],
+ "pass_id": "tw-haoxing-east-coast-1day",
+ "name": {
+  "local": "台灣好行 8101A 東部海岸線 一日券",
+  "local_lang": "zh-Hant",
+  "ko": "타이완하오싱 동부해안선 1일권",
+  "en": "Taiwan Trip East Coast 1-day"
+ },
+ "built_at": "2026-09-07"
+}

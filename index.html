@@ -122,6 +122,30 @@ header{display:flex;align-items:center;justify-content:space-between;gap:12px;pa
 .shareout[hidden]{display:none}
 .shareout img{width:100%;max-width:300px;border:1px solid var(--line);border-radius:8px;display:block}
 .shareout a{display:inline-block;margin-top:8px;font-size:13px;color:var(--accent)}
+.detailview{margin-top:4px}
+.detailview[hidden]{display:none}
+.detailview h3{margin:0 0 4px;font-size:18px}
+.dhero{border-radius:14px;overflow:hidden;background:var(--card);border:1px solid var(--line);margin:8px 0 14px}
+.dhero .ph{height:180px;background-size:cover;background-position:50% 50%;background-color:#e9e5df}
+.dhero .tx{padding:12px 14px}
+.dhero .sc{font-size:17px;line-height:1.5;margin:0 0 6px}
+.dhero .l2{font-size:14px;color:var(--accent);font-weight:600}
+.dsec{margin:18px 0}
+.dsec>h4{margin:0 0 8px;font-size:15px;display:flex;align-items:center;gap:8px}
+.dsec>h4 i{font-style:normal;width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;
+  font-size:11px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}
+.dstep{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:10px 12px;margin:0 0 8px}
+.dstep b{display:block;font-size:13px;color:var(--ink2);margin:0 0 4px}
+.dstep p{margin:0 0 6px;font-size:14px;line-height:1.6}
+.dstep .q{margin:4px 0 0;padding:6px 9px;border-left:3px solid var(--line);background:rgba(0,0,0,.03);
+  font-size:12.5px;color:var(--ink2);line-height:1.5;word-break:break-all}
+.dstep ul{margin:2px 0 0;padding-left:18px;font-size:14px;line-height:1.6}
+.dgap{border:1px dashed var(--line);border-radius:12px;padding:10px 12px;margin:0 0 8px;background:transparent}
+.dgap b{display:block;font-size:13px;margin:0 0 3px}
+.dgap span{font-size:13px;color:var(--mute);line-height:1.55}
+.dsrc{font-size:12px;color:var(--mute);line-height:1.7;word-break:break-all}
+.dsrc a{color:var(--accent)}
+.dtools{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 0}
 .planview{margin-top:4px}
 .planview[hidden]{display:none}
 .planview h3{margin:0 0 4px;font-size:18px}
@@ -154,7 +178,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <body>
 <div class="app">
   <header>
-    <div class="wordmark">로카패스 <small>DECK PROTOTYPE v2.7 · 37 cards</small></div>
+    <div class="wordmark">로카패스 <small>DECK PROTOTYPE v2.8 · 37 cards · 상세 33</small></div>
     <div style="display:flex;gap:8px;align-items:center">
       <button class="hub" id="hubBtn" aria-label="출발 거점 바꾸기">거점 <b id="hubLabel">안 정함</b></button>
       <button class="mapbtn" id="mapBtn">언젠가 지도 <span id="pinCount">0</span></button>
@@ -173,6 +197,14 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
   </div>
   </div>
 
+
+  <section class="detailview" id="detailview" hidden>
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+      <h3 id="detailTitle">자세히</h3>
+      <button class="back-to-deck" id="detailBack">← 카드로</button>
+    </div>
+    <div id="detailBody"></div>
+  </section>
   <section class="planview" id="planview" hidden>
     <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
       <h3 id="planTitle">복제 계획</h3>
@@ -252,7 +284,7 @@ async function loadData(){
   const [cards, plans] = await Promise.all([fetch('data/cards.json').then(r=>r.json()), fetch('data/plans.json').then(r=>r.json()).catch(()=>[])]);
   PLANS = plans;
   CARDS = cards.filter(c=>c.status==='published').map(c=>({
-    id:c.id, hub:c.hub, region:c.region_ko, photo:(c.photo&&c.photo.search_terms)||'', editor:c.editor_pick, days:c.days, trust:c.trust,
+    id:c.id, pass_id:c.pass_id, hub:c.hub, region:c.region_ko, photo:(c.photo&&c.photo.search_terms)||'', editor:c.editor_pick, days:c.days, trust:c.trust,
     scene:c.front.scene, l2:c.front.l2, l3:c.front.l3, pass:c.front.pass_label,
     what:c.back.what, why:c.back.why, save:c.back.save, care:c.back.care, buy:c.back.buy, phrase:c.back.phrase, basis:c.back.basis
   }));
@@ -301,6 +333,7 @@ function render(){
           <div class="foot">
             <button class="primary" data-act="pin">${pins.has(c.id)?'지도에서 빼기':'지도에 꽂기'}</button>
             <button data-act="share">공유</button>
+            <button data-act="detail">자세히 보기</button>
             <button data-act="clone" title="0-A에서는 자리만">복제</button>
           </div>
         </div>
@@ -334,6 +367,7 @@ function act(a, c, card){
     if (navigator.share){ navigator.share({title:'여행 한 장', text, url}).catch(()=>{}); }
     else if (navigator.clipboard){ navigator.clipboard.writeText(text+'\n'+url).then(()=>toast('링크를 복사했어요')).catch(()=>toast(url)); }
     else toast(url);
+  } else if (a==='detail'){ openDetail(c);
   } else if (a==='clone'){ const p=PLANS.find(p=>p.card_id===c.id); if(!p){ toast('이 카드의 복제 계획은 준비 중이에요'); return; } metrics.clone++; saveMetrics(); renderMetrics(); track('clone', c.id); openPlan(p); }
 }
 function current(){
@@ -351,6 +385,104 @@ document.getElementById('pinBtn').addEventListener('click', ()=>{
   const s=current(); if(!s) return; const id=+s.dataset.id; const c=CARDS.find(x=>x.id===id); act('pin', c, s.firstElementChild);
 });
 let curPlan=null;
+
+/* ── 상세 페이지 (절차층 설계 §4 v1.2) ───────────────────────────── */
+const HOWTO = {};
+let curDetail = null;
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+/* 재료 문서의 **강조**를 그대로 살린다 — 다른 마크업은 넣지 않는다 */
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+
+async function loadHowto(pid){
+  if (!pid) return null;
+  if (HOWTO[pid] !== undefined) return HOWTO[pid];
+  try { HOWTO[pid] = await fetch('data/howto/'+pid+'.json').then(r=> r.ok ? r.json() : null); }
+  catch(e){ HOWTO[pid] = null; }
+  return HOWTO[pid];
+}
+function dcell(label, c){
+  if (!c || !c.v) return '';
+  let body;
+  if (Array.isArray(c.v)) {
+    body = '<ul>' + c.v.map(w => '<li>' + md(w.name||'') +
+      (w.online ? ' <span style="color:var(--mute)">(온라인)</span>' : '') +
+      (w.note ? ' <span style="color:var(--mute)">· '+md(w.note)+'</span>' : '') + '</li>').join('') + '</ul>';
+  } else body = '<p>' + md(c.v) + '</p>';
+  return '<div class="dstep"><b>'+esc(label)+'</b>'+body+
+    (c.q ? '<p class="q">'+esc(c.q)+'</p>' : '') + '</div>';
+}
+const DSTEPS = [
+  ['before', [['who_can_buy','살 수 있는 사람'],['bring','가져갈 것'],['when','언제 사나'],['app_or_account','앱·계정']]],
+  ['buy',    [['where','어디서 사나'],['where_note','파는 자리 주의'],['how','창구에서 뭐라고 하나'],['pay','결제'],['get_what','손에 쥐는 것']]],
+  ['issue',  [['exchange','교환'],['activate','이용 개시'],['seat','좌석']]],
+  ['use',    [['show','어떻게 보여 주나'],['count_rules','쓰는 규칙'],['when_lane_closed','안 될 때'],['trap','가장 자주 걸리는 것']]],
+  ['end',    [['return','반납'],['refund','환불'],['overuse','초과·구역 밖']]]
+];
+async function openDetail(c){
+  curDetail = c;
+  const h = await loadHowto(c.pass_id);
+  const ph = PHOTOS[c.id];
+  let s = '';
+  /* ① 이 여행 — 카드의 문장을 그대로 물려받아 넓힌다 */
+  s += '<div class="dhero">' +
+       (ph ? '<div class="ph" style="background-image:url('+ph.src+');background-position:'+(ph.pos||'50% 50%')+'"></div>' : '') +
+       '<div class="tx"><p class="sc">'+esc(c.scene)+'</p><div class="l2">'+esc(c.l2)+'</div></div></div>';
+  s += '<div class="dsec"><h4><i>1</i>이 여행</h4>' +
+       '<div class="dstep"><b>거기서 뭐 해요</b><p>'+esc(c.what)+'</p></div>' +
+       '<div class="dstep"><b>왜 이 패스냐면</b><p>'+esc(c.why)+'</p></div>' +
+       (c.save ? '<div class="dstep"><b>얼마 아껴요</b><p>'+esc(c.save)+'</p></div>' : '') +
+       (c.care ? '<div class="dstep"><b>조심할 것</b><p>'+esc(c.care)+'</p></div>' : '') +
+       '</div>';
+  /* ② 사고 받고 쓰기 */
+  s += '<div class="dsec"><h4><i>2</i>사고 받고 쓰기</h4>';
+  if (h){
+    let any = '';
+    for (const [sec, keys] of DSTEPS){
+      const box = keys.map(([k,label]) => dcell(label, (h[sec]||{})[k])).join('');
+      if (box) any += box;
+    }
+    s += any || '<div class="dgap"><b>아직 못 채웠어요</b><span>이 패스의 절차는 확인 중이에요.</span></div>';
+  } else {
+    s += '<div class="dstep"><b>사는 법</b><p>'+esc(c.buy||'')+'</p></div>' +
+         (c.phrase && c.phrase.indexOf('필요 없')<0 ? '<div class="dstep"><b>창구에서</b><p>'+esc(c.phrase)+'</p></div>' : '');
+  }
+  s += '</div>';
+  /* ③ 여기까지 확인했어요 */
+  s += '<div class="dsec"><h4><i>3</i>여기까지 확인했어요</h4>';
+  s += '<div class="dstep"><b>신뢰</b><p>'+esc(c.trust.label)+'</p></div>';
+  if (c.basis) s += '<div class="dstep"><b>숫자의 근거</b><p>'+esc(c.basis)+'</p></div>';
+  if (h && h.gaps && h.gaps.length){
+    s += h.gaps.map(g => '<div class="dgap"><b>아직 못 확인한 것 · '+esc(g.what)+'</b><span>'+md(g.how)+'</span></div>').join('');
+  }
+  if (h && h.sources && h.sources.length){
+    s += '<div class="dsrc">출처 · ' + h.sources.map(x=>'<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.url)+'</a>'+(x.checked?' ('+esc(x.checked)+' 확인)':'')).join('<br>') + '</div>';
+  }
+  s += '</div>';
+  /* ④ 복제·지도 */
+  s += '<div class="dtools">' +
+       '<button class="primary" id="dPin">'+(pins.has(c.id)?'지도에서 빼기':'지도에 꽂기')+'</button>' +
+       '<button id="dClone">복제 계획</button>' +
+       '<button id="dShare">공유</button></div>';
+  document.getElementById('detailTitle').textContent = c.region;
+  document.getElementById('detailBody').innerHTML = s;
+  document.getElementById('dPin').onclick = ()=>{ act('pin', c, null); openDetail(c); };
+  document.getElementById('dClone').onclick = ()=> act('clone', c, null);
+  document.getElementById('dShare').onclick = ()=> act('share', c, null);
+  showDetail(true);
+  history.replaceState(null,'', '#detail='+c.id);
+  metrics.detail = (metrics.detail||0)+1; saveMetrics(); track('detail', c.id);
+}
+function showDetail(on){
+  document.getElementById('detailview').hidden = !on;
+  if (on){ document.getElementById('deckView').hidden=true; document.getElementById('mapview').hidden=true;
+           document.getElementById('planview').hidden=true; window.scrollTo({top:0}); }
+  else { document.getElementById('deckView').hidden=false; curDetail=null; }
+}
+function openDetailFromHash(){
+  const m = location.hash.match(/detail=(\d+)/); if(!m) return false;
+  const c = CARDS.find(x=>x.id===+m[1]); if(!c) return false;
+  openDetail(c); return true;
+}
 function showPlan(on){ document.getElementById('planview').hidden=!on; if(on){ document.getElementById('deckView').hidden=true; document.getElementById('mapview').hidden=true; window.scrollTo({top:0}); } else { document.getElementById('deckView').hidden=false; } }
 function openPlan(p, opts){
   curPlan=p; const c=CARDS.find(x=>x.id===p.card_id);
@@ -469,7 +601,8 @@ loadData().then(()=>{
 render();
 function openPlanFromHash(){ const m=location.hash.match(/plan=(\d+)/); if(!m) return false; const g=k=>{const r=location.hash.match(new RegExp('(?:^|[#&])'+k+'=([^&]+)')); return r?decodeURIComponent(r[1]):null;}; const p=PLANS.find(p=>p.card_id===+m[1]); if(!p) return false; openPlan(p,{date:g('d'),adults:g('a'),children:g('c')}); return true; }
 openPlanFromHash();
-window.addEventListener('hashchange', ()=>{ if(!openPlanFromHash() && curPlan && location.hash.indexOf('plan=')<0){ showPlan(false); } });
+document.getElementById('detailBack').addEventListener('click', ()=>{ showDetail(false); history.replaceState(null,'', location.pathname); });
+window.addEventListener('hashchange', ()=>{ if(location.hash.indexOf('detail=')<0 && curDetail) showDetail(false); if(openDetailFromHash()) return; if(!openPlanFromHash() && curPlan && location.hash.indexOf('plan=')<0){ showPlan(false); } });
 (function(){
   const mine=LS('lp_mypins'); const cur=[...pins].join(',');
   if(pins.size && mine!==cur && !LS('lp_recv_'+cur)){
@@ -478,6 +611,7 @@ window.addEventListener('hashchange', ()=>{ if(!openPlanFromHash() && curPlan &&
     document.getElementById('recvBanner').hidden=false;
   }
 })();
+openDetailFromHash();
 if (hub===null) document.getElementById('hubSheet').hidden=false;
 }).catch(e=>{ document.getElementById('deck').innerHTML='<p class="hint">데이터를 불러오지 못했어요. 주소로 직접 열어 주세요.</p>'; console.error(e); });
 </script>

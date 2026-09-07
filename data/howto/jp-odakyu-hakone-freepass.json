@@ -1,0 +1,85 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "오다큐선 각 역 자동발매기·창구",
+     "online": false
+    },
+    {
+     "name": "스마트폰 앱 「EMot」",
+     "online": true
+    },
+    {
+     "name": "세븐일레븐(세븐티켓)",
+     "online": false
+    },
+    {
+     "name": "오다큐 여행센터·하코네 주변 역·일부 여행사",
+     "online": false
+    }
+   ],
+   "src": "https://www.odakyu-freepass.jp/hakone/buy.html"
+  },
+  "how": {
+   "v": "箱根フリーパスの2日券、新宿発を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.odakyu-freepass.jp/hakone/buy.html"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "**특급 로망스카는 특급권을 따로 산다**",
+   "q": "特急ロマンスカーは別途特急券が必要です。",
+   "src": "https://www.odakyu-freepass.jp/hakone/buy.html"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "하코네 지역 8개 탈것 무제한 + 출발역~오다와라 왕복. 2일 또는 3일",
+   "src": "https://www.odakyu-freepass.jp/hakone/buy.html"
+  },
+  "trap": {
+   "v": "**2025-10-01에 로프웨이·해적선 운임이 올라 관련 기획권이 모두 개정됐다** — 오래된 안내에 적힌 금액을 그대로 믿으면 안 된다",
+   "src": "https://www.odakyu-freepass.jp/hakone/buy.html"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "오다큐 오토쿠나킷푸 사이트는 다국어"
+ },
+ "sources": [
+  {
+   "url": "https://www.odakyu-freepass.jp/hakone/buy.html",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.sotetsu.co.jp/news/train/info-train-2025-09-24/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불",
+   "how": "요금·발매처 페이지에 환불 규정이 없다 — EMot 약관 확인"
+  }
+ ],
+ "pass_id": "jp-odakyu-hakone-freepass",
+ "name": {
+  "local": "箱根フリーパス（新宿発 2日）",
+  "local_lang": "ja",
+  "ko": "하코네 프리패스 신주쿠 2일",
+  "en": "Hakone Free Pass"
+ },
+ "built_at": "2026-09-07"
+}

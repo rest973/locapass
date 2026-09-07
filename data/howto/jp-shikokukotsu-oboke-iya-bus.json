@@ -1,0 +1,89 @@
+{
+ "before": {
+  "when": {
+   "v": "**출발일 6개월 전부터 출발 2일 전까지** 예약·구매",
+   "src": "https://yonkoh.co.jp/teikan_oboke_iya"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "전화 예약 0883-72-1231",
+     "online": false
+    },
+    {
+     "name": "発車オーライネット(일본어)",
+     "online": true
+    },
+    {
+     "name": "Japan Bus Online(영어·중국어)",
+     "online": true
+    }
+   ],
+   "src": "https://yonkoh.co.jp/teikan_oboke_iya"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.awanavi.jp/archives/spot/3036"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "JR아와이케다역 10:55 또는 아와이케다 버스터미널 11:10 출발, 16:55경 돌아온다(약 6시간)",
+   "src": "https://yonkoh.co.jp/teikan_oboke_iya"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "요금에 **가즈라바시 통행료·헤이케야시키 향토요리 점심·미치노에키 오보케 입장·오보케쿄 뱃놀이 승선료**가 들어 있다",
+   "src": "https://yonkoh.co.jp/teikan_oboke_iya"
+  },
+  "trap": {
+   "v": "**2026년 4~11월 중 운행일 캘린더가 정한 날에만 다닌다** — 매일 있는 버스가 아니다",
+   "src": "https://yonkoh.co.jp/teikan_oboke_iya"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "전날 17시까지 1인 100엔, 당일 출발 전까지 1인 2,900엔, **출발 후에는 100%**. 여행사를 통했으면 수수료가 다르다",
+   "src": "https://yonkoh.co.jp/teikan_oboke_iya"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh"
+  ],
+  "note": "Japan Bus Online이 영어·중국어를 받는다"
+ },
+ "sources": [
+  {
+   "url": "https://www.awanavi.jp/archives/spot/3036",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://yonkoh.co.jp/teikan_oboke_iya",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "9월 캠페인 값",
+   "how": "공식에 대인 13,000엔과 함께 **9월 한정 캠페인 8,000엔**이 적혀 있다 — 우리 데이터는 13,000이다"
+  },
+  {
+   "what": "당일 결제수단",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-shikokukotsu-oboke-iya-bus",
+ "name": {
+  "local": "大歩危・祖谷定期観光バス",
+  "local_lang": "ja",
+  "ko": "오보케·이야 정기관광버스",
+  "en": "Oboke-Iya Sightseeing Bus"
+ },
+ "built_at": "2026-09-07"
+}

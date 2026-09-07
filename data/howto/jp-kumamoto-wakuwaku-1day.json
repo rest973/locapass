@@ -1,0 +1,82 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "각사 창구·구마모토역 관광안내소·조사이엔 안내소·사쿠라마치 버스터미널 안내소",
+     "online": false
+    },
+    {
+     "name": "버스·전차 차내",
+     "online": false
+    },
+    {
+     "name": "my route · RYDE 앱(디지털)",
+     "online": true
+    }
+   ],
+   "src": "https://www.oneday-pass.jp/"
+  },
+  "how": {
+   "v": "わくわく1dayパスの熊本県内版を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "종이권 또는 QR 화면. **디지털이 200엔 싸다**(현내판 2,300 vs 2,500)",
+   "src": "https://www.oneday-pass.jp/"
+  }
+ },
+ "issue": {
+  "activate": {
+   "v": "**디지털은 사용 개시부터 24시간**이라 오후에 시작해 다음 날 오전까지 쓸 수 있다",
+   "src": "https://www.oneday-pass.jp/"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "디지털은 **QR 화면을 타고 내릴 때 차내 리더기에 댄다.** 시전은 내릴 때 승무원에게 보인다. 종이권은 탈 때 정리권을 뽑고 내릴 때 운임함에 넣은 뒤 **날짜 부분을 보인다**",
+   "src": "https://www.oneday-pass.jp/"
+  },
+  "count_rules": {
+   "v": "**고속·특급·쾌속·규슈횡단·공항 리무진·정기관광·아소화구선은 못 탄다**",
+   "src": "https://www.oneday-pass.jp/"
+  },
+  "trap": {
+   "v": "아소 화구까지 가는 버스가 빠져 있다 — 아소역에서 화구선은 따로 낸다",
+   "src": "https://www.oneday-pass.jp/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용분만, 1장에 50엔. 사용한 것은 불가",
+   "src": "https://www.oneday-pass.jp/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.oneday-pass.jp/",
+   "checked": "2026-09-04"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "구역 ①②의 범위",
+   "how": "요금(①900/850·②1,200/1,100)은 확인했으나 구역 경계가 지도로만 있다"
+  }
+ ],
+ "pass_id": "jp-kumamoto-wakuwaku-1day",
+ "name": {
+  "local": "わくわく1dayパス 熊本県内版",
+  "local_lang": "ja",
+  "ko": "와쿠와쿠 1day 패스 구마모토현 전역",
+  "en": "Wakuwaku 1day Pass Kumamoto"
+ },
+ "built_at": "2026-09-07"
+}

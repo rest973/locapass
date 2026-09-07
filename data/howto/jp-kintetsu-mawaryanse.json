@@ -1,0 +1,110 @@
+{
+ "before": {
+  "when": {
+   "v": "발매 2026-01-14~12-26, 이용 2026-02-14~12-29. **디지털판은 승차 개시일 당일에도 산다**",
+   "q": "ご乗車開始日当日購入可能",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  },
+  "app_or_account": {
+   "v": "디지털판은 「킨테츠 디지털킷푸(きんてつチケットEモール)」",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "킨테츠 역 창구 33역(오사카난바·쓰루하시·긴테츠나고야·교토 등)",
+     "online": false
+    },
+    {
+     "name": "여행사(클럽투어리즘·일본여행·도부톱투어스·메이한킨테츠여행·메이테츠관광·요미우리여행), 한신 고베산노미야역, 나라교통 각 여행센터",
+     "online": false
+    },
+    {
+     "name": "라쿠텐트래블 관광체험·VELTRA·자란넷 놀이체험",
+     "online": true,
+     "note": "수수료가 붙는다"
+    },
+    {
+     "name": "킨테츠 디지털킷푸(E모ール)",
+     "online": true
+    }
+   ],
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  },
+  "how": {
+   "v": "まわりゃんせを大人1枚お願いします。乗車開始日は〇月〇日、大阪難波発です。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "**종이판 12,100/6,700, 디지털판 12,000/6,600으로 값이 다르다.** 종이판에는 왕복 특급권 교환권 1조와 프리구간 특급권 교환권 4매가 붙는다",
+   "q": "特急券引換券４枚",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "**킨테츠 특급은 전 좌석 지정석**이라 특급권 교환권을 좌석 지정으로 바꿔야 탄다",
+   "q": "近鉄特急は全席座席指定です",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "마쓰사카~가시코지마 프리구간. **시설 23곳을 한 사람당 한 번씩** 들어간다",
+   "q": "各施設お一人様1回限り入場・入館できます",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  },
+  "trap": {
+   "v": "**돌아오는 길에 내리는 순간 표가 끝나고 회수된다** — 시설이용권까지 함께 회수한다",
+   "q": "降車時点で当きっぷは利用終了となり回収いたします",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  },
+  "when_lane_closed": {
+   "v": "**디지털판은 특전 매장 8곳에서 쓸 수 없다**(肉道楽 西むら·岩戸屋·五十鈴勢語庵·七越茶屋·まつむら·カーナーピーナ·磯っ子·鯛). 특전 매장 수도 종이 약 70점 / 디지털 약 60점으로 다르다",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용·유효기간 내에 발매처에서, 수수료 500엔",
+   "q": "手数料(500円)を収受してお取扱いいたします",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "0-B 원문 대조 대상은 일본어 페이지"
+ },
+ "sources": [
+  {
+   "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/service.html",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://kintetsu-faq.dga.jp/faq_detail.html?id=680",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "0-B 정본과의 관계",
+   "how": "이 패스는 **0-B 파이프라인이 정본**이다. 여기 적힌 것은 `extract_A3.json`의 원문 인용을 옮긴 것이고 새로 조사한 것이 아니다. 6회전에서 `howto`를 함께 뽑는 것이 맞는 순서다"
+  }
+ ],
+ "pass_id": "jp-kintetsu-mawaryanse",
+ "name": {
+  "local": "まわりゃんせ",
+  "local_lang": "ja",
+  "ko": "마와리얀세",
+  "en": "Mawaryanse"
+ },
+ "built_at": "2026-09-07"
+}

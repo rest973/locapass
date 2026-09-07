@@ -1,0 +1,72 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "고속철 쭤잉역 2번 출구 컨딩쾌선 창구",
+     "online": false
+    },
+    {
+     "name": "각 정류장 차내 구매",
+     "online": false
+    },
+    {
+     "name": "여행사 예약(핑둥여행사 MAXA)",
+     "online": true
+    }
+   ],
+   "src": "https://www.ptbus.com.tw/news_info/0/1/118?status=5"
+  },
+  "how": {
+   "v": "**전자표증(이지카드 등)을 쓰는 사람은 온라인·전화 예약이 안 되고 창구에서 좌석 지정을 받아야 한다.** 현금으로 사도 좌석 지정 카드를 받는다",
+   "src": "https://www.ptbus.com.tw/news_info/0/1/118?status=5"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.ptbus.com.tw/news_info/0/1/118?status=5"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "고속도로·쾌속도로 교통관제 규칙에 따라 **입석 승객은 못 탄다**",
+   "src": "https://www.ptbus.com.tw/news_info/0/1/118?status=5"
+  },
+  "trap": {
+   "v": "**우리가 들고 있던 왕복 650은 공식에 없다 — 왕복 우대 600·단정 401이다**(2026-09-07 정정). 카드 본문이 아직 650으로 적혀 있다",
+   "src": "https://www.ptbus.com.tw/news_info/0/1/118?status=5"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "zh"
+  ],
+  "note": "중국어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.ptbus.com.tw/news_info/0/1/118?status=5",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "반표 금액",
+   "how": "할인 대상자 정의만 있고 금액이 본문에 없다 — 현금·IC 요금표가 이미지다"
+  },
+  {
+   "what": "왕복표 유효기간",
+   "how": "공식 본문에 기재 없음"
+  }
+ ],
+ "pass_id": "tw-kenting-express-roundtrip",
+ "name": {
+  "local": "9189 墾丁快線 來回票",
+  "local_lang": "zh-Hant",
+  "ko": "9189 컨딩 익스프레스 왕복표",
+  "en": "Kenting Express 9189 Round-trip"
+ },
+ "built_at": "2026-09-07"
+}

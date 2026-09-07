@@ -1,0 +1,112 @@
+{
+ "before": {
+  "who_can_buy": {
+   "v": "**JR 동일본 패스(도호쿠 지역)는 외국인 자격 요건이 필요 없다** — 공식이 자격 요건 면제 목록에 이 패스를 넣어 두었다. 일본 국적자도 살 수 있다",
+   "q": "다음의 패스는 이러한 자격 요건이 필요하지 않습니다. … JR 동일본 패스 (도호쿠 지역)",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/purchase.html"
+  },
+  "bring": {
+   "v": "어린이(6~11세)는 **여권 등으로 나이를 증명**한다. 나이는 구매일 기준",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/eastpass_t.html"
+  },
+  "when": {
+   "v": "좌석은 **1개월 전부터** 예약할 수 있다",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/purchase.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR 동일본 열차 예약(인터넷)",
+     "online": true
+    },
+    {
+     "name": "일본 국내 창구",
+     "online": false
+    },
+    {
+     "name": "해외 여행사",
+     "online": false
+    }
+   ],
+   "src": "https://www.jreast.co.jp/multi/ko/pass/purchase.html"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/purchase.html"
+  }
+ },
+ "issue": {
+  "exchange": {
+   "v": "**주요 역에서 수령(교환·구입)한다**",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/purchase.html"
+  },
+  "seat": {
+   "v": "온라인 예약, **지정석 발매기**, 역 창구 셋 중에서 좌석을 잡는다",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/purchase.html"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "**자동 개찰기를 이용한다**",
+   "q": "자동 개찰기를 이용해 주십시오.",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/purchase.html"
+  },
+  "count_rules": {
+   "v": "연속 5일 또는 10일. **날짜를 띄어서 못 쓴다.** 그린차·그란클래스는 별도 요금. **일본 여행 중 한 번에 하나만** 쓸 수 있다",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/eastpass_t.html"
+  },
+  "trap": {
+   "v": "**도카이도 신칸센은 안 된다**(다른 회사가 운행). 이즈급행선·후지큐코선도 구역 밖. GALA 유자와역은 겨울~봄 시즌만 연다",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/eastpass_t.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**수령 전**이면 이용 개시일 전날 23:50(일본 시각)까지 웹에서 수수료 없이. 그 뒤 유효기간 마지막 날 23:50까지는 수수료를 내고 웹에서만(역에서는 불가). **수령 후**에는 유효기간 내 미사용분만 발매처에서 소정 수수료. **지정석을 잡아 둔 열차의 출발 시각이 지나면 일절 환불되지 않는다**",
+   "src": "https://www.jreast.co.jp/multi/ko/pass/purchase.html"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "**한국어 공식 페이지가 있다** — 33종 가운데 유일하다"
+ },
+ "sources": [
+  {
+   "url": "https://www.jreast.co.jp/multi/ko/pass/purchase.html",
+   "checked": "2026-09-07"
+  },
+  {
+   "url": "https://www.jreast.co.jp/multi/ko/pass/eastpass_t.html",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.jreast.co.jp/ko/multi/pass/purchase.html",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.jreast.co.jp/multi/en/pass/eastpass_t.html",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "우리 데이터의 자격 표기",
+   "how": "`rules`에 `자격:외국인전용`·`자격:여권필수`가 붙어 있는데 **공식은 이 패스를 자격 요건 면제 목록에 넣었다.** 정정 대상"
+  }
+ ],
+ "pass_id": "jp-jreast-pass-tohoku",
+ "name": {
+  "local": "JR EAST PASS",
+  "local_lang": "ja",
+  "ko": "JR동일본 패스(전역 단일, 구 도호쿠 에리어)",
+  "en": "JR EAST PASS"
+ },
+ "built_at": "2026-09-07"
+}

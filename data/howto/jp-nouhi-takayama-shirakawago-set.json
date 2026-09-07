@@ -1,0 +1,89 @@
+{
+ "before": {
+  "when": {
+   "v": "**전 편 예약제다.** 인터넷 예약은 5:00~2:00, 전화는 9:00~17:00",
+   "src": "https://www.nouhibus.co.jp/route_bus/shirakawago/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "노히버스 예약센터 0577-32-1688 (9:00~17:00)",
+     "online": false
+    },
+    {
+     "name": "発車オーライネット(인터넷, 5:00~2:00)",
+     "online": true
+    },
+    {
+     "name": "다카야마 노히버스센터 창구",
+     "online": false
+    }
+   ],
+   "src": "https://www.nouhibus.co.jp/route_bus/shirakawago/"
+  },
+  "how": {
+   "v": "白川郷往復のセット券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.nouhibus.co.jp/hida/ticket/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "다카야마 노히BC~시라카와고 편도 2,800",
+   "src": "https://www.nouhibus.co.jp/route_bus/shirakawago/"
+  },
+  "trap": {
+   "v": "**모바일 승차권은 「무예약 편」에만 쓸 수 있는데 이 노선은 전 편 예약제**라 모바일로 그냥 타는 길이 없다",
+   "src": "https://www.nouhibus.co.jp/route_bus/shirakawago/"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "発車オーライネット은 일본어. Japan Bus Online 대응 여부 미확인"
+ },
+ "sources": [
+  {
+   "url": "https://www.nouhibus.co.jp/hida/ticket/",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.nouhibus.co.jp/route/takayama-shirakawago/",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.nouhibus.co.jp/route_bus/shirakawago/",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.nouhibus.co.jp/other/areafree-ticket/",
+   "checked": "2026-09-04"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "세트권 자체의 절차",
+   "how": "노선 페이지에 편도 운임만 있고 **민가원 세트권의 예약·수령 방법이 없다** — ticket 페이지와 VELTRA 양쪽을 봐야 한다"
+  },
+  {
+   "what": "만석 시·환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-nouhi-takayama-shirakawago-set",
+ "name": {
+  "local": "白川郷 合掌造り民家園セット券",
+  "local_lang": "ja",
+  "ko": "다카야마↔시라카와고 왕복 세트권",
+  "en": "Takayama-Shirakawago Round-trip Set"
+ },
+ "built_at": "2026-09-07"
+}

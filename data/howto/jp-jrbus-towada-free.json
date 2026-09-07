@@ -1,0 +1,55 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR버스 아오모리역 창구(프리킷푸)·차내(운임)",
+     "online": false
+    }
+   ],
+   "src": "https://www.jrbustohoku.co.jp/route/11/274/"
+  },
+  "how": {
+   "v": "十和田湖まで大人1枚お願いします。",
+   "src": "카드 본문"
+  }
+ },
+ "issue": {},
+ "use": {
+  "trap": {
+   "v": "**프리킷푸가 2024-03에 판매를 끝냈다.** 카드 33은 지금 패스 없는 운임 카드다",
+   "src": "https://www.jrbustohoku.co.jp/route/11/274/"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.jrbustohoku.co.jp/route/11/274/",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://howtojourney.com/15221/",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://ja.wikipedia.org/wiki/青森・八戸・十和田湖フリーきっぷ",
+   "checked": "2026-09-04"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "현재의 대안",
+   "how": "아오모리~오이라세·도와다코는 지금 운임으로 탄다. `jp-oirase-shuttle-1day`(1일 2,000)가 그 자리를 메울 수 있는지 재조사가 필요하다"
+  }
+ ],
+ "pass_id": "jp-jrbus-towada-free",
+ "name": {
+  "local": "青森・八戸・十和田湖フリーきっぷ",
+  "local_lang": "ja",
+  "ko": "아오모리·하치노헤·도와다코 프리킷푸(판매 종료)",
+  "en": "Aomori-Hachinohe-Towadako Free Ticket (discontinued)"
+ },
+ "built_at": "2026-09-07"
+}

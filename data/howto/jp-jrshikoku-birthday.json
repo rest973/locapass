@@ -1,0 +1,98 @@
+{
+ "before": {
+  "who_can_buy": {
+   "v": "**출발일이 자기 생일月인 사람.** 동행 3명까지 「お連れ様用」을 함께 살 수 있다",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  },
+  "bring": {
+   "v": "**생일月임을 보이는 공적 증명서 원본**(마이넘버카드·운전면허증 등). **탈 때도 가지고 다녀야 한다**",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  },
+  "when": {
+   "v": "출발일 1개월 전부터 당일까지",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR시코쿠 역 みどりの窓口·みどりの券売機プラス",
+     "online": false
+    },
+    {
+     "name": "JR四国ツアー 지점",
+     "online": false
+    },
+    {
+     "name": "시코쿠 내 주요 여행사",
+     "online": false
+    }
+   ],
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  },
+  "how": {
+   "v": "バースデイきっぷを大人1枚お願いします。誕生月です。（パスポートを提示）",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "**기명식 표.** 이름은 발매 창구 직원이 적는다",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "생일月 공적 증명서를 지참하고, 기명된 본인만 쓴다",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  },
+  "count_rules": {
+   "v": "JR시코쿠 전선(우타즈~고지마 포함)과 도사쿠로시오철도 전선의 **특급 자유석**. JR시코쿠버스 노선버스(오토치선·구마코겐선)도 탄다(고속버스 불가). **「お連れ様用」만으로는 못 탄다** — 본인권 소지자와 전 여정을 함께해야 한다",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  },
+  "trap": {
+   "v": "**출발일이 생일月이어야 한다.** 생일이 4월이면 3/31 출발~4/2는 안 되고 4/30 출발~5/2는 된다",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용·유효기간 개시 전 또는 기간 내에만, 수수료 660엔. 사용 개시 후에는 운행 불능·지연이어도 불가",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "JR四国ツアー 사이트에 다국어 전환이 있다"
+ },
+ "sources": [
+  {
+   "url": "https://www.jr-eki.com/ticket/brand/2-3WN",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.jr-eki.com/ticket/brand/2-3WM",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "그린차판과의 차이",
+   "how": "자유석판 12,000·그린차판 15,000으로 값만 알고 절차 차이는 안 봤다"
+  }
+ ],
+ "pass_id": "jp-jrshikoku-birthday",
+ "name": {
+  "local": "バースデイきっぷ",
+  "local_lang": "ja",
+  "ko": "버스데이킷푸",
+  "en": "Birthday Ticket"
+ },
+ "built_at": "2026-09-07"
+}

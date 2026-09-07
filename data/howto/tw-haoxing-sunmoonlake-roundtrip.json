@@ -1,0 +1,90 @@
+{
+ "before": {
+  "when": {
+   "v": "좌석 예약·지정이 안 된다(선착순)",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "난터우객운 타이중 간청역 창구 04-22256418",
+     "online": false
+    },
+    {
+     "name": "고속철 타이중역 창구 04-36018665",
+     "online": false
+    },
+    {
+     "name": "차내(현금·IC)·ibon·온라인",
+     "online": true
+    }
+   ],
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+  },
+  "how": {
+   "v": "我要買日月潭線來回票一張，還有遊湖船環湖票。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "**좌석 보류 기능이 없다**(선착순)",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+  },
+  "trap": {
+   "v": "**樂齡套票(520·680)는 본국적 65세 이상 전용이라 외국인은 못 산다** — 증명서를 본다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "유효기간 내에 못 썼거나 기한이 지난 표는 **칭징여행사에서 환불, 수수료 30元**",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+  },
+  "overuse": {
+   "v": "자전거 대여는 시간을 넘기면 추가 요금",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "zh"
+  ],
+  "note": "중국어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://nantou.welcometw.com/tour/w71w",
+   "checked": "2026-09-04"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "套票 유효기간",
+   "how": "套票(620·950·1,360)는 2026-12-31까지로 적혀 있으나 來回票 자체의 유효기간이 없다"
+  },
+  {
+   "what": "르웨탄 케이블카 정비휴일",
+   "how": "있다고만 적혀 있고 날짜가 없다"
+  }
+ ],
+ "pass_id": "tw-haoxing-sunmoonlake-roundtrip",
+ "name": {
+  "local": "台灣好行 日月潭線 來回票",
+  "local_lang": "zh-Hant",
+  "ko": "타이완하오싱 르웨탄선 왕복표",
+  "en": "Taiwan Trip Sun Moon Lake Round-trip"
+ },
+ "built_at": "2026-09-07"
+}

@@ -1,0 +1,88 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "교통국 창구·관광안내소",
+     "online": false
+    },
+    {
+     "name": "九州MaaS 앱 「my route」",
+     "online": true
+    },
+    {
+     "name": "가고시마 팬 앱 「わくわく」",
+     "online": true
+    }
+   ],
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  },
+  "how": {
+   "v": "CUTEの2日券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "종이권 또는 디지털 티켓",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  }
+ },
+ "issue": {
+  "activate": {
+   "v": "디지털은 **인터넷 연결이 필요**하고 이용 기한이 따로 있다",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "쓸 때 티켓 화면을 띄우고, **내릴 때 승무원에게 보인다**",
+   "q": "利用する際は、使用中のチケットを表示し、降車する際に乗務員へお見せください",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  },
+  "count_rules": {
+   "v": "시버스·시전·가고시마시티뷰 + **사쿠라지마 아일랜드뷰와 사쿠라지마 페리**까지 하루 무제한. 민영버스에는 못 쓴다",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  },
+  "trap": {
+   "v": "사쿠라지마 페리가 들어 있는 것이 이 표의 값이다 — 페리를 안 타면 700엔짜리 1일권이 낫다",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**구매 후 변경·환불이 안 된다**",
+   "q": "購入後の変更・払い戻しできません",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.kotsu-city-kagoshima.jp/ticket-summary/oneday/",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "창구 위치·영업시간",
+   "how": "\"窓口（詳細は別ページ参照）\"로만 적혀 있어 어느 창구인지 이 페이지에 없다"
+  }
+ ],
+ "pass_id": "jp-kagoshima-cute",
+ "name": {
+  "local": "CUTE 共通利用券",
+  "local_lang": "ja",
+  "ko": "가고시마 CUTE",
+  "en": "Kagoshima CUTE"
+ },
+ "built_at": "2026-09-07"
+}

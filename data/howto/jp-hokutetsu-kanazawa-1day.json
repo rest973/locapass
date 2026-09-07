@@ -1,0 +1,98 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "호쿠테쓰 티켓센터",
+     "online": false
+    },
+    {
+     "name": "가나자와역 동쪽 안내소",
+     "online": false
+    },
+    {
+     "name": "무사시 엠자점·역 창구·호텔·관광안내소",
+     "online": false
+    }
+   ],
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+  },
+  "how": {
+   "v": "金沢市内1日フリー乗車券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "where_note": {
+   "v": "**차 안에서는 팔지 않는다.** 타기 전에 창구에서 사야 한다",
+   "q": "バス車内での販売はいたしておりません",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+  },
+  "get_what": {
+   "v": "종이 승차권. 날짜 도장이 찍힌다",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "내릴 때 운전사에게 券面을 보인다",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+  },
+  "count_rules": {
+   "v": "호쿠테쓰 그룹 노선버스(범위 내)·시로시타마치 가나자와 주유버스·서일본JR버스 노선버스·가나자와 후랏토버스·가나자와 쇼핑버스. **정기관광버스·고속승합·특급버스·라이트업버스는 제외**",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+  },
+  "trap": {
+   "v": "**\"차내에서 산다\"고 알려진 정보가 돌아다니지만 공식은 차내 판매를 하지 않는다.** 역앞 안내소에서 먼저 사고 타야 한다",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+  },
+  "when_lane_closed": {
+   "v": "날짜 도장이 없거나 부정 사용이면 무효",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "券面 유효일 **전날까지** 판매 창구에서만, 수수료 100엔",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.kanazawa-kankoukyoukai.or.jp/information/detail_288.html",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.nishinihonjrbus.co.jp/news/detail/913",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "창구 영업시간",
+   "how": "호쿠테쓰 티켓센터·가나자와역 동쪽 안내소의 영업시간이 요금 페이지에 없다 — 각 안내소 페이지 확인"
+  },
+  {
+   "what": "디지털판 유무",
+   "how": "공식 요금 페이지에 앱 판매 언급이 없다"
+  }
+ ],
+ "pass_id": "jp-hokutetsu-kanazawa-1day",
+ "name": {
+  "local": "金沢市内1日フリー乗車券",
+  "local_lang": "ja",
+  "ko": "가나자와 시내 1일 프리 승차권",
+  "en": "Kanazawa 1-Day Free Pass"
+ },
+ "built_at": "2026-09-07"
+}

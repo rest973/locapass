@@ -1,0 +1,89 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "디지털판 「LINKTIVITY」",
+     "online": true
+    },
+    {
+     "name": "버스 사업자 창구(종이판)",
+     "online": false
+    }
+   ],
+   "src": "https://www.sunqpass.jp/reserve/"
+  },
+  "how": {
+   "v": "SUNQパス北部九州3日券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.sunqpass.jp/information/info/2024-09-09/JP_20241001price.pdf"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "**고속버스는 좌석 확보가 필요한 노선이 있다.** 전화(九州高速バス予約センター 092-734-2727, 8:00~19:00)로 가예약할 때 **「SUNQ패스를 쓸 예정」이라고 말하고**, 패스를 산 뒤 창구에서 가예약 사실과 등록한 전화번호를 대면 **확보권(確保券)**을 준다",
+   "src": "https://www.sunqpass.jp/reserve/"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "고속버스는 **SUNQ패스와 확보권을 함께 보인다**",
+   "q": "SUNQパス+確保券を提示",
+   "src": "https://www.sunqpass.jp/reserve/"
+  },
+  "trap": {
+   "v": "**패스만 들고 고속버스에 가면 자리가 없을 수 있다** — 확보권이 따로다. 변경·취소는 승차 예정 정류장 또는 시발지 발차 10분 전까지",
+   "src": "https://www.sunqpass.jp/reserve/"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "SUNQ패스 공식은 다국어"
+ },
+ "sources": [
+  {
+   "url": "https://www.sunqpass.jp/information/info/2024-09-09/JP_20241001price.pdf",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.sunqpass.jp/",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.sunqpass.jp/reserve/",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "일반 노선버스 승차 방법",
+   "how": "예약 페이지가 고속버스 전용이라 일반 노선버스에서 무엇을 보이는지 없다"
+  },
+  {
+   "what": "유효기간 기산·환불",
+   "how": "기재 없음"
+  },
+  {
+   "what": "예약 불요 노선 목록",
+   "how": "\"필요한 노선과 불필요한 노선이 있다\"고만 적혀 있고 목록이 없다"
+  }
+ ],
+ "pass_id": "jp-sunq-all-3day",
+ "name": {
+  "local": "SUNQパス",
+  "local_lang": "ja",
+  "ko": "산큐패스 (북부규슈·전규슈·남부규슈)",
+  "en": "SUNQ Pass"
+ },
+ "built_at": "2026-09-07"
+}

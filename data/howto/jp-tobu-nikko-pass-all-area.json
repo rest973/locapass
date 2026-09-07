@@ -1,0 +1,90 @@
+{
+ "before": {
+  "who_can_buy": {
+   "v": "**외국인 여행자 전용. 다만 외국인과 동행하는 일본 국적자도 살 수 있다**",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+  },
+  "when": {
+   "v": "여행 1개월 전부터",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "디지털 tobu-japantrip-tickets.com",
+     "online": true
+    },
+    {
+     "name": "TOBU 투어리스트 인포메이션 센터 아사쿠사",
+     "online": false
+    },
+    {
+     "name": "AC호텔 바이 메리어트 도쿄 긴자·코트야드 긴자 도부호텔",
+     "online": false
+    }
+   ],
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "**특급(스페시아 등)을 타려면 특급권을 따로 산다**",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "4일간 유효",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+  },
+  "trap": {
+   "v": "**버스·로프웨이에 계절 운행이 있고 시설 할인도 겨울에는 빠지는 것이 있다** — 겨울에 오쿠닛코까지 넣으면 계획이 어긋난다",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용·유효기한 내면 판매점에서. 별도 취소 수수료가 붙는다",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "도부 공식에 다국어 페이지가 있다(확인한 것은 영어판)"
+ },
+ "sources": [
+  {
+   "url": "https://www.tobu.co.jp/en/ticket/nikko/all.html",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "무엇을 보이나",
+   "how": "디지털판을 개찰·차내에서 어떻게 보이는지 영어 페이지에 기재 없음"
+  },
+  {
+   "what": "이용 개시일 지정",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-tobu-nikko-pass-all-area",
+ "name": {
+  "local": "NIKKO PASS all area",
+  "local_lang": "ja",
+  "ko": "닛코 패스 올에어리어",
+  "en": "NIKKO PASS all area"
+ },
+ "built_at": "2026-09-07"
+}

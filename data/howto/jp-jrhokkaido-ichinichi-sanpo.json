@@ -1,0 +1,66 @@
+{
+ "before": {
+  "when": {
+   "v": "**전매가 없다.** 이용 당일 아침 영업 개시부터 판다",
+   "q": "前売りはしません",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007248/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "삿포로·오타루·지토세 등 프리구간 37개 역",
+     "online": false
+    }
+   ],
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007248/"
+  },
+  "how": {
+   "v": "一日散歩きっぷを大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "종이 승차권",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007248/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "프리에리어 안 보통·쾌속 자유석. **특급·급행·그린차·보통차 지정석은 못 탄다.** 다만 石勝線 新得~新夕張, 室蘭本線 東室蘭~室蘭 **구간 안에서 타고 내릴 때만** 특례로 특급 보통차 지정석의 빈자리를 쓸 수 있다",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007248/"
+  },
+  "trap": {
+   "v": "**특례 구간을 벗어나 특급을 타면 그 열차의 전 구간 운임·요금을 따로 낸다** — 차액이 아니다",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007248/"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.jrhokkaido.co.jp/CM/Otoku/007248/",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불",
+   "how": "JR북해도 공식 상품 페이지에 환불 규정이 없다"
+  }
+ ],
+ "pass_id": "jp-jrhokkaido-ichinichi-sanpo",
+ "name": {
+  "local": "一日散歩きっぷ",
+  "local_lang": "ja",
+  "ko": "이치니치 산포 킷푸",
+  "en": "One-day Stroll Ticket"
+ },
+ "built_at": "2026-09-07"
+}

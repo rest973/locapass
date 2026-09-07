@@ -1,0 +1,93 @@
+{
+ "before": {
+  "when": {
+   "v": "**혼잡할 때 차내 구매는 발차가 늦어지는 원인이라 미리 사기를 권한다**(공식)",
+   "q": "事前に購入してください。（混雑時の車内購入は発車遅れの原因となります。）",
+   "src": "http://kochi-tabi.jp/my-bus/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "고치역 관광안내소",
+     "online": false
+    },
+    {
+     "name": "숙박시설·JR역 みどりの窓口",
+     "online": false
+    },
+    {
+     "name": "고치공항",
+     "online": false
+    },
+    {
+     "name": "조르단 노리카에안나이 앱(모바일)",
+     "online": true
+    }
+   ],
+   "src": "http://kochi-tabi.jp/my-bus/"
+  },
+  "how": {
+   "v": "MY遊バスの桂浜券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "http://kochi-tabi.jp/my-bus/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "**특전을 쓸 때도 승차권을 보인다**",
+   "q": "特典のご利用時は、乗車券をご提示ください",
+   "src": "http://kochi-tabi.jp/my-bus/"
+  },
+  "count_rules": {
+   "v": "**좌석 예약·지정은 안 된다.** 승객이 많으면 못 탈 수 있다. 협찬 시설 할인은 **승차일과 다음 날 2일간**",
+   "q": "座席の予約や指定はできません。",
+   "src": "http://kochi-tabi.jp/my-bus/"
+  },
+  "trap": {
+   "v": "**고다이산권으로는 도사덴교통 가쓰라하마선을 못 탄다.** 가쓰라하마까지 가려면 가쓰라하마권이다",
+   "src": "http://kochi-tabi.jp/my-bus/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**이용 기간이 지난 표는 교환·환불이 안 된다.** 기간 내 이용일을 긁지 않은 것만 받는다",
+   "src": "http://kochi-tabi.jp/my-bus/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "http://kochi-tabi.jp/my-bus/",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://kochi-tabi.jp/lp/my-bus/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "운행 기간·간격",
+   "how": "\"매일 운행\"과 특정일 토·일 다이어 운행만 적혀 있고 첫차·막차 시각이 이 페이지에 없다"
+  }
+ ],
+ "pass_id": "jp-kochi-myyu-bus",
+ "name": {
+  "local": "MY遊バス 桂浜券",
+  "local_lang": "ja",
+  "ko": "MY유 버스 가쓰라하마권",
+  "en": "MY-YU Bus Katsurahama Ticket"
+ },
+ "built_at": "2026-09-07"
+}

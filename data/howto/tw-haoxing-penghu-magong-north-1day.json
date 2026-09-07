@@ -1,0 +1,75 @@
+{
+ "before": {
+  "when": {
+   "v": "**예약제. 승차 전날 밤 8시까지 구매·좌석 지정을 끝내야 한다**",
+   "q": "最遲須在乘車日前一天晚上8點前完成購票劃位程序",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "펑후공항 여행서비스센터",
+     "online": false
+    },
+    {
+     "name": "和盟電子商務 펑후분공사",
+     "online": false
+    },
+    {
+     "name": "KLOOK·KKday·Trip.com·펑후하오싱 공식",
+     "online": true
+    }
+   ],
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031"
+  },
+  "how": {
+   "v": "펑후하오싱 공식 사이트에서 좌석 지정(劃位). 고객센터 0906-315-953",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "**월·목·금·토·일 운행, 화요일과 수요일은 쉰다**",
+   "q": "出車日為每週一、四、五、六及日，停駛日為每週二及三",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031"
+  },
+  "trap": {
+   "v": "**표를 사면 승차 당일과 그 다음 날, 펑후현 내 공공버스를 무료로 갈아탈 수 있다** — 종이 표나 승차 증명을 보이면 된다. 카드 61이 아직 안 쓰고 있는 재료다",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "zh"
+  ],
+  "note": "중국어. 판매처(KLOOK 등)는 다국어"
+ },
+ "sources": [
+  {
+   "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "정류장별 체류 시간",
+   "how": "유람선식 버스인데 각 정류장 하차 시간이 기재 없음"
+  }
+ ],
+ "pass_id": "tw-haoxing-penghu-magong-north-1day",
+ "name": {
+  "local": "台灣好行 媽宮北環線 一日券",
+  "local_lang": "zh-Hant",
+  "ko": "타이완하오싱 마궁 북환선 1일권",
+  "en": "Taiwan Trip Magong North Loop 1-day"
+ },
+ "built_at": "2026-09-07"
+}

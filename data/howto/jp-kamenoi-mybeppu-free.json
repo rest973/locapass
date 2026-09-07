@@ -1,0 +1,91 @@
+{
+ "before": {
+  "app_or_account": {
+   "v": "디지털판은 **「my route」 앱**이 필요하고, **이용 개시 때 통신되는 환경**이 있어야 한다",
+   "src": "https://kyushu-maas.jp/ticket/707"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "가메노이버스 창구",
+     "online": false
+    },
+    {
+     "name": "九州MaaS(my route 앱)",
+     "online": true,
+     "url": "https://kyushu-maas.jp/ticket/707"
+    }
+   ],
+   "src": "https://kyushu-maas.jp/ticket/707"
+  },
+  "how": {
+   "v": "MyべっぷFreeのワイド2日券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://kyushu-maas.jp/ticket/707"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "버스에서 **내릴 때 승무원에게 티켓 화면(券面)을 보인다**",
+   "src": "https://kyushu-maas.jp/ticket/707"
+  },
+  "count_rules": {
+   "v": "벳푸 시내 전선 + 조자마고원 + 유후인 + 아프리칸사파리 구역의 가메노이버스. 1일권은 **이용 개시 당일만**, 2일권은 개시일부터 연속 2일",
+   "src": "https://kyushu-maas.jp/ticket/707"
+  },
+  "trap": {
+   "v": "와이드와 미니가 따로 있다 — 유후인·아프리칸사파리까지 가려면 와이드여야 한다",
+   "src": "https://kyushu-maas.jp/ticket/707"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**이용 개시 후에는 환불이 안 된다**",
+   "src": "https://kyushu-maas.jp/ticket/707"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "九州MaaS는 일본어. 앱의 다국어 대응은 미확인"
+ },
+ "sources": [
+  {
+   "url": "https://kyushu-maas.jp/ticket/707",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://ticket-kamenoibus.book.ntmg.com/top",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://kyushu-maas.jp/ticket/709",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "창구 판매분의 모양",
+   "how": "종이권인지 교환권인지 공식에 기재 없음 — 가메노이버스 창구 확인"
+  },
+  {
+   "what": "앱 결제수단",
+   "how": "해외 신용카드 가능 여부 기재 없음"
+  }
+ ],
+ "pass_id": "jp-kamenoi-mybeppu-free",
+ "name": {
+  "local": "MyべっぷFree ワイドフリー乗車券",
+  "local_lang": "ja",
+  "ko": "마이벳푸프리 와이드",
+  "en": "My Beppu Free Wide"
+ },
+ "built_at": "2026-09-07"
+}

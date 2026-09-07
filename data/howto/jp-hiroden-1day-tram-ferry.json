@@ -1,0 +1,89 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "히로시마역 영업센터 등 각 영업센터",
+     "online": false
+    },
+    {
+     "name": "전차 차내(운전사·차장)",
+     "online": false
+    },
+    {
+     "name": "히로시마 시내 주요 호텔",
+     "online": false
+    },
+    {
+     "name": "MOBIRY 디지털",
+     "online": true
+    }
+   ],
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+  },
+  "how": {
+   "v": "電車・宮島フェリーの一日乗車乗船券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "**스크래치식 종이 승차권**(이용일을 긁는다) 또는 디지털",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+  },
+  "pay": {
+   "v": "창구·차내는 현금. 디지털은 앱 결제",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "히로덴 전차 전선 + 미야지마마쓰다이키센(미야지마구치~미야지마 항로). **JR 페리·버스·미야지마 로프웨이는 못 탄다**",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+  },
+  "show": {
+   "v": "전차는 내릴 때, 페리는 개찰에서 券面을 보인다",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+  },
+  "trap": {
+   "v": "**미야지마구치에는 JR 페리와 마쓰다이키센 두 회사가 나란히 있다.** 이 표로는 마쓰다이키센만 탄다 — 승선구를 잘못 서면 따로 낸다",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용분만 8곳에서, 수수료 200엔",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "디지털 시간권과의 관계",
+   "how": "8시간·24시간 디지털 시간권이 따로 있는데 이 1일권과 어느 쪽이 유리한지 비교가 없다"
+  },
+  {
+   "what": "방문세 처리",
+   "how": "어른 1,000·소인 550에 미야지마 방문세 100엔이 포함이라 적혀 있으나 별도 징수와의 차이(따로 낼 때와 무엇이 다른가)는 기재 없음"
+  }
+ ],
+ "pass_id": "jp-hiroden-1day-tram-ferry",
+ "name": {
+  "local": "電車・宮島フェリー 一日乗車乗船券",
+  "local_lang": "ja",
+  "ko": "히로덴 전차·미야지마 페리 1일권",
+  "en": "Hiroden Tram + Miyajima Ferry 1-day"
+ },
+ "built_at": "2026-09-07"
+}

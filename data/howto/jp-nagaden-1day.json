@@ -1,0 +1,75 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "역 안내소·호텔·앱(차내 판매 없음)",
+     "online": true
+    }
+   ],
+   "src": "https://www.naga-den.com/pages/12/"
+  },
+  "how": {
+   "v": "電車一日乗車券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "where_note": {
+   "v": "**전차 차내에서는 팔지 않는다.** 관광안내소·연선 호텔 프런트·영업소에서 미리 산다",
+   "q": "電車車内での販売はしておりません。",
+   "src": "https://www.naga-den.com/pages/12/"
+  },
+  "get_what": {
+   "v": "종이권(날짜 부분이 있다) 또는 모바일 1일 승차권·Pass Case",
+   "src": "https://www.naga-den.com/pages/12/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "**내릴 때 운전사에게 날짜 부분을 보인다**",
+   "q": "お降りの際は運転士に日付部分をご提示下さい。",
+   "src": "https://www.naga-den.com/pages/12/"
+  },
+  "count_rules": {
+   "v": "**한 사람에 한 장.** 여럿이 돌려 쓸 수 없다",
+   "src": "https://www.naga-den.com/pages/12/"
+  },
+  "trap": {
+   "v": "나가사키에서 전차를 처음 타는 사람이 차내에서 사려다 막히는 자리다",
+   "src": "https://www.naga-den.com/pages/12/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**이용일 전날까지만** 영업소에서, 1장에 50엔",
+   "src": "https://www.naga-den.com/pages/12/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.naga-den.com/pages/12/",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "정류장별 발매소",
+   "how": "공식에 정류장별 발매소 일람이 있으나 이 요약에는 옮기지 않았다"
+  }
+ ],
+ "pass_id": "jp-nagaden-1day",
+ "name": {
+  "local": "長崎電気軌道 電車一日乗車券",
+  "local_lang": "ja",
+  "ko": "나가사키 전차 1일권",
+  "en": "Nagasaki Tram 1-day"
+ },
+ "built_at": "2026-09-07"
+}
