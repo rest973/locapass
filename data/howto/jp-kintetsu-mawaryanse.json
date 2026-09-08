@@ -6,15 +6,16 @@
    "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
   },
   "app_or_account": {
-   "v": "디지털판은 「킨테츠 디지털킷푸(きんてつチケットEモール)」",
-   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
+   "v": "디지털판은 「킨테츠 디지털킷푸(きんてつチケットEモール)」 계정으로 사고, **한 번에 8명까지** 살 수 있다. 일행이 있으면 **여행 전에 각자 휴대폰으로 나눠 보내 둔다**.",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/",
+   "by": "카드 8 폐기@2026-09-08"
   },
   "bring": {
-   "v": "디지털판은 이용자 본인이 반드시 정보 단말을 지녀야 하고, 그 화면에 표시된 구입 정보만 유효하다.",
+   "v": "디지털판은 이용자 본인이 반드시 정보 단말을 지녀야 하고, 그 화면에 표시된 구입 정보만 유효하다. **배터리가 나가면 표를 보일 수 없다.**",
    "q": "利用者自身が必ず情報端末を携行し",
    "src": "https://www.kintetsu.co.jp/senden/Railway/eticket/kitei/",
    "role": "terms_digital",
-   "by": "extract_A6.json+extract_B6.json@2026-09-08"
+   "by": "extract_A6.json+extract_B6.json@2026-09-08 + 카드 8 폐기@2026-09-08"
   }
  },
  "buy": {
@@ -41,8 +42,9 @@
    "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/mawaryanse/"
   },
   "how": {
-   "v": "まわりゃんせを大人1枚お願いします。乗車開始日は〇月〇日、大阪難波発です。",
-   "src": "카드 본문"
+   "v": "まわりゃんせを大人1枚お願いします。乗車開始日は〇月〇日、大阪難波発です。 / **디지털판은 창구에서 말할 것이 없다** — 앱에서 사고 개찰기에 QR을 댄다.",
+   "src": "카드 본문",
+   "by": "카드 8 폐기@2026-09-08"
   },
   "get_what": {
    "v": "**종이판 12,100/6,700, 디지털판 12,000/6,600으로 값이 다르다.** 종이판에는 왕복 특급권 교환권 1조와 프리구간 특급권 교환권 4매가 붙는다",
@@ -198,6 +200,10 @@
    "what": "디지털판 개시 취소",
    "how": "デジタルきっぷ取扱規程에 이용 개시를 되돌리는 절차는 같은 역 출장(제21조) 말고는 없다",
    "by": "extract_A6.json+extract_B6.json@2026-09-08"
+  },
+  {
+   "what": "디지털판 상세",
+   "how": "2026-09-08 카드 8을 폐기하며 그 카드가 가지고 있던 디지털 구매 사실을 이 파일로 옮겼다(8명 제한·나눠 보내기·배터리·창구 문장 불필요). 옛 카드는 `조사_성격축/폐기카드8_2026-09-08.json`에 통째로 남아 있다."
   }
  ],
  "pass_id": "jp-kintetsu-mawaryanse",

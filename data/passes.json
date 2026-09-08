@@ -160,11 +160,11 @@
    1,
    2,
    3,
-   7,
-   8
+   7
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kintetsu-isejingu-sanpai",
@@ -245,7 +245,8 @@
   "note": " / 2026-09-06 지역 사전 점검: region_id 백필(region JP-24 기준)",
   "axis": "A",
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kintetsu-parque-espana-free",
@@ -309,7 +310,8 @@
   "unverified": [
    "coverage"
   ],
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kintetsu-rail-pass-5day-plus",
@@ -364,7 +366,8 @@
    "coverage",
    "purchase_channels"
   ],
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jrshikoku-birthday",
@@ -459,15 +462,21 @@
   "trust_level": "L2",
   "last_verified_at": "2026-09-06",
   "license": "ODbL-1.0",
-  "note": "출발일이 생일 달. 구매는 1개월 전부터 출발 당일까지. 동행은 본인용 1매당 3명까지 같은 값(전 일정 동행). JR四国버스 일반노선 포함. 판매 2027-03-31까지 / 4회차: 공식 확인(자유석용 12,000/6,000·3일 연속 일치). 출발일이 본인 생일 달일 때만 발매, 생일 달을 보이는 공적 증명서 원본 제시. 출발 1개월 전~당일 발매, 2027-03-31까지 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-37 기준)",
+  "note": "출발일이 생일 달. 구매는 1개월 전부터 출발 당일까지. 동행은 본인용 1매당 3명까지 같은 값(전 일정 동행). JR四国버스 일반노선 포함. 판매 2027-03-31까지 / 4회차: 공식 확인(자유석용 12,000/6,000·3일 연속 일치). 출발일이 본인 생일 달일 때만 발매, 생일 달을 보이는 공적 증명서 원본 제시. 출발 1개월 전~당일 발매, 2027-03-31까지 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-37 기준) / 2026-09-08 `layer` 채움 — **move**: JR시코쿠 전선 + 도사쿠로시오철도 + JR시코쿠버스. 위와 같다",
   "axis": "A",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
-  "region_id": "JP-37-takamatsu",
+  "region_id": [
+   "JP-37-takamatsu",
+   "JP-38-matsuyama",
+   "JP-39-kochi",
+   "JP-36-tokushima"
+  ],
   "card_status": "has_card",
   "card_ids": [
    11
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-jrshikoku-free",
@@ -539,13 +548,19 @@
   "trust_level": "L2",
   "last_verified_at": "2026-09-06",
   "license": "ODbL-1.0",
-  "note": " / 4회차: 공식 확인(18,000/9,000·3일 일치). 범위는 JR시코쿠 전선(宇多津~児島 포함) 특급·보통 자유석 + 土佐くろしお鉄道(窪川~若井) 보통 + JR시코쿠버스 일부(大栃線·久万高原線). 디지털판은 2027-03-31 이용 개시분까지 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-37 기준)",
+  "note": " / 4회차: 공식 확인(18,000/9,000·3일 일치). 범위는 JR시코쿠 전선(宇多津~児島 포함) 특급·보통 자유석 + 土佐くろしお鉄道(窪川~若井) 보통 + JR시코쿠버스 일부(大栃線·久万高原線). 디지털판은 2027-03-31 이용 개시분까지 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-37 기준) / 2026-09-08 `layer` 채움 — **move**: JR시코쿠 전선 특급·보통 자유석. 위와 같다",
   "card_status": "no_card",
   "card_status_reason": "특급을 하루 두 번은 타야 본전. 버스데이킷푸 카드의 접힘에 비교로만",
   "axis": "A",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
-  "region_id": "JP-37-takamatsu",
-  "rules_checked": "2026-09-06"
+  "region_id": [
+   "JP-37-takamatsu",
+   "JP-38-matsuyama",
+   "JP-39-kochi",
+   "JP-36-tokushima"
+  ],
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-jrshikoku-green",
@@ -610,15 +625,21 @@
   "trust_level": "L2",
   "last_verified_at": "2026-09-06",
   "license": "ODbL-1.0",
-  "note": " / 4회차: 공식 확인. 소인 설정 없음. JR시코쿠 전선 + 土佐くろしお鉄道 전선 특급 그린차·보통차. **2025-04-01 이용분부터 모노가타리 열차 3종(이요나다·시코쿠만나카센넨·시코쿠토사)은 별도 요금**. 출발 1개월 전부터 통년 발매 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-37 기준)",
+  "note": " / 4회차: 공식 확인. 소인 설정 없음. JR시코쿠 전선 + 土佐くろしお鉄道 전선 특급 그린차·보통차. **2025-04-01 이용분부터 모노가타리 열차 3종(이요나다·시코쿠만나카센넨·시코쿠토사)은 별도 요금**. 출발 1개월 전부터 통년 발매 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-37 기준) / 2026-09-08 `layer` 채움 — **move**: JR시코쿠 전선 그린·지정석. **시코쿠 4현을 도는 패스인데 region이 다카마쓰 하나로만 걸려 있었다** — 지역도 함께 고친다",
   "card_status": "no_card",
   "card_status_reason": "4일 그린 무제한은 이용자층이 좁음. 데이터만",
   "axis": "A",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
-  "region_id": "JP-37-takamatsu",
+  "region_id": [
+   "JP-37-takamatsu",
+   "JP-38-matsuyama",
+   "JP-39-kochi",
+   "JP-36-tokushima"
+  ],
   "unverified": [
    "rules"
-  ]
+  ],
+  "layer": "move"
  },
  {
   "pass_id": "jp-jrshikoku-weekend",
@@ -686,13 +707,19 @@
   "trust_level": "L2",
   "last_verified_at": "2026-09-06",
   "license": "ODbL-1.0",
-  "note": " / 4회차: JR시코쿠 공식 목록에 상품이 살아 있는 것은 확인. **다만 금액 12,000은 여전히 2차 출처값이다** — 1일권 치고 커서 상세 페이지로 재확인 필요 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-37 기준)",
+  "note": " / 4회차: JR시코쿠 공식 목록에 상품이 살아 있는 것은 확인. **다만 금액 12,000은 여전히 2차 출처값이다** — 1일권 치고 커서 상세 페이지로 재확인 필요 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-37 기준) / 2026-09-08 `layer` 채움 — **move**: JR시코쿠 전선 특급 자유석. 위와 같다",
   "card_status": "no_card",
   "card_status_reason": "1일권, 최소 체류 기준 미달. 데이터만",
   "axis": "A",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
-  "region_id": "JP-37-takamatsu",
-  "rules_checked": "2026-09-06"
+  "region_id": [
+   "JP-37-takamatsu",
+   "JP-38-matsuyama",
+   "JP-39-kochi",
+   "JP-36-tokushima"
+  ],
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-jrshikoku-tokushima-muroto-kochi55",
@@ -782,12 +809,18 @@
   "note": "JR 구간은 보통·쾌속 자유석만(특급은 요금 별도). DMV는 좌석 예약 불가(선착순). 판매 2027-03-31까지 / 4회차: 도쿠시마현 공식 정리 페이지에서 값 재확인(5,800/2,900·3일 일치) / 2026-09-06 지역 사전 점검: region_id 백필(region JP-36 기준)",
   "axis": "A",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
-  "region_id": "JP-36-tokushima",
+  "region_id": [
+   "JP-37-takamatsu",
+   "JP-38-matsuyama",
+   "JP-39-kochi",
+   "JP-36-tokushima"
+  ],
   "card_status": "has_card",
   "card_ids": [
    14
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kotoden-48h",
@@ -863,7 +896,8 @@
   "card_ids": [
    13
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-iyotetsu-1day",
@@ -938,7 +972,8 @@
   "mentioned_in": [
    12
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-dogo-onsen-shuyu",
@@ -1022,7 +1057,8 @@
   "card_ids": [
    12
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kochi-myyu-bus",
@@ -1123,7 +1159,8 @@
   "card_ids": [
    15
   ],
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-shikokukotsu-oboke-iya-bus",
@@ -1211,7 +1248,8 @@
   "card_ids": [
    16
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sunq-all-3day",
@@ -1328,7 +1366,7 @@
   "trust_level": "L2",
   "last_verified_at": "2026-09-06",
   "license": "ODbL-1.0",
-  "note": "2024-10-01 개정 가격(공식 공지 PDF). 2일권은 없음. 규슈 7현+시모노세키·나가토 약 2,400노선 + 일부 선박 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-40 기준)",
+  "note": "2024-10-01 개정 가격(공식 공지 PDF). 2일권은 없음. 규슈 7현+시모노세키·나가토 약 2,400노선 + 일부 선박 / 2026-09-06 지역 사전 점검: region_id 백필(region JP-40 기준) / 2026-09-08 `layer` 채움 — **move**: 지역 3곳에 걸린다 — 거점 사이를 잇는다",
   "axis": "A",
   "region_id": [
    "JP-44-oita",
@@ -1340,7 +1378,8 @@
    22
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-kamenoi-mybeppu-free",
@@ -1437,7 +1476,8 @@
    21
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-beppu-jigoku-common",
@@ -1515,7 +1555,8 @@
   "mentioned_in": [
    21
   ],
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nagaden-1day",
@@ -1585,7 +1626,8 @@
    23
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kumamoto-wakuwaku-1day",
@@ -1680,7 +1722,8 @@
    24
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kagoshima-cute",
@@ -1774,7 +1817,8 @@
    25
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sendai-marugoto",
@@ -1874,7 +1918,8 @@
    31
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jreast-pass-tohoku",
@@ -2066,7 +2111,8 @@
    33
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-04"
+  "rules_checked": "2026-09-04",
+  "layer": "local"
  },
  {
   "pass_id": "jp-oirase-shuttle-1day",
@@ -2136,7 +2182,8 @@
   "mentioned_in": [
    33
   ],
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jrhokkaido-ichinichi-sanpo",
@@ -2174,7 +2221,7 @@
    "transport": [
     {
      "operator": "JR北海道",
-     "scope": "삿포로 근교 프리구간(오타루·오샤만베·무로란·토마코마이·비에이·후라노 등) 보통·쾌속 자유석"
+     "scope": "프리에리어 — 하코다테선 오샤만베~다키카와 · 네무로선 다키카와~신토쿠 · 후라노선 후라노~비에이 · 삿포로 근교. 보통·쾌속 자유석. **다키카와~아사히카와는 프리에리어 밖이라 비에이·후라노는 다키카와에서 후라노선으로 돌아 들어간다**"
     }
    ]
   },
@@ -2202,7 +2249,7 @@
   "trust_level": "L2",
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
-  "note": "2026-09-07 재확인(JR북해도 공식): **가격 2,540→2,730 · 소인 1,270→1,360으로 정정.** 특급은 원칙 이용 불가이나 石勝線 新得~新夕張, 室蘭本線 東室蘭~室蘭 **구간 안에서 타고 내릴 때만** 특례로 특급 보통차 지정석의 빈자리를 쓸 수 있다. 구간을 벗어나면 전 구간 별도 운임·요금. 그린차·보통차 지정석·급행 불가. **전매 없음** — 이용 당일 아침 영업 개시부터 삿포로·오타루·지토세 등 37개 역에서 판매",
+  "note": "2026-09-07 재확인(JR북해도 공식): **가격 2,540→2,730 · 소인 1,270→1,360으로 정정.** 특급은 원칙 이용 불가이나 石勝線 新得~新夕張, 室蘭本線 東室蘭~室蘭 **구간 안에서 타고 내릴 때만** 특례로 특급 보통차 지정석의 빈자리를 쓸 수 있다. 구간을 벗어나면 전 구간 별도 운임·요금. 그린차·보통차 지정석·급행 불가. **전매 없음** — 이용 당일 아침 영업 개시부터 삿포로·오타루·지토세 등 37개 역에서 판매 / 2026-09-08 프리에리어를 다시 잡았다 — 옛 coverage는 「오타루·오샤만베·무로란·토마코마이·비에이·후라노 등」으로 **경로 제약을 빠뜨렸다.** **다키카와~아사히카와가 프리에리어 밖**이라 비에이·후라노는 다키카와에서 후라노선으로 돌아 들어가야 한다. 빠른 길(아사히카와 경유)로 가면 밖 구간 운임을 따로 낸다. **공식 페이지의 프리에리어가 그림이라 텍스트로 확정하지 못했다** — 2차 출처 둘이 같은 구간을 말한다. 사람이 구역도를 볼 자리.",
   "region_id": "JP-01-doo",
   "axis": "A",
   "card_status": "has_card",
@@ -2210,7 +2257,8 @@
    34
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sapporo-donichika",
@@ -2281,7 +2329,8 @@
   "mentioned_in": [
    34
   ],
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakodate-tabisuru-passport",
@@ -2381,7 +2430,8 @@
    35
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-alpico-kamikochi-norikura-2day",
@@ -2482,7 +2532,8 @@
    41
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-04"
+  "rules_checked": "2026-09-04",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-takayama-shirakawago-set",
@@ -2589,7 +2640,8 @@
   "card_ids": [
    42
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hokutetsu-kanazawa-1day",
@@ -2696,7 +2748,8 @@
   "card_ids": [
    43
   ],
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-alpen-route-through",
@@ -2760,7 +2813,7 @@
   "trust_level": "L2",
   "last_verified_at": "2026-09-06",
   "license": "ODbL-1.0",
-  "note": "4월 중순~11월 말 개통. 王복은 약 16,000 / 5회차: 값 재확인(편도 10,940 일치). **왕복 19,680(소인 9,840)이 따로 있다** → `jp-alpen-route-roundtrip` / 2026-09-06 지역 사전 점검: region_id 백필(region JP-16 기준)",
+  "note": "4월 중순~11월 말 개통. 王복은 약 16,000 / 5회차: 값 재확인(편도 10,940 일치). **왕복 19,680(소인 9,840)이 따로 있다** → `jp-alpen-route-roundtrip` / 2026-09-06 지역 사전 점검: region_id 백필(region JP-16 기준) / 2026-09-08 `layer` 채움 — **local**: 알펜루트 관통 승차권. 오기사와~다테야마를 넘지만 **알펜루트 자체가 목적지**이지 거점을 잇는 이동이 아니다",
   "axis": "E",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "region_id": "JP-16-tateyama",
@@ -2768,7 +2821,8 @@
   "card_ids": [
    44
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tobu-nikko-pass-all-area",
@@ -2853,7 +2907,8 @@
   "card_ids": [
    45
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-odakyu-hakone-freepass",
@@ -2985,7 +3040,8 @@
   "card_ids": [
    46
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hiroden-1day-tram-ferry",
@@ -3066,7 +3122,8 @@
   "card_ids": [
    47
   ],
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-okaden-1day",
@@ -3142,7 +3199,8 @@
   ],
   "mentioned_in": [
    65
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-nankai-koyasan-sekaiisan",
@@ -3236,7 +3294,8 @@
   "card_ids": [
    48
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kinosaki-yumepa",
@@ -3332,7 +3391,8 @@
   "card_ids": [
    49
   ],
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-856-golden-fulong-1day",
@@ -3404,7 +3464,8 @@
    51
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-taipei-funpass-transport-1day",
@@ -3510,7 +3571,8 @@
   "mentioned_in": [
    51
   ],
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-sunmoonlake-roundtrip",
@@ -3607,7 +3669,8 @@
    53
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-sunmoonlake-boat-loop",
@@ -3678,7 +3741,8 @@
   "mentioned_in": [
    53
   ],
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-alishan-roundtrip",
@@ -3760,7 +3824,8 @@
    55
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "tw-tainan-8899-1day",
@@ -3833,7 +3898,8 @@
    56
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-kenting-express-roundtrip",
@@ -3905,7 +3971,8 @@
    57
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-kenting-street-bus-1day",
@@ -3970,7 +4037,8 @@
   "mentioned_in": [
    57
   ],
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-east-coast-1day",
@@ -4040,7 +4108,8 @@
    60
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-02"
+  "rules_checked": "2026-09-02",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-penghu-magong-north-1day",
@@ -4117,7 +4186,8 @@
   "card_ids": [
    61
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "tw-taichung-double-decker",
@@ -4185,7 +4255,8 @@
   "survey": "조사_성격축/소급분류_2026-09-07.md",
   "unverified": [
    "rules"
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-jiaoxi",
@@ -4248,7 +4319,8 @@
   "survey": "조사_성격축/소급분류_2026-09-07.md",
   "unverified": [
    "rules"
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-taroko",
@@ -4322,7 +4394,8 @@
   "region_id": "TW-HUA-hualien",
   "unverified": [
    "rules"
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-areafree-3day",
@@ -4396,7 +4469,8 @@
   "axis": "A",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "region_id": "JP-21-takayama",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sapporo-subway-1day",
@@ -4463,7 +4537,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "매일 사용 가. 주말은 도니치카(520)가 싸다",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sapporo-streetcar-1day",
@@ -4532,7 +4607,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "570/290, **발매 당일만.** 노면전차 전용, 한 장에 한 사람. **환불 불가.** 별도로 「도산코패스」가 있다 — 어른 1명+어린이 2명이 460엔, **토·일·공휴일과 12/29~1/3만**, 동반 할인으로 최대 8명",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sapporo-dosanko-pass",
@@ -4596,7 +4672,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "모바일판은 연선 시설 디지털 쿠폰 포함",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sapporo-streetcar-24h",
@@ -4667,7 +4744,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-sapporo-1day",
@@ -4735,7 +4813,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "900/450. **마루야마동물원·모이와야마·가이타쿠노무라 방면은 특수운임구간 밖이라 못 탄다.** 스크래치식은 인쇄된 날짜까지, 인쇄식은 구매 당일만. 환불은 스크래치식만 미사용·기한 내 가능(수수료 100엔). 판매는 각 터미널 창구·발매기와 순환88선 차내",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-otaru-1day",
@@ -4806,7 +4885,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "800/400. **오타루 시내 균일구간(240엔 구간) 밖은 못 탄다.** 스크래치식은 인쇄 날짜까지, 인쇄식은 구매 당일만. 환불은 스크래치식만(수수료 100엔). 판매는 오타루역앞 터미널·인포메이션센터·오타루바인 운하점·호텔. 제시하면 시설 할인",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-otaru-1day-freeset",
@@ -4877,7 +4957,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "삿포로 카드(34)에 \"하루는 오타루\"로 붙일 후보. 고속버스는 중앙·JR 어느 쪽도 승차 가",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-otaru-1day-sapporo-oneway",
@@ -4942,7 +5023,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "2026-09-07 중앙버스 공식 재확인: **소인 700이 빠져 있어 채웠다.** 오타루 시내 노선버스 1일권 + 오타루~삿포로 고속버스 편도. 통년(휴관일 등으로 발매를 쉴 수 있다). 오타루 터미널에서만 판매. 유효기간·환불은 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jrhokkaido-free-pass",
@@ -5023,8 +5105,9 @@
   "axis": "A",
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
-  "note": "3~5일 여행자에게는 손해인 경우가 대부분. 비추천 한 줄의 재료",
-  "rules_checked": "2026-09-06"
+  "note": "3~5일 여행자에게는 손해인 경우가 대부분. 비추천 한 줄의 재료 / 2026-09-08 삿포로 검토 중 발견: **`layer`가 비어 있어 삿포로의 현지 패스로 세어지고 있었다.** JR 전선 광역권이라 거점 사이를 잇는 **이동 층**이다 → `move`.",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-jr-hokkaido-east-pass",
@@ -5096,8 +5179,9 @@
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
-  "note": "2026-09-07 재확인(JR북해도 공식): **값은 틀리지 않았다** — 보통·쾌속 자유석만이 맞다. 가격 11,780/5,890도 그대로. 다만 특례가 셋 있다: 奥羽本線 青森~新青森, 石勝線 新得~新夕張, 室蘭本線 東室蘭~室蘭 상호 발착에 한해 이 표만으로 특급 보통차 자유석 이용 가능. 홋카이도 신칸센은 新函館北斗~新青森 상호 발착에 한해 **특정특급권을 따로 사면** 보통차 입석 이용 가능. 환불은 유효기간 시작 전이거나 기간 내 미사용분만 — 사용 시작 뒤에는 환불 없다. ※ 2026-09-07에 내가 \"특급 자유석을 쓰는 표로 알려져 있다\"고 적은 것은 이름이 비슷한 다른 상품과 헷갈린 것이다",
-  "rules_checked": "2026-09-07"
+  "note": "2026-09-07 재확인(JR북해도 공식): **값은 틀리지 않았다** — 보통·쾌속 자유석만이 맞다. 가격 11,780/5,890도 그대로. 다만 특례가 셋 있다: 奥羽本線 青森~新青森, 石勝線 新得~新夕張, 室蘭本線 東室蘭~室蘭 상호 발착에 한해 이 표만으로 특급 보통차 자유석 이용 가능. 홋카이도 신칸센은 新函館北斗~新青森 상호 발착에 한해 **특정특급권을 따로 사면** 보통차 입석 이용 가능. 환불은 유효기간 시작 전이거나 기간 내 미사용분만 — 사용 시작 뒤에는 환불 없다. ※ 2026-09-07에 내가 \"특급 자유석을 쓰는 표로 알려져 있다\"고 적은 것은 이름이 비슷한 다른 상품과 헷갈린 것이다 / 2026-09-08 삿포로 검토 중 발견: **`layer`가 비어 있어 삿포로의 현지 패스로 세어지고 있었다.** JR 전선 광역권이라 거점 사이를 잇는 **이동 층**이다 → `move`.",
+  "rules_checked": "2026-09-07",
+  "layer": "move"
  },
  {
   "pass_id": "jp-hakodate-streetcar-1day",
@@ -5167,7 +5251,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "시전 1일권 800/400, 이용 개시부터 막차까지. 시전 차내·판매점·스마트폰 앱 「DohNa!!」에서 구매. **시전·하코다테버스 공통 1일권은 1,600/800인데 종이권이 2025-03-31로 판매를 끝내 스마트폰 전용이 됐다.** 환불은 미사용분만 고마바 승차권 판매소에서",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakodate-streetcar-24h",
@@ -5234,7 +5319,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakodate-tram-bus-1day",
@@ -5310,7 +5396,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakodate-tram-bus-2day",
@@ -5387,7 +5474,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakobus-kanpasu-1day",
@@ -5452,7 +5540,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakobus-kanpasu-24h",
@@ -5514,7 +5603,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakobus-isaribi-1day",
@@ -5581,7 +5671,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nexco-e-hokkaido-expressway-pass",
@@ -5706,8 +5797,9 @@
   "axis": "B",
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
-  "note": "방일 외국인(일본 외 여권, 해외 영주권자 포함) 한정. 이용약관 2024-10-01. 4일 최소라 2박 3일 카드에는 못 붙는다",
-  "rules_checked": "2026-09-06"
+  "note": "방일 외국인(일본 외 여권, 해외 영주권자 포함) 한정. 이용약관 2024-10-01. 4일 최소라 2박 3일 카드에는 못 붙는다 / 2026-09-08 `layer` 채움 — **move**: 축 B — 고속도로 정액제. 현을 넘어 달리는 것이 이 상품의 본질이다",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-hakodate-hotto-onsen-ticket",
@@ -5776,7 +5868,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "stale 주의: 판매 종료 2026-09-30. 다음 판 확인 필요",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-otaru-art-base-5kan",
@@ -5853,7 +5946,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "단품 합계 5,500 → 공통권 3,500",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-otaru-museum-common",
@@ -5915,7 +6009,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "600(2025-04-01 개정). **본관·운하관·구 일본우선 전관 입관.** 중학생 이하 무료. 본관은 2026-04-29~11-03이 하계 요금이고 그 밖은 동계 요금이다 — **계절로 값이 갈린다.** 유효기간·휴관일·환불은 이 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakodate-special-ticket",
@@ -5991,7 +6086,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "유효기간 2026-04-01~2027-03-31. 3,700엔 한 권에 시전 1일권·하코다테산 로프웨이·고료카쿠 타워·핫코다테부교쇼·구 하코다테구 공회당과 음식점 이용권. 판매는 하코다테시 관광안내소(JR 하코다테역 구내)·하코다테공항 국내선 도착 로비·쓰가루해협페리 터미널·헤이세이칸 시오사이테이 프런트·THE DANSHAKU LOUNGE. **공식 페이지에 환불·예약·기한 관련 제약이 적혀 있지 않다**",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-otaru-aquarium-set-sapporo",
@@ -6086,7 +6182,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "2026-09-07 중앙버스 공식 재확인: **계절 요금과 중학생 요금이 빠져 있었다.** 하계 3,100/중학생 2,100/소인 1,300, 동계 2,700/2,000/1,200. 삿포로~오타루 고속버스 왕복 + 오타루역앞~오타루수족관 노선버스 왕복 + 수족관 입관권 + 오타루바인 10% 할인권(상한 1,000엔). 통년 발매지만 휴관일 등으로 쉰다. 중앙버스 삿포로터미널·삿포로역앞 안내소",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-otaru-aquarium-set-otaru",
@@ -6177,7 +6274,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "2026-09-07 중앙버스 공식 재확인: **계절·중학생·소인 요금을 채웠다.** 하계 2,550/1,550/1,030, 동계 2,150/1,450/930. 오타루→삿포로 고속버스 **편도** + 수족관 왕복 노선버스 + 입관권 + 오타루바인 할인권. 오타루 터미널에서 판매",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-otaru-kihinkan-set",
@@ -6248,7 +6346,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "2,700/1,300. 삿포로~오타루 고속버스 왕복 + 오타루역앞~오타루기힌칸 노선버스 왕복 + 입장권 + 오타루바인 10% 할인권. 통년 발매(휴관일 등으로 쉼). 중앙버스 삿포로터미널·삿포로역앞 안내소",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-tenguyama-set-sapporo",
@@ -6319,7 +6418,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "3,180/1,590. 삿포로~오타루 고속버스 왕복 + **오타루 시내 노선버스 1일권** + 덴구야마 로프웨이 왕복. 통년 발매(휴관일 등으로 쉼). 계절 요금은 없다. 유효기간·환불은 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-tenguyama-set-otaru",
@@ -6390,7 +6490,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "2,250/1,120. 오타루 시내 노선버스 1일권 + 덴구야마 로프웨이 왕복(고속버스는 없다). 통년 발매. 오타루 터미널에서 판매",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-shakotan-boat-set-sapporo",
@@ -6459,7 +6560,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-shakotan-boat-set-otaru",
@@ -6528,7 +6630,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_홋카이도_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-teikan-a",
@@ -6607,7 +6710,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-teikan-b",
@@ -6686,7 +6790,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-teikan-d",
@@ -6765,7 +6870,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-teikan-h",
@@ -6846,7 +6952,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-teikan-n",
@@ -6923,7 +7030,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-teikan-p",
@@ -7002,7 +7110,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuobus-teikan-q",
@@ -7082,7 +7191,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kamenoi-mybeppu-mini-1day",
@@ -7156,7 +7266,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "2026-09-07 九州MaaS 공식 페이지를 찾았다(ticket/372). **소인 550이 빠져 있어 채웠다.** 이용 개시 당일만 유효. 벳푸 시내(간나와·지옥 순회 구역 포함)와 조자마고원 구역의 가메노이버스. 「my route」 앱이 필요하고 이용 개시 때 통신 환경이 있어야 한다. 이용 개시 후 환불 불가",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kamenoi-mybeppu-mini-2day",
@@ -7225,7 +7336,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "2026-09-07 九州MaaS 공식 재확인: **소인 850이 빠져 있어 채웠다.** 이용 개시일부터 연속 2일. 벳푸 시내(간나와·지옥 순회 구역 포함)와 조자마고원 구역의 가메노이버스. 「my route」 앱이 있어야 하고 이용 개시 때 통신 환경이 필요하다. 이용 개시 후 환불 불가",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nagasakibus-1day-pass-plus",
@@ -7296,7 +7408,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "2026-09-07 나가사키버스 공식 재확인: **가격이 어긋났다. 우리 700/350 → 공식 1,000/500**(종이식 1일PASS플러스). 장애인 할인은 창구 발매만 반액. **이용일 1일 한정이고 券面을 이틀 이상 긁으면 못 쓴다.** 지정 이용 구간 밖은 별도 보통운임. 환불 수수료 1장 110엔. 판매는 나가사키시 종합관광안내소(나가사키역 구내)·종합서비스센터(신치)·코코워크 버스센터·각 영업소",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kumamoto-tram-1day",
@@ -7377,7 +7490,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "2026-09-07 구마모토시 교통국 공식 재확인: **모바일이 500/250으로 종이 700/350보다 싸다** — 우리에겐 종이만 있었다. **시전 전선만이고 버스에는 못 쓴다.** 종이권 유효 2026-04-01~2028-03-31, 모바일은 구매부터 3개월. 모바일 환불은 유효기간 내 사용 개시 전만(장당 50엔), 종이권은 기한이 지나면 환불·교환 불가. 제시하면 구마모토성·현립미술관 등 20개 시설이 단체 요금",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kumamoto-tram-24h",
@@ -7448,7 +7562,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sanko-aso-tozan-1day",
@@ -7516,7 +7631,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "2024-10-01 요금",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-aso-tabi-railbus",
@@ -7595,7 +7711,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "가격은 2023 발매 보도자료 기준. 현재가는 앱에서 재확인 / 2026-09-08 **九州MaaS 공식에서 값을 찾아 L1 → L2로 올렸고, 값이 낡아 있어 고쳤다: 2,900 → 3,200.** (옛 값은 2023 발매 보도자료 기준이었다) 발행 주체는 **九州産交バス**. 개시부터 **24시간** 미나미아소철도·JR규슈(히고오즈~미야지)·산코버스(아소·미나미아소) 무제한. **「my route」 앱 전용이라 스마트폰이 있어야 한다.**",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-minamiaso-tabi-railbus",
@@ -7660,7 +7777,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "九州MaaS 표기 2,000(발매 당시 1,900)",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kagoshima-tram-bus-cityview-1day",
@@ -7730,7 +7848,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "2026-09-07 가고시마시 교통국 공식 재확인: 700/350. 스마트폰 1일권도 같은 700/350, 24시간권은 900/450, 나이트패스 300(소인 없음). 시전·시버스·가고시마시티뷰에서 쓰고 **민영버스에는 못 쓴다**",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kagoshima-tram-bus-cityview-24h",
@@ -7797,7 +7916,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kagoshima-night-pass",
@@ -7859,7 +7979,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kagoshima-cute-2day",
@@ -7939,7 +8060,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "2026-09-07 가고시마시 공식 재확인: 2,100/1,050. 구매 후 변경·환불 불가. **`jp-kagoshima-cute`가 이미 1일·2일을 함께 담고 있어 같은 상품이 레코드 둘로 나뉘어 있다** — 통합 후보",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jrkyushu-rail-pass",
@@ -8160,8 +8282,9 @@
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
-  "note": "2026-09-07 출처 교체 — 개인 블로그에서 **JR규슈 공식**으로 갈았다. **JR규슈 전선의 보통·쾌속열차에 연속 3일 무제한.** **따로 특급권을 사면 규슈 신칸센·니시큐슈 신칸센·재래선 특급도 탈 수 있다**(공식 문구). **가격은 공식에서 아직 못 찾았다** — 「割引きっぷ一覧」 페이지가 404다. 우리 값 14,300/7,150은 2차 출처 그대로라 L1 유지 / 2026-09-08 **JR규슈 공식 킷푸 사이트에서 값을 찾아 L1 → L2로 올렸다.** **넷 예약 14,300 / 창구 15,800**(소인 7,150 / 7,900) — **창구가 1,500엔 비싸다.** 연속 3일, JR규슈 전선 보통·쾌속 보통차 자유석. 따로 특급권을 사면 신칸센·특급도 탄다. 넷 예약은 이용 개시일 1개월 전 05:30~당일 23시.",
-  "rules_checked": "2026-09-07"
+  "note": "2026-09-07 출처 교체 — 개인 블로그에서 **JR규슈 공식**으로 갈았다. **JR규슈 전선의 보통·쾌속열차에 연속 3일 무제한.** **따로 특급권을 사면 규슈 신칸센·니시큐슈 신칸센·재래선 특급도 탈 수 있다**(공식 문구). **가격은 공식에서 아직 못 찾았다** — 「割引きっぷ一覧」 페이지가 404다. 우리 값 14,300/7,150은 2차 출처 그대로라 L1 유지 / 2026-09-08 **JR규슈 공식 킷푸 사이트에서 값을 찾아 L1 → L2로 올렸다.** **넷 예약 14,300 / 창구 15,800**(소인 7,150 / 7,900) — **창구가 1,500엔 비싸다.** 연속 3일, JR규슈 전선 보통·쾌속 보통차 자유석. 따로 특급권을 사면 신칸센·특급도 탄다. 넷 예약은 이용 개시일 1개월 전 05:30~당일 23시. / 2026-09-08 `layer` 채움 — **move**: 지역 4곳에 걸린다 — 거점 사이를 잇는다",
+  "rules_checked": "2026-09-07",
+  "layer": "move"
  },
  {
   "pass_id": "jp-jrkyushu-tabimeijin",
@@ -8235,8 +8358,9 @@
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
-  "note": "2026-09-07 출처 교체 — 개인 블로그에서 **JR규슈 공식**으로 갈았다. **규슈의 철도·궤도 보통·쾌속열차가 「3회분 1일 무제한」** — 연속 3일이 아니라 하루치를 세 번 쓰는 방식이다. 규슈 15개 철도·궤도 사업자가 대상. **가격은 공식에서 못 찾았다.** 우리 값 12,000은 2차 그대로라 L1 유지. 참고: 같은 계열의 「旅名人の九州満喫寺社めぐりきっぷ」에는 나가사키전기궤도가 빠진다고 공식이 명시한다 / 2026-09-08 **JR규슈 공식에서 값을 찾아 L1 → L2로 올렸고, 값이 낡아 있어 고쳤다: 12,000 → 14,000.** **유효기간은 발매일부터 3개월**(연속 3일이 아니라 하루치를 세 번 쓴다). 대상 15개 사업자: JR九州(히타히코산선 BRT 포함)·기타큐슈모노레일·헤이세이치쿠호철도·지쿠호전기철도·후쿠오카시지하철·니시테츠·아마기철도·마쓰우라철도·시마바라철도·구마모토전기철도·구마모토시전·미나미아소철도·구마가와철도·히사쓰오렌지철도·가고시마시전. **長崎電気軌道는 대상에서 빠졌다.** 2차 출처에 12,000·13,000(디지털)이 도는데 **공식은 14,000이다.**",
-  "rules_checked": "2026-09-07"
+  "note": "2026-09-07 출처 교체 — 개인 블로그에서 **JR규슈 공식**으로 갈았다. **규슈의 철도·궤도 보통·쾌속열차가 「3회분 1일 무제한」** — 연속 3일이 아니라 하루치를 세 번 쓰는 방식이다. 규슈 15개 철도·궤도 사업자가 대상. **가격은 공식에서 못 찾았다.** 우리 값 12,000은 2차 그대로라 L1 유지. 참고: 같은 계열의 「旅名人の九州満喫寺社めぐりきっぷ」에는 나가사키전기궤도가 빠진다고 공식이 명시한다 / 2026-09-08 **JR규슈 공식에서 값을 찾아 L1 → L2로 올렸고, 값이 낡아 있어 고쳤다: 12,000 → 14,000.** **유효기간은 발매일부터 3개월**(연속 3일이 아니라 하루치를 세 번 쓴다). 대상 15개 사업자: JR九州(히타히코산선 BRT 포함)·기타큐슈모노레일·헤이세이치쿠호철도·지쿠호전기철도·후쿠오카시지하철·니시테츠·아마기철도·마쓰우라철도·시마바라철도·구마모토전기철도·구마모토시전·미나미아소철도·구마가와철도·히사쓰오렌지철도·가고시마시전. **長崎電気軌道는 대상에서 빠졌다.** 2차 출처에 12,000·13,000(디지털)이 도는데 **공식은 14,000이다.** / 2026-09-08 `layer` 채움 — **move**: 지역 4곳에 걸린다 — 거점 사이를 잇는다",
+  "rules_checked": "2026-09-07",
+  "layer": "move"
  },
  {
   "pass_id": "jp-nexco-w-kyushu-expressway-pass",
@@ -8346,8 +8470,9 @@
   "axis": "B",
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
-  "note": "방일 외국인(일본 외 여권 또는 해외 영주권) + 유효 면허. 차종 구분 없음. 2일부터라 2박 3일 렌터카 카드에 바로 붙는다",
-  "rules_checked": "2026-09-06"
+  "note": "방일 외국인(일본 외 여권 또는 해외 영주권) + 유효 면허. 차종 구분 없음. 2일부터라 2박 3일 렌터카 카드에 바로 붙는다 / 2026-09-08 `layer` 채움 — **move**: 축 B — 고속도로 정액제. 현을 넘어 달리는 것이 이 상품의 본질이다",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-kurokawa-nyuto-tegata",
@@ -8413,7 +8538,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "유효 6개월·3곳 선택. 렌터카 여행자에게 맞는 C축 상품",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kumamoto-castle-wakuwakuza-common",
@@ -8478,7 +8604,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "850(고교생 이상)/300(초중생). 구마모토성 + 와쿠와쿠자 2관. 유효기간·개관시간·휴관일·판매처·환불은 사쿠라노바바 조사이엔 공식 요금 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kamenoi-beppu-jigoku-kippu",
@@ -8544,11 +8671,12 @@
   "axis": "D",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
-  "note": "경계 판정 승인(2026-09-06): 패스·입장이 묶인 왕복 세트는 D축 통과",
+  "note": "경계 판정 승인(2026-09-06): 패스·입장이 묶인 왕복 세트는 D축 통과 / 2026-09-08 `layer` 채움 — **move**: **후쿠오카↔벳푸 고속버스 왕복이 값에 들어 있다.** 거점 사이를 잇는 부분이 본체다",
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-kamenoi-trip-kippu-beppu-yufuin",
@@ -8615,7 +8743,8 @@
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kamenoi-kokonoe-yume-bridge-kippu",
@@ -8686,7 +8815,8 @@
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kamenoi-teikan-jigoku",
@@ -8769,7 +8899,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nagasaki-teikan-peace-am",
@@ -8842,7 +8973,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nagasaki-teikan-fullday",
@@ -8911,7 +9043,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sanko-aso-caldera-line",
@@ -8984,7 +9117,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kagoshima-kotsu-teikan-ibusuki-chiran",
@@ -9060,7 +9194,8 @@
   "boundary": [
    "정기관광"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sendai-subway-1day",
@@ -9145,7 +9280,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "2026-09-07 센다이시 교통국 공식 재확인: 전일용 840/420, **토·일·공휴일용 620/310**(소인 310을 채웠다). 지하철 전선. 구매 당일만 유효하고 사전 구매는 역 창구에서. 당일은 자동발매기",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sendai-loople-1day",
@@ -9213,7 +9349,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "630/320. 루프루 센다이 순환버스 1일 무제한, 연선 시설 할인 특전. 판매는 센다이역 서쪽 출구 버스터미널 안내소·시내 일부 숙박시설·아오바성 자료전시관·센다이공항 미치노쿠 관광안내. 유효기간·운행 간격·환불은 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sendai-loople-subway-1day",
@@ -9292,7 +9429,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "920/460, 구매 당일만. 루프루 센다이 + 지하철 남북선·동서선. 당일권은 센다이역 서쪽 버스터미널 안내소·지하철 각 역 창구, 디지털판은 센다이MaaS",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sendai-citybus-1day",
@@ -9370,7 +9508,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "2026-09-07 센다이시 교통국 공식 재확인: **소인이 300으로 적혀 있었는데 시내 구역 330이 맞다.** 근교 구역은 1,000/500. 구매 당일만. **루프루 센다이와 라쿠텐 셔틀버스는 제외.** 정기권 발매소·센다이역 서쪽 버스터미널 안내소·영업소에서 판매",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jreast-sendai-marugoto-wide",
@@ -9444,7 +9583,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jreast-chiisana-tabi-holiday",
@@ -9519,8 +9659,9 @@
   "axis": "A",
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
-  "note": "",
-  "rules_checked": "2026-09-06"
+  "note": " / 2026-09-08 `layer` 채움 — **move**: 지역 2곳에 걸린다 — 거점 사이를 잇는다",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-yamako-yamagata-1day",
@@ -9587,7 +9728,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "자오온천에는 못 간다",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jreast-tsugaru-free-pass",
@@ -9668,7 +9810,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "히로사키 카드(33)의 교통 답. 2026-03 기준",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jreast-aomori-holiday-pass",
@@ -9741,7 +9884,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-konanbus-hirosaki-loop-1day",
@@ -9809,7 +9953,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "2026-09-07 히로사키 관광협회 공식 재확인: 500/250. 1회 승차는 현금 150·IC 130. 도테마치 순환과 조토 순환 전 노선. **4~11월은 10:00~18:00, 12~3월은 10:00~17:00**로 10분 간격. **버스 차내에서 하차할 때(터치 전) 산다.** MegoICa·Suica·PASMO로만 이용",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-konan-railway-1day-free",
@@ -9878,7 +10023,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "2026-09-07 고난철도 공식 재확인: 1,000/500. 사용 개시한 1일. 고난선(히로사키~구로이시)과 오와니선(오와니~주오히로사키) 전 구간. **디지털 「QUICK TRIP」에서만 판다** — 신용카드·Google Pay·Apple Pay·PayPay. 환불은 사용 개시 전만, 장당 210엔. 개시 후 환불 불가",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-aomori-nebutan-pass",
@@ -9959,7 +10105,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "2026-09-07 아오모리관광버스 공식 재확인: 1일 800/400, **2일 1,000/500**(소인 500을 채웠다). 2일권은 이용 개시일과 다음 날. 네부탄호 전 루트, 제시하면 제휴 시설 서비스. **겨울에는 적설로 크게 늦어질 수 있다**(공식 표기). 환불 규정은 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nexco-e-tohoku-expressway-pass",
@@ -10081,8 +10228,9 @@
   "axis": "B",
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
-  "note": "stale 주의: 접수 기한 2026-09-30, 10월 조건 재확인",
-  "rules_checked": "2026-09-06"
+  "note": "stale 주의: 접수 기한 2026-09-30, 10월 조건 재확인 / 2026-09-08 `layer` 채움 — **move**: 축 B — 고속도로 정액제. 현을 넘어 달리는 것이 이 상품의 본질이다",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-hirosaki-park-common",
@@ -10152,68 +10300,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
   "note": "520/160(1일권). 연간권 2,090/620, 10명 이상 단체 요금 별도. **히로사키성 식물원이 4월 중순~11/23만 열고 겨울에 휴원한다** — 겨울에는 3시설 공통권의 값이 떨어진다. 공식 페이지에 환불·병용 제약은 기재 없음",
-  "rules_checked": "2026-09-07"
- },
- {
-  "pass_id": "jp-zao-yumeguri-kokeshi",
-  "name": {
-   "local": "蔵王温泉 湯めぐりこけし",
-   "local_lang": "ja",
-   "ko": "자오온천 유메구리 고케시(판매 종료)",
-   "en": "Zao Onsen Yumeguri Kokeshi"
-  },
-  "type": "T4",
-  "issuer": {
-   "local": "蔵王温泉観光協会",
-   "ko": "자오온천 관광협회"
-  },
-  "country": "JP",
-  "region": "JP-06",
-  "region_id": "JP-06-yamagata",
-  "price": [
-   {
-    "currency": "JPY",
-    "amount": 1300,
-    "category": "adult"
-   }
-  ],
-  "validity": {
-   "basis": "seals",
-   "note": "입욕 실 3장"
-  },
-  "coverage": {
-   "facility": {
-    "count": 0,
-    "highlights": [],
-    "note": "가맹 여관 입욕"
-   }
-  },
-  "eligibility": "unspecified",
-  "purchase_channels": [
-   {
-    "channel": "—",
-    "online": false,
-    "commission": false
-   }
-  ],
-  "rules": [],
-  "sources": [
-   {
-    "url": "https://zaomountainresort.com/information/",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "retired",
-  "last_verified_at": "2026-09-06",
-  "license": "ODbL-1.0",
-  "axis": "C",
-  "card_status": "no_card",
-  "survey": "조사_성격축/조사표_도호쿠_2026-09-06.md",
-  "note": "2023-03-31 판매 종료(공식 공지). retired. 후속 상품 없음",
-  "unverified": [
-   "rules"
-  ]
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-yamako-zao-chuo-ropeway-set",
@@ -10287,7 +10375,8 @@
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-marubun-matsushima-ranran-plan",
@@ -10365,7 +10454,8 @@
   "boundary": [
    "체험세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-yamako-zao-ropeway-juhyo-set",
@@ -10444,7 +10534,8 @@
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kamenoi-kijima-enjoy-kippu",
@@ -10527,7 +10618,8 @@
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nagasakibus-pass-plus-digital",
@@ -10611,7 +10703,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "가격은 페이지의 이미지(pass-plan.png)에만 있어 규슈 회차에서 미확인 → 2026-09-06 이미지 대조로 확정. 종이 1일권(700)과 디지털 1일권(600) 가격이 다름",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nagaden-tram-24h",
@@ -10684,7 +10777,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "규슈 회차 미확인 → STLOCAL 페이지에서 확정. 1일권 600은 기존 등록",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-stlocal-nagasaki-select-set",
@@ -10761,7 +10855,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
   "note": "가격표가 이미지(예시 2조합만)라 규슈 회차 미확인 → 2026-09-06 이미지 대조로 예시가만 확정. 전체 50조합 가격은 앱 구매 화면에만",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jrshikoku-allshikoku-railpass",
@@ -10865,8 +10960,9 @@
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
-  "note": "**stale 감시 1순위.** 2026-03부터 이요테츠 제외. 2026-10-01부터 ①쇼도시마 제외 ②4일권·5일권 폐지 ③일본 내 구매분 500엔 인하 예고 — 10월 이후 재조사 필수",
-  "rules_checked": "2026-09-06"
+  "note": "**stale 감시 1순위.** 2026-03부터 이요테츠 제외. 2026-10-01부터 ①쇼도시마 제외 ②4일권·5일권 폐지 ③일본 내 구매분 500엔 인하 예고 — 10월 이후 재조사 필수 / 2026-09-08 `layer` 채움 — **move**: 지역 4곳에 걸린다 — 거점 사이를 잇는다",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-kotoden-1day-free",
@@ -10931,7 +11027,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "2026-09-07 고토덴 공식 기획킷푸 목록 재확인: 1,600/800, **통년 발매.** **공식에 유효 범위·환불 조건이 실려 있지 않다**(목록에 이름·발매기간·금액만 있다). 같은 목록에서 확인된 것: 고토덴 디지털킷푸 24시간 1,500/750·48시간 2,800/1,400, 야시마시코쿠무라·시도선 패스 2,500, 고토덴 온천 승차입욕권 1,300, 레일&리무진 패스 3,800(다카마쓰공항 한정)",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kotoden-digital-24h",
@@ -10999,7 +11096,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tokushima-bus-allfree-1day",
@@ -11075,7 +11173,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "1,500/750. 도쿠시마버스 일반 노선버스 전 구간. **고속버스와 공항 리무진버스는 대상이 아니다.** 판매는 역앞 안내소·고속버스 예약센터와 각 영업소·티켓센터. 유효기간·환불은 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tokushima-bus-250-1day",
@@ -11145,7 +11244,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "500/250. 도쿠시마 시내 250엔 균일 구간 전용이라 **두 번 타면 본전**이다. 판매처는 오올프리권과 같다. 유효기간·환불은 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-shodoshima-olive-bus-1day",
@@ -11215,7 +11315,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "2026-09-07 올리브버스 공식 재확인: **소인 800이 빠져 있어 채웠다.** 판매는 영업소 창구(도노쇼항 터미널)·차내·항만 시설·일부 숙박 시설. **2일권·3일권은 공식에 없다.** 유효기간·제외 노선·환불 규정은 공식 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tosaden-tram-1day",
@@ -11292,7 +11393,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "2026-09-07 도사덴교통 공식 재확인: 시내 균일 500/250, 궤도 전선 1,000/500. 날짜를 긁는 방식이라 **긁지 않은 미사용분만 환불**(장당 100엔). 노면전차 차내·하리마야바시 서비스센터(PayPay 가능)·고치역 버스안내소·호텔 등에서 판매. **시설 할인이 붙은 1일권은 2024-03-31에 판매를 끝냈고 옛 권의 특전도 2024-06-30로 만료됐다**",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tosaden-bus-tram-1day",
@@ -11367,7 +11469,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "2026-09-07 도사덴교통 공식 재확인: **모바일이 1,800/900으로 종이 2,000/1,000보다 싸다** — 우리엔 종이만 있었다. 도사덴교통과 겐코호쿠부교통 거의 전역(일부 구간 제외), 도부교통 고치~아키선, 고료교통 스사키~다카오카선, 레이호쿠관광자동차 다이~의대병원선 + 노면전차 시내 균일 구간",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jrshikoku-saihakken-hayatoku",
@@ -11448,8 +11551,9 @@
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
-  "note": "2026-09-07 **브라우저로 상품 코드를 찾아 열었다**(목록 페이지에서 링크를 긁어 2-3W0을 얻었다. 검색 URL은 500 에러였다). **가격이 처음 확인됐다 — 2,400엔, 소인 반액 1,200.** **토요일과 휴일에만** 탄다(휴일 = 일요일·공휴일·대체휴일·국민의 휴일). **이용일 1개월 전부터 전날까지만 팔고 당일에는 팔지 않는다.** JR시코쿠 전선(우타즈~고지마 포함) 쾌속·보통 자유석 + 도사쿠로시오철도(구보카와~와카이) 보통 자유석 + JR시코쿠버스 노선버스(오토치선·구마코겐선, 고속버스 불가). **특급과 그린차는 못 탄다 — 특급권 말고 승차권도 따로 사야 한다.** 이용일 변경 불가. 환불은 미사용·기간 내만 수수료 220엔. 디지털은 스크린샷·인쇄본 불가, 한 단말로 여러 명 사면 같은 일정이어야 하고, 분실·고장 시 재발행 없음",
-  "rules_checked": "2026-09-07"
+  "note": "2026-09-07 **브라우저로 상품 코드를 찾아 열었다**(목록 페이지에서 링크를 긁어 2-3W0을 얻었다. 검색 URL은 500 에러였다). **가격이 처음 확인됐다 — 2,400엔, 소인 반액 1,200.** **토요일과 휴일에만** 탄다(휴일 = 일요일·공휴일·대체휴일·국민의 휴일). **이용일 1개월 전부터 전날까지만 팔고 당일에는 팔지 않는다.** JR시코쿠 전선(우타즈~고지마 포함) 쾌속·보통 자유석 + 도사쿠로시오철도(구보카와~와카이) 보통 자유석 + JR시코쿠버스 노선버스(오토치선·구마코겐선, 고속버스 불가). **특급과 그린차는 못 탄다 — 특급권 말고 승차권도 따로 사야 한다.** 이용일 변경 불가. 환불은 미사용·기간 내만 수수료 220엔. 디지털은 스크린샷·인쇄본 불가, 한 단말로 여러 명 사면 같은 일정이어야 하고, 분실·고장 시 재발행 없음 / 2026-09-08 `layer` 채움 — **move**: 지역 4곳에 걸린다 — 거점 사이를 잇는다",
+  "rules_checked": "2026-09-07",
+  "layer": "move"
  },
  {
   "pass_id": "jp-nexcow-sep",
@@ -11565,8 +11669,9 @@
   "axis": "B",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
-  "note": "**혼슈시코쿠 연락교(아카시해협·세토대교·시마나미카이도)와 도시고속도로는 제외 — 별도 요금.** 보통차 편도 고베아와지나루토 평일 2,670/휴일 3,340 · 세토추오 1,990/2,310 · 니시세토 2,310/2,950. 홋카이도·규슈와 달리 \"한 장이 블록을 덮는다\"가 성립하지 않는다 / 8회차: 대상 10현에 오카야마·히로시마·돗토리·시마네·야마구치가 들어가므로 주고쿠 2지역을 region_id에 추가",
-  "rules_checked": "2026-09-06"
+  "note": "**혼슈시코쿠 연락교(아카시해협·세토대교·시마나미카이도)와 도시고속도로는 제외 — 별도 요금.** 보통차 편도 고베아와지나루토 평일 2,670/휴일 3,340 · 세토추오 1,990/2,310 · 니시세토 2,310/2,950. 홋카이도·규슈와 달리 \"한 장이 블록을 덮는다\"가 성립하지 않는다 / 8회차: 대상 10현에 오카야마·히로시마·돗토리·시마네·야마구치가 들어가므로 주고쿠 2지역을 region_id에 추가 / 2026-09-08 `layer` 채움 — **move**: 축 B — 고속도로 정액제. 현을 넘어 달리는 것이 이 상품의 본질이다",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-kotoden-jr-kururin",
@@ -11640,7 +11745,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "2026-09-07 고토덴 공식 목록 재확인: 2,200/1,100, 통년 발매. **공식 목록에 금액과 발매기간만 있고 유효 범위·기간·환불이 없다.** JR시코쿠 쪽 상품 페이지에서 채워야 할 자리로 남는다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kotoden-onsen-nyuyoku",
@@ -11709,7 +11815,8 @@
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tokushima-awaodori-bizan-set",
@@ -11789,7 +11896,8 @@
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-uzunomichi-eddy-set",
@@ -11860,7 +11968,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_시코쿠_2026-09-06.md",
   "note": "세트권 어른 900(정가 1,130)·중고생 660(820)·초등생 400(520)으로 약 20% 할인. **3·6·9·12월 둘째 월요일 휴관.** 3~9월 9:00~18:00, 10~2월 9:00~17:00. **소용돌이는 대조(大潮) 때가 좋고 봄·가을 대조에 지름 20~30m까지 커진다** — 날짜를 고르는 표다. 이 세트권만 온라인 구매가 되고 다른 세트권은 창구뿐. 유효기간·환불·악천후 시 처리는 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-uzushio-kisen-uzunomichi-set",
@@ -11934,7 +12043,8 @@
   "boundary": [
    "체험세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-alpico-town-sneaker-1day",
@@ -12010,7 +12120,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "2026-09-07 알피코 공식 재확인: 500/250(중학생까지). **당일 한정.** 타운스니커 3코스(북·동·남)와 마쓰모토역·버스터미널에서 나가는 **220엔 구간**까지. **코미바스·시영버스·지역버스는 대상 밖.** 마쓰모토성·시립박물관·구 가이치학교 등 6개 시설 할인. 차내에서도 사고, 디지털은 「타운스니커PLUS 24시간권」이 따로 있다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-alpico-kamikochi-line-1day",
@@ -12075,7 +12186,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "1,420/710. 가미코치선 전철 1일 무제한 + 연선 시설·점포 할인. 유효기간·판매처·환불·발매일 제한은 공식 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-takayama-shinhotaka-2day",
@@ -12144,7 +12256,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "4,400/2,200, 2일간. 다카야마 노히버스센터~신호타카 로프웨이 구간. **노히버스 운행편만.** 원칙 환불 불가이고 사용 전에만 가능. 다카야마 노히버스센터에서 판매",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-okuhida-2day",
@@ -12213,7 +12326,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "1,800/900, 2일간. **히라유온천~신호타카 로프웨이 구간**이라 다카야마 발착이 아니다. 노히버스 운행편만. 원칙 환불 불가, 사용 전에만. 다카야마 노히버스센터·히라유 버스터미널",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chitetsu-city-bus-1day",
@@ -12280,7 +12394,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "2026-09-07 도야마지테츠 공식 재확인: 650/330(소인이 330이다). 시내전차와 철도선(덴테쓰토야마~미나미토야마), 버스는 **도야마역앞에서 280엔 구간**까지. **고속버스·계절 운행·임시·커뮤니티버스(마이도하야버스 등)는 대상 밖.** 승차권센터·유인역·시내전차 차내와 my route·노리카에안나이·tabiwa by WESTER 앱",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chitetsu-rail-tram-1day",
@@ -12345,7 +12460,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "3,400/1,700. 적용 구간은 철도선·궤도선 전선이고 **특급 자유석 요금이 포함돼 있다**(공식 명시) — 별도 요금이 드는 다른 사철 패스와 다른 점이다. 발매는 통년. 판매처는 도야마 승차권센터·니시초 승차권센터·유인역·시내 호텔(ANA크라운플라자·JAL시티)과 디지털 앱 my route. 환불·제외일은 공식 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hokutetsu-rail-1day",
@@ -12417,7 +12533,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "2026-09-07 **사이트 안 링크를 JS로 긁어 정확한 URL을 얻었다**(목록에서 짐작한 주소는 계속 404였다). **가격이 처음 확인됐다 — 1,100/550.** 이시카와선·아사노가와선 전선, **임시전차는 대상 밖.** 판매는 경권(硬券) 타입이 신니시카나자와역·호쿠테츠카나자와역·호쿠테츠 티켓센터, 발매기 타입이 쓰루기역·노마치역·우치나다역. **주의: 같은 회사의 안내 PDF에는 소인이 600으로 적혀 있어 상품 페이지(550)와 어긋난다** — 상품 페이지를 채택했다. 유효기간·환불·특전은 상품 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-gero-yumeguri-tegata",
@@ -12477,7 +12594,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "2,500(세금 포함), 구매일로부터 6개월. 스티커 3장으로 가맹 여관 세 곳의 목욕. 페이지에 실린 가맹은 약 20곳. **숙소마다 이용 시간대가 다르고(오전만·오후만) 정기휴일이 있다** — 白鷺乃湯 수요일, クアガーデン露天風呂 목요일, 睦館 매주 목요일. 吉泉館竹翠亭은 모든 시간대에 가족탕 불가. 판매는 가맹 여관·기념품점·편의점·드라이브인",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-okuhida-yukemuri-tegata",
@@ -12538,7 +12656,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "1,200(세금 포함), **발행일로부터 1년.** 가맹 16곳 중에서 고른다. **시설마다 필요한 스티커 수가 다르다.** 「奧飛騨温泉郷」 마크 3개를 모으면 오리지널 목욕수건을 준다. **다른 쿠폰·할인권과 병용 불가.** 이용 시간과 정기휴일은 시설마다 다르다. 판매는 가맹 숙박 시설 16곳·관광협회·관광안내소·쓰루야상점 등",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-alpico-town-sneaker-plus-24h",
@@ -12617,7 +12736,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "아사마온천·우쓰쿠시가하라온천까지 간다 — 마쓰모토를 온천 축으로 묶을 수 있는 유일한 상품",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-okuhida-value-2day",
@@ -12692,7 +12812,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "7,700/3,850. 다카야마 버스센터~신호타카 로프웨이 2일 프리 + 신호타카 로프웨이 왕복. **히라유 발착판은 2일 5,400/2,700으로 따로 있다.** **노히버스 운행편만 대상**이고, 로프웨이가 운휴해도 차액을 돌려주지 않는다(시설 내 이용권만 준다). 이용 개시 후 환불 불가. 판매는 다카야마 노히버스센터·히라유 버스터미널",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-okuhida-value-3day",
@@ -12767,7 +12888,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "8,200/4,100. 2일권과 내용은 같고 프리 기간만 3일. **노히버스 운행편만 대상**, 로프웨이 운휴 시 차액 환불 없음, 이용 개시 후 환불 불가. 다카야마 노히버스센터·히라유 버스터미널에서 판매",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-kamikochi-okuhida-value-2day",
@@ -12844,8 +12966,9 @@
   "axis": "D",
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
-  "note": "10,500/5,250. 오쿠히다판에 **히라유온천~가미코치 왕복 승차권**이 더해진 것. 히라유 발착판은 8,200/4,100으로 따로 있다. **노히버스 운행편만 대상**, 로프웨이 운휴 시 차액 환불 없음, 이용 개시 후 환불 불가. 가미코치 마이카 규제 기간은 공식 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "note": "10,500/5,250. 오쿠히다판에 **히라유온천~가미코치 왕복 승차권**이 더해진 것. 히라유 발착판은 8,200/4,100으로 따로 있다. **노히버스 운행편만 대상**, 로프웨이 운휴 시 차액 환불 없음, 이용 개시 후 환불 불가. 가미코치 마이카 규제 기간은 공식 페이지에 기재 없음 / 2026-09-08 `layer` 채움 — **local**: 다카야마와 마쓰모토 두 지역에 걸리지만 **가미코치·오쿠히다는 북알프스 한 권역**이다. 우리 지역 구분이 산을 가른 것이지 거점 사이를 잇는 표가 아니다",
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-kamikochi-okuhida-value-3day",
@@ -12922,8 +13045,9 @@
   "axis": "D",
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
-  "note": "11,000/5,500. 2일권과 내용은 같고 프리 기간만 3일. **노히버스 운행편만 대상**, 로프웨이 운휴 시 차액 환불 없음, 이용 개시 후 환불 불가",
-  "rules_checked": "2026-09-07"
+  "note": "11,000/5,500. 2일권과 내용은 같고 프리 기간만 3일. **노히버스 운행편만 대상**, 로프웨이 운휴 시 차액 환불 없음, 이용 개시 후 환불 불가 / 2026-09-08 `layer` 채움 — **local**: 위와 같다",
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nouhi-shinhotaka-kamikochi-trekking",
@@ -12991,11 +13115,12 @@
   "axis": "D",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
-  "note": "편도 조합이라 통과 코스용",
+  "note": "편도 조합이라 통과 코스용 / 2026-09-08 `layer` 채움 — **local**: 위와 같다",
   "boundary": [
    "왕복세트"
   ],
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-jrc-tateyama-kurobe-alpine-free",
@@ -13066,8 +13191,9 @@
   "axis": "D",
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
-  "note": "발매 2026-03-15~11-26, 이용 2026-04-15~11-30(GW·오봉 제외). 알펜루트 통과 편도 단품이 10,940이라 나고야 왕복까지 묶은 값",
-  "rules_checked": "2026-09-06"
+  "note": "발매 2026-03-15~11-26, 이용 2026-04-15~11-30(GW·오봉 제외). 알펜루트 통과 편도 단품이 10,940이라 나고야 왕복까지 묶은 값 / 2026-09-08 `layer` 채움 — **move**: JR도카이·JR서일본 나고야~도야마 자유석 무제한. 나고야에서 알펜루트를 관통해 도야마로 빠지는 이동이다",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-alpen-route-roundtrip",
@@ -13144,8 +13270,9 @@
   "axis": "E",
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
-  "note": "2026-09-07 알펜루트 공식 재확인(2026-02-27 기준): 다테야마역~오기사와 왕복 19,680/9,840, **편도 10,940/5,480을 채웠다.** 소인은 초등학생, 미취학아는 무료. 장애인 수첩 소지자는 5할 할인. **15명 이상은 단체 예약이 필요하다.** 개통 기간·환불·WEB킷푸는 이 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "note": "2026-09-07 알펜루트 공식 재확인(2026-02-27 기준): 다테야마역~오기사와 왕복 19,680/9,840, **편도 10,940/5,480을 채웠다.** 소인은 초등학생, 미취학아는 무료. 장애인 수첩 소지자는 5할 할인. **15명 이상은 단체 예약이 필요하다.** 개통 기간·환불·WEB킷푸는 이 페이지에 기재 없음 / 2026-09-08 `layer` 채움 — **local**: 위와 같다(왕복)",
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-alpen-route-murodo-roundtrip",
@@ -13221,8 +13348,9 @@
   "axis": "E",
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
-  "note": "2026-09-07 알펜루트 공식 재확인: 오기사와~무로도 왕복 12,300/6,150, **편도 6,850/3,430을 채웠다.** 미취학아 무료, 장애인 5할 할인, 15명 이상 단체 예약",
-  "rules_checked": "2026-09-07"
+  "note": "2026-09-07 알펜루트 공식 재확인: 오기사와~무로도 왕복 12,300/6,150, **편도 6,850/3,430을 채웠다.** 미취학아 무료, 장애인 5할 할인, 15명 이상 단체 예약 / 2026-09-08 `layer` 채움 — **local**: 위와 같다(무로도 왕복)",
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kurobe-gorge-trolley-roundtrip",
@@ -13300,7 +13428,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_주부_2026-09-06.md",
   "note": "2026-09-07 구로베협곡철도 공식 재확인: **감시하던 전선 재개일이 확정됐다 — 2026-10-01 첫차부터 우나즈키~게야키다이라 전 구간 운행.** 지금(4/20~9/30)은 우나즈키~네코마타 왕복 2,820/1,420이고, 10/1~11/30 전선 운행 때 우나즈키~게야키다이라는 **편도 2,480/1,240**이다. 릴랙스 차량권 600엔 별도. 예약은 전화·웹·메일이고 **10/1 이후 우나즈키~게야키다이라 승차분은 전화 예약만** 받는다(9/1 이후 승차분 예약은 7/8 개시, 승차일 3개월 전부터). 2024-01 노토반도 지진 피해 복구가 끝나는 것이다. **10월에 값과 예약 방법을 한 번 더 볼 것**",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tobubus-nikko-yumoto-freepass",
@@ -13366,7 +13495,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "3,500/1,750, 2일간 유효. **도부버스 공식 페이지에 요금과 일수만 있고 구간·제외·환불·판매처가 없다.** 저공해버스(오쿠닛코 마이카 규제 구간)와 겨울 운행 여부도 기재가 없어 절차 층에서 채울 자리",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tobubus-nikko-chuzenji-freepass",
@@ -13434,7 +13564,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "2026-09-07 도부버스 공식 재확인: 2,300/1,150, **2일간.** 주젠지온천까지의 프리 구간. 도부닛코역 투어리스트센터·NIKKO MaaS·조르단 노리카에안나이 앱에서 판매. 모바일 구매분은 사용 개시 전이면 환불 가능",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tobubus-nikko-kirifuri-freepass",
@@ -13502,7 +13633,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "**겨울(12/1~3/31)에는 팔지 않는다**",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tobubus-nikko-sekaiisan-tegata",
@@ -13571,7 +13703,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "2026-09-07 도부버스 공식 재확인: 600/300, **당일만.** 세계유산 순회버스 코스를 중심으로 한 구간. 도부닛코역 투어리스트센터·NIKKO MaaS·조르단 앱. 모바일은 사용 개시 전 환불 가능",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakonetozan-tram-1day",
@@ -13643,83 +13776,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "2026-09-07 하코네나비 공식 재확인: 「のんびりきっぷ」 1,580/500, **이용 당일만.** 오다와라~하코네유모토~고라 승하차 자유. **등산전철은 이번(2025-10-01) 개정 대상이 아니다** — 개정은 索道(로프웨이)·船舶(해적선)과 그것을 포함하는 기획승차권에 걸렸다. 판매는 등산전철 각 역(도노사와 제외)·오다큐 여행센터 오다와라/하코네유모토·온라인",
-  "rules_checked": "2026-09-07"
- },
- {
-  "pass_id": "jp-nexco-japan-expressway-pass",
-  "name": {
-   "local": "Japan Expressway Pass",
-   "local_lang": "ja",
-   "ko": "재팬 익스프레스웨이 패스",
-   "en": "Japan Expressway Pass"
-  },
-  "type": "T5",
-  "issuer": {
-   "local": "NEXCO東日本·中日本·西日本",
-   "ko": "NEXCO 3사"
-  },
-  "country": "JP",
-  "region": "JP",
-  "region_id": [
-   "JP-09-nikko",
-   "JP-14-hakone"
-  ],
-  "price": [
-   {
-    "currency": "JPY",
-    "amount": 20000,
-    "category": "adult_7day"
-   },
-   {
-    "currency": "JPY",
-    "amount": 34000,
-    "category": "adult_14day"
-   }
-  ],
-  "validity": {
-   "days": [
-    7,
-    14
-   ],
-   "basis": "first_use",
-   "consecutive": true
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "NEXCO 3사 + 미에·교토·효고 도로공사",
-     "scope": "전국 고속도로 정액 무제한"
-    }
-   ]
-  },
-  "eligibility": "foreign_passport",
-  "purchase_channels": [
-   {
-    "channel": "약 275개 렌터카 영업소",
-    "online": false,
-    "commission": false
-   }
-  ],
-  "rules": [
-   "렌터카:ETC필수",
-   "렌터카:필수",
-   "자격:외국인전용"
-  ],
-  "sources": [
-   {
-    "url": "https://www.driveplaza.com/etc/drawari/",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "L1",
-  "last_verified_at": "2026-09-06",
-  "license": "ODbL-1.0",
-  "axis": "B",
-  "card_status": "data_only",
-  "survey": "조사_성격축/조사표_간토_2026-09-06.md",
-  "note": "**판매 상태 미확인.** 2017-10-13 발매 상품인데 driveplaza.com의 JEP 경로가 404를 내고 도라와리 목록에는 홋카이도·도호쿠만 남아 있다. 주부 CEP가 2024-10-01에 신규 접수를 닫은 전례가 있어 같은 길일 가능성을 배제 못 한다 — **지금도 파는지 확인 전에는 카드에 쓰지 않는다** / 2026-09-08 승급 시도 실패 — **driveplaza의 도라와리 목록에 JEP가 없다**(홋카이도·도호쿠·간토·신에쓰만 남았다). **東北 TEP가 2026-09-30에 신규 접수를 닫는다**는 안내가 확인돼 축소 흐름이 이어지고 있다. 7일 20,000·14일 34,000은 2017 발매 보도자료 값이다. **L1 유지 — 지금도 파는지 확인 전에는 카드에 쓰지 않는다.**",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-tobu-nikko-pass-world-heritage",
@@ -13792,7 +13850,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "**카드 45가 \"닛코 시내만 볼 거면 더 싼 월드헤리티지 패스가 있다\"고 쓴 그 상품.** 3,000 vs all area 8,000. 동행 일본인도 살 수 있다. 특급권은 별도",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-odakyu-hakone-hakochike-plus",
@@ -13873,7 +13932,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "2026-09-07 공식 PDF 원문 대조: **하코치케 플러스에도 하코네 프리패스의 요금 개정이 그대로 적용된다**(공지 명시). 프리패스 개정 폭은 **어른 +1,000 · 소인 +500**이다. 개정 전 출발역별 표(하코네나비): 신주쿠 2일 12,100/3,600·3일 14,500/4,600 / 마치다 11,820·14,220 / 후지사와 12,050·14,450 / **오다와라 2일 11,000/3,500·3일 13,400/4,500**. 여기에 +1,000/+500을 더한 값이 지금 요금이다(오다와라 2일 12,000/4,000). **우리가 들고 있던 11,000/3,500은 오다와라 발 개정 전 값이었다.** 디지털 하코네 프리패스(탈것 8종: 등산전철·로프웨이·케이블카·해적선·등산버스·하이웨이버스·도카이버스·관광시설순회버스) + 「하코네 놀이 무제한 티켓」(온천 7·식물원 3·오락 4·미술관 5). **EMot 디지털 전용이라 역·시설에서 팔지 않는다.** 세트 상품이라 개별 환불 불가, 운휴 때만 온라인 환불. 오다큐하코네 2025-06-23 공지(공식 PDF 원문). **개정일 2025-10-01.** 로프웨이 균일운임 편도 1,500→2,000·왕복 2,500→3,000(소인 500→700·800→1,000), 해적선 도겐다이~하코네마치·모토하코네 편도 1,200→1,700·왕복 2,220→3,000(소인 600→850·1,110→1,300), 해적선 하코네마치~모토하코네 편도 420→600(소인 210→300). 로프웨이 단체 적용 인원은 15명 이상 → **25명 이상**. 개정일 이후 유효한 표를 미리 사 두면 개정 전 요금으로 쓸 수 있다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakone-owakudani-kippu",
@@ -13947,95 +14007,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "2026-09-07 공식 PDF 원문 대조: 오다와라·하코네 에리어 발 **2일 3,700→5,000 · 소인 980→1,300**. **유효기간은 2일이다**(우리가 1일 \"미확인\"으로 뒀다). **같은 개정에서 로프웨이 이용 가능 구간이 「早雲山~大涌谷」에서 「早雲山~桃源台」 전 구간으로 넓어졌다** — 값만 오른 게 아니라 범위가 커졌다. 하코네나비 상세의 출발역별 개정 후 표: 신주쿠 6,480/1,400 · 마치다 5,980/1,400 · 후지사와 6,300/1,400 · 오다와라 5,000/1,300. 등산전철(오다와라~고라)+케이블카(고라~소운잔)+로프웨이(소운잔~도겐다이)+오다큐선 왕복(발역~오다와라, 1회). 로망스카는 특급권 별도. 오다큐하코네 2025-06-23 공지(공식 PDF 원문). **개정일 2025-10-01.** 로프웨이 균일운임 편도 1,500→2,000·왕복 2,500→3,000(소인 500→700·800→1,000), 해적선 도겐다이~하코네마치·모토하코네 편도 1,200→1,700·왕복 2,220→3,000(소인 600→850·1,110→1,300), 해적선 하코네마치~모토하코네 편도 420→600(소인 210→300). 로프웨이 단체 적용 인원은 15명 이상 → **25명 이상**. 개정일 이후 유효한 표를 미리 사 두면 개정 전 요금으로 쓸 수 있다",
-  "rules_checked": "2026-09-07"
- },
- {
-  "pass_id": "jp-hakone-norimono-pass-lite",
-  "name": {
-   "local": "箱根のりものパス Lite",
-   "local_lang": "ja",
-   "ko": "하코네 노리모노 패스 라이트",
-   "en": "Hakone Norimono Pass Lite"
-  },
-  "type": "T4",
-  "issuer": {
-   "local": "箱根登山鉄道·箱根ロープウェイ·箱根観光船·箱根登山バス",
-   "ko": "하코네 각사"
-  },
-  "country": "JP",
-  "region": "JP-14",
-  "region_id": "JP-14-hakone",
-  "price": [
-   {
-    "currency": "JPY",
-    "amount": 3800,
-    "category": "adult"
-   },
-   {
-    "currency": "JPY",
-    "amount": 980,
-    "category": "child"
-   }
-  ],
-  "validity": {
-   "days": 1,
-   "basis": "calendar"
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "箱根登山電車"
-    },
-    {
-     "operator": "箱根登山ケーブルカー"
-    },
-    {
-     "operator": "箱根ロープウェイ"
-    },
-    {
-     "operator": "箱根海賊船"
-    },
-    {
-     "operator": "箱根登山バス"
-    }
-   ]
-  },
-  "eligibility": "unspecified",
-  "purchase_channels": [
-   {
-    "channel": "하코네나비·미야노시타역·고라역·소운잔역·모토하코네/하코네/도겐다이 안내소·EMot",
-    "online": true,
-    "commission": false
-   }
-  ],
-  "rules": [
-   "기간:판매종료:2025-09-30"
-  ],
-  "sources": [
-   {
-    "url": "https://www.hakonenavi.jp/transportation/ticket/",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   },
-   {
-    "url": "https://www.emot.jp/service/detail/norimono_pass_lite.html",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   },
-   {
-    "url": "https://www.hakonenavi.jp/_wp/wp-content/uploads/2025/06/290ca0f7c7a1ddbe6315ef5cd7a724b2-1.pdf",
-    "checked": "2026-09-07",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "retired",
-  "last_verified_at": "2026-09-07",
-  "license": "ODbL-1.0",
-  "axis": "E",
-  "card_status": "candidate_strong",
-  "survey": "조사_성격축/조사표_간토_2026-09-06.md",
-  "note": "2026-09-07 공식 PDF 원문 대조: **「箱根のりものパスLite」는 2025-09-30 출발분으로 판매 종료됐다.** 오다큐하코네가 \"여객 수요를 감안해\" 노리호다이 패스 2일권과 함께 끝낸다고 적었다. **이것은 조사 결론 하나를 무너뜨린다** — 9회차 조사가 \"권역형 드라이브 패스가 없는 대도시권에서 렌터카 여행객을 잡는 현실적 길은 왕복 없는 현지 패스, 곧 하코네 노리모노패스 Lite 3,800\"이라고 적었는데 **그 상품이 없어졌다.** 차로 와서 세워 두고 도는 사람을 위한 표라는 성격은 그대로 필요하므로 대체 상품(대涌谷きっぷ·노리호다이 패스 1일권 등)으로 다시 볼 자리다. 오다큐하코네 2025-06-23 공지(공식 PDF 원문). **개정일 2025-10-01.** 로프웨이 균일운임 편도 1,500→2,000·왕복 2,500→3,000(소인 500→700·800→1,000), 해적선 도겐다이~하코네마치·모토하코네 편도 1,200→1,700·왕복 2,220→3,000(소인 600→850·1,110→1,300), 해적선 하코네마치~모토하코네 편도 420→600(소인 210→300). 로프웨이 단체 적용 인원은 15명 이상 → **25명 이상**. 개정일 이후 유효한 표를 미리 사 두면 개정 전 요금으로 쓸 수 있다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hakone-kaizoku-ropeway-pass",
@@ -14116,7 +14089,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "2026-09-07 공식 PDF 원문 대조. **2026-09-07에 내가 \"판매 종료가 아니었다\"고 적은 것은 절반만 맞았다** — **1일권은 남고 2일권이 끝났다.** 1일권 **4,000→5,000 · 소인 980→1,400**(2025-10-01). **「海賊船・ロープウェイ乗り放題パス2日券」(4,500/980)은 2025-09-30 출발분으로 판매 종료**되어 가격 목록에서 뺐다. 로프웨이(도겐다이~소운잔)와 해적선(하코네마치·모토하코네~도겐다이) 지정 구역 승하차 자유. 로프웨이 전 역·해적선 전 항구와 온라인에서 판매. 오다큐하코네 2025-06-23 공지(공식 PDF 원문). **개정일 2025-10-01.** 로프웨이 균일운임 편도 1,500→2,000·왕복 2,500→3,000(소인 500→700·800→1,000), 해적선 도겐다이~하코네마치·모토하코네 편도 1,200→1,700·왕복 2,220→3,000(소인 600→850·1,110→1,300), 해적선 하코네마치~모토하코네 편도 420→600(소인 210→300). 로프웨이 단체 적용 인원은 15명 이상 → **25명 이상**. 개정일 이후 유효한 표를 미리 사 두면 개정 전 요금으로 쓸 수 있다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-chuzenjiko-boat-freepass",
@@ -14183,7 +14157,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
   "note": "**NIKKO PASS all area에 4월 중순~11/30분이 포함된다** — all area를 사면 따로 살 필요가 없다",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-zentan-tajima-bus-1day",
@@ -14261,7 +14236,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_긴키_2026-09-06.md",
   "note": "2,000/1,000, 1일. 젠탄버스 일반 노선 전선 + 덴쿠버스 + 다지마와루 + 커뮤니티버스. **도요오카시 「이나카」는 못 탄다.** 고속버스는 발차 1시간 전까지 예약이 필요하다. 2019-04-01부터 연중 판매",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-zentan-kinosaki-yumura-tajima-2day",
@@ -14335,8 +14311,9 @@
   "axis": "A",
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_긴키_2026-09-06.md",
-  "note": "7,900/3,950, 연속 2일. 젠탄버스 일반 노선 전선 + 다케다성터 주유버스 「덴쿠버스」 + 유메타지마 주유버스 「다지마와루」 + 각 시정촌 커뮤니티버스. **도요오카시 「이나카」는 못 탄다. 고속버스는 2회까지만이고 발차 1시간 전까지 예약이 필요하다.** 판매는 오사카 우메다·신오사카(한큐버스), 고베 산노미야(신키버스), 기노사키온천 SOZORO. 별도로 「但馬 버스 노리호다이 킷푸」 1일 2,000/1,000이 있다",
-  "rules_checked": "2026-09-07"
+  "note": "7,900/3,950, 연속 2일. 젠탄버스 일반 노선 전선 + 다케다성터 주유버스 「덴쿠버스」 + 유메타지마 주유버스 「다지마와루」 + 각 시정촌 커뮤니티버스. **도요오카시 「이나카」는 못 탄다. 고속버스는 2회까지만이고 발차 1시간 전까지 예약이 필요하다.** 판매는 오사카 우메다·신오사카(한큐버스), 고베 산노미야(신키버스), 기노사키온천 SOZORO. 별도로 「但馬 버스 노리호다이 킷푸」 1일 2,000/1,000이 있다 / 2026-09-08 `layer` 채움 — **local**: 고속버스 왕복 2회로 오사카·고베가 붙지만 **본체는 다지마 권역 안의 노선버스 무제한**이다",
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-nankai-rinkan-koyasan-1day",
@@ -14411,7 +14388,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_긴키_2026-09-06.md",
   "note": "2026-09-07 **인증서 오류로 두 번 막혔던 자리를 브라우저 패널로 열었다**(WebFetch는 오늘도 실패). 1,500/**750**(소인을 채웠다). **고야산역앞 버스영업소 창구에서만 판다.** 券面에 적힌 유효일에만 타고 **지정 유효일 외에는 못 탄다.** **급행버스 다테리선·고야류진선은 탈 수 없다.** 사용 개시 후와 통용 기일 후에는 환불하지 않는다. 특전이 30곳 붙는다 — 곤도·곤폰다이토·곤고부지 관람료 2할 할인, 영보관 어른 200엔·초중생 100엔 할인, 식당·기념품점 1할 할인 등. 장애인 수첩은 창구 제시",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-koyasan-shodo-kyotsu",
@@ -14482,7 +14460,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_긴키_2026-09-06.md",
   "note": "2,500. **영보관을 뺀 다섯 곳** — 곤고부지·다이시교회(수계)·다이토·곤도·도쿠가와가 영대. 고야산 숙방협회 안내소(중앙·이치노하시·나카노하시)에서 판다. **공식(숙방협회)에 유효기간이 적혀 있지 않다** — 2차 출처에 \"2일\"과 \"2,000엔\"이 도는데 근거를 못 찾았다. 영보관은 단독 1,300(일반)·600(초중생), 연중 9:00~17:00, 연말연시 휴관",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hiroshima-tabipass",
@@ -14590,7 +14569,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "2026-09-07 히로덴 공식 재확인: 1day 1,000 · 2day 1,500 · 3day 2,000 · 3day 미들에리어 4,500(소인 기재 없음). 히로덴 전선 + 미야지마 항로 페리 + 시내·교외 버스 여러 회사(구레·다케하라 일부) + 대상 고속버스. **JR·일부 고속버스·히로시마공항 리무진·구레히로시마공항선·심야버스는 제외.** 디지털(MOBIRY TRAVEL)은 구매일 포함 90일 안에 개시하면 되고, 사용 개시일 7일 전부터 살 수 있다. **카드 47의 비추천 자리에 쓰는 값이다** — 같은 1,000엔인데 이쪽이 넓다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-hiroden-tram-1day",
@@ -14660,7 +14640,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "2026-09-07 히로덴 공식 재확인: 700/350. **히로덴 전차 전선뿐이고 미야지마 항로는 안 들어간다** — 페리까지 필요하면 1,000엔짜리 전차·미야지마페리 1일권이다. 스크래치식이라 券面 유효기간 중 승차일 당일만. 환불은 미사용분만 8곳에서, 수수료 200엔",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kurashiki-freepass-1day",
@@ -14731,7 +14712,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "**토·일·공휴일 한정 모바일 티켓**이라는 것만 확인. 가격·범위 미확인. 구라시키는 지역 사전에 없다(조사표 §5 후보) / 2026-09-08 **下電バス 공식에서 값을 찾아 L1 → L2로 올렸다** — 값이 비어 있던 자리를 채웠다. **어른 1,200 / 소인 600**(2025-03-16~04-06의 도입 기념가 800/400은 끝났다). **토·일·공휴일만 쓴다.** 下電버스 아마기선·시오나스선·고조치선·자야마치선(고조 영업소까지) + 両備버스 구라시키 시내 전선(오카쿠라선·세이신학원선·컨벡스선 제외). **조루단 모바일 티켓 전용이라 앱이 있어야 한다.**",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "jp-okayama-korakuen-castle",
@@ -14800,7 +14782,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    65
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-okayama-korakuen-museum",
@@ -14870,7 +14853,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "2026-09-07 오카야마 고라쿠엔 공식 입원안내로 출처를 갈았다(오카야마시 페이지에서 공통권 표가 사라졌다). 고라쿠엔+현립박물관 610. 고라쿠엔 단독은 어른 500·**65세 이상 200·고교생 이하 무료(2027-03-31까지)**. **다른 시설의 특별전 기간과 휴관일에는 공통권 발매를 중지한다.** **반권을 잃으면 무효**이고, **시니어용 공통권은 없어 각 시설에서 따로 사야 한다.** 고라쿠엔은 연중무휴, 3/20~9/30 7:30~18:00 · 10/1~3/19 8:00~17:00",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-okayama-korakuen-castle-hayashibara",
@@ -14941,7 +14925,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "2026-09-07 고라쿠엔 공식 입원안내로 출처 교체: 고라쿠엔+오카야마성+하야시바라미술관 1,280. 특별전 기간·휴관일 발매 중지, 반권 분실 시 무효, 시니어용 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-okayama-korakuen-castle-yumeji",
@@ -15012,7 +14997,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "2026-09-07 고라쿠엔 공식 입원안내로 출처 교체. **다만 이 페이지에는 유메지향토미술관 공통권이 없다** — 실린 것은 현립박물관 610·오카야마성 800·하야시바라 1,280 셋뿐이다. 우리 값 1,440은 오카야마관광 공식에서 읽은 것이라 L1로 남긴다. 공통권 공통 규칙(특별전 기간·휴관일 발매 중지, 반권 분실 시 무효, 시니어용 없음)은 적용된다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-miyajima-enjoy-ticket",
@@ -15084,7 +15070,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "2,100/1,100(각각 400·200 이득). 미야지마마쓰다이키센 페리 왕복(**미야지마 방문세 포함**) + 미야지마 로프웨이 왕복. 구매일 포함 2일. **미야지마구치 창구에서만, 판매 시간 8:30~15:00. 섬 안에서는 팔지 않는다.** 악천후 시 판매 중지, 로프웨이 정기점검일과 12/31~1/3은 판매 없음. 강풍·낙뢰로 로프웨이가 운휴하면 어른 1,660·소인 830을 환불한다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-miyajima-ropeway-roundtrip",
@@ -15164,7 +15151,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "2026-09-07 요금 페이지를 찾았다(/fare/). **왕복 2,000/1,000 · 편도 1,100/550으로 우리 값과 같다.** 영업 9:00~16:00(**하행 최종 16:30**). 단체 15명 이상과 **65세 이상 실버는 어른 왕복 1,800**, 장애인은 1,000. 정기점검·강풍 운휴는 이 페이지에 기재 없음 — 미야지마 엔조이 티켓 쪽에 \"로프웨이 정기점검일에는 판매 없음\"이 있으니 점검일 자체는 존재한다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-8168a-luye-1day",
@@ -15233,7 +15221,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_대만_2026-09-06.md",
   "note": "일일권 全票 180·優惠票 100. 단정은 거리 요금제. **하루 2편뿐이다** — 표보다 시각표가 먼저인 노선이다. 열기구 기간(2026-07-04~08-20)에는 화요일을 뺀 날의 오전이 유람선식 버스, 오후가 일반형으로 바뀐다. 종이 일일권은 차내 또는 타이둥 환승역 여객서비스대에서 사고 당일 유효. 인터넷 예약은 ttdiway.com, 7-11 ibon·FamiPort",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-penghu-huxi-1day",
@@ -15304,7 +15293,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_대만_2026-09-06.md",
   "note": "카드 61이 쓰는 북환선(300)과 같은 값의 다른 방면",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-penghu-pengnan-1day",
@@ -15374,7 +15364,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_대만_2026-09-06.md",
   "note": "**주 4일(월·수·금·일) 하루 1편**뿐이다",
-  "rules_checked": "2026-09-06"
+  "rules_checked": "2026-09-06",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-716-north-coast",
@@ -15448,7 +15439,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_대만_2026-09-06.md",
   "note": "2026-09-07 台灣好行 공식 재확인: 段票 全票 15·半票 12(65세 이상·장애인·신장 115~150cm 아동). **5~10월은 매일 운행하지만 11~4월은 평일 운휴로 토·일·공휴일만 다닌다** — 겨울에 가면 요일을 봐야 한다. 차내에서 현금·전자표증(悠遊卡·一卡通·愛金卡)·모바일 결제. 접이식 자전거는 저상버스만(포장 필수), 반려동물은 용기에 넣어 1인 1개",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-g21-dongshan",
@@ -15506,7 +15498,8 @@
   "unverified": [
    "price"
   ],
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-6883-xitou",
@@ -15579,88 +15572,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_대만_2026-09-06.md",
   "note": "2026-09-07 台灣好行 공식 재확인: 단정 全票 타이중 간청역→시터우 192, 고속철 타이중역→시터우 163. **來回票·一日券 기재 없음.** 창구(간청역·고속철 타이중역)·인터넷·차내·모바일 결제. 고속철 궈뤼롄표는 출발 2~5일 전 온라인 예약이 되지만 **일반 승객은 당일 번호표(号码牌)를 받는 선착순**이다. 막차를 못 타면 시터우역에서 환불 수속",
-  "rules_checked": "2026-09-07"
- },
- {
-  "pass_id": "tw-haoxing-sunmoonlake-4in1",
-  "name": {
-   "local": "台灣好行 日月潭線 全覽四合一套票",
-   "local_lang": "zh-Hant",
-   "ko": "타이완하오싱 르웨탄선 전람 4합1 세트",
-   "en": "Sun Moon Lake All-in-One Package"
-  },
-  "type": "T3",
-  "issuer": {
-   "local": "南投客運",
-   "ko": "난터우객운"
-  },
-  "country": "TW",
-  "region": "TW-NAN",
-  "region_id": "TW-NAN-sunmoonlake",
-  "price": [
-   {
-    "currency": "TWD",
-    "amount": 1100,
-    "category": "adult_last"
-   }
-  ],
-  "validity": {
-   "days": 1,
-   "basis": "calendar",
-   "note": "유효기간 미확인"
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "南投客運",
-     "scope": "하오싱 르웨탄선 왕복"
-    },
-    {
-     "operator": "日月潭纜車",
-     "scope": "케이블카"
-    },
-    {
-     "operator": "遊湖船",
-     "scope": "유람선"
-    }
-   ],
-   "facility": {
-    "note": "자전거 포함"
-   }
-  },
-  "eligibility": "unspecified",
-  "purchase_channels": [
-   {
-    "channel": "온라인 QR 구매 → 르웨탄 케이블카역 2F 자동교환기에서 실물 교환",
-    "online": true,
-    "commission": false
-   }
-  ],
-  "rules": [
-   "기간:판매종료",
-   "사용:14일내소진",
-   "환불:개시후불가"
-  ],
-  "sources": [
-   {
-    "url": "https://nantou.welcometw.com/tour/wxyk",
-    "checked": "2026-09-07",
-    "kind": "공식"
-   },
-   {
-    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "retired",
-  "last_verified_at": "2026-09-07",
-  "license": "ODbL-1.0",
-  "axis": "D",
-  "card_status": "data_only",
-  "survey": "조사_성격축/조사표_대만_2026-09-06.md",
-  "note": "2026-09-07 **판매가 중지됐다.** 정가 NT$1,166, 마지막 판매가 NT$1,100. 판매 기한 2026-05-31, **이미 산 표의 사용 기한은 2027-09-07.** 내용은 台灣好行 르웨탄선 왕복 + 르웨탄 케이블카 왕복 + 자전거 대여 + 유호선 선표 넷. **첫 사용 후 14일 안에 다 써야 한다.** 왕복 차표는 QR로 각 2회 승하차, 케이블카는 당일 왕복 1회, 자전거는 지정 차종(다른 차종은 차액), **선표는 「환호일주권」으로 조정됐다**(부두마다 한 번씩 한 바퀴). 어느 하나라도 쓰면 환불 불가. 대리 판매는 펑취과기(豐趣科技). 台灣好行 공식 노선 페이지(R0005)에는 이 이름의 套票가 없고 왕복 360·단정 193만 있다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "tw-haoxing-t99-keelung-1day",
@@ -15744,7 +15657,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/rules_규칙_제안_2026-09-07.md",
   "rules_checked": "2026-09-07",
-  "note": "2026-09-07 **옛 레코드 「台灣好行 龍宮尋寶線 一日券 130/65」를 이 항목으로 고쳐 썼다.** 台灣好行 공식 노선 목록과 베타 사이트 어디에도 「龍宮尋寶線」이 없고, 지룽의 노선은 T99 하나다. **130/65는 타오위안 「大溪快線」 1일권의 값이었다** — 台灣好行 超值套票 페이지(City000004)에 小烏來線 150/75 · **大溪快線 130/65** · 大龍門線 160/80 · 東眼山線 150/75이 실려 있다. 다른 지역의 값을 지룽에 붙여 놓았던 것이다. **T99의 공식 요금은 段票 全票 15 · 半票 8 · 학생 9**(민항국 아닌 台灣好行 공식). 1일 승차권 50元은 2차 조각에서 나온 값이라 **가격만 L1 수준**으로 본다 — 지룽시 문화관광국 페이지가 오늘 ECONNRESET·빈 응답이라 직접 못 읽었다. **2026년 1~4월 운휴, 5~12월은 휴일(공휴일 포함)에만 운행하고 평일은 쉰다.** 차내에서만 산다. 별도로 「北北基好玩卡 교통 暢遊版」이 이 노선을 포함한 台灣好行 6개 노선과 수도권 지하철·버스를 덮는다 / 2026-09-08 재확인: **공식 노선 페이지에 단차 15元(반값 8元)만 적혀 있고 1일권 항목이 없다** — 우리 값 50의 근거를 오늘은 못 찾았다(사람이 볼 자리). **2026-01-01부터 계절 운행으로 바뀌었다: 1~4월 전면 운휴, 5~12월은 주말·공휴일만 운행한다.** 성수기(8~10월) 하루 10편, 비수기(11~12월) 하루 4편. 지룽 환승역~바더우쯔역 13정거장 약 25km."
+  "note": "2026-09-07 **옛 레코드 「台灣好行 龍宮尋寶線 一日券 130/65」를 이 항목으로 고쳐 썼다.** 台灣好行 공식 노선 목록과 베타 사이트 어디에도 「龍宮尋寶線」이 없고, 지룽의 노선은 T99 하나다. **130/65는 타오위안 「大溪快線」 1일권의 값이었다** — 台灣好行 超值套票 페이지(City000004)에 小烏來線 150/75 · **大溪快線 130/65** · 大龍門線 160/80 · 東眼山線 150/75이 실려 있다. 다른 지역의 값을 지룽에 붙여 놓았던 것이다. **T99의 공식 요금은 段票 全票 15 · 半票 8 · 학생 9**(민항국 아닌 台灣好行 공식). 1일 승차권 50元은 2차 조각에서 나온 값이라 **가격만 L1 수준**으로 본다 — 지룽시 문화관광국 페이지가 오늘 ECONNRESET·빈 응답이라 직접 못 읽었다. **2026년 1~4월 운휴, 5~12월은 휴일(공휴일 포함)에만 운행하고 평일은 쉰다.** 차내에서만 산다. 별도로 「北北基好玩卡 교통 暢遊版」이 이 노선을 포함한 台灣好行 6개 노선과 수도권 지하철·버스를 덮는다 / 2026-09-08 재확인: **공식 노선 페이지에 단차 15元(반값 8元)만 적혀 있고 1일권 항목이 없다** — 우리 값 50의 근거를 오늘은 못 찾았다(사람이 볼 자리). **2026-01-01부터 계절 운행으로 바뀌었다: 1~4월 전면 운휴, 5~12월은 주말·공휴일만 운행한다.** 성수기(8~10월) 하루 10편, 비수기(11~12월) 하루 4편. 지룽 환승역~바더우쯔역 13정거장 약 25km.",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kyoto-subway-bus-1day",
@@ -15827,7 +15741,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    62
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-kyoto-subway-randen-1day",
@@ -15908,7 +15823,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "2026-09-07 **도메인을 바꿔 열었다** — randen.keifuku.co.jp는 인증서 만료로 WebFetch·브라우저 모두 실패했는데 본 도메인 keifuku.co.jp는 열린다. 1,300엔, **어른권만 판다(소인 없음).** 란덴 전선 + 교토시영지하철 전선. 같은 페이지에서 확인된 것: **란덴 전선 균일운임 250/120**(어린이는 6세 이상 12세 미만), **란덴 1일 프리 킷푸 700/350**(아라시야마본선·기타노선). 교토시 공식에 발매 기간이 令和8(2026)년 4월~로 적혀 있다. 유효기간·환불·판매처는 이 페이지에 기재 없음 / 2026-09-08 재확인: 값 1,300은 그대로이고 **어른권만 있다**(소인권 없음). 지하철 전선 + 란덴 전선이며 **시버스는 안 들어간다.** **공식 페이지의 유효기간 표기가 「2024-04-01~2025-04-30」로 낡아 있다** — 연도 상품인데 갱신이 안 된 것으로 보인다. 사람이 확인할 자리.",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-keihan-kyoto-1day",
@@ -15978,7 +15894,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "2026-09-07 게이한 공식 재확인: 1,100/550(2025-10-01부터). **구매일부터 3개월 이내의 원하는 하루.** 이와시미즈하치만구역~데마치야나기역, 우지선, **이와시미즈하치만구 참도 케이블 포함**(나라·이카루가 1day에서는 제외되던 구간이다). 프리미엄카·라이너는 별도 요금. **「스룻토QRtto」 디지털 전용**, 신용카드 결제. 이용 개시 전·구매 3개월 이내면 수수료 없이 환불, 개시 후 불가",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-narakotsu-nara-nishinokyo-1day",
@@ -16054,7 +15971,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    64
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-nara-ikaruga-1day",
@@ -16143,7 +16061,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "2026-09-07 게이한 공식 재확인: 게이한판 2,350(**어른만 판매**). **「스룻토QRtto」 디지털 전용이다.** 판매 2026-04-01~2027-03-31, 통용은 2027-04-30까지 중 **구매일부터 3개월 안의 원하는 하루.** 게이한선 전선(오쓰선·이와시미즈하치만구 참도 케이블 제외) + 긴테츠 지정 구간 + 나라교통 프리 구간. 좌석 지정 특급은 특급 요금 별도. 정기관광·고속·공항버스 노선 불가. 개시 전에만 환불, **디지털 승차권이 표시되지 않으면 이용도 재발행도 안 된다**",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-kobe-cityloop-1day",
@@ -16212,149 +16131,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    63
-  ]
- },
- {
-  "pass_id": "jp-kobe-bus-subway-1day",
-  "name": {
-   "local": "市バス・地下鉄共通1日乗車券",
-   "local_lang": "ja",
-   "ko": "고베 시버스·지하철 공통 1일 승차권",
-   "en": "Kobe Bus & Subway 1-Day Pass"
-  },
-  "type": "T1",
-  "issuer": {
-   "local": "神戸市交通局",
-   "ko": "고베시 교통국"
-  },
-  "country": "JP",
-  "region": "JP-28",
-  "region_id": "JP-28-kobe",
-  "price": [
-   {
-    "currency": "JPY",
-    "amount": 1040,
-    "category": "adult"
-   }
   ],
-  "validity": {
-   "days": 1,
-   "basis": "calendar"
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "神戸市バス",
-     "scope": "전선"
-    },
-    {
-     "operator": "神戸市営地下鉄",
-     "scope": "전선"
-    }
-   ]
-  },
-  "eligibility": "unspecified",
-  "purchase_channels": [
-   {
-    "channel": "지하철 역·시버스 영업소",
-    "online": false,
-    "commission": false
-   }
-  ],
-  "rules": [
-   "기간:판매종료:2026-03-31"
-  ],
-  "sources": [
-   {
-    "url": "https://faq.city.kobe.lg.jp/faq/show/957",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   },
-   {
-    "url": "https://kotsu.city.kobe.lg.jp/ensen-navi/bus-railway/bus-subway1day01/",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "retired",
-  "last_verified_at": "2026-09-07",
-  "license": "ODbL-1.0",
-  "axis": "A",
-  "card_status": "data_only",
-  "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
-  "note": "2026-09-07 **감시하던 기한의 답이 나왔다.** 자기(磁氣)식 「市バス・地下鉄共通1日乗車券」은 **2026-03-31로 발매를 끝냈고, 미사용분은 2026-09-30까지만 쓸 수 있다.** **2026-10-01부터 환불이 시작된다** — 유효기한 표기가 없는 것은 2031-09-30까지 5년, 유효기한이 2026-10-01 이후인 것은 그 기한과 2031-09-30 중 빠른 날까지. 접수는 다니가미역을 뺀 세이신·야마테선과 가이간선 각 역, 정기권 발매소(산노미야·신나가타·묘다니·세이신추오·고베역앞). **후속은 「神戸市営地下鉄QR1日乗車券」(2026-04-01 발매)인데 지하철 전용이라 시버스와의 공통권은 사라진다.** ※ 고베시 교통국 사이트가 403이라 직접 못 읽었고 발표 내용을 2차로 확인했다 — 값은 재확인 대상",
-  "rules_checked": "2026-09-07"
- },
- {
-  "pass_id": "jp-kobe-arima-taikou-coupon",
-  "name": {
-   "local": "有馬温泉 太閤の湯クーポン（神戸市営地下鉄版）",
-   "local_lang": "ja",
-   "ko": "아리마온천 다이코노유 쿠폰(고베 지하철판)",
-   "en": "Arima Onsen Taiko-no-Yu Coupon"
-  },
-  "type": "T3",
-  "issuer": {
-   "local": "神戸市交通局",
-   "ko": "고베시 교통국"
-  },
-  "country": "JP",
-  "region": "JP-28",
-  "region_id": "JP-28-kobe",
-  "price": [],
-  "validity": {
-   "days": 1,
-   "basis": "calendar"
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "神戸市営地下鉄 외",
-     "scope": "아리마온천역까지 1일권"
-    }
-   ],
-   "facility": {
-    "count": 1,
-    "highlights": [
-     "有馬温泉 太閤の湯 입관"
-    ]
-   }
-  },
-  "eligibility": "unspecified",
-  "purchase_channels": [
-   {
-    "channel": "고베시 교통국 각 역",
-    "online": false,
-    "commission": false
-   }
-  ],
-  "rules": [
-   "기간:휴관일제외",
-   "환불:수수료:220"
-  ],
-  "sources": [
-   {
-    "url": "https://www.shintetsu.co.jp/railway/ticket/taikounoyu/",
-    "checked": "2026-09-07",
-    "kind": "공식"
-   },
-   {
-    "url": "https://kotsu.city.kobe.lg.jp/ensen-navi/bus-railway/taikou-no-yu1day/",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "L1",
-  "last_verified_at": "2026-09-07",
-  "license": "ODbL-1.0",
-  "axis": "D",
-  "card_status": "data_only",
-  "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
-  "note": "2026-09-07 고베시 교통국은 여전히 막혀 있어(WebFetch 403·브라우저 차단) **같은 상품의 신테츠판을 공식에서 읽어 조건을 잡았다.** 신테츠판은 **어른 2,600엔**(소인 기재 없음) — 신테츠 각 역(신카이치 제외)~아리마온천역 1일 프리 승차권 + 다이코노유 입관권 + 관내 우대권. 발매 2026-04-01~2027-03-31, 유효는 승차 당일 1일. **다이코노유 휴관일(4/6~7 · 7/6~7 · 10/13 · 2027-01-06)과 임시휴관일에는 쓸 수 없고, 정월(2027-01-01~03)에 쓰려면 500엔을 더 낸다.** 환불은 미사용만 수수료 220엔. **우리 항목은 시영지하철판이라 가격이 다르다** — 지하철 왕복이 더해지므로 2,600보다 비쌀 것이다. 값은 미확인 유지 / 2026-09-08 승급 시도 실패 — **고베시 교통국 사이트가 여전히 막혀 있다**(CloudFront ERROR, WebFetch·브라우저 모두). 지하철판의 값을 발행 주체에서 못 읽는다. 같은 상품의 **신테츠판(어른 2,600)만 공식으로 확인돼 있다.** **L1 유지.**",
-  "unverified": [
-   "price"
-  ],
-  "rules_checked": "2026-09-07"
+  "layer": "local"
  },
  {
   "pass_id": "jp-okinawa-yuirail-freepass",
@@ -16450,7 +16228,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "1일 1,000/500은 **24시간**, 2일 1,800/900은 **48시간**이다. 날짜가 아니라 **구매 시각부터 재기 때문에 공식이 「乗車直前にお買求め下さい」라고 적는다.** 유이레일 전 역 승하차 자유, 유효기간 안에는 제휴 시설 할인도 받는다. 각 역에서 판매",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-okinawa-bus-shuyu-pass",
@@ -16561,7 +16340,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    78
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-okinawa-nahabus-1day",
@@ -16633,7 +16413,8 @@
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "2026-09-07 나하버스 운영사(다이이치교통) 공식으로 출처를 갈았다. **가격이 낡아 있었다 — 660 → 840, 소인 420.** 나하버스 전선의 **나하 시내 구간**이 1일 무제한, **고속버스는 못 탄다.** 판매는 my route 앱·나하버스 영업소·관광안내소",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-okinawa-busmono-pass",
@@ -16712,7 +16493,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    77
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-ichibata-rail-1day",
@@ -16781,7 +16563,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "1,800/900. **판매 당일만 유효하다.** 이치바타전차 전 구간 승하차 자유. 판매는 이즈모타이샤마에·덴테쓰이즈모시·가와토·운슈히라타·마쓰에신지코온센 **다섯 역뿐**. 이용 개시 후 환불 불가. 2일권은 공식에 없다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-matsue-lakeline-1day",
@@ -16856,7 +16639,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "700/350. 1회 승차는 250/130이라 **세 번 타면 남는다.** **차내에서는 팔지 않는다** — JR마쓰에역 「오미야게 라쿠이치 마쓰에 샤미네점」과 마쓰에신지코온센역 매점. 승차권을 보이면 대상 시설 할인. 운행일·간격과 겨울 운행은 공식 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-matsue-izumo-tabipass-2days",
@@ -16942,276 +16726,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    67
-  ]
- },
- {
-  "pass_id": "jp-hankyu-tourist-pass",
-  "name": {
-   "local": "HANKYU TOURIST PASS",
-   "local_lang": "ja",
-   "ko": "한큐 투어리스트 패스",
-   "en": "HANKYU TOURIST PASS"
-  },
-  "type": "T5",
-  "issuer": {
-   "local": "阪急電鉄",
-   "ko": "한큐전철"
-  },
-  "country": "JP",
-  "region": "JP-28",
-  "region_id": [
-   "JP-28-kobe",
-   "JP-26-kyoto"
   ],
-  "price": [
-   {
-    "currency": "JPY",
-    "amount": 700,
-    "category": "adult_1day"
-   },
-   {
-    "currency": "JPY",
-    "amount": 1200,
-    "category": "adult_2day"
-   }
-  ],
-  "validity": {
-   "days": [
-    1,
-    2
-   ],
-   "basis": "first_use"
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "阪急電鉄",
-     "scope": "전선"
-    }
-   ]
-  },
-  "eligibility": "foreign_passport",
-  "purchase_channels": [
-   {
-    "channel": "한큐 투어리스트 센터",
-    "online": false,
-    "commission": false
-   }
-  ],
-  "rules": [
-   "자격:외국인전용"
-  ],
-  "sources": [
-   {
-    "url": "https://www.hankyu.co.jp/en/ticket/otoku/index.html",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "retired",
-  "last_verified_at": "2026-09-06",
-  "license": "ODbL-1.0",
-  "axis": "A",
-  "card_status": "no_card",
-  "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
-  "note": "**2012-06-01~2024-03-31 발매, 지금은 없다.** 2차 출처에 아직 700/1,200이 돌아다녀 retired로 박아 둔다. 후속은 阪急1dayパス 1,300(디지털, 내국인 포함) — 오사카·교토·고베를 걸쳐 어느 지역에 붙일지 애매해 등록 보류",
-  "rules_checked": "2026-09-06"
- },
- {
-  "pass_id": "jp-enmusubi-perfect-ticket",
-  "name": {
-   "local": "縁結びパーフェクトチケット",
-   "local_lang": "ja",
-   "ko": "엔무스비 퍼펙트 티켓",
-   "en": "Enmusubi Perfect Ticket"
-  },
-  "type": "T3",
-  "issuer": {
-   "local": "一畑電車 외",
-   "ko": "이치바타전차 외"
-  },
-  "country": "JP",
-  "region": "JP-32",
-  "region_id": "JP-32-izumo",
-  "price": [
-   {
-    "currency": "JPY",
-    "amount": 4000,
-    "category": "adult"
-   },
-   {
-    "currency": "JPY",
-    "amount": 2000,
-    "category": "child"
-   }
-  ],
-  "validity": {
-   "days": 3,
-   "basis": "first_use",
-   "consecutive": true
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "마쓰에·이즈모 일대 버스·전차",
-     "scope": "3일 무제한"
-    }
-   ]
-  },
-  "eligibility": "unspecified",
-  "purchase_channels": [
-   {
-    "channel": "—",
-    "online": false,
-    "commission": false
-   }
-  ],
-  "rules": [],
-  "sources": [
-   {
-    "url": "https://www.ichibata.co.jp/railway/enmusubi.html",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "retired",
-  "last_verified_at": "2026-09-06",
-  "license": "ODbL-1.0",
-  "axis": "D",
-  "card_status": "no_card",
-  "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
-  "note": "**2023-09-30 판매 종료.** 후속은 松江・出雲 旅PASS 2Days(3,500). 2차 출처에 아직 4,000이 남아 있다",
-  "unverified": [
-   "rules"
-  ]
- },
- {
-  "pass_id": "jp-matsue-norite-gata",
-  "name": {
-   "local": "松江乗手形（共通2日乗車券）",
-   "local_lang": "ja",
-   "ko": "마쓰에 노리테가타(공통 2일 승차권)",
-   "en": "Matsue Norite-gata 2-Day Pass"
-  },
-  "type": "T1",
-  "issuer": {
-   "local": "松江市交通局",
-   "ko": "마쓰에시 교통국"
-  },
-  "country": "JP",
-  "region": "JP-32",
-  "region_id": "JP-32-izumo",
-  "price": [
-   {
-    "currency": "JPY",
-    "amount": 1000,
-    "category": "adult"
-   },
-   {
-    "currency": "JPY",
-    "amount": 800,
-    "category": "child"
-   }
-  ],
-  "validity": {
-   "days": 2,
-   "basis": "first_use",
-   "consecutive": true
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "松江市交通局",
-     "scope": "공통 2일"
-    }
-   ]
-  },
-  "eligibility": "unspecified",
-  "purchase_channels": [
-   {
-    "channel": "—",
-    "online": false,
-    "commission": false
-   }
-  ],
-  "rules": [],
-  "sources": [
-   {
-    "url": "https://matsue-bus.jp/otoku",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "retired",
-  "last_verified_at": "2026-09-06",
-  "license": "ODbL-1.0",
-  "axis": "A",
-  "card_status": "no_card",
-  "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
-  "note": "**2026-03-30 이용 개시분으로 발매 종료.** 레이크라인 1일권(700)으로 갈렸다",
-  "unverified": [
-   "rules"
-  ]
- },
- {
-  "pass_id": "jp-kyoto-kanko-1day-2day",
-  "name": {
-   "local": "京都観光一日（二日）乗車券",
-   "local_lang": "ja",
-   "ko": "교토 관광 1일(2일) 승차권",
-   "en": "Kyoto Sightseeing 1(2)-Day Pass"
-  },
-  "type": "T1",
-  "issuer": {
-   "local": "京都市交通局",
-   "ko": "교토시 교통국"
-  },
-  "country": "JP",
-  "region": "JP-26",
-  "region_id": "JP-26-kyoto",
-  "price": [],
-  "validity": {
-   "days": [
-    1,
-    2
-   ],
-   "basis": "first_use"
-  },
-  "coverage": {
-   "transport": [
-    {
-     "operator": "京都市交通局",
-     "scope": "지하철·시버스"
-    }
-   ]
-  },
-  "eligibility": "unspecified",
-  "purchase_channels": [
-   {
-    "channel": "—",
-    "online": false,
-    "commission": false
-   }
-  ],
-  "rules": [],
-  "sources": [
-   {
-    "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000019521.html",
-    "checked": "2026-09-06",
-    "kind": "공식"
-   }
-  ],
-  "trust_level": "retired",
-  "last_verified_at": "2026-09-06",
-  "license": "ODbL-1.0",
-  "axis": "A",
-  "card_status": "no_card",
-  "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
-  "note": "**2018-03-16로 이용·교환·환불 종료.** 지금은 「地下鉄・バス1日券」(1,100)",
-  "unverified": [
-   "price",
-   "rules"
-  ]
+  "layer": "local"
  },
  {
   "pass_id": "jp-sanyo-himeji-qr1day",
@@ -17290,7 +16806,8 @@
   "card_status": "candidate_strong",
   "survey": "조사_성격축/조사표_히메지_2026-09-07.md",
   "note": "**히메지성 입성권이 들어 있다** — 시민 외 입성료가 2,500엔이라 프리판 3,950은 교통 1,450 상당. 고베공항 도착자를 겨냥한 상품이라 인천 직항 이용자에게는 안 맞을 수 있다(고베공항 국제 정기편은 2030년 예정)",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-shinki-shiro-machimeguri-2day",
@@ -17382,7 +16899,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    66
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-shinki-himeji-loop-1day",
@@ -17460,7 +16978,8 @@
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_히메지_2026-09-07.md",
   "note": "2026-09-07 신키버스 공식 재확인: **우리 price 210/110은 1일권 값이 아니라 1회 승차 운임이다** — 공식 페이지에 1일권 금액이 없어 값을 미확인으로 돌린다. **12~2월은 평일 운휴**이고 토·일·공휴일과 정월(1/1~3 특별 다이어)에 운행. 평일 30분 간격, 토·일·공휴일 15~30분 간격. 1일권으로 일반 노선버스도 탈 수 있다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-shizutetsu-tram-bus-1day",
@@ -17534,7 +17053,8 @@
   "card_status": "candidate_weak",
   "survey": "공항전수조사_2026-09-06.md",
   "note": "2026-09-07 시즈테츠 저스트라인 공식 재확인: 1,600/800. **券面 스탬프 날인일만 유효**, 이용일 3개월 전부터 구매 가능. 시즈테츠 전차 전선 + 시즈오카·히가시시즈오카·구사나기·시미즈역을 기점으로 한 **편도 730엔 구간**(미호쿠사나기선은 전선). **특급 시즈오카사가라선·후지산시즈오카공항 시즈오카선·고속버스·정기관광버스·데맨드버스·자주운행버스·임시버스·남알프스등산선은 제외. 환불 불가.** 판매는 신시즈오카 버스안내소·시즈오카역앞·시미즈역앞 안내소와 신시즈오카역·신시미즈역 창구",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-niigata-kanko-junkan-1day",
@@ -17604,7 +17124,8 @@
   "card_status": "candidate_weak",
   "survey": "공항전수조사_2026-09-06.md",
   "note": "2026-09-07 니가타시 공식 재확인: 500/250. 1회 승차는 260/130이라 **두 번 타면 본전**이다. 판매는 니가타교통 각 안내소(니가타역·버스센터)·니가타시 관광안내센터·수족관·박물관·미술관 등과 앱 「RYDE PASS」. **종이권은 현금만.** 제시하면 팸플릿 게재 시설 입장권 할인과 음식점 서비스. 악천후·행사로 운휴할 수 있다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "local"
  },
  {
   "pass_id": "jp-sado-bus-pass",
@@ -17704,7 +17225,8 @@
   "rules_checked": "2026-09-07",
   "card_ids": [
    81
-  ]
+  ],
+  "layer": "local"
  },
  {
   "pass_id": "jp-jrwest-kansai-area",
