@@ -1,5 +1,12 @@
 {
- "before": {},
+ "before": {
+  "when": {
+   "v": "세트권은 2026-06-13~11-03에만 판다. 겨울(12월~3월)엔 수빙 관상 승차권이 따로 나온다(2024-25는 6,600엔, 2025-26은 미공지)",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "2026年6月13日～2026年11月3日",
+   "src": "https://www.yamagatakotsu.jp/blog/2026/06/post-2.html"
+  }
+ },
  "buy": {
   "where": {
    "v": [
@@ -9,13 +16,21 @@
     }
    ],
    "src": "http://zaochuoropeway.co.jp/jp/summer/info.php?p=2222"
+  },
+  "get_what": {
+   "v": "A플랜 4,500엔 = 야마가타역↔자오온천 버스 왕복 + 자오 중앙로프웨이 왕복. B플랜 6,600엔 = 버스 왕복 + 자오 로프웨이(지장산정)",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "Aプラン…おとな4,500円",
+   "src": "https://www.yamagatakotsu.jp/blog/2026/06/post-2.html"
   }
  },
  "issue": {},
  "use": {
   "count_rules": {
-   "v": "야마가타역앞⇔자오온천 왕복 버스 + 자오중앙로프웨이 왕복. **버스는 날짜·편 지정이 없고 로프웨이는 구매 3일 안에** 쓴다",
-   "src": "http://zaochuoropeway.co.jp/jp/summer/info.php?p=2222"
+   "v": "버스는 좌석 정원제, 하루 14편. 로프웨이는 날씨로 운휴할 수 있고 그때 로프웨이분은 환불",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "座席定員制でございますので",
+   "src": "https://www.yamagatakotsu.jp/busroute1/z90/"
   }
  },
  "end": {
@@ -29,16 +44,28 @@
   {
    "url": "http://zaochuoropeway.co.jp/jp/summer/info.php?p=2222",
    "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.yamagatakotsu.jp/blog/2026/06/post-2.html",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.yamagatakotsu.jp/busroute1/z90/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://zaoropeway.co.jp/summer/guide.php",
+   "checked": "2026-09-09"
   }
  ],
  "gaps": [
   {
-   "what": "樹氷(수빙) 쪽 세트와의 차이",
-   "how": "蔵王ロープウェイ(樹氷) 세트는 별개 상품이고 가격 미확인"
+   "what": "세트권 판매 창구",
+   "how": "공식 공지에 판매처가 없음 → 야마가타역 앞 야마코버스 안내소에 확인"
   },
   {
-   "what": "겨울 운행",
-   "how": "자오는 겨울이 본철인데 겨울 운행·요금 기재가 없다"
+   "what": "자오온천행 버스 운임(편도 1,200)",
+   "how": "공식 노선 페이지에 운임이 없음 → 2차"
   }
  ],
  "pass_id": "jp-yamako-zao-chuo-ropeway-set",

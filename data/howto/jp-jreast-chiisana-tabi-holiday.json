@@ -1,0 +1,31 @@
+{
+ "pass_id": "jp-jreast-chiisana-tabi-holiday",
+ "gaps": [],
+ "sources": [
+  {
+   "url": "https://www.jreast.co.jp/tickets/info.aspx?pc=4&GoodsCd=2992",
+   "checked": "2026-09-09"
+  }
+ ],
+ "before": {
+  "when": {
+   "v": "토·일·공휴일과 4/29~5/5·7/20~8/31·12/23~1/7만. 2,850/1,420",
+   "by": "사실확인_B2@2026-09-09",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?pc=4&GoodsCd=2992"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "미야기·야마가타·후쿠시마 JR 보통·쾌속 자유석 하루 무제한. 仙山線(센다이~야마가타)·奥羽本線 후쿠시마~신조(오이시다 포함) 안. 센다이 공항선은 밖. 山形新幹線 후쿠시마~신조는 특급권을 더 사면 탐, 東北新幹線은 불가",
+   "by": "사실확인_B2@2026-09-09",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?pc=4&GoodsCd=2992"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용·유효기간 내 220엔",
+   "by": "사실확인_B2@2026-09-09",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?pc=4&GoodsCd=2992"
+  }
+ }
+}

@@ -9,23 +9,20 @@
   "where": {
    "v": [
     {
-     "name": "JR시코쿠 역 みどりの窓口·券売機",
-     "online": false
-    },
-    {
-     "name": "JR四国ツアー 지점",
-     "online": false
-    },
-    {
-     "name": "앱 「しこくスマートえきちゃん」",
+     "name": "しこくスマートえきちゃん 앱",
      "online": true
     },
     {
-     "name": "시코쿠 내 주요 여행사",
-     "online": false
+     "name": "JR시코쿠 역 창구",
+     "local": "JR四国 駅窓口"
+    },
+    {
+     "name": "시시쿠이역, 고치 료마공항 종합안내소(종이)",
+     "local": "宍喰駅・高知龍馬空港総合案内所"
     }
    ],
-   "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
+   "src": "https://asatetu.com/shikokumigishita/",
+   "by": "사실확인_B2@2026-09-09"
   },
   "how": {
    "v": "徳島・室戸・高知55フリーきっぷを大人1枚お願いします。",
@@ -43,17 +40,26 @@
    "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
   },
   "count_rules": {
-   "v": "JR선 보통열차 + **아사카이간철도 DMV** + 도사쿠로시오철도 보통열차 + 고치토부교통 노선버스. 특급·그린차·지정석은 요금권을 따로 산다",
+   "v": "DMV는 아와카이난 문화촌~미치노에키 시시쿠이온천 전 구간 포함. **이 표로는 좌석 예약이 안 되고** 빈자리가 있을 때만 탄다(18석·입석 3). 토·일·공휴일에만 다니는 무로토 편은 이 표로 못 탄다",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "土・日・祝日運行の室戸便はご利用いただけません",
    "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
   },
   "when_lane_closed": {
    "v": "**스크린샷과 종이 인쇄본은 못 쓴다. 스마트폰을 잃어버려도 재발행이 없다**",
    "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
+  },
+  "trap": {
+   "v": "평일 편도 8편, 주말 편은 2026-09-01부터 일부 운휴. 만석이면 다음 편을 기다린다 — 시간표를 먼저",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "座席の事前予約はできません",
+   "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
   }
  },
  "end": {
   "refund": {
-   "v": "미사용·유효기간 개시 전 또는 기간 내에만, 수수료 220엔",
+   "v": "미사용·유효기간 내 220엔",
+   "by": "사실확인_B2@2026-09-09",
    "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
   }
  },
@@ -75,12 +81,24 @@
   {
    "url": "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/kanko/7246092",
    "checked": "2026-09-06"
+  },
+  {
+   "url": "https://asatetu.com/GoGoFreePass/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://asatetu.com/archives/547/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://asatetu.com/shikokumigishita/",
+   "checked": "2026-09-09"
   }
  ],
  "gaps": [
   {
-   "what": "DMV 탑승 방법",
-   "how": "아사카이간철도 DMV는 좌석이 적어 예약이 필요하다고 알려져 있는데 이 페이지에 기재가 없다"
+   "what": "주말 운휴 편의 현행 시각표",
+   "how": "아사해안철도 시각표 페이지(2026-08 운휴 고지) 확인"
   }
  ],
  "pass_id": "jp-jrshikoku-tokushima-muroto-kochi55",

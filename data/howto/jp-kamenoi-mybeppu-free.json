@@ -9,24 +9,30 @@
   "where": {
    "v": [
     {
-     "name": "가메노이버스 창구",
-     "online": false
+     "name": "가메노이버스 기타하마 버스센터 (8:30~17:00, 연중무휴)",
+     "local": "亀の井バス 北浜バスセンター"
     },
     {
-     "name": "九州MaaS(my route 앱)",
-     "online": true,
-     "url": "https://kyushu-maas.jp/ticket/707"
+     "name": "앱 my route(九州MaaS) — 특전 없음",
+     "online": true
+    },
+    {
+     "name": "공식 예약 사이트",
+     "online": true
     }
    ],
-   "src": "https://kyushu-maas.jp/ticket/707"
+   "src": "https://kamenoibus.com/ticket_sales/",
+   "by": "사실확인_B2@2026-09-09"
   },
   "how": {
    "v": "MyべっぷFreeのワイド2日券を大人1枚お願いします。",
    "src": "카드 본문"
   },
   "get_what": {
-   "v": "디지털 티켓(화면·QR)",
-   "src": "https://kyushu-maas.jp/ticket/707"
+   "v": "와이드 1일 1,800 · 2일 2,800(소인 900/1,400), 미니 1일 1,100 · 2일 1,700. 2일권은 개시일부터 연속 이틀",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "2日ワイドフリー乗車券 2,800円",
+   "src": "https://ticket-kamenoibus.book.ntmg.com/top"
   }
  },
  "issue": {},
@@ -40,8 +46,10 @@
    "src": "https://kyushu-maas.jp/ticket/707"
   },
   "trap": {
-   "v": "와이드와 미니가 따로 있다 — 유후인·아프리칸사파리까지 가려면 와이드여야 한다",
-   "src": "https://kyushu-maas.jp/ticket/707"
+   "v": "앱(my route)으로 산 디지털판은 지옥 공통권 200엔 할인 같은 제휴 특전이 안 붙는다. 특전을 쓰려면 창구에서 종이권",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "デジタル乗車券では特典は受けられません",
+   "src": "https://kamenoibus.com/guruspa/hp/guruspa/02/index.html"
   }
  },
  "end": {
@@ -68,6 +76,14 @@
   {
    "url": "https://kyushu-maas.jp/ticket/709",
    "checked": "2026-09-07"
+  },
+  {
+   "url": "https://kamenoibus.com/guruspa/hp/guruspa/02/index.html",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://kamenoibus.com/ticket_sales/",
+   "checked": "2026-09-09"
   }
  ],
  "gaps": [

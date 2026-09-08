@@ -1,0 +1,35 @@
+{
+ "pass_id": "jp-iyotetsu-1day",
+ "gaps": [
+  {
+   "what": "시내전차 전용 1일권",
+   "how": "2025-03-17 판매 종료(みきゃん 앱 공지) — 지금은 시내+교외 2,000엔뿐"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.iyotetsu.co.jp/sp/ticket/toku/1day_rail.html",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://mican-app.jp/news/?p=538",
+   "checked": "2026-09-09"
+  }
+ ],
+ "before": {
+  "app_or_account": {
+   "v": "종이 승차권이 없다. みきゃん 앱 또는 ジョルダン乗換案内 앱에서 산다",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "紙の乗車券は発売しておりません",
+   "src": "https://www.iyotetsu.co.jp/sp/ticket/toku/1day_rail.html"
+  }
+ },
+ "buy": {
+  "get_what": {
+   "v": "1Day 2,000엔 — 시내전차 + 교외전차. 봇짱열차는 제외",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "坊っちゃん列車除く",
+   "src": "https://www.iyotetsu.co.jp/sp/ticket/toku/1day_rail.html"
+  }
+ }
+}
