@@ -17,7 +17,7 @@
 | 16 | card16.jpg | Okuiya double waddle bridge 01.jpg | Motokoka | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Okuiya_double_waddle_bridge_01.jpg) |
 | 21 | card21.jpg | Oita-Smoky Steam of Beppu Hot Springs-xl.jpg | FIND/47 | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Oita-Smoky_Steam_of_Beppu_Hot_Springs-xl.jpg) |
 | 22 | card22.jpg | Street in Kurokawa Onsen.jpg | Tzu-hsun, Hsu | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Street_in_Kurokawa_Onsen.jpg) |
-| 23 | card23.jpg | Nagasaki night view (49658520116).jpg | Raita Futo from Tokyo, Japan | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nagasaki_night_view_(49658520116).jpg) |
+| 23 | card23.jpg | View of the Former Dutch Trading Post on Dejima from Tamae Bridge, Nagasaki, 20240815 1459 3716.jpg | Jakub Hałun | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:View_of_the_Former_Dutch_Trading_Post_on_Dejima_from_Tamae_Bridge%2C_Nagasaki%2C_20240815_1459_3716.jpg) |
 | 24 | card24.jpg | Aso-san (5274095463).jpg | KimonBerlin | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Aso-san_%285274095463%29.jpg) |
 | 25 | card25.jpg | 桜島.png | Shokugekinogori | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%E6%A1%9C%E5%B3%B6.png) |
 | 31 | card31.jpg | 211030 Godaido Zuigan-ji Matsushima Miyagi pref Japan02s3.jpg | 663highland | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:211030_Godaido_Zuigan-ji_Matsushima_Miyagi_pref_Japan02s3.jpg) |
