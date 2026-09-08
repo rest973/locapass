@@ -140,6 +140,7 @@ header{display:flex;align-items:center;justify-content:space-between;gap:12px;pa
 .dstep .q{margin:4px 0 0;padding:6px 9px;border-left:3px solid var(--line);background:rgba(0,0,0,.03);
   font-size:12.5px;color:var(--ink2);line-height:1.5;word-break:break-all}
 .dstep ul{margin:2px 0 0;padding-left:18px;font-size:14px;line-height:1.6}
+.dstep .loc{font-size:12.5px;color:var(--mute);line-height:1.5}
 .dgap{border:1px dashed var(--line);border-radius:12px;padding:10px 12px;margin:0 0 8px;background:transparent}
 .dgap b{display:block;font-size:13px;margin:0 0 3px}
 .dgap span{font-size:13px;color:var(--mute);line-height:1.55}
@@ -178,7 +179,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <body>
 <div class="app">
   <header>
-    <div class="wordmark">로카패스 <small>DECK PROTOTYPE v2.8 · 37 cards · 상세 33</small></div>
+    <div class="wordmark">로카패스 <small>DECK PROTOTYPE v2.9 · 37 cards · 상세 33</small></div>
     <div style="display:flex;gap:8px;align-items:center">
       <button class="hub" id="hubBtn" aria-label="출발 거점 바꾸기">거점 <b id="hubLabel">안 정함</b></button>
       <button class="mapbtn" id="mapBtn">언젠가 지도 <span id="pinCount">0</span></button>
@@ -404,9 +405,11 @@ function dcell(label, c){
   if (!c || !c.v) return '';
   let body;
   if (Array.isArray(c.v)) {
+    /* 이름은 우리말, 원어는 그 아래 — 창구에서 보여 줄 줄이라 지우지 않는다 (v2.9) */
     body = '<ul>' + c.v.map(w => '<li>' + md(w.name||'') +
       (w.online ? ' <span style="color:var(--mute)">(온라인)</span>' : '') +
-      (w.note ? ' <span style="color:var(--mute)">· '+md(w.note)+'</span>' : '') + '</li>').join('') + '</ul>';
+      (w.note ? ' <span style="color:var(--mute)">· '+md(w.note)+'</span>' : '') +
+      (w.local ? '<br><span class="loc">'+esc(w.local)+'</span>' : '') + '</li>').join('') + '</ul>';
   } else body = '<p>' + md(c.v) + '</p>';
   return '<div class="dstep"><b>'+esc(label)+'</b>'+body+
     (c.q ? '<p class="q">'+esc(c.q)+'</p>' : '') + '</div>';
