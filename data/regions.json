@@ -2470,7 +2470,7 @@
     "京都地下鉄・嵐電1dayチケット",
     "京阪電車 京都1日乗車券"
    ],
-   "note": "2026-09-06 지역 사전 점검 §4-1로 추가(계획 §4-4가 지목). **패스 조사 전.** **주의: `hubs`에 이미 `kyoto`가 거점으로 들어 있다**(direct_kr=false, \"없음(오사카 경유)\"). 거점이면서 지역인 첫 사례라 기획서 §5.2의 \"거점에서 옆동네로\" 구조와 어떻게 맞물릴지 정리가 필요하다 — 사용자 판단.",
+   "note": "2026-09-06 지역 사전 점검 §4-1로 추가(계획 §4-4가 지목). **패스 조사 전.** / 2026-09-08 정정: 옛 note가 「`hubs`에 `kyoto`가 있다 · 거점이면서 지역인 첫 사례」라고 적고 있었으나 **둘 다 사실이 아니다.** 거점 규칙이 「한국발 정기 직항이 있는 공항」으로 정해지며 kyoto는 거점에서 빠졌고, 거점이면서 지역인 곳은 삿포로·센다이 등 **이미 13곳**이다.",
    "status": "no_card",
    "survey": {
     "axis_round": 10,
@@ -2792,6 +2792,317 @@
     "date": "2026-09-07",
     "doc": "공항전수조사_2026-09-06.md",
     "status": "거점 확정 후 지역 신설"
+   }
+  },
+  {
+   "region_id": "JP-13-tokyo",
+   "country": "JP",
+   "block": "간토",
+   "admin": {
+    "code": "JP-13",
+    "ko": "도쿄도",
+    "local": "東京都"
+   },
+   "display": {
+    "ko": "도쿄·요코하마",
+    "local": "東京・横浜"
+   },
+   "base_city": {
+    "ko": "도쿄",
+    "local": "東京",
+    "lat": 35.68,
+    "lng": 139.77
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "tokyo",
+     "hours": 0.0
+    }
+   ],
+   "candidate_passes": [
+    "東京フリーきっぷ",
+    "都区内パス",
+    "Tokyo Subway Ticket",
+    "横浜みなとみらいパス",
+    "のんびりホリデーSuicaパス",
+    "Greater Tokyo Pass"
+   ],
+   "note": "2026-09-08 사용자 판단 ①로 신설. **요코하마·가마쿠라를 여기 편입한다**(판단 ②) — 행정으로는 가나가와현이지만 여행자에게는 도쿄에서 당일로 다녀오는 곳이다. **하코네는 별개 지역으로 남긴다**(JP-14-hakone, 1박 이상 머무는 곳).",
+   "status": "no_card",
+   "survey": {
+    "axis_round": "관문도시",
+    "date": "2026-09-08",
+    "doc": "거점지역_재료_2026-09-08.md",
+    "status": "사용자 판단 ①②로 신설 — 패스 조사 전"
+   }
+  },
+  {
+   "region_id": "JP-27-osaka",
+   "country": "JP",
+   "block": "긴키",
+   "admin": {
+    "code": "JP-27",
+    "ko": "오사카부",
+    "local": "大阪府"
+   },
+   "display": {
+    "ko": "오사카",
+    "local": "大阪"
+   },
+   "base_city": {
+    "ko": "오사카",
+    "local": "大阪",
+    "lat": 34.69,
+    "lng": 135.5
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "osaka",
+     "hours": 0.0
+    }
+   ],
+   "candidate_passes": [
+    "OSAKA AMAZING PASS",
+    "エンジョイエコカード",
+    "大阪周遊パス"
+   ],
+   "note": "2026-09-08 사용자 판단 ①로 신설. **12개 지역이 `nearby_hubs`로 오사카를 지목하는데 오사카 자체가 여행지로 없었다** — 우리 지역 사전에서 가장 큰 구멍이었다.",
+   "status": "no_card",
+   "survey": {
+    "axis_round": "관문도시",
+    "date": "2026-09-08",
+    "doc": "거점지역_재료_2026-09-08.md",
+    "status": "사용자 판단 ①②로 신설 — 패스 조사 전"
+   }
+  },
+  {
+   "region_id": "JP-23-nagoya",
+   "country": "JP",
+   "block": "주부",
+   "admin": {
+    "code": "JP-23",
+    "ko": "아이치현",
+    "local": "愛知県"
+   },
+   "display": {
+    "ko": "나고야",
+    "local": "名古屋"
+   },
+   "base_city": {
+    "ko": "나고야",
+    "local": "名古屋",
+    "lat": 35.17,
+    "lng": 136.88
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "nagoya",
+     "hours": 0.0
+    }
+   ],
+   "candidate_passes": [
+    "なごや観光ルートバス メーグル",
+    "地下鉄・バス一日乗車券",
+    "ドニチエコきっぷ",
+    "昇龍道バスパス"
+   ],
+   "note": "2026-09-08 사용자 판단 ①로 신설. 쇼류도 버스패스가 다카야마·시라카와고와 겹치므로 **어느 지역에 걸지 조사 때 정한다.**",
+   "status": "no_card",
+   "survey": {
+    "axis_round": "관문도시",
+    "date": "2026-09-08",
+    "doc": "거점지역_재료_2026-09-08.md",
+    "status": "사용자 판단 ①②로 신설 — 패스 조사 전"
+   }
+  },
+  {
+   "region_id": "JP-40-fukuoka",
+   "country": "JP",
+   "block": "규슈",
+   "admin": {
+    "code": "JP-40",
+    "ko": "후쿠오카현",
+    "local": "福岡県"
+   },
+   "display": {
+    "ko": "후쿠오카",
+    "local": "福岡"
+   },
+   "base_city": {
+    "ko": "후쿠오카",
+    "local": "福岡",
+    "lat": 33.59,
+    "lng": 130.4
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "fukuoka",
+     "hours": 0.0
+    },
+    {
+     "hub_id": "kitakyushu",
+     "hours": 1.0
+    }
+   ],
+   "candidate_passes": [
+    "FUKUOKA TOURIST CITY PASS",
+    "福岡市地下鉄1日乗車券",
+    "JR九州モバイルパス 福岡ワイド"
+   ],
+   "note": "2026-09-08 사용자 판단 ①로 신설. 규슈 4지역이 전부 후쿠오카를 지목해 왔는데 **후쿠오카 자체가 여행지로 없었다.** JR규슈 모바일 패스를 임시로 인접 규슈 지역에 걸어 두었던 것을 이리로 옮긴다.",
+   "status": "no_card",
+   "survey": {
+    "axis_round": "관문도시",
+    "date": "2026-09-08",
+    "doc": "거점지역_재료_2026-09-08.md",
+    "status": "사용자 판단 ①②로 신설 — 패스 조사 전"
+   }
+  },
+  {
+   "region_id": "JP-31-tottori",
+   "country": "JP",
+   "block": "주고쿠",
+   "admin": {
+    "code": "JP-31",
+    "ko": "돗토리현",
+    "local": "鳥取県"
+   },
+   "display": {
+    "ko": "돗토리",
+    "local": "鳥取"
+   },
+   "base_city": {
+    "ko": "돗토리",
+    "local": "鳥取",
+    "lat": 35.5,
+    "lng": 134.24
+   },
+   "direct_flight_kr": {
+    "value": false,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "yonago",
+     "hours": 1.0
+    },
+    {
+     "hub_id": "osaka",
+     "hours": 2.5
+    }
+   ],
+   "candidate_passes": [
+    "鳥取市内100円循環バス くる梨",
+    "鳥取・松江パス"
+   ],
+   "note": "2026-09-08 사용자 판단 ②로 신설 — **\"돗토리 자체가 가장 유명하고 이즈모·마쓰에를 모르는 사람이 대부분이다. 친숙한 돗토리를 내세우는 것이 현명하다.\"** 이즈모·마쓰에(JP-32)는 시마네현이라 그대로 두고, 돗토리현을 따로 낸다. 거점은 요나고(직항 있음).",
+   "status": "no_card",
+   "survey": {
+    "axis_round": "관문도시",
+    "date": "2026-09-08",
+    "doc": "거점지역_재료_2026-09-08.md",
+    "status": "사용자 판단 ①②로 신설 — 패스 조사 전"
+   }
+  },
+  {
+   "region_id": "TW-TPE-taipei",
+   "country": "TW",
+   "block": "북부",
+   "admin": {
+    "code": "TW-TPE",
+    "ko": "타이베이시",
+    "local": "臺北市"
+   },
+   "display": {
+    "ko": "타이베이",
+    "local": "臺北"
+   },
+   "base_city": {
+    "ko": "타이베이",
+    "local": "臺北",
+    "lat": 25.04,
+    "lng": 121.56
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "taipei",
+     "hours": 0.0
+    }
+   ],
+   "candidate_passes": [
+    "臺北捷運 一日票",
+    "北北基好玩卡",
+    "貓空纜車"
+   ],
+   "note": "2026-09-08 사용자 판단 ①의 같은 근거로 신설 — **9개 지역이 타이베이를 지목하는데 타이베이 자체가 여행지로 없었다.** 지우펀·예류(TW-NWT)는 신베이라 그대로 둔다.",
+   "status": "no_card",
+   "survey": {
+    "axis_round": "관문도시",
+    "date": "2026-09-08",
+    "doc": "거점지역_재료_2026-09-08.md",
+    "status": "사용자 판단 ①②로 신설 — 패스 조사 전"
+   }
+  },
+  {
+   "region_id": "TW-KHH-kaohsiung",
+   "country": "TW",
+   "block": "남부",
+   "admin": {
+    "code": "TW-KHH",
+    "ko": "가오슝시",
+    "local": "高雄市"
+   },
+   "display": {
+    "ko": "가오슝",
+    "local": "高雄"
+   },
+   "base_city": {
+    "ko": "가오슝",
+    "local": "高雄",
+    "lat": 22.63,
+    "lng": 120.3
+   },
+   "direct_flight_kr": {
+    "value": true,
+    "confidence": "L2"
+   },
+   "nearby_hubs": [
+    {
+     "hub_id": "kaohsiung",
+     "hours": 0.0
+    }
+   ],
+   "candidate_passes": [
+    "高雄捷運 一日票",
+    "高雄輕軌"
+   ],
+   "note": "2026-09-08 사용자 판단 ①의 같은 근거로 신설 — 5개 지역이 가오슝을 지목한다.",
+   "status": "no_card",
+   "survey": {
+    "axis_round": "관문도시",
+    "date": "2026-09-08",
+    "doc": "거점지역_재료_2026-09-08.md",
+    "status": "사용자 판단 ①②로 신설 — 패스 조사 전"
    }
   }
  ],

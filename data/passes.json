@@ -1982,7 +1982,8 @@
    32
   ],
   "survey": "조사_성격축/소급분류_2026-09-07.md",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "layer": "move"
  },
  {
   "pass_id": "jp-jrbus-towada-free",
@@ -3138,6 +3139,9 @@
   "region_id": "JP-33-okayama",
   "unverified": [
    "rules"
+  ],
+  "mentioned_in": [
+   65
   ]
  },
  {
@@ -3347,8 +3351,8 @@
   "region": "TW-NWT",
   "price": [
    {
+    "amount": 60,
     "currency": "TWD",
-    "amount": 50,
     "category": "adult"
    }
   ],
@@ -3383,12 +3387,16 @@
     "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0014",
     "checked": "2026-09-07",
     "kind": "공식"
+   },
+   {
+    "url": "https://funpass.travel.taipei/tour/pWyE",
+    "checked": "2026-09-08"
    }
   ],
   "trust_level": "L2",
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
-  "note": "2026-09-07 재확인 결과 **1일권 50元의 근거를 찾지 못했다.** 台灣好行 공식 노선 페이지(R0014)와 東北角國家風景區 공식 모두 段票 全票 15·學生 12·半票 8만 적고 **1일권 항목이 없다.** 우리 출처인 Taipei Fun Pass 페이지는 오늘 403이라 다시 못 읽었다. **카드 51이 앞면에 NT$50을 적고 있어 재확인이 필요하다.** 값은 지우지 않고 표시만 한다. 참고: 北北基好玩卡 교통 1일권 180元이 이 노선을 포함한 5개 노선과 수도권 지하철·버스를 덮는다",
+  "note": "2026-09-07 재확인 결과 **1일권 50元의 근거를 찾지 못했다.** 台灣好行 공식 노선 페이지(R0014)와 東北角國家風景區 공식 모두 段票 全票 15·學生 12·半票 8만 적고 **1일권 항목이 없다.** 우리 출처인 Taipei Fun Pass 페이지는 오늘 403이라 다시 못 읽었다. **카드 51이 앞면에 NT$50을 적고 있어 재확인이 필요하다.** 값은 지우지 않고 표시만 한다. 참고: 北北基好玩卡 교통 1일권 180元이 이 노선을 포함한 5개 노선과 수도권 지하철·버스를 덮는다 / 2026-09-08 브라우저로 Taipei Fun Pass 상품 페이지를 열어 확인: **1일권은 있고 값은 60元이다**(09-07에 403이라 못 봤던 페이지). 우리 값 50을 60으로 고친다. 예약제 전자티켓(QR)이고 지정 승차일 당일만, 좌석 지정은 없다. 환불은 승차일 전날까지 무료. 台灣好行 공식 R0014의 段票는 全票 15·學生 12·半票 8이고 水湳洞이 구간 경계다 — **네 번을 타야 60이 본전이라 절약 폭이 거의 없다**(카드 51의 「얼마 아껴요」를 그렇게 고쳤다).",
   "region_id": "TW-NWT-jiufen",
   "axis": "A",
   "card_status": "has_card",
@@ -3817,7 +3825,7 @@
   "trust_level": "L1",
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
-  "note": "2026-09-07 재확인: **출처가 Klook·PChome 등 판매처뿐이라 등급을 L2 → L1로 내린다.** 우리 등급 정의상 L2는 공식 페이지 확인분이다. 台南好玩卡 상품 페이지는 「優惠期間：即日起至2020/3/31」로 낡아 있었다. 거기서 읽은 제약: **당일만 유효, 날짜를 넘기거나 나눠 쓸 수 없다. QR 한 장에 1인.** 88선은 승차할 때 QR을 보여 주고, **99선은 타이난역 남측 매표소에서 종이 표로 바꿔야 한다.** 미사용분만 환불. 台南市 공식 요금 근거를 아직 못 찾았다",
+  "note": "2026-09-07 재확인: **출처가 Klook·PChome 등 판매처뿐이라 등급을 L2 → L1로 내린다.** 우리 등급 정의상 L2는 공식 페이지 확인분이다. 台南好玩卡 상품 페이지는 「優惠期間：即日起至2020/3/31」로 낡아 있었다. 거기서 읽은 제약: **당일만 유효, 날짜를 넘기거나 나눠 쓸 수 없다. QR 한 장에 1인.** 88선은 승차할 때 QR을 보여 주고, **99선은 타이난역 남측 매표소에서 종이 표로 바꿔야 한다.** 미사용분만 환불. 台南市 공식 요금 근거를 아직 못 찾았다 / 2026-09-08 승급 시도 실패 — **발행 주체(府城客運·台南市)의 공식에서 88·99 1일권 80元을 찾지 못했다.** 大台南公車 공식 요금 페이지에는 시내버스 요금과 「단일일권 500·4시간권 300」만 있고 88·99 1일권 항목이 없다. 台灣好行 공식 티켓 페이지는 404. **L1 유지.**",
   "region_id": "TW-TNN-tainan",
   "axis": "A",
   "card_status": "has_card",
@@ -4169,7 +4177,7 @@
   "trust_level": "L2",
   "last_verified_at": "2026-09-02",
   "license": "ODbL-1.0",
-  "note": " / 2026-09-06 지역 사전 점검: region_id 백필(region TW-TXG 기준)",
+  "note": " / 2026-09-06 지역 사전 점검: region_id 백필(region TW-TXG 기준) / 2026-09-08 대만 교통카드 축 회차: **中台灣好玩卡(景點暢遊版·南投限定版)의 값을 공식에서 못 찾았다** — 상품 목록만 있고 가격·유효기간이 없다. 타이중은 이 2층 버스 외에 확인된 패스가 없다.",
   "card_status": "no_card",
   "card_status_reason": "타이중은 거점 도시. 4시간권으로 2박의 이유가 서지 않음",
   "region_id": "TW-TXG-taichung",
@@ -7528,8 +7536,8 @@
   "region_id": "JP-43-kumamoto",
   "price": [
    {
+    "amount": 3200,
     "currency": "JPY",
-    "amount": 2900,
     "category": "adult"
    }
   ],
@@ -7574,15 +7582,19 @@
     "url": "https://kyushu-maas.jp/ticket/283",
     "checked": "2026-09-06",
     "kind": "공식"
+   },
+   {
+    "url": "https://kyushu-maas.jp/ticket/281",
+    "checked": "2026-09-08"
    }
   ],
-  "trust_level": "L1",
+  "trust_level": "L2",
   "last_verified_at": "2026-09-06",
   "license": "ODbL-1.0",
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
-  "note": "가격은 2023 발매 보도자료 기준. 현재가는 앱에서 재확인",
+  "note": "가격은 2023 발매 보도자료 기준. 현재가는 앱에서 재확인 / 2026-09-08 **九州MaaS 공식에서 값을 찾아 L1 → L2로 올렸고, 값이 낡아 있어 고쳤다: 2,900 → 3,200.** (옛 값은 2023 발매 보도자료 기준이었다) 발행 주체는 **九州産交バス**. 개시부터 **24시간** 미나미아소철도·JR규슈(히고오즈~미야지)·산코버스(아소·미나미아소) 무제한. **「my route」 앱 전용이라 스마트폰이 있어야 한다.**",
   "rules_checked": "2026-09-06"
  },
  {
@@ -7952,21 +7964,64 @@
   ],
   "price": [
    {
-    "currency": "JPY",
     "amount": 22000,
-    "category": "all_kyushu_3day",
-    "note": "All 3~7일 22,000~26,000 범위만 확인"
+    "currency": "JPY",
+    "category": "all_kyushu_3day"
    },
    {
+    "amount": 11000,
     "currency": "JPY",
-    "amount": 15000,
-    "category": "northern_3day",
-    "note": "North 3·5일 15,000~17,000"
+    "category": "all_kyushu_3day_child"
    },
    {
+    "amount": 24000,
     "currency": "JPY",
+    "category": "all_kyushu_5day"
+   },
+   {
     "amount": 12000,
+    "currency": "JPY",
+    "category": "all_kyushu_5day_child"
+   },
+   {
+    "amount": 26000,
+    "currency": "JPY",
+    "category": "all_kyushu_7day"
+   },
+   {
+    "amount": 13000,
+    "currency": "JPY",
+    "category": "all_kyushu_7day_child"
+   },
+   {
+    "amount": 15000,
+    "currency": "JPY",
+    "category": "northern_3day"
+   },
+   {
+    "amount": 7500,
+    "currency": "JPY",
+    "category": "northern_3day_child"
+   },
+   {
+    "amount": 17000,
+    "currency": "JPY",
+    "category": "northern_5day"
+   },
+   {
+    "amount": 8500,
+    "currency": "JPY",
+    "category": "northern_5day_child"
+   },
+   {
+    "amount": 12000,
+    "currency": "JPY",
     "category": "southern_3day"
+   },
+   {
+    "amount": 6000,
+    "currency": "JPY",
+    "category": "southern_3day_child"
    }
   ],
   "validity": {
@@ -8000,6 +8055,10 @@
     "url": "https://www.jrkyushu.co.jp/english/railpass/railpass.html",
     "checked": "2026-09-06",
     "kind": "공식"
+   },
+   {
+    "url": "https://www.jrkyushu.co.jp/english/railpass/railpass.html",
+    "checked": "2026-09-08"
    }
   ],
   "trust_level": "L2",
@@ -8008,8 +8067,9 @@
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
-  "note": "일수별 정확 금액 재확인 필요",
-  "rules_checked": "2026-09-06"
+  "note": "일수별 정확 금액 재확인 필요 / 2026-09-08 공식 재확인: **3일치만 있던 값에 5·7일권과 소인을 채웠다.** 산요신칸센(하카타~고쿠라)·버스는 못 탄다.",
+  "rules_checked": "2026-09-06",
+  "layer": "move"
  },
  {
   "pass_id": "jp-jrkyushu-gurutto",
@@ -8034,14 +8094,24 @@
   ],
   "price": [
    {
-    "currency": "JPY",
     "amount": 14300,
-    "category": "adult"
+    "currency": "JPY",
+    "category": "adult_net"
    },
    {
+    "amount": 15800,
     "currency": "JPY",
+    "category": "adult_window"
+   },
+   {
     "amount": 7150,
-    "category": "child"
+    "currency": "JPY",
+    "category": "child_net"
+   },
+   {
+    "amount": 7900,
+    "currency": "JPY",
+    "category": "child_window"
    }
   ],
   "validity": {
@@ -8078,15 +8148,19 @@
     "url": "https://www.kzlifelog.com/entry/jrk-freepass-matome-2026",
     "checked": "2026-09-06",
     "kind": "2차"
+   },
+   {
+    "url": "https://www.jrkyushu-kippu.jp/fare/ticket/304",
+    "checked": "2026-09-08"
    }
   ],
-  "trust_level": "L1",
+  "trust_level": "L2",
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
-  "note": "2026-09-07 출처 교체 — 개인 블로그에서 **JR규슈 공식**으로 갈았다. **JR규슈 전선의 보통·쾌속열차에 연속 3일 무제한.** **따로 특급권을 사면 규슈 신칸센·니시큐슈 신칸센·재래선 특급도 탈 수 있다**(공식 문구). **가격은 공식에서 아직 못 찾았다** — 「割引きっぷ一覧」 페이지가 404다. 우리 값 14,300/7,150은 2차 출처 그대로라 L1 유지",
+  "note": "2026-09-07 출처 교체 — 개인 블로그에서 **JR규슈 공식**으로 갈았다. **JR규슈 전선의 보통·쾌속열차에 연속 3일 무제한.** **따로 특급권을 사면 규슈 신칸센·니시큐슈 신칸센·재래선 특급도 탈 수 있다**(공식 문구). **가격은 공식에서 아직 못 찾았다** — 「割引きっぷ一覧」 페이지가 404다. 우리 값 14,300/7,150은 2차 출처 그대로라 L1 유지 / 2026-09-08 **JR규슈 공식 킷푸 사이트에서 값을 찾아 L1 → L2로 올렸다.** **넷 예약 14,300 / 창구 15,800**(소인 7,150 / 7,900) — **창구가 1,500엔 비싸다.** 연속 3일, JR규슈 전선 보통·쾌속 보통차 자유석. 따로 특급권을 사면 신칸센·특급도 탄다. 넷 예약은 이용 개시일 1개월 전 05:30~당일 23시.",
   "rules_checked": "2026-09-07"
  },
  {
@@ -8112,8 +8186,8 @@
   ],
   "price": [
    {
+    "amount": 14000,
     "currency": "JPY",
-    "amount": 12000,
     "category": "adult"
    }
   ],
@@ -8149,15 +8223,19 @@
     "url": "https://www.kzlifelog.com/entry/jrk-freepass-matome-2026",
     "checked": "2026-09-06",
     "kind": "2차"
+   },
+   {
+    "url": "https://www.jrkyushu-kippu.jp/fare/ticket/96",
+    "checked": "2026-09-08"
    }
   ],
-  "trust_level": "L1",
+  "trust_level": "L2",
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_규슈_2026-09-06.md",
-  "note": "2026-09-07 출처 교체 — 개인 블로그에서 **JR규슈 공식**으로 갈았다. **규슈의 철도·궤도 보통·쾌속열차가 「3회분 1일 무제한」** — 연속 3일이 아니라 하루치를 세 번 쓰는 방식이다. 규슈 15개 철도·궤도 사업자가 대상. **가격은 공식에서 못 찾았다.** 우리 값 12,000은 2차 그대로라 L1 유지. 참고: 같은 계열의 「旅名人の九州満喫寺社めぐりきっぷ」에는 나가사키전기궤도가 빠진다고 공식이 명시한다",
+  "note": "2026-09-07 출처 교체 — 개인 블로그에서 **JR규슈 공식**으로 갈았다. **규슈의 철도·궤도 보통·쾌속열차가 「3회분 1일 무제한」** — 연속 3일이 아니라 하루치를 세 번 쓰는 방식이다. 규슈 15개 철도·궤도 사업자가 대상. **가격은 공식에서 못 찾았다.** 우리 값 12,000은 2차 그대로라 L1 유지. 참고: 같은 계열의 「旅名人の九州満喫寺社めぐりきっぷ」에는 나가사키전기궤도가 빠진다고 공식이 명시한다 / 2026-09-08 **JR규슈 공식에서 값을 찾아 L1 → L2로 올렸고, 값이 낡아 있어 고쳤다: 12,000 → 14,000.** **유효기간은 발매일부터 3개월**(연속 3일이 아니라 하루치를 세 번 쓴다). 대상 15개 사업자: JR九州(히타히코산선 BRT 포함)·기타큐슈모노레일·헤이세이치쿠호철도·지쿠호전기철도·후쿠오카시지하철·니시테츠·아마기철도·마쓰우라철도·시마바라철도·구마모토전기철도·구마모토시전·미나미아소철도·구마가와철도·히사쓰오렌지철도·가고시마시전. **長崎電気軌道는 대상에서 빠졌다.** 2차 출처에 12,000·13,000(디지털)이 도는데 **공식은 14,000이다.**",
   "rules_checked": "2026-09-07"
  },
  {
@@ -13640,7 +13718,7 @@
   "axis": "B",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_간토_2026-09-06.md",
-  "note": "**판매 상태 미확인.** 2017-10-13 발매 상품인데 driveplaza.com의 JEP 경로가 404를 내고 도라와리 목록에는 홋카이도·도호쿠만 남아 있다. 주부 CEP가 2024-10-01에 신규 접수를 닫은 전례가 있어 같은 길일 가능성을 배제 못 한다 — **지금도 파는지 확인 전에는 카드에 쓰지 않는다**",
+  "note": "**판매 상태 미확인.** 2017-10-13 발매 상품인데 driveplaza.com의 JEP 경로가 404를 내고 도라와리 목록에는 홋카이도·도호쿠만 남아 있다. 주부 CEP가 2024-10-01에 신규 접수를 닫은 전례가 있어 같은 길일 가능성을 배제 못 한다 — **지금도 파는지 확인 전에는 카드에 쓰지 않는다** / 2026-09-08 승급 시도 실패 — **driveplaza의 도라와리 목록에 JEP가 없다**(홋카이도·도호쿠·간토·신에쓰만 남았다). **東北 TEP가 2026-09-30에 신규 접수를 닫는다**는 안내가 확인돼 축소 흐름이 이어지고 있다. 7일 20,000·14일 34,000은 2017 발매 보도자료 값이다. **L1 유지 — 지금도 파는지 확인 전에는 카드에 쓰지 않는다.**",
   "rules_checked": "2026-09-06"
  },
  {
@@ -14600,7 +14678,18 @@
   "country": "JP",
   "region": "JP-33",
   "region_id": "JP-33-okayama",
-  "price": [],
+  "price": [
+   {
+    "amount": 1200,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 600,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
   "validity": {
    "days": 1,
    "basis": "calendar"
@@ -14629,18 +14718,19 @@
     "url": "https://okayama-kido.co.jp/tram/how-to-use/",
     "checked": "2026-09-06",
     "kind": "공식"
+   },
+   {
+    "url": "https://shimoden.net/rosen/rosen_news/entry-281.html",
+    "checked": "2026-09-08"
    }
   ],
-  "trust_level": "L1",
+  "trust_level": "L2",
   "last_verified_at": "2026-09-06",
   "license": "ODbL-1.0",
   "axis": "A",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
-  "note": "**토·일·공휴일 한정 모바일 티켓**이라는 것만 확인. 가격·범위 미확인. 구라시키는 지역 사전에 없다(조사표 §5 후보)",
-  "unverified": [
-   "price"
-  ],
+  "note": "**토·일·공휴일 한정 모바일 티켓**이라는 것만 확인. 가격·범위 미확인. 구라시키는 지역 사전에 없다(조사표 §5 후보) / 2026-09-08 **下電バス 공식에서 값을 찾아 L1 → L2로 올렸다** — 값이 비어 있던 자리를 채웠다. **어른 1,200 / 소인 600**(2025-03-16~04-06의 도입 기념가 800/400은 끝났다). **토·일·공휴일만 쓴다.** 下電버스 아마기선·시오나스선·고조치선·자야마치선(고조 영업소까지) + 両備버스 구라시키 시내 전선(오카쿠라선·세이신학원선·컨벡스선 제외). **조루단 모바일 티켓 전용이라 앱이 있어야 한다.**",
   "rules_checked": "2026-09-06"
  },
  {
@@ -14704,10 +14794,13 @@
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
   "axis": "D",
-  "card_status": "candidate_strong",
+  "card_status": "has_card",
   "survey": "조사_성격축/조사표_주고쿠_2026-09-06.md",
   "note": "800(고라쿠엔+오카야마성). 하야시바라미술관을 더하면 1,280, 유메지향토미술관을 더하면 1,440. 고라쿠엔 단독은 500이고 **65세 이상 200·고교생 이하 무료**. 고라쿠엔은 휴원일이 없고 3/20~9/30 7:30~18:00, 10/1~3/19 8:00~17:00(입원 마감 15분 전). **공통권의 유효기간·환불·판매처가 공식 페이지에 없다**",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "card_ids": [
+   65
+  ]
  },
  {
   "pass_id": "jp-okayama-korakuen-museum",
@@ -15651,7 +15744,7 @@
   "card_status": "data_only",
   "survey": "조사_성격축/rules_규칙_제안_2026-09-07.md",
   "rules_checked": "2026-09-07",
-  "note": "2026-09-07 **옛 레코드 「台灣好行 龍宮尋寶線 一日券 130/65」를 이 항목으로 고쳐 썼다.** 台灣好行 공식 노선 목록과 베타 사이트 어디에도 「龍宮尋寶線」이 없고, 지룽의 노선은 T99 하나다. **130/65는 타오위안 「大溪快線」 1일권의 값이었다** — 台灣好行 超值套票 페이지(City000004)에 小烏來線 150/75 · **大溪快線 130/65** · 大龍門線 160/80 · 東眼山線 150/75이 실려 있다. 다른 지역의 값을 지룽에 붙여 놓았던 것이다. **T99의 공식 요금은 段票 全票 15 · 半票 8 · 학생 9**(민항국 아닌 台灣好行 공식). 1일 승차권 50元은 2차 조각에서 나온 값이라 **가격만 L1 수준**으로 본다 — 지룽시 문화관광국 페이지가 오늘 ECONNRESET·빈 응답이라 직접 못 읽었다. **2026년 1~4월 운휴, 5~12월은 휴일(공휴일 포함)에만 운행하고 평일은 쉰다.** 차내에서만 산다. 별도로 「北北基好玩卡 교통 暢遊版」이 이 노선을 포함한 台灣好行 6개 노선과 수도권 지하철·버스를 덮는다"
+  "note": "2026-09-07 **옛 레코드 「台灣好行 龍宮尋寶線 一日券 130/65」를 이 항목으로 고쳐 썼다.** 台灣好行 공식 노선 목록과 베타 사이트 어디에도 「龍宮尋寶線」이 없고, 지룽의 노선은 T99 하나다. **130/65는 타오위안 「大溪快線」 1일권의 값이었다** — 台灣好行 超值套票 페이지(City000004)에 小烏來線 150/75 · **大溪快線 130/65** · 大龍門線 160/80 · 東眼山線 150/75이 실려 있다. 다른 지역의 값을 지룽에 붙여 놓았던 것이다. **T99의 공식 요금은 段票 全票 15 · 半票 8 · 학생 9**(민항국 아닌 台灣好行 공식). 1일 승차권 50元은 2차 조각에서 나온 값이라 **가격만 L1 수준**으로 본다 — 지룽시 문화관광국 페이지가 오늘 ECONNRESET·빈 응답이라 직접 못 읽었다. **2026년 1~4월 운휴, 5~12월은 휴일(공휴일 포함)에만 운행하고 평일은 쉰다.** 차내에서만 산다. 별도로 「北北基好玩卡 교통 暢遊版」이 이 노선을 포함한 台灣好行 6개 노선과 수도권 지하철·버스를 덮는다 / 2026-09-08 재확인: **공식 노선 페이지에 단차 15元(반값 8元)만 적혀 있고 1일권 항목이 없다** — 우리 값 50의 근거를 오늘은 못 찾았다(사람이 볼 자리). **2026-01-01부터 계절 운행으로 바뀌었다: 1~4월 전면 운휴, 5~12월은 주말·공휴일만 운행한다.** 성수기(8~10월) 하루 10편, 비수기(11~12월) 하루 4편. 지룽 환승역~바더우쯔역 13정거장 약 25km."
  },
  {
   "pass_id": "jp-kyoto-subway-bus-1day",
@@ -15728,10 +15821,13 @@
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
   "axis": "A",
-  "card_status": "candidate_strong",
+  "card_status": "has_card",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "교토시영 지하철·시버스 전선 + 교토버스·게이한버스·서일본JR버스(**각각 일부 노선 제외**) + 토·휴일의 관광특급버스. 시내 약 50곳에서 할인·우대(임시 휴관·시간 단축 주의). 요금·유효기간·환불은 이 페이지에 없고 교통국 안내소로 안내한다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "card_ids": [
+   62
+  ]
  },
  {
   "pass_id": "jp-kyoto-subway-randen-1day",
@@ -15799,6 +15895,10 @@
     "url": "https://ja.kyoto.travel/feature/traffic/ticket.php",
     "checked": "2026-09-06",
     "kind": "공식"
+   },
+   {
+    "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000034406.html",
+    "checked": "2026-09-08"
    }
   ],
   "trust_level": "L2",
@@ -15807,7 +15907,7 @@
   "axis": "D",
   "card_status": "candidate_weak",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
-  "note": "2026-09-07 **도메인을 바꿔 열었다** — randen.keifuku.co.jp는 인증서 만료로 WebFetch·브라우저 모두 실패했는데 본 도메인 keifuku.co.jp는 열린다. 1,300엔, **어른권만 판다(소인 없음).** 란덴 전선 + 교토시영지하철 전선. 같은 페이지에서 확인된 것: **란덴 전선 균일운임 250/120**(어린이는 6세 이상 12세 미만), **란덴 1일 프리 킷푸 700/350**(아라시야마본선·기타노선). 교토시 공식에 발매 기간이 令和8(2026)년 4월~로 적혀 있다. 유효기간·환불·판매처는 이 페이지에 기재 없음",
+  "note": "2026-09-07 **도메인을 바꿔 열었다** — randen.keifuku.co.jp는 인증서 만료로 WebFetch·브라우저 모두 실패했는데 본 도메인 keifuku.co.jp는 열린다. 1,300엔, **어른권만 판다(소인 없음).** 란덴 전선 + 교토시영지하철 전선. 같은 페이지에서 확인된 것: **란덴 전선 균일운임 250/120**(어린이는 6세 이상 12세 미만), **란덴 1일 프리 킷푸 700/350**(아라시야마본선·기타노선). 교토시 공식에 발매 기간이 令和8(2026)년 4월~로 적혀 있다. 유효기간·환불·판매처는 이 페이지에 기재 없음 / 2026-09-08 재확인: 값 1,300은 그대로이고 **어른권만 있다**(소인권 없음). 지하철 전선 + 란덴 전선이며 **시버스는 안 들어간다.** **공식 페이지의 유효기간 표기가 「2024-04-01~2025-04-30」로 낡아 있다** — 연도 상품인데 갱신이 안 된 것으로 보인다. 사람이 확인할 자리.",
   "rules_checked": "2026-09-07"
  },
  {
@@ -15948,10 +16048,13 @@
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
   "axis": "A",
-  "card_status": "candidate_strong",
+  "card_status": "has_card",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "600/300, 1일. 나라공원 에리어와 니시노쿄 에리어의 노선버스 무제한 — 도다이지·가스가타이샤·고후쿠지·도쇼다이지·야쿠시지가 들어간다. 판매는 JR나라·긴테츠나라·가쿠엔마에·오지·야기 안내소. **대형 여행대리점에서 사면 판매 수수료가 붙는다.** 환불·우대·디지털권은 공식 페이지에 기재 없음",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "card_ids": [
+   64
+  ]
  },
  {
   "pass_id": "jp-nara-ikaruga-1day",
@@ -16103,10 +16206,13 @@
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
   "axis": "A",
-  "card_status": "candidate_strong",
+  "card_status": "has_card",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "800/400(소학생 이하). **시티루프와 포트루프 둘 다** 탈 수 있고 산노미야~포트아일랜드선, 고베역~포트아일랜드선 등도 대상. 판매는 고베시 종합인포메이션센터·신고베역 안내소·신키버스 고베산노미야 터미널·패밀리마트 고베공항점 등, 디지털은 RYDE PASS·PassRu·Mobers. 「見せトク」 제휴 시설 할인. 유효기간 표기와 환불 규정은 공식 페이지에 없다",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "card_ids": [
+   63
+  ]
  },
  {
   "pass_id": "jp-kobe-bus-subway-1day",
@@ -16244,7 +16350,7 @@
   "axis": "D",
   "card_status": "data_only",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
-  "note": "2026-09-07 고베시 교통국은 여전히 막혀 있어(WebFetch 403·브라우저 차단) **같은 상품의 신테츠판을 공식에서 읽어 조건을 잡았다.** 신테츠판은 **어른 2,600엔**(소인 기재 없음) — 신테츠 각 역(신카이치 제외)~아리마온천역 1일 프리 승차권 + 다이코노유 입관권 + 관내 우대권. 발매 2026-04-01~2027-03-31, 유효는 승차 당일 1일. **다이코노유 휴관일(4/6~7 · 7/6~7 · 10/13 · 2027-01-06)과 임시휴관일에는 쓸 수 없고, 정월(2027-01-01~03)에 쓰려면 500엔을 더 낸다.** 환불은 미사용만 수수료 220엔. **우리 항목은 시영지하철판이라 가격이 다르다** — 지하철 왕복이 더해지므로 2,600보다 비쌀 것이다. 값은 미확인 유지",
+  "note": "2026-09-07 고베시 교통국은 여전히 막혀 있어(WebFetch 403·브라우저 차단) **같은 상품의 신테츠판을 공식에서 읽어 조건을 잡았다.** 신테츠판은 **어른 2,600엔**(소인 기재 없음) — 신테츠 각 역(신카이치 제외)~아리마온천역 1일 프리 승차권 + 다이코노유 입관권 + 관내 우대권. 발매 2026-04-01~2027-03-31, 유효는 승차 당일 1일. **다이코노유 휴관일(4/6~7 · 7/6~7 · 10/13 · 2027-01-06)과 임시휴관일에는 쓸 수 없고, 정월(2027-01-01~03)에 쓰려면 500엔을 더 낸다.** 환불은 미사용만 수수료 220엔. **우리 항목은 시영지하철판이라 가격이 다르다** — 지하철 왕복이 더해지므로 2,600보다 비쌀 것이다. 값은 미확인 유지 / 2026-09-08 승급 시도 실패 — **고베시 교통국 사이트가 여전히 막혀 있다**(CloudFront ERROR, WebFetch·브라우저 모두). 지하철판의 값을 발행 주체에서 못 읽는다. 같은 상품의 **신테츠판(어른 2,600)만 공식으로 확인돼 있다.** **L1 유지.**",
   "unverified": [
    "price"
   ],
@@ -16824,10 +16930,13 @@
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
   "axis": "D",
-  "card_status": "candidate_strong",
+  "card_status": "has_card",
   "survey": "조사_성격축/조사표_신규지역_2026-09-06.md",
   "note": "3,500/1,750(소인·어른 장애인). 2일간. 이치바타전차 + 이치바타버스(고속·임시 제외) + 마쓰에시 교통국(레이크라인 포함·임시 제외). **JR서일본 철도와 요나고·이즈모 두 공항 연락버스는 못 탄다.** **「tabiwa by WESTER」 웹에서만 팔고 창구 판매가 없다** — 스마트폰이 있어야 한다. 2023-11-01 발매 개시",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "card_ids": [
+   67
+  ]
  },
  {
   "pass_id": "jp-hankyu-tourist-pass",
@@ -17261,10 +17370,13 @@
   "last_verified_at": "2026-09-07",
   "license": "ODbL-1.0",
   "axis": "D",
-  "card_status": "candidate_strong",
+  "card_status": "has_card",
   "survey": "조사_성격축/조사표_히메지_2026-09-07.md",
   "note": "종이판 1,900/950, 디지털판 1,900(1세 이상, 0세 무료). 신키버스 「히메지역~250엔 구간」 2일 무제한 + 10계통 「히메지역~서사산 로프웨이」 + 서사산 로프웨이 왕복. **히메지성 입장은 포함이 아니라 1할 할인이다**(고코엔도 1할, 미술관 2할). **종이판에만 히메지성 루프버스 1회 승차권이 붙는다** — 종이와 디지털의 내용이 다르다. **다른 할인권과 병용 불가.** 판매는 신키버스 히메지역앞 안내소·PassRu·공식 디지털 티켓 사이트",
-  "rules_checked": "2026-09-07"
+  "rules_checked": "2026-09-07",
+  "card_ids": [
+   66
+  ]
  },
  {
   "pass_id": "jp-shinki-himeji-loop-1day",
@@ -17584,5 +17696,4904 @@
   "survey": "공항전수조사_2026-09-06.md",
   "note": "2026-09-07 사도관광교류기구(visitsado) 공식 재확인: **가격이 어제 등록한 값과 다르다. 1day 1,500→2,000 · 2day 2,500→3,000 · 3day는 3,500 그대로**(소인 1,000/1,500/1,750). 어제 쓴 출처가 니가타교통사도의 **2023-05 PDF**라 낡은 값을 그대로 옮긴 것으로 보인다. 니가타교통사도가 운행하는 사도섬 내 노선버스 전선, **「라이너버스」 등은 탈 수 없다.** 판매는 니가타교통사도 창구·항구 안내소·버스 차내·일부 숙박 시설. **두 출처가 어긋나므로 운행사 현행 페이지로 한 번 더 확인할 자리다**",
   "rules_checked": "2026-09-07"
+ },
+ {
+  "pass_id": "jp-jrwest-kansai-area",
+  "name": {
+   "local": "関西エリアパス",
+   "local_lang": "ja",
+   "ko": "간사이 에리어 패스",
+   "en": "Kansai Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 2800,
+    "currency": "JPY",
+    "category": "adult_1day"
+   },
+   {
+    "amount": 1400,
+    "currency": "JPY",
+    "category": "child_1day"
+   },
+   {
+    "amount": 4800,
+    "currency": "JPY",
+    "category": "adult_2day"
+   },
+   {
+    "amount": 2400,
+    "currency": "JPY",
+    "category": "child_2day"
+   },
+   {
+    "amount": 5800,
+    "currency": "JPY",
+    "category": "adult_3day"
+   },
+   {
+    "amount": 2900,
+    "currency": "JPY",
+    "category": "child_3day"
+   },
+   {
+    "amount": 7000,
+    "currency": "JPY",
+    "category": "adult_4day"
+   },
+   {
+    "amount": 3500,
+    "currency": "JPY",
+    "category": "child_4day"
+   }
+  ],
+  "validity": {
+   "days": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "오사카·교토·고베·나라·와카야마·오쓰·쓰루가 + 간사이공항 특급 하루카"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-26-kyoto",
+   "JP-29-nara",
+   "JP-28-kobe"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-kansai-mini",
+  "name": {
+   "local": "関西ミニパス",
+   "local_lang": "ja",
+   "ko": "간사이 미니 패스",
+   "en": "Kansai Mini Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 3000,
+    "currency": "JPY",
+    "category": "adult_3day"
+   },
+   {
+    "amount": 1500,
+    "currency": "JPY",
+    "category": "child_3day"
+   }
+  ],
+  "validity": {
+   "days": [
+    3
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "교토·오사카·나라·고베·USJ 주변. **신쾌속·쾌속·보통만**(특급·신칸센 불가)"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansaimini/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-26-kyoto",
+   "JP-29-nara",
+   "JP-28-kobe"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-kansai-wide",
+  "name": {
+   "local": "関西ワイドエリアパス",
+   "local_lang": "ja",
+   "ko": "간사이 와이드 에리어 패스",
+   "en": "Kansai WIDE Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 12000,
+    "currency": "JPY",
+    "category": "adult_5day"
+   },
+   {
+    "amount": 6000,
+    "currency": "JPY",
+    "category": "child_5day"
+   }
+  ],
+  "validity": {
+   "days": [
+    5
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "간사이·오카야마·다카마쓰·돗토리·기노사키온천·아마노하시다테·시라하마"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_wide/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-26-kyoto",
+   "JP-29-nara",
+   "JP-28-kobe",
+   "JP-28-himeji",
+   "JP-28-kinosaki",
+   "JP-33-okayama",
+   "JP-37-takamatsu",
+   "JP-30-koyasan",
+   "JP-31-tottori"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-kansai-hiroshima",
+  "name": {
+   "local": "関西・広島エリアパス",
+   "local_lang": "ja",
+   "ko": "간사이·히로시마 에리어 패스",
+   "en": "Kansai-Hiroshima Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 17000,
+    "currency": "JPY",
+    "category": "adult_5day"
+   },
+   {
+    "amount": 8500,
+    "currency": "JPY",
+    "category": "child_5day"
+   }
+  ],
+  "validity": {
+   "days": [
+    5
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "간사이~히로시마. 산요신칸센(신오사카~히로시마)·JR서일본 미야지마 페리 포함"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_hiroshima/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-26-kyoto",
+   "JP-29-nara",
+   "JP-28-kobe",
+   "JP-28-himeji",
+   "JP-28-kinosaki",
+   "JP-33-okayama",
+   "JP-37-takamatsu",
+   "JP-30-koyasan",
+   "JP-34-hiroshima"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-kansai-sanin",
+  "name": {
+   "local": "関西・山陰エリアパス",
+   "local_lang": "ja",
+   "ko": "간사이·산인 에리어 패스",
+   "en": "Kansai-San'in Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 18000,
+    "currency": "JPY",
+    "category": "adult_7day"
+   },
+   {
+    "amount": 9000,
+    "currency": "JPY",
+    "category": "child_7day"
+   }
+  ],
+  "validity": {
+   "days": [
+    7
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "간사이~산인(돗토리·시마네·하기)·오카야마"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_sanin/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-26-kyoto",
+   "JP-29-nara",
+   "JP-28-kobe",
+   "JP-28-himeji",
+   "JP-28-kinosaki",
+   "JP-33-okayama",
+   "JP-37-takamatsu",
+   "JP-30-koyasan",
+   "JP-32-izumo"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-kansai-hokuriku",
+  "name": {
+   "local": "関西・北陸エリアパス",
+   "local_lang": "ja",
+   "ko": "간사이·호쿠리쿠 에리어 패스",
+   "en": "Kansai-Hokuriku Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 19000,
+    "currency": "JPY",
+    "category": "adult_7day"
+   },
+   {
+    "amount": 9500,
+    "currency": "JPY",
+    "category": "child_7day"
+   }
+  ],
+  "validity": {
+   "days": [
+    7
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "간사이·도야마·이시카와(가나자와)·후쿠이. 호쿠리쿠·산요신칸센 지정석, 하루카·선더버드·고노토리"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_hokuriku/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-26-kyoto",
+   "JP-29-nara",
+   "JP-28-kobe",
+   "JP-17-kanazawa",
+   "JP-16-tateyama"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-tottori-matsue",
+  "name": {
+   "local": "鳥取・松江パス",
+   "local_lang": "ja",
+   "ko": "돗토리·마쓰에 패스",
+   "en": "Tottori-Matsue Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 4000,
+    "currency": "JPY",
+    "category": "adult_3day"
+   },
+   {
+    "amount": 2000,
+    "currency": "JPY",
+    "category": "child_3day"
+   }
+  ],
+  "validity": {
+   "days": [
+    3
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "돗토리~마쓰에. 특급 슈퍼하쿠토·슈퍼이나바·야쿠모 **자유석만**"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/tottorimatsue/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-31-tottori",
+   "JP-32-izumo"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-sanyo-sanin",
+  "name": {
+   "local": "山陽・山陰エリアパス",
+   "local_lang": "ja",
+   "ko": "산요·산인 에리어 패스",
+   "en": "Sanyo-San'in Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 23000,
+    "currency": "JPY",
+    "category": "adult_7day"
+   },
+   {
+    "amount": 11500,
+    "currency": "JPY",
+    "category": "child_7day"
+   }
+  ],
+  "validity": {
+   "days": [
+    7
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "간사이·후쿠오카~오카야마·히로시마·야마구치·돗토리·시마네. 산요신칸센(신오사카~하카타) 지정석"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/sanyo_sanin/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-26-kyoto",
+   "JP-28-kobe",
+   "JP-33-okayama",
+   "JP-34-hiroshima",
+   "JP-32-izumo"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-hiroshima-yamaguchi",
+  "name": {
+   "local": "広島・山口エリアパス",
+   "local_lang": "ja",
+   "ko": "히로시마·야마구치 에리어 패스",
+   "en": "Hiroshima-Yamaguchi Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 15000,
+    "currency": "JPY",
+    "category": "adult_5day"
+   },
+   {
+    "amount": 7500,
+    "currency": "JPY",
+    "category": "child_5day"
+   }
+  ],
+  "validity": {
+   "days": [
+    5
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "후쿠오카~야마구치·히로시마. 산요신칸센(미하라~하카타) 지정석·미야지마 페리"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/hiroshima_yamaguchi/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-34-hiroshima"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-okayama-hiroshima-yamaguchi",
+  "name": {
+   "local": "岡山・広島・山口エリアパス",
+   "local_lang": "ja",
+   "ko": "오카야마·히로시마·야마구치 에리어 패스",
+   "en": "Okayama-Hiroshima-Yamaguchi Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 17000,
+    "currency": "JPY",
+    "category": "adult_5day"
+   },
+   {
+    "amount": 8500,
+    "currency": "JPY",
+    "category": "child_5day"
+   }
+  ],
+  "validity": {
+   "days": [
+    5
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "후쿠오카~야마구치·히로시마·오카야마·다카마쓰. 미야지마 페리·주고쿠 JR버스"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/okayama_hiroshima_yamaguchi/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-33-okayama",
+   "JP-34-hiroshima",
+   "JP-37-takamatsu"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-hokuriku-area",
+  "name": {
+   "local": "北陸エリアパス",
+   "local_lang": "ja",
+   "ko": "호쿠리쿠 에리어 패스",
+   "en": "Hokuriku Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 7000,
+    "currency": "JPY",
+    "category": "adult_4day"
+   },
+   {
+    "amount": 3500,
+    "currency": "JPY",
+    "category": "child_4day"
+   }
+  ],
+  "validity": {
+   "days": [
+    4
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "도야마·이시카와·후쿠이. 호쿠리쿠신칸센 **자유석**·특급·쾌속·보통"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/hokuriku/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-17-kanazawa",
+   "JP-16-tateyama"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrwest-all-area",
+  "name": {
+   "local": "JR西日本全線パス",
+   "local_lang": "ja",
+   "ko": "JR서일본 올 에리어 패스",
+   "en": "JR-WEST All Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 26000,
+    "currency": "JPY",
+    "category": "adult_7day"
+   },
+   {
+    "amount": 13000,
+    "currency": "JPY",
+    "category": "child_7day"
+   }
+  ],
+  "validity": {
+   "days": [
+    7
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "간사이·호쿠리쿠·산요·산인·하카타. 산요/호쿠리쿠신칸센 포함"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/all/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-26-kyoto",
+   "JP-29-nara",
+   "JP-28-kobe",
+   "JP-28-himeji",
+   "JP-28-kinosaki",
+   "JP-33-okayama",
+   "JP-37-takamatsu",
+   "JP-30-koyasan",
+   "JP-17-kanazawa",
+   "JP-16-tateyama",
+   "JP-34-hiroshima",
+   "JP-32-izumo"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jreast-tokyo-wide",
+  "name": {
+   "local": "JR TOKYO Wide Pass",
+   "local_lang": "ja",
+   "ko": "JR 도쿄 와이드 패스",
+   "en": "JR TOKYO Wide Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 16000,
+    "currency": "JPY",
+    "category": "adult_3day"
+   },
+   {
+    "amount": 8000,
+    "currency": "JPY",
+    "category": "child_3day"
+   }
+  ],
+  "validity": {
+   "days": [
+    3
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "도쿄·닛코·가와구치코·이즈·군마·나리타. **후지큐 지정석은 추가 요금**"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/tokyowidepass.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-13-tokyo",
+   "JP-09-nikko",
+   "JP-22-shizuoka"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jreast-east-south-hokkaido",
+  "name": {
+   "local": "JR東日本・南北海道レールパス",
+   "local_lang": "ja",
+   "ko": "JR 동일본·미나미홋카이도 레일 패스",
+   "en": "JR East-South Hokkaido Rail Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 40000,
+    "currency": "JPY",
+    "category": "adult_6day"
+   },
+   {
+    "amount": 20000,
+    "currency": "JPY",
+    "category": "child_6day"
+   }
+  ],
+  "validity": {
+   "days": [
+    6
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "도쿄·도호쿠·하코다테·삿포로. 홋카이도신칸센 포함"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/easthokkaido.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-13-tokyo",
+   "JP-09-nikko",
+   "JP-04-sendai",
+   "JP-02-aomori",
+   "JP-15-niigata",
+   "JP-01-donan",
+   "JP-01-doo"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jreast-tohoku-south-hokkaido",
+  "name": {
+   "local": "JR東北・南北海道レールパス",
+   "local_lang": "ja",
+   "ko": "JR 도호쿠·미나미홋카이도 레일 패스",
+   "en": "JR Tohoku-South Hokkaido Rail Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 32000,
+    "currency": "JPY",
+    "category": "adult_6day"
+   },
+   {
+    "amount": 16000,
+    "currency": "JPY",
+    "category": "child_6day"
+   }
+  ],
+  "validity": {
+   "days": [
+    6
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "도호쿠·하코다테. 도호쿠·홋카이도신칸센 포함"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/tohokuhokkaido.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-04-sendai",
+   "JP-06-yamagata",
+   "JP-02-aomori",
+   "JP-01-donan"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jreast-hokuriku-arch",
+  "name": {
+   "local": "北陸アーチパス",
+   "local_lang": "ja",
+   "ko": "호쿠리쿠 아치 패스",
+   "en": "Hokuriku Arch Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 35000,
+    "currency": "JPY",
+    "category": "adult_7day"
+   },
+   {
+    "amount": 17500,
+    "currency": "JPY",
+    "category": "child_7day"
+   }
+  ],
+  "validity": {
+   "days": [
+    7
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "도쿄~호쿠리쿠~간사이를 활처럼 잇는다. 나리타·간사이 두 공항을 다르게 쓸 때"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/hokurikuarch.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-13-tokyo",
+   "JP-17-kanazawa",
+   "JP-16-tateyama",
+   "JP-26-kyoto",
+   "JP-28-kobe",
+   "JP-27-osaka"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrc-takayama-hokuriku",
+  "name": {
+   "local": "高山・北陸エリア周遊きっぷ",
+   "local_lang": "ja",
+   "ko": "다카야마·호쿠리쿠 에리어 투어리스트 패스",
+   "en": "Takayama-Hokuriku Area Tourist Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 19800,
+    "currency": "JPY",
+    "category": "adult_5day"
+   },
+   {
+    "amount": 9900,
+    "currency": "JPY",
+    "category": "child_5day"
+   }
+  ],
+  "validity": {
+   "days": [
+    5
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "나고야/오사카·다카야마·시라카와고·가나자와·도야마. **시라카와고 노선버스 포함**"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://touristpass.jp/en/takayama_hokuriku/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-21-takayama",
+   "JP-17-kanazawa",
+   "JP-16-tateyama"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrc-alpine-takayama-matsumoto",
+  "name": {
+   "local": "アルペン・高山・松本エリア周遊きっぷ",
+   "local_lang": "ja",
+   "ko": "알펜·다카야마·마쓰모토 에리어 투어리스트 패스",
+   "en": "Alpine-Takayama-Matsumoto Area Tourist Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 24500,
+    "currency": "JPY",
+    "category": "adult_5day"
+   },
+   {
+    "amount": 12250,
+    "currency": "JPY",
+    "category": "child_5day"
+   }
+  ],
+  "validity": {
+   "days": [
+    5
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "나고야·다카야마·도야마·다테야마 구로베 알펜루트·마쓰모토"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://touristpass.jp/en/alpine/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-21-takayama",
+   "JP-16-tateyama",
+   "JP-20-matsumoto"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrc-ise-kumano-wakayama",
+  "name": {
+   "local": "伊勢・熊野・和歌山エリア周遊きっぷ",
+   "local_lang": "ja",
+   "ko": "이세·구마노·와카야마 에리어 투어리스트 패스",
+   "en": "Ise-Kumano-Wakayama Area Tourist Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 16500,
+    "currency": "JPY",
+    "category": "adult_5day"
+   },
+   {
+    "amount": 8250,
+    "currency": "JPY",
+    "category": "child_5day"
+   }
+  ],
+  "validity": {
+   "days": [
+    5
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "오사카/나고야·이세·구마노·와카야마"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://touristpass.jp/en/ise_kumano/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-24-iseshima",
+   "JP-30-koyasan"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrc-fuji-shizuoka-mini",
+  "name": {
+   "local": "富士山・静岡エリア周遊きっぷミニ",
+   "local_lang": "ja",
+   "ko": "후지산·시즈오카 에리어 투어리스트 패스 미니",
+   "en": "Mt. Fuji-Shizuoka Area Tourist Pass Mini"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 6500,
+    "currency": "JPY",
+    "category": "adult_3day"
+   },
+   {
+    "amount": 3250,
+    "currency": "JPY",
+    "category": "child_3day"
+   }
+  ],
+  "validity": {
+   "days": [
+    3
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "시즈오카·하마마쓰·후지산 주변"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://touristpass.jp/en/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-22-shizuoka"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrkyushu-mobile-fukuoka-wide",
+  "name": {
+   "local": "JR九州モバイルパス 福岡ワイド",
+   "local_lang": "ja",
+   "ko": "JR규슈 모바일 패스 후쿠오카 와이드",
+   "en": "JR KYUSHU MOBILE PASS Fukuoka Wide"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 3500,
+    "currency": "JPY",
+    "category": "adult_2day"
+   },
+   {
+    "amount": 1750,
+    "currency": "JPY",
+    "category": "child_2day"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "후쿠오카 근교(모지코 포함). 보통·특급 **자유석만**, 신칸센·지하철 불가"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수",
+   "구매:스마트폰필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jrkyushu.co.jp/english/railpass/mobilepass.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-40-fukuoka"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. LINKTIVITY 또는 my route 앱으로만 산다. 유인 개찰에서 화면을 보인다. **우리 지역 사전에 후쿠오카가 없어 인접 규슈 지역에 걸어 두었다 — 지역 신설 뒤 고칠 자리.**"
+ },
+ {
+  "pass_id": "jp-jrhokkaido-rail-pass",
+  "name": {
+   "local": "北海道レールパス",
+   "local_lang": "ja",
+   "ko": "홋카이도 레일 패스(외국인 전용)",
+   "en": "Hokkaido Rail Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 22000,
+    "currency": "JPY",
+    "category": "adult_5day"
+   },
+   {
+    "amount": 23000,
+    "currency": "JPY",
+    "category": "adult_5day_local"
+   },
+   {
+    "amount": 11000,
+    "currency": "JPY",
+    "category": "child_5day"
+   },
+   {
+    "amount": 11500,
+    "currency": "JPY",
+    "category": "child_5day_local"
+   },
+   {
+    "amount": 28000,
+    "currency": "JPY",
+    "category": "adult_7day"
+   },
+   {
+    "amount": 29000,
+    "currency": "JPY",
+    "category": "adult_7day_local"
+   },
+   {
+    "amount": 14000,
+    "currency": "JPY",
+    "category": "child_7day"
+   },
+   {
+    "amount": 14500,
+    "currency": "JPY",
+    "category": "child_7day_local"
+   },
+   {
+    "amount": 37000,
+    "currency": "JPY",
+    "category": "adult_10day"
+   },
+   {
+    "amount": 38000,
+    "currency": "JPY",
+    "category": "adult_10day_local"
+   },
+   {
+    "amount": 18500,
+    "currency": "JPY",
+    "category": "child_10day"
+   },
+   {
+    "amount": 19000,
+    "currency": "JPY",
+    "category": "child_10day_local"
+   }
+  ],
+  "validity": {
+   "days": [
+    5,
+    7,
+    10
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "JR홋카이도 전역. **홋카이도신칸센 제외**"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jrhokkaido.co.jp/global/english/ticket/railpass/index.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-01-doo",
+   "JP-01-donan"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 해외 사전구매가 1,000엔 싸다(`_local`이 일본 내 구매가)."
+ },
+ {
+  "pass_id": "jp-jrhokkaido-sapporo-noboribetsu",
+  "name": {
+   "local": "札幌・登別エリアパス",
+   "local_lang": "ja",
+   "ko": "삿포로·노보리베쓰 에리어 패스",
+   "en": "Sapporo-Noboribetsu Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 10000,
+    "currency": "JPY",
+    "category": "adult_4day"
+   },
+   {
+    "amount": 11000,
+    "currency": "JPY",
+    "category": "adult_4day_local"
+   },
+   {
+    "amount": 5000,
+    "currency": "JPY",
+    "category": "child_4day"
+   },
+   {
+    "amount": 5500,
+    "currency": "JPY",
+    "category": "child_4day_local"
+   }
+  ],
+  "validity": {
+   "days": [
+    4
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "신치토세·삿포로·오타루·노보리베쓰"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jrhokkaido.co.jp/global/english/ticket/railpass/index.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-01-doo"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrhokkaido-sapporo-furano",
+  "name": {
+   "local": "札幌・富良野エリアパス",
+   "local_lang": "ja",
+   "ko": "삿포로·후라노 에리어 패스",
+   "en": "Sapporo-Furano Area Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 11000,
+    "currency": "JPY",
+    "category": "adult_4day"
+   },
+   {
+    "amount": 12000,
+    "currency": "JPY",
+    "category": "adult_4day_local"
+   },
+   {
+    "amount": 5500,
+    "currency": "JPY",
+    "category": "child_4day"
+   },
+   {
+    "amount": 6000,
+    "currency": "JPY",
+    "category": "child_4day_local"
+   }
+  ],
+  "validity": {
+   "days": [
+    4
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "신치토세·삿포로·오타루·비에이·후라노·아사히카와"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jrhokkaido.co.jp/global/english/ticket/railpass/index.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-01-doo"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인."
+ },
+ {
+  "pass_id": "jp-jrhokkaido-mannaka-nonbiri",
+  "name": {
+   "local": "北海道まんなか のんびり列車パス",
+   "local_lang": "ja",
+   "ko": "홋카이도 한가운데 느긋한 열차 패스",
+   "en": "Hokkaido-Midlands Relaxed Train Pass"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 3300,
+    "currency": "JPY",
+    "category": "adult_1day"
+   },
+   {
+    "amount": 1650,
+    "currency": "JPY",
+    "category": "child_1day"
+   },
+   {
+    "amount": 5600,
+    "currency": "JPY",
+    "category": "adult_2day"
+   },
+   {
+    "amount": 2800,
+    "currency": "JPY",
+    "category": "child_2day"
+   },
+   {
+    "amount": 6900,
+    "currency": "JPY",
+    "category": "adult_3day"
+   },
+   {
+    "amount": 3450,
+    "currency": "JPY",
+    "category": "child_3day"
+   }
+  ],
+  "validity": {
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "프리에리어 안 보통·쾌속 보통차 자유석"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "구매:스마트폰필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jrhokkaido.co.jp/CM/Otoku/007247/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-01-doo"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. **2026-04-18~11-08 시즌 상품**(일수별로 마지막 판매일이 다르다). 전용 구매 사이트 전용, 구매 뒤 1개월 안에 개시. **외국인 전용이 아니다.**"
+ },
+ {
+  "pass_id": "jp-japan-rail-pass",
+  "name": {
+   "local": "ジャパン・レール・パス",
+   "local_lang": "ja",
+   "ko": "재팬 레일 패스",
+   "en": "JAPAN RAIL PASS"
+  },
+  "type": "T1",
+  "issuer": "JR",
+  "price": [
+   {
+    "amount": 50000,
+    "currency": "JPY",
+    "category": "adult_7day"
+   },
+   {
+    "amount": 25000,
+    "currency": "JPY",
+    "category": "child_7day"
+   },
+   {
+    "amount": 80000,
+    "currency": "JPY",
+    "category": "adult_14day"
+   },
+   {
+    "amount": 40000,
+    "currency": "JPY",
+    "category": "child_14day"
+   },
+   {
+    "amount": 100000,
+    "currency": "JPY",
+    "category": "adult_21day"
+   },
+   {
+    "amount": 50000,
+    "currency": "JPY",
+    "category": "child_21day"
+   },
+   {
+    "amount": 70000,
+    "currency": "JPY",
+    "category": "adult_7day_green"
+   },
+   {
+    "amount": 35000,
+    "currency": "JPY",
+    "category": "child_7day_green"
+   },
+   {
+    "amount": 110000,
+    "currency": "JPY",
+    "category": "adult_14day_green"
+   },
+   {
+    "amount": 55000,
+    "currency": "JPY",
+    "category": "child_14day_green"
+   },
+   {
+    "amount": 140000,
+    "currency": "JPY",
+    "category": "adult_21day_green"
+   },
+   {
+    "amount": 70000,
+    "currency": "JPY",
+    "category": "child_21day_green"
+   }
+  ],
+  "validity": {
+   "days": [
+    7,
+    14,
+    21
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "JR 전국(**노조미·미즈호 제외**)"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "해외 여행사 교환권·공식 온라인·일본 내 역 창구",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://japanrailpass.net/en/purchase/price/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "stale",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-27-osaka",
+   "JP-01-doo",
+   "JP-01-donan",
+   "JP-02-aomori",
+   "JP-04-sendai",
+   "JP-06-yamagata",
+   "JP-09-nikko",
+   "JP-14-hakone",
+   "JP-15-niigata",
+   "JP-16-tateyama",
+   "JP-17-kanazawa",
+   "JP-20-matsumoto",
+   "JP-21-takayama",
+   "JP-22-shizuoka",
+   "JP-24-iseshima",
+   "JP-26-kyoto",
+   "JP-28-kobe",
+   "JP-28-himeji",
+   "JP-29-nara",
+   "JP-32-izumo",
+   "JP-33-okayama",
+   "JP-34-hiroshima",
+   "JP-37-takamatsu",
+   "JP-42-nagasaki",
+   "JP-43-kumamoto",
+   "JP-44-oita",
+   "JP-46-kagoshima"
+  ],
+  "survey": {
+   "axis_round": "JR광역",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_JR광역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. **2026-10-01 구매분부터 오른다** — 보통 7일 50,000 → 53,000 / 14일 80,000 → 84,000 / 21일 100,000 → 105,000, 그린 70,000 → 74,000 / 110,000 → 116,000 / 140,000 → 147,000. 위 값은 **2026-09-30까지 구매분**이다. **10월 1일에 stale로 뒤집힌다 — 감시 항목.**"
+ },
+ {
+  "pass_id": "jp-jreast-nex-roundtrip",
+  "name": {
+   "local": "N'EX東京往復きっぷ",
+   "local_lang": "ja",
+   "ko": "N'EX 도쿄 왕복 티켓",
+   "en": "N'EX TOKYO Round Trip Ticket"
+  },
+  "type": "T1",
+  "issuer": "JR東日本",
+  "price": [
+   {
+    "amount": 5200,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 2600,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    14
+   ],
+   "basis": "first_use"
+  },
+  "coverage": {
+   "summary": "나리타공항↔도쿄 시내 왕복. 나리타 익스프레스 보통차 지정석"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "JR동일본 역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/nex.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-13-tokyo"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "거점지역_재료_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 왕복 5,200(도쿄 시내 기준). 구간에 따라 6,280·6,660도 있다 — **어디까지 가느냐로 값이 달라진다.** 14일 안에 왕복"
+ },
+ {
+  "pass_id": "jp-jreast-tokunai-pass",
+  "name": {
+   "local": "都区内パス",
+   "local_lang": "ja",
+   "ko": "도쿄 시내 패스(도쿠나이 패스)",
+   "en": "Tokyo Metropolitan District Pass"
+  },
+  "type": "T1",
+  "issuer": "JR東日本",
+  "price": [
+   {
+    "amount": 870,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 430,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "도쿄 23구 안 JR 보통·쾌속 자유석 하루 무제한"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "JR동일본 역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/tokunai_pass.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-13-tokyo"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "거점지역_재료_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 870/430. 도쿄역·아키하바라·료고쿠·우에노·신주쿠·시부야 등을 도는 하루면 약 1,000엔이 드니 **네 번쯤부터 남는다.** 지하철은 안 들어간다"
+ },
+ {
+  "pass_id": "jp-jreast-tokyo-free-kippu",
+  "name": {
+   "local": "東京フリーきっぷ",
+   "local_lang": "ja",
+   "ko": "도쿄 1일 승차권",
+   "en": "Tokyo Free Kippu"
+  },
+  "type": "T1",
+  "issuer": "JR東日本",
+  "price": [
+   {
+    "amount": 1720,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 860,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "JR 23구 + 도쿄메트로·도에이 지하철 + 도에이 버스·도덴 하루 무제한"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "JR동일본 역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/tokyo_free.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-13-tokyo"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "거점지역_재료_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 1,720/860. **JR과 지하철과 버스를 한 장으로 덮는 유일한 표다.** JR 160엔~·지하철 180엔~·도에이 버스 210엔~라 여섯 번은 타야 남는다"
+ },
+ {
+  "pass_id": "jp-jreast-nonbiri-holiday-suica",
+  "name": {
+   "local": "のんびりホリデーSuicaパス",
+   "local_lang": "ja",
+   "ko": "논비리 홀리데이 Suica 패스",
+   "en": "Nonbiri Holiday Suica Pass"
+  },
+  "type": "T1",
+  "issuer": "JR東日本",
+  "price": [
+   {
+    "amount": 2850,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 1420,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "도쿄 근교 JR 보통·쾌속 자유석 하루 무제한(아시카가·지치부 방면)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "JR동일본 역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/nonbiri_pass.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-13-tokyo"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "거점지역_재료_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 2,850/1,420. **토·일·공휴일과 특정 기간만 쓴다.** 도쿄역~아시카가 플라워파크 왕복이 약 4,180엔이라 그 한 번으로 남는다"
+ },
+ {
+  "pass_id": "jp-jreast-yokohama-minatomirai",
+  "name": {
+   "local": "横浜みなとみらいパス",
+   "local_lang": "ja",
+   "ko": "요코하마 미나토미라이 패스",
+   "en": "Yokohama Minatomirai Pass"
+  },
+  "type": "T1",
+  "issuer": "JR東日本",
+  "price": [
+   {
+    "amount": 560,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 280,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "요코하마 시내 JR 일부 구간 + 미나토미라이선 하루 무제한"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "JR동일본 역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.jreast.co.jp/ko/multi/pass/yokohama_minatomirai.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-13-tokyo"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "거점지역_재료_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 560/280. 산케이엔까지 보통 770엔이 드는 구간이 이 표로 덮인다. **네기시역~산케이엔 버스는 따로 낸다.** 요코하마·가마쿠라를 도쿄 지역에 편입했으므로(2026-09-08 판단 ②) region은 JP-13-tokyo"
+ },
+ {
+  "pass_id": "jp-nagoya-bus-subway-1day",
+  "name": {
+   "local": "バス・地下鉄全線一日乗車券",
+   "local_lang": "ja",
+   "ko": "나고야 버스·지하철 전선 1일 승차권",
+   "en": "Nagoya Bus & Subway 1-Day Ticket"
+  },
+  "type": "T1",
+  "issuer": "バス・地下鉄全線一日乗車券",
+  "price": [
+   {
+    "amount": 870,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 430,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "나고야 시버스 전선 + 시영 지하철 전선. 첫차부터 막차까지"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.kotsu.city.nagoya.jp/rp/ticket/TRP0000310.htm",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-23-nagoya"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 870/430. 나고야 관광루트버스 메구루도 이 표로 탄다. 메이테츠 버스·메이테츠선·아오나미선에서는 못 쓴다. 유토리토라인은 평면 구간만 되고 고가 구간(오조네~오바타료쿠치)은 안 된다(18세 이하는 도니치에코킷푸로 고가 구간도 되는 사회실험 중)."
+ },
+ {
+  "pass_id": "jp-nagoya-bus-1day",
+  "name": {
+   "local": "バス全線一日乗車券",
+   "local_lang": "ja",
+   "ko": "나고야 버스 전선 1일 승차권",
+   "en": "Nagoya Bus 1-Day Ticket"
+  },
+  "type": "T1",
+  "issuer": "バス全線一日乗車券",
+  "price": [
+   {
+    "amount": 620,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 310,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "나고야 시버스 전선. 첫차부터 막차까지"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.kotsu.city.nagoya.jp/rp/ticket/TRP0000310.htm",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-23-nagoya"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 620/310. 지하철은 안 들어간다. 메이테츠 버스·메이테츠선·아오나미선에서는 못 쓴다. 유토리토라인은 평면 구간만 되고 고가 구간(오조네~오바타료쿠치)은 안 된다(18세 이하는 도니치에코킷푸로 고가 구간도 되는 사회실험 중)."
+ },
+ {
+  "pass_id": "jp-nagoya-subway-24h",
+  "name": {
+   "local": "地下鉄全線24時間券",
+   "local_lang": "ja",
+   "ko": "나고야 지하철 전선 24시간권",
+   "en": "Nagoya Subway 24-Hour Ticket"
+  },
+  "type": "T1",
+  "issuer": "地下鉄全線24時間券",
+  "price": [
+   {
+    "amount": 760,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 380,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "나고야 시영 지하철 전선. **처음 개찰기에 넣은 때부터 24시간**"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "사용:개시후24시간"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.kotsu.city.nagoya.jp/rp/ticket/TRP0000310.htm",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-23-nagoya"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 760/380. **하루가 아니라 24시간이라 이틀에 걸쳐 쓸 수 있다** — 오후에 시작하면 이튿날 오전까지. 자동발매기에서 산 것은 그날 막차까지 개시하지 않으면 무효가 된다. 버스는 안 된다"
+ },
+ {
+  "pass_id": "jp-nagoya-donichi-eco",
+  "name": {
+   "local": "ドニチエコきっぷ",
+   "local_lang": "ja",
+   "ko": "도니치에코킷푸",
+   "en": "Donichi Eco Kippu"
+  },
+  "type": "T1",
+  "issuer": "ドニチエコきっぷ",
+  "price": [
+   {
+    "amount": 620,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 310,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "나고야 시버스 + 시영 지하철 전선"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "사용:지정일한정"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.kotsu.city.nagoya.jp/rp/ticket/TRP0000310.htm",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-23-nagoya"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 620/310. **토·일·공휴일과 매월 8일(환경보전의 날)에만 쓴다.** 같은 범위의 평일권이 870이라 주말에 오면 250엔이 싸다. 메이테츠 버스·메이테츠선·아오나미선에서는 못 쓴다. 유토리토라인은 평면 구간만 되고 고가 구간(오조네~오바타료쿠치)은 안 된다(18세 이하는 도니치에코킷푸로 고가 구간도 되는 사회실험 중)."
+ },
+ {
+  "pass_id": "jp-nagoya-meguru-1day",
+  "name": {
+   "local": "なごや観光ルートバス メーグル 1DAYチケット",
+   "local_lang": "ja",
+   "ko": "나고야 관광루트버스 메구루 1DAY 티켓",
+   "en": "Nagoya Sightseeing Route Bus Meguru 1-Day"
+  },
+  "type": "T1",
+  "issuer": "なごや観光ルートバス",
+  "price": [
+   {
+    "amount": 500,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 250,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "나고야성·도쿠가와엔·노리타케의 숲·도요타산업기술기념관 등을 도는 관광 순환버스"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "사용:운휴일있음"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.nagoya-info.jp/useful/meguru_guide/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-23-nagoya"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 500/250, 1회 승차는 210/100이라 **세 번부터 남는다.** **화~일 운행, 월요일과 연말연시(12/29~1/3)는 쉰다.** 연선 시설 할인 특전이 붙는다. **버스·지하철 1일권(870)으로도 탈 수 있으므로 지하철을 같이 쓸 사람은 그쪽이 낫다**"
+ },
+ {
+  "pass_id": "tw-taipei-metro-1day",
+  "name": {
+   "local": "臺北捷運 一日票",
+   "local_lang": "zh-Hant",
+   "ko": "타이베이 첩운 1일권",
+   "en": "Taipei Metro One-Day Pass"
+  },
+  "type": "T1",
+  "issuer": "臺北捷運",
+  "price": [
+   {
+    "amount": 150,
+    "currency": "TWD",
+    "category": "TWD_adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "타이베이 첩운 전선 + 신베이 첩운 환상선. **개시한 그날 하루만**"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.metro.taipei/cp.aspx?n=CEF54168B23F73B4&s=9D540D31C5F81237",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-TPE-taipei"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 150元. 개시일을 스스로 고르지만 **개시한 당일에만 유효하다**(24시간이 아니다). 버스는 안 들어간다"
+ },
+ {
+  "pass_id": "tw-taipei-metro-24h",
+  "name": {
+   "local": "臺北捷運 24小時票",
+   "local_lang": "zh-Hant",
+   "ko": "타이베이 첩운 24시간권",
+   "en": "Taipei Metro 24-Hour Pass"
+  },
+  "type": "T1",
+  "issuer": "臺北捷運",
+  "price": [
+   {
+    "amount": 180,
+    "currency": "TWD",
+    "category": "TWD_adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "타이베이 첩운 전선 + 신베이 첩운 환상선. **첫 개찰부터 연속 24시간**"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "사용:개시후24시간"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.metro.taipei/cp.aspx?n=CEF54168B23F73B4&s=9D540D31C5F81237",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-TPE-taipei"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 180元. 1일권보다 30元 비싼 대신 **이틀에 걸쳐 쓸 수 있다** — 오후에 시작하면 이튿날 오후까지"
+ },
+ {
+  "pass_id": "tw-taipei-metro-48h",
+  "name": {
+   "local": "臺北捷運 48小時票",
+   "local_lang": "zh-Hant",
+   "ko": "타이베이 첩운 48시간권",
+   "en": "Taipei Metro 48-Hour Pass"
+  },
+  "type": "T1",
+  "issuer": "臺北捷運",
+  "price": [
+   {
+    "amount": 280,
+    "currency": "TWD",
+    "category": "TWD_adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "타이베이 첩운 전선 + 신베이 첩운 환상선. 첫 개찰부터 연속 48시간"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "사용:개시후24시간"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.metro.taipei/cp.aspx?n=CEF54168B23F73B4&s=9D540D31C5F81237",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-TPE-taipei"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 280元"
+ },
+ {
+  "pass_id": "tw-taipei-metro-72h",
+  "name": {
+   "local": "臺北捷運 72小時票",
+   "local_lang": "zh-Hant",
+   "ko": "타이베이 첩운 72시간권",
+   "en": "Taipei Metro 72-Hour Pass"
+  },
+  "type": "T1",
+  "issuer": "臺北捷運",
+  "price": [
+   {
+    "amount": 380,
+    "currency": "TWD",
+    "category": "TWD_adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    3
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "타이베이 첩운 전선 + 신베이 첩운 환상선. 첫 개찰부터 연속 72시간"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "사용:개시후24시간"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.metro.taipei/cp.aspx?n=CEF54168B23F73B4&s=9D540D31C5F81237",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-TPE-taipei"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 380元"
+ },
+ {
+  "pass_id": "tw-taipei-funpass-transport",
+  "name": {
+   "local": "北北基好玩卡 交通暢遊版",
+   "local_lang": "zh-Hant",
+   "ko": "베이베이지 펀패스 교통 자유이용판",
+   "en": "Taipei Fun Pass Transportation"
+  },
+  "type": "T1",
+  "issuer": "北北基好玩卡",
+  "price": [
+   {
+    "amount": 210,
+    "currency": "TWD",
+    "category": "TWD_1day"
+   },
+   {
+    "amount": 340,
+    "currency": "TWD",
+    "category": "TWD_2day"
+   },
+   {
+    "amount": 470,
+    "currency": "TWD",
+    "category": "TWD_3day"
+   },
+   {
+    "amount": 730,
+    "currency": "TWD",
+    "category": "TWD_5day"
+   }
+  ],
+  "validity": {
+   "days": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "타이베이 첩운 + 시내버스 + 신베이 환상선"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.metro.taipei/cp.aspx?n=CEF54168B23F73B4&s=9D540D31C5F81237",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-TPE-taipei"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 1일 210·2일 340·3일 470·5일 730. **첩운만 타는 24시간권(180)과 달리 버스가 들어간다** — 버스를 쓸 사람만 30元 차액이 값을 한다"
+ },
+ {
+  "pass_id": "tw-kaohsiung-fenghua-set",
+  "name": {
+   "local": "高雄風華套票",
+   "local_lang": "zh-Hant",
+   "ko": "가오슝 펑화 세트권",
+   "en": "Kaohsiung Fenghua Pass"
+  },
+  "type": "T4",
+  "issuer": "高雄風華套票",
+  "price": [
+   {
+    "amount": 520,
+    "currency": "TWD",
+    "category": "TWD_adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "교통 24시간 무제한(첩운·경전철·시내버스·공로객운) + 페리 2회 + YouBike 2.0 30분 무료 + 시설 6곳 중 3곳"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "구매:스마트폰필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.krtc.com.tw/Ticket/joint_ticket_more?id=aec2b191be944946a866601c2eab1c61",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "D",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-KHH-kaohsiung"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 520元(정가 928元). **판매 2025-01-01~2026-12-30, 개통 마감 2026-12-31** — 기간 상품이다. KLOOK·KKday·이유왕·ibon에서 산다"
+ },
+ {
+  "pass_id": "tw-kaohsiung-leyou-set",
+  "name": {
+   "local": "高雄樂遊套票",
+   "local_lang": "zh-Hant",
+   "ko": "가오슝 러유 세트권",
+   "en": "Kaohsiung Fun Pass"
+  },
+  "type": "T4",
+  "issuer": "高雄樂遊套票",
+  "price": [
+   {
+    "amount": 690,
+    "currency": "TWD",
+    "category": "TWD_adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "교통 48시간 무제한(첩운·경전철·시내버스·공로객운) + 시설 5곳(아이허 사랑의배·SKM Park 대관람차·i-Ride 비행극장·가오슝 유행음악센터·보얼2 전시장)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "역 창구·발매기·온라인",
+    "online": true
+   }
+  ],
+  "rules": [
+   "구매:스마트폰필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.krtc.com.tw/Ticket/joint_ticket_more?id=1a855988c8714310a31464cc4e17f72d",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "D",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-KHH-kaohsiung"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 690元(정가 1,498元). **판매 2025-01-01~2026-12-30, 개통 마감 2026-12-31.** 교통은 개시 뒤 연속 48시간, 시설은 첫 이용 뒤 2일 안에 끝낸다"
+ },
+ {
+  "pass_id": "jp-nouhi-centrair-takayama",
+  "name": {
+   "local": "高山－セントレアきっぷ",
+   "local_lang": "ja",
+   "ko": "다카야마–센트레아 티켓",
+   "en": "Takayama–Centrair Ticket"
+  },
+  "type": "T1",
+  "issuer": "濃飛乗合自動車·名古屋鉄道",
+  "price": [
+   {
+    "amount": 4100,
+    "currency": "JPY",
+    "category": "adult_oneway"
+   },
+   {
+    "amount": 2100,
+    "currency": "JPY",
+    "category": "child_oneway"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "first_use",
+   "consecutive": true
+  },
+  "coverage": {
+   "summary": "주부국제공항(센트레아)↔메이테츠 기후역 열차 + 기후 버스터미널↔다카야마 버스센터 고속버스. 편도 한 장"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "주부국제공항 메이테츠 관광안내소(10:00~19:00)·다카야마 버스터미널(6:00~19:00)",
+    "online": false
+   }
+  ],
+  "rules": [
+   "구매:사전예약필수",
+   "구매:창구지정필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.nouhibus.co.jp/other/centrair-to-takayama_en/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "JP-23-nagoya",
+   "JP-21-takayama"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 濃飛バス 공식에서 직접 확인. 4,100/2,100은 **편도**이고 유효기간이 2일이다. **전 버스가 예약제**이고 창구에서만 산다. 나고야 공항으로 들어와 다카야마로 바로 가는 사람의 표다. **메이테츠 「Special Discount Tickets」에 남아 있는 유일한 항목**이었다(2026-09-08 시점)."
+ },
+ {
+  "pass_id": "jp-osaka-amazing-pass",
+  "name": {
+   "local": "大阪周遊パス",
+   "local_lang": "ja",
+   "ko": "오사카 주유패스",
+   "en": "OSAKA AMAZING PASS"
+  },
+  "type": "T4",
+  "issuer": "大阪周遊パス",
+  "price": [
+   {
+    "amount": 3500,
+    "currency": "JPY",
+    "category": "adult_1day"
+   },
+   {
+    "amount": 5000,
+    "currency": "JPY",
+    "category": "adult_2day"
+   },
+   {
+    "amount": 3800,
+    "currency": "JPY",
+    "category": "adult_1day_airport"
+   },
+   {
+    "amount": 5400,
+    "currency": "JPY",
+    "category": "adult_2day_airport"
+   }
+  ],
+  "validity": {
+   "days": [
+    1,
+    2
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "오사카 시내 전철·버스 무제한 + **관광 시설 약 40곳 무료 입장**(쓰텐카쿠·오사카성 천수각·레고랜드 디스커버리 센터·산타마리아 유람선 등)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "공식 온라인(스루토 QRtto)·시내 판매처",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://osaka-amazing-pass.com/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "D",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-27-osaka"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 1일 3,500 · 2일 5,000. **공항판(ITM version)은 1일 3,800 · 2일 5,400**으로 공항 왕복이 얹힌다. **오사카관광국 옛 판매 사이트(osp.osaka-info.jp)는 판매를 끝냈고** 지금은 osaka-amazing-pass.com으로 옮겼다 — 옛 주소를 인용한 2차 출처가 많으니 주의. 디지털판 「Osaka e-Pass」가 따로 있다(시설만, 교통 없음 — 값 미확인)"
+ },
+ {
+  "pass_id": "jp-osaka-enjoy-eco-card",
+  "name": {
+   "local": "エンジョイエコカード",
+   "local_lang": "ja",
+   "ko": "엔조이에코카드",
+   "en": "Enjoy Eco Card"
+  },
+  "type": "T1",
+  "issuer": "エンジョイエコカード",
+  "price": [
+   {
+    "amount": 820,
+    "currency": "JPY",
+    "category": "adult_weekday"
+   },
+   {
+    "amount": 620,
+    "currency": "JPY",
+    "category": "adult_weekend"
+   },
+   {
+    "amount": 310,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "오사카메트로 전선(유메시마역 제외) + 오사카시티버스 전선 하루 무제한"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "오사카메트로 역 발매기·창구",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://subway.osakametro.co.jp/guide/page/enjoy-eco.php",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-27-osaka"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. **평일 820 · 토·일·공휴일 620**(배리어프리 요금 20 포함), 소인은 310으로 같다. **주말에 200엔이 싸다.** 시내 약 20곳에서 제시 할인(당일만). **한큐·킨테츠 등 상호직통 사철에서는 못 쓴다** — 오사카메트로와 시티버스까지다"
+ },
+ {
+  "pass_id": "jp-fukuoka-tourist-city-pass",
+  "name": {
+   "local": "FUKUOKA TOURIST CITY PASS",
+   "local_lang": "ja",
+   "ko": "후쿠오카 투어리스트 시티 패스",
+   "en": "FUKUOKA TOURIST CITY PASS"
+  },
+  "type": "T1",
+  "issuer": "FUKUOKA",
+  "price": [
+   {
+    "amount": 2500,
+    "currency": "JPY",
+    "category": "adult_city"
+   },
+   {
+    "amount": 1250,
+    "currency": "JPY",
+    "category": "child_city"
+   },
+   {
+    "amount": 2800,
+    "currency": "JPY",
+    "category": "adult_city_dazaifu"
+   },
+   {
+    "amount": 1400,
+    "currency": "JPY",
+    "category": "child_city_dazaifu"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "후쿠오카 시내의 버스·전철·지하철·페리 하루 무제한. 다자이후판은 다자이후까지"
+  },
+  "eligibility": "foreign_passport",
+  "purchase_channels": [
+   {
+    "channel": "니시테츠 텐진 고속버스터미널·하카타 버스터미널·후쿠오카공항 버스터미널·지하철 고객센터(텐진·하카타)·my route 앱",
+    "online": true
+   }
+  ],
+  "rules": [
+   "자격:외국인전용",
+   "자격:여권필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://gofukuoka.jp/citypass.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-40-fukuoka"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 시내판 2,500/1,250 · **다자이후 포함판 2,800/1,400**(차액 300엔). **외국인 단기체재 비자 소지자만 살 수 있고 여권을 보여야 한다.** 여섯 사업자를 한 장으로 덮는다"
+ },
+ {
+  "pass_id": "jp-nishitetsu-fukuoka-city-1day",
+  "name": {
+   "local": "福岡市内1日フリー乗車券",
+   "local_lang": "ja",
+   "ko": "후쿠오카 시내 1일 프리 승차권",
+   "en": "Fukuoka City 1-Day Bus Pass"
+  },
+  "type": "T1",
+  "issuer": "福岡市内1日フリー乗車券",
+  "price": [
+   {
+    "amount": 1200,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 600,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "후쿠오카 시내를 도는 니시테츠 노선버스 하루 무제한"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "니시테츠 텐진 고속버스터미널·하카타 버스터미널·후쿠오카공항 버스터미널·정기권 발매소·니시테츠버스 영업소 (**차내 판매 없음**)",
+    "online": true
+   }
+  ],
+  "rules": [
+   "구매:차내판매없음"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.nishitetsu.jp/bus/jyousha/cityfree/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-40-fukuoka"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 1,200/600. **스크래치식이라 날짜를 긁어서 쓴다.** 창구 어른권만 장애인 할인(5할). **버스 안에서는 팔지 않는다** — 타기 전에 사야 한다. 지하철·전철까지 쓸 사람은 시티패스(2,500)와 견주어 본다"
+ },
+ {
+  "pass_id": "jp-fukuoka-subway-1day",
+  "name": {
+   "local": "福岡市地下鉄 1日乗車券",
+   "local_lang": "ja",
+   "ko": "후쿠오카시 지하철 1일 승차권",
+   "en": "Fukuoka City Subway 1-Day Pass"
+  },
+  "type": "T1",
+  "issuer": "福岡市地下鉄",
+  "price": [
+   {
+    "amount": 640,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 320,
+    "currency": "JPY",
+    "category": "child"
+   },
+   {
+    "amount": 320,
+    "currency": "JPY",
+    "category": "disability"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "후쿠오카시 지하철 전선(메이노하마~후쿠오카공항·나카스카와바타~가이즈카·하시모토~하카타)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "각 역 발매기",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "http://subway.city.fukuoka.lg.jp/kor/fare/one/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-40-fukuoka"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 640/320. **발매기에서 산 것은 구입 당일에만 쓴다.** 제시하면 입장료 할인이 되는 시설이 있다. **버스는 안 들어간다** — 버스까지 쓸 사람은 시티패스나 니시테츠 1일권 쪽이다"
+ },
+ {
+  "pass_id": "jp-kyoto-subway-1day",
+  "name": {
+   "local": "地下鉄1日券",
+   "local_lang": "ja",
+   "ko": "교토 지하철 1일권",
+   "en": "Kyoto Subway 1-Day Pass"
+  },
+  "type": "T1",
+  "issuer": "京都市交通局",
+  "price": [
+   {
+    "amount": 800,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 400,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "교토시영 지하철 전선(가라스마선 고쿠사이카이칸~다케다 · 도자이선 로쿠지조~우즈마사텐진가와)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "지하철 각 역 창구·발매기, 시버스·지하철 안내소, 정기권 판매소",
+    "online": false
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000028376.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-26-kyoto"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 800/400. **버스는 안 들어간다** — 교토는 볼거리가 버스 노선 위에 많아서 지하철만으로 도는 일정은 드물다. 지하철·버스 1일권이 1,100이라 **차액 300엔을 아끼려다 버스를 못 타는 일이 생긴다.** 니조성·시립동물원 100엔 할인, 부립식물원 500→400 등 우대"
+ },
+ {
+  "pass_id": "jp-kyoto-eiden-kurama-kifune",
+  "name": {
+   "local": "地下鉄＆えいでん 鞍馬・貴船日帰りきっぷ",
+   "local_lang": "ja",
+   "ko": "지하철＆에이덴 구라마·기부네 당일치기 킷푸",
+   "en": "Subway & Eiden Kurama-Kifune Day Trip Ticket"
+  },
+  "type": "T1",
+  "issuer": "京都市交通局",
+  "price": [
+   {
+    "amount": 2100,
+    "currency": "JPY",
+    "category": "adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "교토시영 지하철 전선 + 게이한 전차 산조~데마치야나기 + 에이잔 전차 전선"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "시버스·지하철 안내소, 정기권 판매소, 교토종합관광안내소 「교나비」, 에이잔전차 데마치야나기역",
+    "online": false
+   }
+  ],
+  "rules": [
+   "자격:어른전용"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000320964.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-26-kyoto"
+  ],
+  "survey": {
+   "axis_round": "관문도시",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_관문3_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 2,100. **어른권만 있고 소인권이 없다.** 판매 기간이 **2026-04-01~2027-03-31**로 정해진 연도 상품이다. 교토 북쪽 구라마·기부네로 올라가는 사람의 표다 — 에이잔전차 연선 사찰·식당·기념품점 할인이 붙는다"
+ },
+ {
+  "pass_id": "jp-narakotsu-1day-pass-wide",
+  "name": {
+   "local": "奈良公園・西ノ京・法隆寺 世界遺産1-Day Pass Wide",
+   "local_lang": "ja",
+   "ko": "나라공원·니시노쿄·호류지 세계유산 1-Day Pass Wide",
+   "en": "Nara 1-Day Pass Wide"
+  },
+  "type": "T1",
+  "issuer": "奈良交通",
+  "price": [
+   {
+    "amount": 1100,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 550,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "나라공원·니시노쿄·호류지 세 구역의 나라교통 노선버스 하루 무제한"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "JR나라·긴테츠나라·가쿠엔마에·오지·야기 안내소, 호류지역(남) 시마다 담배점, 호류지 i센터",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.narakotsu.co.jp/route/ticket/1day-pass-wide/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-29-nara"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 1,100/550. **호류지까지 갈 사람의 표다** — 나라공원·니시노쿄만 볼 거면 600엔짜리 기본판이 낫다. 큰 여행사에서 사면 수수료가 붙는다"
+ },
+ {
+  "pass_id": "jp-narakotsu-2day-pass",
+  "name": {
+   "local": "奈良・大和路 2-Day Pass",
+   "local_lang": "ja",
+   "ko": "나라·야마토지 2-Day Pass",
+   "en": "Nara Yamatoji 2-Day Pass"
+  },
+  "type": "T1",
+  "issuer": "奈良交通",
+  "price": [
+   {
+    "amount": 1650,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 830,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "1-Day Pass Wide 구간 + 아스카·무로·야마노베 등. 승차 개시일부터 2일"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "JR나라·긴테츠나라·가쿠엔마에·오지·야기 안내소, 호류지역(남) 시마다 담배점",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.narakotsu.co.jp/route/ticket/2day-pass/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-29-nara"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 1,650/830. Wide(1,100)에 550엔을 더하면 하루가 더 붙고 아스카·무로까지 넓어진다. **나라에서 1박 하는 사람의 표다**"
+ },
+ {
+  "pass_id": "jp-kobe-smart-passport",
+  "name": {
+   "local": "KOBE観光スマートパスポート",
+   "local_lang": "ja",
+   "ko": "고베 관광 스마트 패스포트",
+   "en": "KOBE Tourism Smart Passport"
+  },
+  "type": "T3",
+  "issuer": "神戸観光局",
+  "price": [
+   {
+    "amount": 2500,
+    "currency": "JPY",
+    "category": "basic_1day"
+   },
+   {
+    "amount": 3900,
+    "currency": "JPY",
+    "category": "basic_2day"
+   },
+   {
+    "amount": 4500,
+    "currency": "JPY",
+    "category": "premium_1day"
+   },
+   {
+    "amount": 7200,
+    "currency": "JPY",
+    "category": "premium_2day"
+   }
+  ],
+  "validity": {
+   "days": [
+    1,
+    2
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "베이직 약 30곳(입장료 800엔 이하) / 프리미엄 약 50곳. 고베항 유람선·아리마온천·로프웨이 등"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "온라인(webket.jp)·시내 판매 시설",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.feel-kobe.jp/smartpass/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "C",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-28-kobe"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 베이직 1DAY 2,500·2DAY 3,900 / 프리미엄 1DAY 4,500·2DAY 7,200. 전자 패스포트다. **교통(노선버스·유람선)이 들어가는지가 공식 페이지에 명시돼 있지 않다** — 모델 코스에 포트라이너가 나오지만 포함인지 별도인지 안 적혀 있다. 사람이 확인할 자리"
+ },
+ {
+  "pass_id": "jp-yokohama-minato-burari",
+  "name": {
+   "local": "みなとぶらりチケット",
+   "local_lang": "ja",
+   "ko": "미나토부라리 티켓",
+   "en": "Minato Burari Ticket"
+  },
+  "type": "T1",
+  "issuer": "横浜市交通局",
+  "price": [
+   {
+    "amount": 700,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 350,
+    "currency": "JPY",
+    "category": "child"
+   },
+   {
+    "amount": 750,
+    "currency": "JPY",
+    "category": "adult_wide"
+   },
+   {
+    "amount": 380,
+    "currency": "JPY",
+    "category": "child_wide"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "요코하마 미나토 구역의 시영 지하철 블루라인(요코하마~요시노초)·시영버스·간나카버스 + 관광버스 「아카이쿠츠」·BAYSIDE BLUE. 산케이엔·다키가시라 구역 포함"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "블루라인 주요역 발매기, 시내 호텔, YCAT 버스 카운터. 디지털판 있음",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/minatoburari.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-13-tokyo"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 일반 700/350 · **와이드 750/380**(신요코하마역에서도 타고 내린다). **2차 출처에 500/250이라 적힌 곳이 많은데 낡은 값이다** — 공식은 700/350. 권면에 적힌 승차일에만 유효"
+ },
+ {
+  "pass_id": "jp-enoden-noriorikun",
+  "name": {
+   "local": "江ノ電1日乗車券 のりおりくん",
+   "local_lang": "ja",
+   "ko": "에노덴 1일 승차권 노리오리쿤",
+   "en": "Enoden 1-Day Pass Noriorikun"
+  },
+  "type": "T1",
+  "issuer": "江ノ島電鉄",
+  "price": [
+   {
+    "amount": 800,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 400,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "에노시마전철 전선 하루 무제한(가마쿠라~후지사와)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "에노덴 전 역 발매기·위탁 판매 호텔. 디지털은 「EMot」·「Pass Case」",
+    "online": true
+   }
+  ],
+  "rules": [
+   "환불:불가"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.enoden.co.jp/tourism/ticket/noriorikun/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-13-tokyo"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 800/400. 54개 점포 특전(유효일 당일, 시설마다 1인 1회). **발행일 당일만 유효하고 환불이 안 된다.** 가마쿠라~후지사와를 두 번 왕복하면 본전이다"
+ },
+ {
+  "pass_id": "jp-odakyu-enoshima-kamakura-freepass",
+  "name": {
+   "local": "江の島・鎌倉フリーパス",
+   "local_lang": "ja",
+   "ko": "에노시마·가마쿠라 프리패스",
+   "en": "Enoshima-Kamakura Free Pass"
+  },
+  "type": "T1",
+  "issuer": "小田急電鉄",
+  "price": [
+   {
+    "amount": 1640,
+    "currency": "JPY",
+    "category": "adult_shinjuku"
+   },
+   {
+    "amount": 430,
+    "currency": "JPY",
+    "category": "child_shinjuku"
+   },
+   {
+    "amount": 1330,
+    "currency": "JPY",
+    "category": "adult_shinyurigaoka"
+   },
+   {
+    "amount": 1180,
+    "currency": "JPY",
+    "category": "adult_machida"
+   },
+   {
+    "amount": 1040,
+    "currency": "JPY",
+    "category": "adult_yamato"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "오다큐선 발역~후지사와 왕복 할인 승차권 + 오다큐선(후지사와~가타세에노시마)과 에노덴 전선 자유 승하차"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "오다큐선 각 역 발매기·창구, 「EMot」 앱, 여행사. 승차일 1개월 전부터",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.odakyu-freepass.jp/enokama/buy.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-13-tokyo"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. **발역마다 값이 다르다** — 신주쿠 1,640/430, 신유리가오카 1,330, 마치다 1,180, 야마토 1,040. 1일 유효. **소인이 430으로 어른의 4분의 1이 조금 넘는다**(왕복 할인 구조 때문). 가마쿠라 안만 돌 거면 에노덴 노리오리쿤(800)이 낫다"
+ },
+ {
+  "pass_id": "jp-shizutetsu-train-bus-1day",
+  "name": {
+   "local": "電車・バス1日フリー乗車券",
+   "local_lang": "ja",
+   "ko": "시즈테츠 전차·버스 1일 프리 승차권",
+   "en": "Shizutetsu Train & Bus 1-Day Free Pass"
+  },
+  "type": "T1",
+  "issuer": "静岡鉄道·しずてつジャストライン",
+  "price": [
+   {
+    "amount": 1600,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 800,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "시즈테츠 전차 전선 + 시즈오카·히가시시즈오카·구사나기·시미즈역을 기점으로 한 편도 730엔 구간 안의 버스"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "신시즈오카 버스안내소·시즈오카역앞 안내소·시미즈역앞 안내소, 신시즈오카역·신시미즈역 창구",
+    "online": false
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.justline.co.jp/ticket/dayfree/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-22-shizuoka"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 1,600/800. **특급 노선·공항선·고속버스는 빠진다.** 이용일 3개월 전부터 미리 산다. 시즈오카~시미즈를 오가며 하루를 보내는 사람의 표다. 별도로 「Shizuoka 1-Day Pass」가 있는데 값이 공식 페이지에 없다(미확인)"
+ },
+ {
+  "pass_id": "jp-tottori-loop-kirin-shishi",
+  "name": {
+   "local": "観光周遊バス ループ麒麟獅子 一日乗車券",
+   "local_lang": "ja",
+   "ko": "관광 순환버스 루프 기린시시 1일 승차권",
+   "en": "Loop Kirin-Shishi Sightseeing Bus 1-Day"
+  },
+  "type": "T1",
+  "issuer": "鳥取市",
+  "price": [
+   {
+    "amount": 700,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 400,
+    "currency": "JPY",
+    "category": "adult_single"
+   },
+   {
+    "amount": 200,
+    "currency": "JPY",
+    "category": "child_single"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "돗토리 버스터미널~와타나베미술관~모래미술관~사큐카이칸(돗토리 사구)~사큐센터 전망대~고도모노쿠니~가로신사~가닛코칸~돗토리성터 순환(약 75분, 사구까지 약 20분)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "돗토리 버스터미널·돗토리시 관광안내소·차내",
+    "online": false
+   }
+  ],
+  "rules": [
+   "사용:지정일한정"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.torican.jp/access/detail_1127.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-31-tottori"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 1일권 700, 1회 승차 400/200. **두 번만 타도 남는다.** **토·일·공휴일(1월 1일 제외)·대체휴일·8월 13~15일에만 운행한다** — 평일에 가면 못 탄다. 돗토리 지역의 첫 등록 패스다"
+ },
+ {
+  "pass_id": "jp-kenrokuen-plus1",
+  "name": {
+   "local": "兼六園プラス1利用券",
+   "local_lang": "ja",
+   "ko": "겐로쿠엔 플러스1 이용권",
+   "en": "Kenrokuen Plus 1 Ticket"
+  },
+  "type": "T3",
+  "issuer": "石川県",
+  "price": [
+   {
+    "amount": 500,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 400,
+    "currency": "JPY",
+    "category": "group30"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "first_use"
+  },
+  "coverage": {
+   "summary": "겐로쿠엔 + 문화시설 6곳 중 1곳의 상설전(가나자와성공원 성곽 건물·이시카와현립미술관·이시카와 붉은벽돌박물관·이시카와 생활공예박물관 등)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "이용 가능 시설 각 창구",
+    "online": false
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.hot-ishikawa.jp/feature/detail_215.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "C",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-17-kanazawa"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 공식 페이지에서 직접 확인. 500(30명 이상 단체 400). **이용 개시일부터 2일 유효**라 하루 만에 다 안 봐도 된다. 겐로쿠엔 단독이 320이라 **문화시설 하나만 더 봐도 남는다.** 石川四高記念文化交流館은 현재 휴관 중"
+ },
+ {
+  "pass_id": "tw-penghu-magong-north-loop-1day",
+  "name": {
+   "local": "台灣好行 媽宮北環線 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 마궁 북환선 1일권",
+   "en": "Taiwan Trip Magong North Loop 1-Day"
+  },
+  "type": "T5",
+  "issuer": "澎湖好行",
+  "price": [
+   {
+    "amount": 300,
+    "currency": "TWD",
+    "category": "adult"
+   },
+   {
+    "amount": 150,
+    "currency": "TWD",
+    "category": "concession"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "시위동역에서 출발해 돌아오는 환형 노선. 콰이하이대교·어옹도 등대·얼칸 고택·다궈예 현무암·샤오먼 고래동굴·퉁량 고榕 등"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "펑후하오싱 공식 웹·KLOOK·KKday·Trip.com·편의점(7-11 ibon·FamiPort)·펑후공항 여행정보센터·차내",
+    "online": true
+   }
+  ],
+  "rules": [
+   "사용:지정일한정"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "E",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-PEN-penghu"
+  ],
+  "survey": {
+   "axis_round": "얇은지역보완",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_얇은지역_2026-09-08.md"
+  },
+  "note": "2026-09-08 台灣好行 공식에서 직접 확인. **일일권 300·우대(65세 이상·장애인) 150.** **2차 출처 여러 곳이 350이라 적고 있는데 공식은 300이다.** **월·목·금·토·일만 운행하고 화·수는 쉰다** — 화요일에 가면 못 탄다. 가이드가 함께 타는 郵輪式公車(하루 투어형)다. **승차 당일과 다음 날 펑후현 시내버스를 무료 환승**할 수 있고 반려동물 동반이 된다."
+ },
+ {
+  "pass_id": "tw-hualien-taroko-line-pass",
+  "name": {
+   "local": "台灣好行 310太魯閣線 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 310 타이루거선 1일권",
+   "en": "Taiwan Trip 310 Taroko Line 1-Day"
+  },
+  "type": "T1",
+  "issuer": "台灣好行",
+  "price": [
+   {
+    "amount": 250,
+    "currency": "TWD",
+    "category": "adult_1day"
+   },
+   {
+    "amount": 400,
+    "currency": "TWD",
+    "category": "adult_2day"
+   },
+   {
+    "amount": 154,
+    "currency": "TWD",
+    "category": "adult_single"
+   },
+   {
+    "amount": 77,
+    "currency": "TWD",
+    "category": "child_single"
+   }
+  ],
+  "validity": {
+   "days": [
+    1,
+    2
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "화롄 환승역~타이루거 관광안내소. 장군부·석조박물관·화롄 관광어항·치싱탄을 지난다"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "화롄 환승역 6번 승강장·예약(03-8310192)",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0071",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-HUA-hualien"
+  ],
+  "survey": {
+   "axis_round": "대만회차",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만_후지산_2026-09-08.md"
+  },
+  "note": "2026-09-08 台灣好行 공식 노선 페이지에서 직접 확인. **일일권 250 · 이일권 400**(단정 154/77). **하루에 두 번만 타도 남는다.** **입석을 받지 않아서** 자리가 차면 다음 편을 기다린다 — 예약이 안전하다"
+ },
+ {
+  "pass_id": "tw-taitung-zongu-luye-1day",
+  "name": {
+   "local": "台灣好行 8168A縱谷鹿野線 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 8168A 종곡 루예선 1일권",
+   "en": "Taiwan Trip 8168A Longitudinal Valley Luye 1-Day"
+  },
+  "type": "T5",
+  "issuer": "台灣好行",
+  "price": [
+   {
+    "amount": 180,
+    "currency": "TWD",
+    "category": "adult"
+   },
+   {
+    "amount": 100,
+    "currency": "TWD",
+    "category": "concession"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "타이둥 종곡의 루예 고원 방면. 郵輪式公車(가이드 동승 하루 투어형)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "www.hodiway.com 온라인·차내·7-11 ibon·全家 Famiport",
+    "online": true
+   }
+  ],
+  "rules": [
+   "구매:사전예약필수"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0012",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "E",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-TTT-taitung"
+  ],
+  "survey": {
+   "axis_round": "대만회차",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만_후지산_2026-09-08.md"
+  },
+  "note": "2026-09-08 台灣好行 공식 노선 페이지에서 직접 확인. **일일권 180·우대 100**(반값 우대는 없고 우대표가 따로 있다). 다른 구간은 거리제다. **하루 두 편 왕복뿐이고 출발 전날 낮 12시까지 예약해야 한다** — 편의점에서 표를 사도 온라인에서 좌석을 따로 잡아야 한다. 예약 없이 가면 줄을 선다. **열기구 기간(2026-07-04~08-20)에는 오후가 일반 버스로 바뀐다**"
+ },
+ {
+  "pass_id": "tw-penghu-magong-huxi-1day",
+  "name": {
+   "local": "台灣好行 媽宮湖西線 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 마궁 호서선 1일권",
+   "en": "Taiwan Trip Magong Huxi Line 1-Day"
+  },
+  "type": "T5",
+  "issuer": "澎湖好行",
+  "price": [
+   {
+    "amount": 250,
+    "currency": "TWD",
+    "category": "adult"
+   },
+   {
+    "amount": 125,
+    "currency": "TWD",
+    "category": "concession"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "마공항 정류장에서 출발하는 펑후 동부(호서) 순환. 郵輪式公車"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "펑후하오싱 공식 웹·KLOOK·KKday·Trip.com·7-11 ibon·全家 FamiPort·펑후공항 안내소",
+    "online": true
+   }
+  ],
+  "rules": [
+   "구매:사전예약필수",
+   "사용:지정일한정"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0060",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "E",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-PEN-penghu"
+  ],
+  "survey": {
+   "axis_round": "대만회차",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만_후지산_2026-09-08.md"
+  },
+  "note": "2026-09-08 台灣好行 공식 노선 페이지에서 직접 확인. 250/125. **화·목·토만 운행한다**(월·수·금·일 운휴). **탑승 전날 저녁 8시까지 예약해야 한다.** 북환선(300, 월·목·금·토·일)과 운행일이 엇갈리므로 **두 노선을 이어 붙이려면 요일을 맞춰야 한다**"
+ },
+ {
+  "pass_id": "tw-penghu-magong-pengnan-1day",
+  "name": {
+   "local": "台灣好行 媽宮澎南線 一日券",
+   "local_lang": "zh-Hant",
+   "ko": "타이완하오싱 마궁 펑난선 1일권",
+   "en": "Taiwan Trip Magong Pengnan Line 1-Day"
+  },
+  "type": "T5",
+  "issuer": "澎湖好行",
+  "price": [
+   {
+    "amount": 200,
+    "currency": "TWD",
+    "category": "adult"
+   },
+   {
+    "amount": 100,
+    "currency": "TWD",
+    "category": "concession"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "마공항에서 출발하는 펑후 남부 순환. 郵輪式公車"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "펑후하오싱 공식 웹·KLOOK·KKday·Trip.com·7-11 ibon·全家 FamiPort·펑후공항 안내소",
+    "online": true
+   }
+  ],
+  "rules": [
+   "구매:사전예약필수",
+   "사용:지정일한정"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0106",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "E",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-PEN-penghu"
+  ],
+  "survey": {
+   "axis_round": "대만회차",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만_후지산_2026-09-08.md"
+  },
+  "note": "2026-09-08 台灣好行 공식 노선 페이지에서 직접 확인. 200/100. **월·수·금·일만 운행한다**(화·목·토 운휴). 온라인 구매 뒤 공식 웹에서 좌석을 잡는다. **펑후 세 노선(북환 300·호서 250·펑난 200)의 운행일이 서로 엇갈린다** — 북환 월목금토일 / 호서 화목토 / 펑난 월수금일. 사흘을 묵으면 셋 다 탈 수 있다"
+ },
+ {
+  "pass_id": "jp-fujikyu-tokkyu-free",
+  "name": {
+   "local": "富士急特急フリーきっぷ",
+   "local_lang": "ja",
+   "ko": "후지큐 특급 프리킷푸",
+   "en": "Fujikyu Limited Express Free Ticket"
+  },
+  "type": "T1",
+  "issuer": "富士山麓電気鉄道·富士急バス",
+  "price": [
+   {
+    "amount": 3000,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 1500,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "first_use"
+  },
+  "coverage": {
+   "summary": "후지큐행선 오쓰키~가와구치코 전 구간 자유 승하차. **특급 열차 자유석 포함**"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "오쓰키·쓰루분카대학앞·시모요시다·후지산·후지큐하이랜드·가와구치코역 창구, 모바일 티켓",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.fujikyu-railway.jp/ticket/ticket16.php",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-22-shizuoka"
+  ],
+  "survey": {
+   "axis_round": "후지산",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만_후지산_2026-09-08.md"
+  },
+  "note": "2026-09-08 후지산로쿠전기철도 공식에서 직접 확인. 3,000/1,500, 2일. **특급 자유석이 추가 요금 없이 들어가는 것이 이 표의 값어치다.** 지정석과 후지토잔 전차는 따로 낸다. **버스와 로프웨이는 안 들어간다** — 가와구치코 호숫가를 돌 거면 후지고코 패스포트 쪽이다. **후지큐행선은 야마나시현이지만 2026-09-08 판단 ②(후지고코는 시즈오카를 내세운다)에 따라 시즈오카 지역에 둔다.**"
+ },
+ {
+  "pass_id": "jp-fuji-fujigoko-passport-train",
+  "name": {
+   "local": "富士山・富士五湖パスポート（富士急電車セット）",
+   "local_lang": "ja",
+   "ko": "후지산·후지고코 패스포트(후지큐 전차 세트)",
+   "en": "Mt.Fuji & Fuji Five Lakes Passport (Train Set)"
+  },
+  "type": "T4",
+  "issuer": "富士山麓電気鉄道·富士急バス",
+  "price": [
+   {
+    "amount": 4700,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 2360,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "first_use"
+  },
+  "coverage": {
+   "summary": "후지큐행선 전선(오쓰키~가와구치코) + 주유버스 6개 노선 + 노선버스 + 로프웨이"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "야마나시현 내(오쓰키·후지산·가와구치코역 등)와 시즈오카현 내(미시마·후지노미야·고텐바역)",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.fujikyu-railway.jp/ticket/ticket17.php",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "D",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-22-shizuoka"
+  ],
+  "survey": {
+   "axis_round": "후지산",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만_후지산_2026-09-08.md"
+  },
+  "note": "2026-09-08 후지산로쿠전기철도 공식에서 직접 확인. 4,700/2,360, 2일. **전차·버스·로프웨이를 한 장으로 덮는 가장 넓은 표다.** 특급 열차와 후지토잔 전차는 따로 낸다. **후지큐행선은 야마나시현이지만 2026-09-08 판단 ②(후지고코는 시즈오카를 내세운다)에 따라 시즈오카 지역에 둔다.**"
+ },
+ {
+  "pass_id": "jp-fuji-fujigoko-passport",
+  "name": {
+   "local": "富士山・富士五湖パスポート",
+   "local_lang": "ja",
+   "ko": "후지산·후지고코 패스포트",
+   "en": "Mt.Fuji & Fuji Five Lakes Passport"
+  },
+  "type": "T4",
+  "issuer": "富士山麓電気鉄道·富士急バス",
+  "price": [
+   {
+    "amount": 3300,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 1660,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    2
+   ],
+   "basis": "first_use"
+  },
+  "coverage": {
+   "summary": "후지큐행선 **일부**(시모요시다~가와구치코) + 주유버스 6개 노선 + 노선버스 + 로프웨이"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "야마나시현 내와 시즈오카현 내(미시마·후지노미야·고텐바역)",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.fujikyu-railway.jp/ticket/ticket17.php",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "D",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-22-shizuoka"
+  ],
+  "survey": {
+   "axis_round": "후지산",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만_후지산_2026-09-08.md"
+  },
+  "note": "2026-09-08 후지산로쿠전기철도 공식에서 직접 확인. 3,300/1,660, 2일. **전차 구간이 시모요시다~가와구치코로 짧다** — 오쓰키에서 들어오는 사람은 전차 세트(4,700)를 봐야 한다. 차액 1,400엔이 오쓰키~시모요시다 구간 값이다. **후지큐행선은 야마나시현이지만 2026-09-08 판단 ②(후지고코는 시즈오카를 내세운다)에 따라 시즈오카 지역에 둔다.**"
+ },
+ {
+  "pass_id": "jp-fuji-marugoto-kippu",
+  "name": {
+   "local": "富士山まるごときっぷ",
+   "local_lang": "ja",
+   "ko": "후지산 마루고토 킷푸",
+   "en": "Mt.Fuji Marugoto Ticket"
+  },
+  "type": "T4",
+  "issuer": "富士山麓電気鉄道·富士急バス",
+  "price": [
+   {
+    "amount": 3000,
+    "currency": "JPY",
+    "category": "adult"
+   },
+   {
+    "amount": 2000,
+    "currency": "JPY",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "후지큐행선 가와구치코~시모요시다 자유 승하차(일부 특급 제외) + 후지큐버스 주유버스·노선버스 + **연선 가게에서 쓰는 식사·체험·기념품 티켓**"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "후지큐행선 가와구치코·후지큐하이랜드·후지산역, 후지큐버스 가와구치코·후지산역 창구",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.fujikyu-railway.jp/ticket/ticket18.php",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "D",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "JP-22-shizuoka"
+  ],
+  "survey": {
+   "axis_round": "후지산",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만_후지산_2026-09-08.md"
+  },
+  "note": "2026-09-08 후지산로쿠전기철도 공식에서 직접 확인. 3,000/2,000, **1일(발매일에만 유효)**. **소인이 2,000으로 어른의 3분의 2라 비싸다** — 식사·체험 티켓이 사람 수만큼 붙기 때문이다. **하루짜리인데 2일짜리 패스포트(3,300)보다 300엔 싸다** — 이틀 머물면 패스포트가 낫고, 하루에 밥까지 해결할 사람이 이 표다. **후지큐행선은 야마나시현이지만 2026-09-08 판단 ②(후지고코는 시즈오카를 내세운다)에 따라 시즈오카 지역에 둔다.**"
+ },
+ {
+  "pass_id": "tw-taipei-maokong-gondola-1day",
+  "name": {
+   "local": "貓空纜車一日票",
+   "local_lang": "zh-Hant",
+   "ko": "마오콩 곤돌라 1일권",
+   "en": "Maokong Gondola One-Day Pass"
+  },
+  "type": "T5",
+  "issuer": "臺北大眾捷運",
+  "price": [
+   {
+    "amount": 300,
+    "currency": "TWD",
+    "category": "adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    1
+   ],
+   "basis": "calendar"
+  },
+  "coverage": {
+   "summary": "마오콩 곤돌라 전 구간(동물원역·동물원남역·즈난궁역·마오콩역) 개시 당일 무제한. 전장 4.03km, 편도 약 30분"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "Taipei Fun Pass 온라인(전자티켓 QR). 동물원역·동물원남역·마오콩역의 자동 교환기에서 실권으로 바꾼다",
+    "online": true
+   }
+  ],
+  "rules": [
+   "구매:스마트폰필수",
+   "사용:1인1장",
+   "환불:개시후불가"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://funpass.travel.taipei/tour/kjpg",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "E",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-TPE-taipei"
+  ],
+  "survey": {
+   "axis_round": "대만교통카드",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만카드_2026-09-08.md"
+  },
+  "note": "2026-09-08 Taipei Fun Pass 공식에서 직접 확인. **300元, 판매 ~2027-03-06.** **앞서 「暫停販售」로 적어 둔 400元짜리와는 다른 상품이다** — 그쪽은 好玩卡의 「捷運+公車+纜車」 세트(400元)이고 이것은 곤돌라 단독 1일권이다. **10월~이듬해 3월에는 첫째·셋째 월요일과 연휴 월요일에만 운행하고 나머지 월요일은 정비 휴무다.** 평일 09~21시·휴일 09~22시, 섣달그믐 운휴. 순간 풍속 16m/s(3초 이상) 또는 18m/s 이상, 낙뢰, 진도 4 이상 지진, 육상 태풍경보 때 운행을 멈춘다. 유리 바닥 「마오란즈옌」 수정 차량이 있다."
+ },
+ {
+  "pass_id": "tw-yilan-haoxing-3day",
+  "name": {
+   "local": "宜蘭好行三日券",
+   "local_lang": "zh-Hant",
+   "ko": "이란 하오싱 3일권",
+   "en": "Yilan Haoxing 3-Day Pass"
+  },
+  "type": "T1",
+  "issuer": "宜蘭縣政府",
+  "price": [
+   {
+    "amount": 299,
+    "currency": "TWD",
+    "category": "adult"
+   }
+  ],
+  "validity": {
+   "days": [
+    3
+   ],
+   "basis": "first_use"
+  },
+  "coverage": {
+   "summary": "국도객운(고속버스) + 타이완철도 펑밍임시역~허핑역 구간 + 이란현 시내버스"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "자오시·이란·루둥 터미널 국도객운 매표소, 타이베이·시부·과기대루·난강·반차오 터미널 매표소",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://yilan.tpass.tw/notice3day",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-ILA-yilan"
+  ],
+  "survey": {
+   "axis_round": "대만발행주체",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만카드_2026-09-08.md"
+  },
+  "note": "2026-09-08 **발행 주체 공식**에서 직접 확인. **299元, 구매 시점부터 연속 72시간.** 발행 주체가 **이란현 정부**이고 교통부 TPASS 제도의 정기권이다. **철도까지 들어가는 것이 이 표의 값어치다** — 타이베이에서 이란으로 들어와 사흘 도는 사람의 표다. 기존 자오시선(회당 20元)·둥산허선(거리제)과 달리 이란 지역 첫 무제한권이다."
+ },
+ {
+  "pass_id": "tw-taiwan-pass-tra",
+  "name": {
+   "local": "Taiwan PASS 台鐵版",
+   "local_lang": "zh-Hant",
+   "ko": "타이완 패스 台鐵판",
+   "en": "Taiwan PASS (TRA Edition)"
+  },
+  "type": "T1",
+  "issuer": "交通部觀光署",
+  "price": [
+   {
+    "amount": 2500,
+    "currency": "TWD",
+    "category": "adult"
+   },
+   {
+    "amount": 1700,
+    "currency": "TWD",
+    "category": "child"
+   }
+  ],
+  "validity": {
+   "days": [
+    7
+   ],
+   "basis": "first_use"
+  },
+  "coverage": {
+   "summary": "① 타이완철도 3일 주유 무제한 + ② 도시 지하철 1개 선택(타이베이·타오위안·타이중·가오슝 등) + ③ 경승지 셔틀 1개 선택(이란·타이중·아리산·컨딩 등)"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "KLOOK·KKday·라이온트래블·Trip.com·ibon·FamiTicket 등 7개 통로",
+    "online": true
+   }
+  ],
+  "rules": [],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://twpass.tw/TR/index_tw.html",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "A",
+  "card_status": "data_only",
+  "layer": "move",
+  "region_id": [
+   "TW-TPE-taipei",
+   "TW-KHH-kaohsiung",
+   "TW-TXG-taichung",
+   "TW-ILA-yilan",
+   "TW-CYI-alishan",
+   "TW-PIF-kenting",
+   "TW-HUA-hualien",
+   "TW-TTT-taitung",
+   "TW-TNN-tainan",
+   "TW-NWT-jiufen",
+   "TW-KEE-keelung",
+   "TW-NAN-sunmoonlake"
+  ],
+  "survey": {
+   "axis_round": "대만발행주체",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만카드_2026-09-08.md"
+  },
+  "note": "2026-09-08 **발행 주체 공식**에서 직접 확인. **2,500 / 아동 1,700.** 구매 뒤 **365일 안에 개통**하고, 개통하면 **7일 안에** 세 가지를 다 써야 한다. **국적 제한이 없다** — 대만 사람도 산다. **우리 데이터의 첫 대만 「이동 층」 패스다**(`layer: move`) — 섬 전체를 도는 사람이 지역 패스와 함께 쓰는 자리다. **지하철과 셔틀을 각각 하나씩만 고른다** — 두 도시를 도는 일정이면 한쪽은 따로 낸다."
+ },
+ {
+  "pass_id": "tw-tainan-double-decker-pass",
+  "name": {
+   "local": "臺南雙層巴士 乘車券",
+   "local_lang": "zh-Hant",
+   "ko": "타이난 2층 관광버스 승차권",
+   "en": "Tainan Sightseeing Bus Pass"
+  },
+  "type": "T5",
+  "issuer": "臺南市",
+  "price": [
+   {
+    "amount": 300,
+    "currency": "TWD",
+    "category": "adult_24h"
+   },
+   {
+    "amount": 150,
+    "currency": "TWD",
+    "category": "concession_24h"
+   },
+   {
+    "amount": 500,
+    "currency": "TWD",
+    "category": "adult_48h"
+   },
+   {
+    "amount": 250,
+    "currency": "TWD",
+    "category": "concession_48h"
+   },
+   {
+    "amount": 99,
+    "currency": "TWD",
+    "category": "tainan_citizen_24h"
+   }
+  ],
+  "validity": {
+   "days": [
+    1,
+    2
+   ],
+   "basis": "first_use"
+  },
+  "coverage": {
+   "summary": "서환선·동환선 2층 관광버스. 츠칸러우·안핑 등 시내 명소를 돈다"
+  },
+  "eligibility": "unspecified",
+  "purchase_channels": [
+   {
+    "channel": "현장·차내(一卡通·悠遊卡·현금)",
+    "online": true
+   }
+  ],
+  "rules": [
+   "사용:지정일한정"
+  ],
+  "rules_checked": "2026-09-08",
+  "sources": [
+   {
+    "url": "https://www.tainansightseeing.com.tw/",
+    "checked": "2026-09-08"
+   }
+  ],
+  "trust_level": "L2",
+  "axis": "E",
+  "card_status": "data_only",
+  "layer": "local",
+  "region_id": [
+   "TW-TNN-tainan"
+  ],
+  "survey": {
+   "axis_round": "대만발행주체",
+   "date": "2026-09-08",
+   "doc": "조사_성격축/조사표_대만카드_2026-09-08.md"
+  },
+  "note": "2026-09-08 **발행 주체 공식**에서 직접 확인. **24시간 300/150 · 48시간 500/250.** 우대는 6~12세·65세 이상·장애인과 동반 1명. **타이난 시민은 시민카드로 24시간 99元** — 우리 이용자에게는 해당 없다. **서환선은 공휴일만(하루 6편), 동환선은 토·일·공휴일만(하루 3편)** — 평일에 가면 못 탄다. 표를 사면 **당일 대타이난 버스 무료 환승**(일부 노선 제외)이 붙는다."
  }
 ]
