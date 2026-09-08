@@ -205,12 +205,13 @@
   "photo": {
    "src": "photos/web/card12.jpg",
    "pos": "50% 50%",
-   "credit": "lienyuan lee",
+   "credit": "Jyo81",
    "license": "CC BY 3.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Dogo_Onsen_Honkan_%E9%81%93%E5%BE%8C%E6%BA%AB%E6%B3%89%E6%9C%AC%E9%A4%A8_-_panoramio.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Dogo_Hot_Spring5%28Matsuyama_City%29.JPG",
    "cropped": true,
+   "title": "Dogo Hot Spring5(Matsuyama City).JPG",
    "search_terms": "道後温泉本館 / 飛鳥乃湯泉 / 松山 路面電車",
-   "title": "Dogo Onsen Honkan 道後溫泉本館 - panoramio.jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "3천 년 됐다고 전해지는 온천에 유카타 입고 걸어가요.",
@@ -233,7 +234,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card12.jpg",
+   "pos": "50% 50%",
+   "credit": "lienyuan lee",
+   "license": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Dogo_Onsen_Honkan_%E9%81%93%E5%BE%8C%E6%BA%AB%E6%B3%89%E6%9C%AC%E9%A4%A8_-_panoramio.jpg",
+   "cropped": true,
+   "search_terms": "道後温泉本館 / 飛鳥乃湯泉 / 松山 路面電車",
+   "title": "Dogo Onsen Honkan 道後溫泉本館 - panoramio.jpg"
+  }
  },
  {
   "id": 13,
@@ -411,12 +422,13 @@
   "photo": {
    "src": "photos/web/card21.jpg",
    "pos": "50% 50%",
-   "credit": "Marie-Sophie Mejan",
+   "credit": "FIND/47",
    "license": "CC BY 4.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Japan_Kyushu,_Beppu_hot_spring_03.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Oita-Smoky_Steam_of_Beppu_Hot_Springs-xl.jpg",
    "cropped": true,
+   "title": "Oita-Smoky Steam of Beppu Hot Springs-xl.jpg",
    "search_terms": "別府 海地獄 / 湯けむり 別府 / 由布院 金鱗湖",
-   "title": "Japan Kyushu, Beppu hot spring 03.jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "땅에서 1분에 10만 리터가 솟는 도시. 골목마다 김이 올라요.",
@@ -439,7 +451,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card21.jpg",
+   "pos": "50% 50%",
+   "credit": "Marie-Sophie Mejan",
+   "license": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Japan_Kyushu,_Beppu_hot_spring_03.jpg",
+   "cropped": true,
+   "search_terms": "別府 海地獄 / 湯けむり 別府 / 由布院 金鱗湖",
+   "title": "Japan Kyushu, Beppu hot spring 03.jpg"
+  }
  },
  {
   "id": 22,
@@ -453,12 +475,13 @@
   "photo": {
    "src": "photos/web/card22.jpg",
    "pos": "50% 50%",
-   "credit": "Miya.m",
-   "license": "CC BY-SA 3.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Yufuin_morning_fog_01.JPG",
+   "credit": "Tzu-hsun, Hsu",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Street_in_Kurokawa_Onsen.jpg",
    "cropped": true,
+   "title": "Street in Kurokawa Onsen.jpg",
    "search_terms": "高速バス 九州 / 由布院 / 黒川温泉",
-   "title": "Yufuin morning fog 01.JPG"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "고즈넉한 구로카와 온천도 나무 팻말 하나면 문제 없다.",
@@ -481,7 +504,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card22.jpg",
+   "pos": "50% 50%",
+   "credit": "Miya.m",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Yufuin_morning_fog_01.JPG",
+   "cropped": true,
+   "search_terms": "高速バス 九州 / 由布院 / 黒川温泉",
+   "title": "Yufuin morning fog 01.JPG"
+  }
  },
  {
   "id": 23,
@@ -535,12 +568,13 @@
   "photo": {
    "src": "photos/web/card24.jpg",
    "pos": "50% 50%",
-   "credit": "hyolee2",
-   "license": "CC BY-SA 3.0",
-   "source": "https://commons.wikimedia.org/wiki/File:2016_Kumamoto_earthquake_Kumamoto_Castle_Uto_Turret-Boan_Slope-Main_Castle_Tower.JPG",
+   "credit": "KimonBerlin",
+   "license": "CC BY-SA 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Aso-san_%285274095463%29.jpg",
    "cropped": true,
+   "title": "Aso-san (5274095463).jpg",
    "search_terms": "熊本城 / 阿蘇 草千里 / 熊本市電",
-   "title": "2016 Kumamoto earthquake Kumamoto Castle Uto Turret-Boan Slope-Main Castle Tower.JPG"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "화산 분화구 안에 4만 명이 사는 마을, 아소.",
@@ -563,7 +597,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card24.jpg",
+   "pos": "50% 50%",
+   "credit": "hyolee2",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:2016_Kumamoto_earthquake_Kumamoto_Castle_Uto_Turret-Boan_Slope-Main_Castle_Tower.JPG",
+   "cropped": true,
+   "search_terms": "熊本城 / 阿蘇 草千里 / 熊本市電",
+   "title": "2016 Kumamoto earthquake Kumamoto Castle Uto Turret-Boan Slope-Main Castle Tower.JPG"
+  }
  },
  {
   "id": 25,
@@ -577,12 +621,13 @@
   "photo": {
    "src": "photos/web/card25.jpg",
    "pos": "50% 50%",
-   "credit": "lumoplank",
-   "license": "CC0",
-   "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_-_Kagoshima40.jpg",
+   "credit": "Shokugekinogori",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E6%A1%9C%E5%B3%B6.png",
    "cropped": true,
+   "title": "桜島.png",
    "search_terms": "桜島 噴煙 / 桜島フェリー / 鹿児島 市電",
-   "title": "Kagoshima - Kagoshima40.jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "살아 있는 화산, 사쿠라지마를 감싼 가고시마",
@@ -605,7 +650,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card25.jpg",
+   "pos": "50% 50%",
+   "credit": "lumoplank",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_-_Kagoshima40.jpg",
+   "cropped": true,
+   "search_terms": "桜島 噴煙 / 桜島フェリー / 鹿児島 市電",
+   "title": "Kagoshima - Kagoshima40.jpg"
+  }
  },
  {
   "id": 31,
@@ -660,12 +715,13 @@
   "photo": {
    "src": "photos/web/card32.jpg",
    "pos": "50% 50%",
-   "credit": "Raita Futo from Tokyo, Japan",
-   "license": "CC BY 2.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Mt._Zao_snow_monsters_(51843330833).jpg",
+   "credit": "lumoplank",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ginzan_Onsen_in_blue_hour.jpg",
    "cropped": true,
+   "title": "Ginzan Onsen in blue hour.jpg",
    "search_terms": "銀山温泉 雪 夜 / 蔵王 樹氷 / 山形新幹線",
-   "title": "Mt. Zao snow monsters (51843330833).jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "은광이 무너져 사람이 떠난 골짜기에 목조 여관이 들어섰어요. 밤이면 가스등이 켜집니다.",
@@ -687,7 +743,17 @@
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
   "status": "published",
-  "review_note": "2026-09-06 사용자 채택: 공개 유지. 카드에 신 JR EAST PASS 35,000엔으로 이 코스는 손해임을 명시한 채로 둔다(2026-09-04 검토 → 09-06 채택) / 2026-09-07 거점 정정: 도쿄 → 센다이(사용자 지시). 2026-09-06 공항 전수 조사에서 지역 거점을 센다이로 고친 것과 맞춘다. **카드 문장은 손대지 않았다 — 여섯 자리가 아직 도쿄 출발 전제다**: front.scene \"도쿄에서 신칸센으로\" · front.l3 \"도쿄 출발, 센다이 직항으로도\" · back.what \"도쿄에서 신칸센으로 센다이까지\" · back.why \"도쿄에서 도호쿠까지 신칸센 왕복이 2만 엔\" · back.save \"도쿄→오이시다→…→도쿄 약 27,000엔\" · back.basis 운임 계산 전체. **패스 자체도 다시 볼 자리다** — JR EAST PASS 35,000엔은 도쿄 왕복을 메우는 표라 센다이 출발에서는 손해가 더 커진다. 센다이 출발이면 데이터에 이미 있는 두 장이 맞는다: 「小さな旅ホリデー・パス」 2,850(미야기·야마가타·후쿠시마 보통·쾌속 자유석, **토·휴일과 연말연시·여름 한정**, jp-jreast-chiisana-tabi-holiday) + 「山交バス＋蔵王中央ロープウェイ セット券」 3,200(야마가타역앞⇔자오온천 왕복 + 로프웨이 왕복, jp-yamako-zao-chuo-ropeway-set). 긴잔온천행 버스(오이시다역 편도 1,000)는 어느 쪽에도 안 들어간다. ※ 야마가타 1일 승차권 1,200은 **자오온천에 못 간다**(공식 명시)"
+  "review_note": "2026-09-06 사용자 채택: 공개 유지. 카드에 신 JR EAST PASS 35,000엔으로 이 코스는 손해임을 명시한 채로 둔다(2026-09-04 검토 → 09-06 채택) / 2026-09-07 거점 정정: 도쿄 → 센다이(사용자 지시). 2026-09-06 공항 전수 조사에서 지역 거점을 센다이로 고친 것과 맞춘다. **카드 문장은 손대지 않았다 — 여섯 자리가 아직 도쿄 출발 전제다**: front.scene \"도쿄에서 신칸센으로\" · front.l3 \"도쿄 출발, 센다이 직항으로도\" · back.what \"도쿄에서 신칸센으로 센다이까지\" · back.why \"도쿄에서 도호쿠까지 신칸센 왕복이 2만 엔\" · back.save \"도쿄→오이시다→…→도쿄 약 27,000엔\" · back.basis 운임 계산 전체. **패스 자체도 다시 볼 자리다** — JR EAST PASS 35,000엔은 도쿄 왕복을 메우는 표라 센다이 출발에서는 손해가 더 커진다. 센다이 출발이면 데이터에 이미 있는 두 장이 맞는다: 「小さな旅ホリデー・パス」 2,850(미야기·야마가타·후쿠시마 보통·쾌속 자유석, **토·휴일과 연말연시·여름 한정**, jp-jreast-chiisana-tabi-holiday) + 「山交バス＋蔵王中央ロープウェイ セット券」 3,200(야마가타역앞⇔자오온천 왕복 + 로프웨이 왕복, jp-yamako-zao-chuo-ropeway-set). 긴잔온천행 버스(오이시다역 편도 1,000)는 어느 쪽에도 안 들어간다. ※ 야마가타 1일 승차권 1,200은 **자오온천에 못 간다**(공식 명시)",
+  "photo_prev": {
+   "src": "photos/web/card32.jpg",
+   "pos": "50% 50%",
+   "credit": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mt._Zao_snow_monsters_(51843330833).jpg",
+   "cropped": true,
+   "search_terms": "銀山温泉 雪 夜 / 蔵王 樹氷 / 山形新幹線",
+   "title": "Mt. Zao snow monsters (51843330833).jpg"
+  }
  },
  {
   "id": 33,
@@ -745,13 +811,14 @@
   "editor_pick": false,
   "photo": {
    "src": "photos/web/card34.jpg",
-   "pos": "50% 50%",
-   "credit": "くろふね",
-   "license": "CC BY 3.0",
-   "source": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3_-_panoramio_(7).jpg",
+   "pos": "50% 72%",
+   "credit": "titanium22",
+   "license": "CC BY-SA 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:JP_Hokkaido_Furano_lavender.jpg",
    "cropped": true,
+   "title": "JP Hokkaido Furano lavender.jpg",
    "search_terms": "小樽運河 / 美瑛 丘 / 札幌 大通公園",
-   "title": "小樽運河 - panoramio (7).jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "다키카와에서 갈아타면 후라노 라벤더밭까지 하루 종일.",
@@ -774,7 +841,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card34.jpg",
+   "pos": "50% 50%",
+   "credit": "くろふね",
+   "license": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3_-_panoramio_(7).jpg",
+   "cropped": true,
+   "search_terms": "小樽運河 / 美瑛 丘 / 札幌 大通公園",
+   "title": "小樽運河 - panoramio (7).jpg"
+  }
  },
  {
   "id": 35,
@@ -788,12 +865,13 @@
   "photo": {
    "src": "photos/web/card35.jpg",
    "pos": "50% 50%",
-   "credit": "Perry Li",
-   "license": "CC BY-SA 2.0",
-   "source": "https://commons.wikimedia.org/wiki/File:2017-04-28_View_from_Mount_Hakodate_at_night.jpg",
+   "credit": "Goryokaku-Tower",
+   "license": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hokkaido-Goryokaku_Fort_in_Cherry_blossom-xl.jpg",
    "cropped": true,
+   "title": "Hokkaido-Goryokaku Fort in Cherry blossom-xl.jpg",
    "search_terms": "函館山 夜景 / 大沼公園 / 函館 朝市",
-   "title": "2017-04-28 View from Mount Hakodate at night.jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "땅에서는 그냥 공원, 90m 위에서 보면 별 하나.",
@@ -816,7 +894,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card35.jpg",
+   "pos": "50% 50%",
+   "credit": "Perry Li",
+   "license": "CC BY-SA 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:2017-04-28_View_from_Mount_Hakodate_at_night.jpg",
+   "cropped": true,
+   "search_terms": "函館山 夜景 / 大沼公園 / 函館 朝市",
+   "title": "2017-04-28 View from Mount Hakodate at night.jpg"
+  }
  },
  {
   "id": 41,
@@ -873,12 +961,13 @@
   "photo": {
    "src": "photos/web/card42.jpg",
    "pos": "50% 50%",
-   "credit": "雷太",
-   "license": "CC BY 2.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Shirakawa_in_winter;_Gifu_Prefecture;_February_2018_(07).jpg",
+   "credit": "Alpsdake",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Shirakawa-go_%282023-07-22%29.jpg",
    "cropped": true,
+   "title": "Shirakawa-go (2023-07-22).jpg",
    "search_terms": "白川郷 合掌造り / 高山 古い町並 / 飛騨牛",
-   "title": "Shirakawa in winter; Gifu Prefecture; February 2018 (07).jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "고깔모자를 쓴 집들 아기자기 모여 있는 곳, 시라카와고",
@@ -902,7 +991,17 @@
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
   "status": "published",
-  "review_note": "2026-09-06 사용자 채택: 공개 유지. 세트권 할인 0, 대안 2종 부적합 확인한 채로 둔다(2026-09-04 검토 → 09-06 채택)"
+  "review_note": "2026-09-06 사용자 채택: 공개 유지. 세트권 할인 0, 대안 2종 부적합 확인한 채로 둔다(2026-09-04 검토 → 09-06 채택)",
+  "photo_prev": {
+   "src": "photos/web/card42.jpg",
+   "pos": "50% 50%",
+   "credit": "雷太",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Shirakawa_in_winter;_Gifu_Prefecture;_February_2018_(07).jpg",
+   "cropped": true,
+   "search_terms": "白川郷 合掌造り / 高山 古い町並 / 飛騨牛",
+   "title": "Shirakawa in winter; Gifu Prefecture; February 2018 (07).jpg"
+  }
  },
  {
   "id": 43,
@@ -1002,12 +1101,13 @@
   "photo": {
    "src": "photos/web/card45.jpg",
    "pos": "50% 50%",
-   "credit": "Joli Rumi",
-   "license": "CC BY-SA 4.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Kegon_Falls,_Nikko_National_Park,_Japan.jpg",
+   "credit": "lumoplank",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Okunikko_-_Okunikko7887.jpg",
    "cropped": true,
+   "title": "Okunikko - Okunikko7887.jpg",
    "search_terms": "中禅寺湖 / 華厳の滝 / いろは坂 紅葉",
-   "title": "Kegon Falls, Nikko National Park, Japan.jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "커브마다 글자가 하나씩, 48굽이 산길 끝의 호수.",
@@ -1030,7 +1130,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card45.jpg",
+   "pos": "50% 50%",
+   "credit": "Joli Rumi",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kegon_Falls,_Nikko_National_Park,_Japan.jpg",
+   "cropped": true,
+   "search_terms": "中禅寺湖 / 華厳の滝 / いろは坂 紅葉",
+   "title": "Kegon Falls, Nikko National Park, Japan.jpg"
+  }
  },
  {
   "id": 46,
@@ -1044,12 +1154,13 @@
   "photo": {
    "src": "photos/web/card46.jpg",
    "pos": "50% 50%",
-   "credit": "Guilhem Vellut from Annecy, France",
-   "license": "CC BY 2.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Sightseeing_Cruise_@_Lake_Ashi_@_From_Togendai_to_Hakone-Machi_(10621186405).jpg",
+   "credit": "Kuroc622",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hakone_tozan_railway_103_in_Deyama_bridge.jpg",
    "cropped": true,
+   "title": "Hakone tozan railway 103 in Deyama bridge.jpg",
    "search_terms": "箱根 海賊船 芦ノ湖 / 大涌谷 黒たまご / 箱根登山電車",
-   "title": "Sightseeing Cruise @ Lake Ashi @ From Togendai to Hakone-Machi (10621186405).jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "산을 오르다 세 번 뒤로 가는 열차, 신주쿠에서 1시간 반.",
@@ -1072,7 +1183,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card46.jpg",
+   "pos": "50% 50%",
+   "credit": "Guilhem Vellut from Annecy, France",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Sightseeing_Cruise_@_Lake_Ashi_@_From_Togendai_to_Hakone-Machi_(10621186405).jpg",
+   "cropped": true,
+   "search_terms": "箱根 海賊船 芦ノ湖 / 大涌谷 黒たまご / 箱根登山電車",
+   "title": "Sightseeing Cruise @ Lake Ashi @ From Togendai to Hakone-Machi (10621186405).jpg"
+  }
  },
  {
   "id": 47,
@@ -1086,12 +1207,13 @@
   "photo": {
    "src": "photos/web/card47.jpg",
    "pos": "50% 50%",
-   "credit": "shankar s.",
-   "license": "CC BY 2.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Itsukushima_Shrine_Torii_seen_from_the_east_corridor_at_low_tide_-_spring_2019.jpg",
+   "credit": "Jakub Hałun",
+   "license": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Itsukushima-jinja_torii%2C_Miyajima%2C_Japan%2C_20240816_1725_4075.jpg",
    "cropped": true,
+   "title": "Itsukushima-jinja torii, Miyajima, Japan, 20240816 1725 4075.jpg",
    "search_terms": "宮島 大鳥居 / 広島 原爆ドーム / 広島風お好み焼き",
-   "title": "Itsukushima Shrine Torii seen from the east corridor at low tide - spring 2019.jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "바다 한 가운데 우뚝 선 도리이, 물때 맞춰 밑동까지 걸어가보자",
@@ -1114,7 +1236,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card47.jpg",
+   "pos": "50% 50%",
+   "credit": "shankar s.",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Itsukushima_Shrine_Torii_seen_from_the_east_corridor_at_low_tide_-_spring_2019.jpg",
+   "cropped": true,
+   "search_terms": "宮島 大鳥居 / 広島 原爆ドーム / 広島風お好み焼き",
+   "title": "Itsukushima Shrine Torii seen from the east corridor at low tide - spring 2019.jpg"
+  }
  },
  {
   "id": 48,
@@ -1341,12 +1473,13 @@
   "photo": {
    "src": "photos/web/card56.jpg",
    "pos": "50% 50%",
-   "credit": "CEphoto, Uwe Aranas",
-   "license": "CC BY-SA 3.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Tainan_Taiwan_Fort-Provintia-01.jpg",
+   "credit": "Mk2010",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Anping_Tree_House%2C_Tainan_%28Taiwan%29.jpg",
    "cropped": true,
+   "title": "Anping Tree House, Tainan (Taiwan).jpg",
    "search_terms": "台南 赤崁樓 / 安平樹屋 / 台南 神農街",
-   "title": "Tainan Taiwan Fort-Provintia-01.jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "반세기 비운 창고를 나무가 통째로 삼킨 집.",
@@ -1369,7 +1502,17 @@
    "level": "L2",
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
-  "status": "published"
+  "status": "published",
+  "photo_prev": {
+   "src": "photos/web/card56.jpg",
+   "pos": "50% 50%",
+   "credit": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Tainan_Taiwan_Fort-Provintia-01.jpg",
+   "cropped": true,
+   "search_terms": "台南 赤崁樓 / 安平樹屋 / 台南 神農街",
+   "title": "Tainan Taiwan Fort-Provintia-01.jpg"
+  }
  },
  {
   "id": 57,
@@ -1385,12 +1528,13 @@
   "photo": {
    "src": "photos/web/card57.jpg",
    "pos": "50% 50%",
-   "credit": "黃鈞奕",
+   "credit": "Suicasmo",
    "license": "CC BY-SA 4.0",
-   "source": "https://commons.wikimedia.org/wiki/File:Kenting_National_Park_Baishawan.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Eluanbi_Lighthouse_20240918-1.jpg",
    "cropped": true,
+   "title": "Eluanbi Lighthouse 20240918-1.jpg",
    "search_terms": "墾丁 白沙灣 / 鵝鑾鼻燈塔 / 墾丁大街 夜市",
-   "title": "Kenting National Park Baishawan.jpg"
+   "chosen": "사용자 선택 2026-09-08 (사진후보 미리보기)"
   },
   "front": {
    "scene": "세계에서 하나뿐인 무장 등대가 서 있는 남쪽 끝 곶.",
@@ -1414,7 +1558,17 @@
    "label": "공식 페이지 확인 · 2026년 9월 · 사람 대조 전"
   },
   "status": "published",
-  "review_note": "2026-09-07 패스 재확인: **왕복은 600元이다(屏東客運 공식). 650은 공식 페이지에 없다.** 앞면 \"가오슝 왕복 NT$650\", 뒷면 \"왕복 650위안\", 절약액 \"약 NT$900 → NT$800\"이 모두 650 기준이라 600으로 바꾸면 절약액도 다시 세야 한다(편도 정가 401×2=802). 덧붙여 전자표증 이용자는 온라인 예약을 못 하고 창구 좌석 지정이 필요하다"
+  "review_note": "2026-09-07 패스 재확인: **왕복은 600元이다(屏東客運 공식). 650은 공식 페이지에 없다.** 앞면 \"가오슝 왕복 NT$650\", 뒷면 \"왕복 650위안\", 절약액 \"약 NT$900 → NT$800\"이 모두 650 기준이라 600으로 바꾸면 절약액도 다시 세야 한다(편도 정가 401×2=802). 덧붙여 전자표증 이용자는 온라인 예약을 못 하고 창구 좌석 지정이 필요하다",
+  "photo_prev": {
+   "src": "photos/web/card57.jpg",
+   "pos": "50% 50%",
+   "credit": "黃鈞奕",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kenting_National_Park_Baishawan.jpg",
+   "cropped": true,
+   "search_terms": "墾丁 白沙灣 / 鵝鑾鼻燈塔 / 墾丁大街 夜市",
+   "title": "Kenting National Park Baishawan.jpg"
+  }
  },
  {
   "id": 60,
