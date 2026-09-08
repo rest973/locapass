@@ -1,8 +1,10 @@
 {
  "before": {
   "when": {
-   "v": "통년 발매. 2026-03-13까지 산 것은 2026-03-14 이후 이용 개시일로 **한 번만** 변경할 수 있다",
-   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991"
+   "v": "이용 개시 1개월 전부터 당일까지. 센다이공항역은 당일권만",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "仙台空港駅発売分は当日券のみ",
+   "src": "https://sendaitravelpass.jp/"
   }
  },
  "buy": {
@@ -40,6 +42,12 @@
   "seat": {
    "v": "재래선 특급·급행과 그린차·지정석은 **운임만 유효(▲)**라 특급권·좌석 요금을 따로 산다",
    "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991"
+  },
+  "exchange": {
+   "v": "쿠폰북은 사는 곳에 따라 센다이시 관광정보센터(센다이역 3F)나 공항역 개찰 창구 등에서 본권을 보이고 받는다. 유람선은 마루분마쓰시마기선만 10% 할인(1,500→1,350)",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "乗船券：10％引き 1,500円→1,350円",
+   "src": "https://sendaitravelpass.jp/pdf/couponbook.pdf"
   }
  },
  "use": {
@@ -81,14 +89,17 @@
   {
    "url": "https://www.jreast.co.jp/sendai/tohoku_tickets/",
    "checked": "2026-09-06"
-  }
- ],
- "gaps": [
+  },
   {
-   "what": "쿠폰북 받는 자리",
-   "how": "「仙台まるごとパスクーポンブック」을 센다이역 3F 관광정보센터나 구매처에서 본권을 보이고 받는다고만 적혀 있고, 받는 시각·마감은 기재 없음"
+   "url": "https://sendaitravelpass.jp/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://sendaitravelpass.jp/pdf/couponbook.pdf",
+   "checked": "2026-09-09"
   }
  ],
+ "gaps": [],
  "pass_id": "jp-sendai-marugoto",
  "name": {
   "local": "仙台まるごとパス",

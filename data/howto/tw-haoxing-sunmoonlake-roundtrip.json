@@ -9,38 +9,54 @@
   "where": {
    "v": [
     {
-     "name": "난터우객운 타이중 간청역 창구 04-22256418",
-     "online": false
+     "name": "南投客運 타이중 간청역 창구",
+     "local": "台中干城站"
     },
     {
-     "name": "고속철 타이중역 창구 04-36018665",
-     "online": false
+     "name": "고속철 타이중역 창구",
+     "local": "高鐵台中站"
     },
     {
-     "name": "차내(현금·IC)·ibon·온라인",
+     "name": "칭징여행사",
+     "local": "清境旅行社"
+    },
+    {
+     "name": "왕복표만: ibon",
      "online": true
     }
    ],
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+   "q": "干城站、高鐵台中站、清境旅行社",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008",
+   "by": "사실확인_B3@2026-09-09"
   },
   "how": {
    "v": "我要買日月潭線來回票一張，還有遊湖船環湖票。",
    "src": "카드 본문"
   },
   "get_what": {
-   "v": "디지털 티켓(화면·QR)",
+   "v": "950元 세트권 = 타이중↔르웨탄 왕복 + 유람선(부두마다 1회) + 케이블카 왕복 + 환호버스 1일권 + 수이서-샹산-처청 편도. 유효 2026-12-31",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "效期 2026/12/31",
    "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
   }
  },
  "issue": {},
  "use": {
   "count_rules": {
-   "v": "**좌석 보류 기능이 없다**(선착순)",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+   "v": "유람선은 부두 세 곳에서 각각 한 번씩 타고 내리며 한 바퀴. 케이블카는 당일 왕복 한 번",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "每個碼頭可各上下一次環湖一圈",
+   "src": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52"
   },
   "trap": {
    "v": "**樂齡套票(520·680)는 본국적 65세 이상 전용이라 외국인은 못 산다** — 증명서를 본다",
    "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+  },
+  "when_lane_closed": {
+   "v": "케이블카 정비일(2026: 6/8~15, 9/2 등)엔 세트권의 케이블카분을 못 쓴다",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "06/08~15",
+   "src": "https://www.nine.com.tw/page/news/show.aspx?num=623&kind=15&page=1&lang=TW"
   }
  },
  "end": {
@@ -67,16 +83,28 @@
   {
    "url": "https://nantou.welcometw.com/tour/w71w",
    "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.taiwantrip.com.tw/line/8",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.ropeway.com.tw/page/about/index.aspx?kind=34",
+   "checked": "2026-09-09"
   }
  ],
  "gaps": [
   {
-   "what": "套票 유효기간",
-   "how": "套票(620·950·1,360)는 2026-12-31까지로 적혀 있으나 來回票 자체의 유효기간이 없다"
+   "what": "케이블카 정비일에 세트권 케이블카분 환불",
+   "how": "공식에 없음 → 창구 확인"
   },
   {
-   "what": "르웨탄 케이블카 정비휴일",
-   "how": "있다고만 적혀 있고 날짜가 없다"
+   "what": "케이블카 영업시간 본문",
+   "how": "검색 요약만(평일 10:30~16:00, 주말 10:00~16:30)"
   }
  ],
  "pass_id": "tw-haoxing-sunmoonlake-roundtrip",

@@ -5,7 +5,9 @@
    "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
   },
   "bring": {
-   "v": "**생일月임을 보이는 공적 증명서 원본**(마이넘버카드·운전면허증 등). **탈 때도 가지고 다녀야 한다**",
+   "v": "생일 달이 적힌 공적 신분증 원본. 공식 예시는 마이넘버카드·운전면허증 등이고 **여권이 되는지는 명시가 없다** → 창구 확인",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "公的証明書（マイナンバーカード、運転免許証等）",
    "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
   },
   "when": {
@@ -57,7 +59,8 @@
  },
  "end": {
   "refund": {
-   "v": "미사용·유효기간 개시 전 또는 기간 내에만, 수수료 660엔. 사용 개시 후에는 운행 불능·지연이어도 불가",
+   "v": "미사용·유효기간 내 자유석용 660엔, 그린용 900엔",
+   "by": "사실확인_B3@2026-09-09",
    "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
   }
  },
@@ -79,12 +82,20 @@
   {
    "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
    "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.jr-shikoku.co.jp/01_trainbus/rosen/yosan.pdf",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.jr-shikoku.co.jp/01_trainbus/rosen/dosan.pdf",
+   "checked": "2026-09-09"
   }
  ],
  "gaps": [
   {
-   "what": "그린차판과의 차이",
-   "how": "자유석판 12,000·그린차판 15,000으로 값만 알고 절차 차이는 안 봤다"
+   "what": "여권으로 생일 확인이 되는지",
+   "how": "공식 예시에 없음 → 창구 확인"
   }
  ],
  "pass_id": "jp-jrshikoku-birthday",

@@ -1,30 +1,49 @@
 {
  "before": {
   "when": {
-   "v": "사전 예약을 권한다(자리·편이 한정)",
-   "src": "https://www.alpico.co.jp/traffic/ticket/"
+   "v": "가미코치는 2026-04-17 개통, 버스는 11/15까지. 버스는 예약 우선제라 発車オーライネット에서 가는 편·오는 편을 각각 예약해 둔다. 마쓰모토 버스터미널 직행은 가는 편만 있다",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "予約されたお客様から優先的にご乗車",
+   "src": "https://www.alpico.co.jp/traffic/local/kamikochi/shinshimashima/"
   }
  },
  "buy": {
   "where": {
    "v": [
     {
-     "name": "마쓰모토 버스터미널·알피코 창구",
-     "online": false
+     "name": "마쓰모토역 알피코 전철 창구·발매기(전철표 710)",
+     "local": "松本駅 上高地線"
+    },
+    {
+     "name": "신시마시마역 버스 창구(버스표 3,100)",
+     "local": "新島々駅"
+    },
+    {
+     "name": "발차오라이넷(버스 예약)",
+     "online": true
     }
    ],
-   "src": "https://www.alpico.co.jp/traffic/ticket/"
+   "src": "https://www.alpico.co.jp/traffic/local/kamikochi/shinshimashima/",
+   "by": "사실확인_B3@2026-09-09"
   },
   "how": {
    "v": "上高地まで大人1枚お願いします。",
    "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "전철 편도 710 + 버스 편도 3,100 = 3,810, 왕복 7,620. 직행 4,600(가는 편만). 2일 패스는 없다",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "2026年4月17日改定",
+   "src": "https://www.alpico.co.jp/traffic/datas/files/2026/03/18/7542b35a63119a016ccce55e62cbb4ae1f310769.pdf"
   }
  },
  "issue": {},
  "use": {
   "trap": {
-   "v": "**2026 알피코 공식 할인권 목록에 이 패스가 없다.** 카드 41은 운임 카드로 공개 중이다",
-   "src": "https://www.alpico.co.jp/traffic/ticket/"
+   "v": "돌아오는 버스를 예약 안 하면 성수기엔 예약 손님 뒤로 밀린다. 노리쿠라 다타미다이라행은 7/1~10/31, 편도 2,450, 왕복 예약",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "往路・復路とも事前にご予約ください",
+   "src": "https://www.alpico.co.jp/traffic/local/kamikochi/echoline/"
   }
  },
  "end": {},
@@ -45,12 +64,24 @@
   {
    "url": "https://matsu-hiro.com/kamikochi2026shimashimabus/373/",
    "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.alpico.co.jp/traffic/local/kamikochi/shinshimashima/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.alpico.co.jp/traffic/local/kamikochi/national/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.kamikochi.or.jp/news/8575/",
+   "checked": "2026-09-09"
   }
  ],
  "gaps": [
   {
-   "what": "현재의 대안",
-   "how": "알피코 공식 목록의 「타운스니커 1일권」·「가미코치선 전철 와쿠와쿠 1일 프리」와 노히버스 가미코치 계열 세트권으로 대체 가능한지 확인 필요"
+   "what": "2026 폐산일",
+   "how": "공식은 버스 운행 종료 11/15만 — 폐산일은 2차"
   }
  ],
  "pass_id": "jp-alpico-kamikochi-norikura-2day",

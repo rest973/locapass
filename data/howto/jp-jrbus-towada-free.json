@@ -4,15 +4,22 @@
   "where": {
    "v": [
     {
-     "name": "JR버스 아오모리역 창구(프리킷푸)·차내(운임)",
-     "online": false
+     "name": "아오모리역 앞 JR버스 승차장 — 예약 없이 타고 내릴 때 낸다",
+     "local": "青森駅 JRバス乗り場"
     }
    ],
-   "src": "https://www.jrbustohoku.co.jp/route/11/274/"
+   "q": "降車時にお支払い",
+   "src": "https://www.jrbustohoku.co.jp/route/11/274/",
+   "by": "사실확인_B3@2026-09-09"
   },
   "how": {
    "v": "十和田湖まで大人1枚お願いします。",
    "src": "카드 본문"
+  },
+  "pay": {
+   "v": "내릴 때 현금 또는 IC. 아오모리역→도와다코 3,480, →오이라세 계류관 2,650(2026)",
+   "by": "사실확인_B3@2026-09-09",
+   "src": "https://www.jrbustohoku.co.jp/route/11/274/"
   }
  },
  "issue": {},
@@ -20,6 +27,18 @@
   "trap": {
    "v": "**프리킷푸가 2024-03에 판매를 끝냈다.** 카드 33은 지금 패스 없는 운임 카드다",
    "src": "https://www.jrbustohoku.co.jp/route/11/274/"
+  },
+  "count_rules": {
+   "v": "아오모리역 발 하루 3편(8:10·9:00·11:35). 운행 4/1~. 계류에서 마지막 버스를 놓치면 대안이 없다",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "2026年4月1日(水)～",
+   "src": "https://www.jrbustohoku.co.jp/information/1388/"
+  },
+  "when_lane_closed": {
+   "v": "마이카 규제 기간(2026-09-07~13)엔 계류 안 셔틀 1일권(2,000·전자 1,500)이 따로 있다",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "2026年9月7日（月）〜 9月13日（日）",
+   "src": "https://www.eco-oirase.com/mycar/"
   }
  },
  "end": {},
@@ -36,12 +55,28 @@
   {
    "url": "https://ja.wikipedia.org/wiki/青森・八戸・十和田湖フリーきっぷ",
    "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.jrbustohoku.co.jp/information/1388/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.eco-oirase.com/mycar/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.jrbustohoku.co.jp/qa/?aomori=qa",
+   "checked": "2026-09-09"
   }
  ],
  "gaps": [
   {
-   "what": "현재의 대안",
-   "how": "아오모리~오이라세·도와다코는 지금 운임으로 탄다. `jp-oirase-shuttle-1day`(1일 2,000)가 그 자리를 메울 수 있는지 재조사가 필요하다"
+   "what": "2026 운행 종료일",
+   "how": "공식 노선 페이지에 없음(예년 11월 초) → 시각표 PDF 확인"
+  },
+  {
+   "what": "현재의 대안 패스",
+   "how": "없음 — JR EAST PASS·JAPAN RAIL PASS 소지자만 무료. 쓰가루 프리패스는 히로사키용"
   }
  ],
  "pass_id": "jp-jrbus-towada-free",
