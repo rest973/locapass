@@ -1,29 +1,54 @@
 {
- "before": {},
+ "before": {
+  "who_can_buy": {
+   "v": "여관 투숙객은 체크인 때 여관이 ゆめぱ를 발행해 준다(체크인~다음 날 13:00). 그러니 1,500엔 당일권은 당일치기나 체크인 전·체크아웃 뒤(13시 이후)용",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "チェックイン時～翌日13時00分まで入浴可能",
+   "src": "https://toyooka-tourism.com/recommend/onsen/kinosaki_sotoyu/"
+  }
+ },
  "buy": {
   "where": {
    "v": [
     {
      "name": "각 바깥탕 창구",
-     "online": false
+     "local": "各外湯の窓口"
     }
    ],
-   "src": "https://kinosaki-spa.gr.jp/about/spa/"
+   "q": "「ゆめぱ」は各外湯の窓口で購入できます",
+   "src": "https://kinosaki-spa.gr.jp/about/spa/",
+   "by": "사실확인_B1_절차@2026-09-08"
   },
   "how": {
    "v": "外湯めぐりの1日券、ゆめぱを大人1枚お願いします。",
    "src": "카드 본문"
   },
   "get_what": {
-   "v": "종이권. 어른 1,500·소인 750으로 바깥탕 무제한",
+   "v": "어른 1,500 · 소인 750(2023-04-01 개정). 그날 영업 중인 바깥탕 전부, 몇 번이든. 1회 입욕은 800/400",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "大人1,500円、小人750円で…入り放題",
    "src": "https://kinosaki-spa.gr.jp/about/spa/"
   }
  },
  "issue": {},
  "use": {
   "trap": {
-   "v": "**바깥탕마다 정기휴일과 영업시간이 다르다** — 하루에 다 돌 수 있다는 뜻이 아니다",
-   "src": "https://kinosaki-spa.gr.jp/about/spa/"
+   "v": "노천탕이 있는 곳은 지금 御所の湯(전면 노천)와 まんだら湯(도기 노천 통, 15시부터)뿐. 一の湯는 동굴탕. 오전에 노천은 御所の湯 하나",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "全面露天風呂",
+   "src": "https://www.city.toyooka.lg.jp/kanko/1025164/1025174.html"
+  },
+  "count_rules": {
+   "v": "그날 영업 중인 바깥탕만. 최종 접수 22:30. 정휴일은 탕마다 다르다 — 一の湯 수 · 地蔵湯 월 · 御所の湯 목 · 柳湯 목(15시 개탕) · まんだら湯 수(15시 개탕) · 鴻の湯 화",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "その日に営業しているすべての外湯に何度でも",
+   "src": "https://toyooka-tourism.com/recommend/onsen/kinosaki_sotoyu/"
+  },
+  "when_lane_closed": {
+   "v": "**지금은 다섯 곳만 연다.** 鴻の湯는 2026-05-11~10-30(예정) 장기 휴관, さとの湯는 2024-03-31부터 장기 휴업. 鴻の湯 휴관 동안 まんだら湯가 수요일에도 15시부터 임시 영업",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "10月30日（金）まで（予定）",
+   "src": "https://kinosaki-spa.gr.jp/news/28289/"
   }
  },
  "end": {},
@@ -41,16 +66,32 @@
   {
    "url": "https://www.city.toyooka.lg.jp/kanko/onsen/index.html",
    "checked": "2026-09-06"
+  },
+  {
+   "url": "https://toyooka-tourism.com/recommend/onsen/kinosaki_sotoyu/",
+   "checked": "2026-09-08"
+  },
+  {
+   "url": "https://kinosaki-spa.gr.jp/news/28289/",
+   "checked": "2026-09-08"
+  },
+  {
+   "url": "https://www.city.toyooka.lg.jp/kanko/onsen/1024389.html",
+   "checked": "2026-09-08"
   }
  ],
  "gaps": [
   {
-   "what": "이용 제약 전반",
-   "how": "**기노사키온천 관광협회 공식에 환불·재입장·시간 제약이 아예 적혀 있지 않다.** 창구에서 확인하거나 도요오카시 페이지를 함께 본다"
+   "what": "역앞 관광안내소 판매 여부",
+   "how": "공식에 없음(공식은 각 바깥탕 창구만)"
   },
   {
-   "what": "바깥탕별 휴일·영업시간",
-   "how": "공식 요금 페이지에 없다 — 바깥탕 개별 페이지 7곳을 열어야 한다"
+   "what": "숙박객 ゆめぱ의 바코드 방식",
+   "how": "여관 안내(2차)에만 있음"
+  },
+  {
+   "what": "さとの湯 재개 시기",
+   "how": "2028년도 방침은 2차(神戸新聞)"
   }
  ],
  "pass_id": "jp-kinosaki-yumepa",

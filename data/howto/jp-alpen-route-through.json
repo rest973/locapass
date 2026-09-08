@@ -1,12 +1,20 @@
 {
  "before": {
   "when": {
-   "v": "사전 예약을 권한다(자리·편이 한정)",
-   "src": "https://www.alpen-route.com/access_new/fare/person/index.php"
+   "v": "2026년 전선 영업 4/15(수)~11/30(월) 예정(11/4 이후는 별도 WEB 상품). WEB킷푸는 **이용일 전날 15:00까지** 구매, 당일 창구 판매 없음. 당일권은 역에서",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "ご利用日前日の午後3時00分まで購入",
+   "src": "https://www.alpen-route.com/_wp/information/108917"
   },
   "app_or_account": {
    "v": "WEB킷푸는 **신용카드만**(VISA·Mastercard·JCB·AMEX·Diners). **체크카드·선불카드는 못 쓴다**",
    "src": "https://www.alpen-route.com/information/web_ticket.html"
+  },
+  "bring": {
+   "v": "짐 회송은 **立山駅·扇沢駅에서 취급하지 않는다.** 電鉄富山駅(5:00~10:00 접수)에서 맡기면 信濃大町駅前(15:00~17:45)에서 받는다. 1개 4,000엔, 예약 불요, 현금만, 2026-04-15~11-08. 산기슭 숙소 경유 2,000엔 구간도 있다",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "扇沢駅、長野駅での取り扱いはありません",
+   "src": "https://www.alpen-route.com/information/forwarding.html"
   }
  },
  "buy": {
@@ -34,25 +42,38 @@
  },
  "issue": {
   "exchange": {
-   "v": "**오기사와역·다테야마역·덴테쓰토야마역의 자동 수취기에서 QR을 읽혀 실권으로 바꾼다.** 장애인 할인은 창구 교환",
-   "src": "https://www.alpen-route.com/information/web_ticket.html"
+   "v": "입구역(立山駅·扇沢駅·電鉄富山駅) **자동수취기에 QR**을 대면 표가 나온다. 전날 정오부터 받을 수 있고 立山駅 수취기는 첫차 60분 전~17:00. 창구는 장애인 할인 적용 때만",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "入口駅の受取機にてQRコードできっぷを受取",
+   "src": "https://www.alpen-route.com/webticket/"
   },
   "seat": {
-   "v": "**승차 시간대를 고르는 방식이고 남은 자리가 없는 시각은 선택되지 않는다**",
-   "src": "https://www.alpen-route.com/information/web_ticket.html"
+   "v": "좌석 지정 없음. 지정되는 것은 입구역 출발 시각(立山駅발이면 케이블카 시각)뿐이고 도중역은 도착 순",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "座席指定はできません",
+   "src": "https://www.alpen-route.com/webticket/"
   }
  },
  "use": {
   "count_rules": {
-   "v": "15명 이상은 단체 예약이 필요하다",
-   "src": "https://www.alpen-route.com/information/web_ticket.html"
+   "v": "立山~扇沢 통과권은 이용 개시일부터 **5일간** — 무로도에서 자고 이틀에 걸쳐 넘어도 된다. 富山地鉄 구간(電鉄富山~立山)은 도중 하차하면 남은 구간 무효, 扇沢~信濃大町 버스 편도는 당일만",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "片道・往復ともに5日間です",
+   "src": "https://www.alpen-route.com/webticket/"
   },
   "trap": {
    "v": "**혼잡기에는 자동 수취기가 밀린다** — 공식이 \"출발역에 30분 전까지 오고 승차 15분 전까지 수속을 끝내라\"고 적는다",
    "src": "https://www.alpen-route.com/information/web_ticket.html"
   }
  },
- "end": {},
+ "end": {
+  "refund": {
+   "v": "스탠다드 WEB킷푸: 전날 15:00까지 사이트에서 인원 변경 무료 → 그 뒤 승차 시각까지 취소 500엔/인 → 승차 시각 뒤 전액. 당일 역 창구 변경(인원 줄이기·같은 날 시각 변경) 500엔/인. **날짜 변경은 불가**(취소 후 재예약). 받은 뒤 환불은 원칙 불가. 早割 상품은 10일 전 이후 취소 1,000엔/인",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "乗車日の変更は出来ません",
+   "src": "https://www.alpen-route.com/_wp/webticket_change_and_cancellation"
+  }
+ },
  "languages": {
   "official_page": [
    "ja",
@@ -70,16 +91,28 @@
   {
    "url": "https://www.alpen-route.com/information/web_ticket.html",
    "checked": "2026-09-07"
+  },
+  {
+   "url": "https://www.alpen-route.com/webticket/",
+   "checked": "2026-09-08"
+  },
+  {
+   "url": "https://www.alpen-route.com/_wp/webticket_change_and_cancellation",
+   "checked": "2026-09-08"
+  },
+  {
+   "url": "https://www.alpen-route.com/information/forwarding.html",
+   "checked": "2026-09-08"
+  },
+  {
+   "url": "https://www.alpen-route.com/_wp/for_group/130337",
+   "checked": "2026-09-08"
   }
  ],
  "gaps": [
   {
-   "what": "변경·환불",
-   "how": "WEB킷푸 안내 페이지에 기재 없음"
-  },
-  {
-   "what": "전선 개통 기간",
-   "how": "요금·안내 페이지 어디에도 그해 개통·폐쇄 날짜가 없다 — 시즌마다 공지로 나온다"
+   "what": "\"각 구간 1회\"의 명문 규정",
+   "how": "공식에 없음. 편도 통과권 성격상 각 구간 진행 방향 1회로 본다"
   }
  ],
  "pass_id": "jp-alpen-route-through",

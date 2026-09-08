@@ -1,7 +1,9 @@
 {
  "before": {
   "when": {
-   "v": "**전 편 예약제다.** 인터넷 예약은 5:00~2:00, 전화는 9:00~17:00",
+   "v": "**세트권은 예약이 필요 없는 편(自由席便) 전용**이라 예약이 없다. 예약제 편(좌석 지정)을 타려면 세트권이 아니라 일반 왕복권과 예약이 필요하다",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "モバイル乗車券販売中！（無予約便のみ利用可）",
    "src": "https://www.nouhibus.co.jp/route_bus/shirakawago/"
   }
  },
@@ -9,41 +11,53 @@
   "where": {
    "v": [
     {
-     "name": "노히버스 예약센터 0577-32-1688 (9:00~17:00)",
-     "online": false
+     "name": "다카야마 노히버스센터 창구 (다카야마역 옆)",
+     "local": "高山濃飛バスセンター"
     },
     {
-     "name": "発車オーライネット(인터넷, 5:00~2:00)",
-     "online": true
-    },
-    {
-     "name": "다카야마 노히버스센터 창구",
-     "online": false
+     "name": "노히버스 모바일 승차권 (스마트폰)",
+     "online": true,
+     "note": "無予約便만"
     }
    ],
-   "src": "https://www.nouhibus.co.jp/route_bus/shirakawago/"
+   "q": "購入場所：高山濃飛バスセンター",
+   "src": "https://www.nouhibus.co.jp/ticket/",
+   "by": "사실확인_B1_절차@2026-09-08"
   },
   "how": {
-   "v": "白川郷往復のセット券を大人1枚お願いします。",
-   "src": "카드 본문"
+   "v": "白川郷 合掌造り民家園セット券を大人1枚お願いします。 (창구) / 모바일은 앱 화면 제시",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "src": "https://www.nouhibus.co.jp/ticket/"
   },
   "get_what": {
-   "v": "디지털 티켓(화면·QR)",
-   "src": "https://www.nouhibus.co.jp/hida/ticket/"
+   "v": "왕복 버스 승차권 + 합장조 민가원 입장권. 어른 6,200 · 초등 3,100. 유효 10일간(기산점은 공식 미기재 → 창구 확인)",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "有効期間：10日間",
+   "src": "https://www.nouhibus.co.jp/ticket/"
   }
  },
  "issue": {},
  "use": {
   "count_rules": {
-   "v": "다카야마 노히BC~시라카와고 편도 2,800",
-   "src": "https://www.nouhibus.co.jp/route_bus/shirakawago/"
+   "v": "자유석 편에 줄 서서 탄다. 예약제 편은 이 표로 못 탄다. 민가원 입장권을 승차 당일에 써야 하는지는 공식에 없음",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "予約制のバスはご利用いただけません",
+   "src": "https://www.nouhibus.co.jp/wp_rnw/wp-content/uploads/2023/09/32c0e668c708bb0c8738c822e447a2f6.pdf"
   },
   "trap": {
-   "v": "**모바일 승차권은 「무예약 편」에만 쓸 수 있는데 이 노선은 전 편 예약제**라 모바일로 그냥 타는 길이 없다",
-   "src": "https://www.nouhibus.co.jp/route_bus/shirakawago/"
+   "v": "주말·겨울 라이트업 때 자유석 편이 차면 다음 편을 기다려야 하는데, 만석 처리 규정은 공식에 없다. 민가원은 3~11월 8:40~17:00 무휴, 12~2월 9:00~16:00 목요 정휴(2023-10 PDF, 갱신 확인)",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "src": "https://www.nouhibus.co.jp/ticket/"
   }
  },
- "end": {},
+ "end": {
+  "refund": {
+   "v": "원칙 환불 불가. 사용 전에 한해 가능(수수료 금액은 공식에 없음 → 창구 확인)",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "原則払い戻し不可。使用前に限り可能",
+   "src": "https://www.nouhibus.co.jp/ticket/"
+  }
+ },
  "languages": {
   "official_page": [
    "ja"
@@ -66,16 +80,24 @@
   {
    "url": "https://www.nouhibus.co.jp/other/areafree-ticket/",
    "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.nouhibus.co.jp/ticket/",
+   "checked": "2026-09-08"
   }
  ],
  "gaps": [
   {
-   "what": "세트권 자체의 절차",
-   "how": "노선 페이지에 편도 운임만 있고 **민가원 세트권의 예약·수령 방법이 없다** — ticket 페이지와 VELTRA 양쪽을 봐야 한다"
+   "what": "자유석 편 만석 시 처리",
+   "how": "공식에 없음 → 버스센터 확인"
   },
   {
-   "what": "만석 시·환불",
-   "how": "기재 없음"
+   "what": "환불 수수료 금액",
+   "how": "공식에 없음 → 창구 확인"
+  },
+  {
+   "what": "유효 10일의 기산점·민가원권 당일 사용 여부",
+   "how": "공식에 없음 → 창구 확인"
   }
  ],
  "pass_id": "jp-nouhi-takayama-shirakawago-set",

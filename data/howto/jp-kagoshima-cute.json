@@ -1,22 +1,38 @@
 {
- "before": {},
+ "before": {
+  "app_or_account": {
+   "v": "디지털판은 앱 둘 중 하나 — my route(九州MaaS, 교통국·선박국 안내) 또는 わくわく(가고시마시 팬앱). 사용 당일에 「使用」을 눌러야 개시된다",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "必ず使用する当日に行ってください",
+   "src": "https://www.kagoshima-yokanavi.jp/article/mobileCUTE-usage"
+  }
+ },
  "buy": {
   "where": {
    "v": [
     {
-     "name": "교통국 창구·관광안내소",
-     "online": false
+     "name": "가고시마중앙역 종합관광안내소 (8:00~19:00, 무휴)",
+     "local": "鹿児島中央駅総合観光案内所"
     },
     {
-     "name": "九州MaaS 앱 「my route」",
-     "online": true
+     "name": "가고시마항 승선권 발매소 (7:30~19:00) — 페리 터미널, キュート 취급 명시",
+     "local": "鹿児島港乗船券発売所"
     },
     {
-     "name": "가고시마 팬 앱 「わくわく」",
+     "name": "사쿠라지마항 선박국 영업과 창구 (7:30~19:00) — 취급 여부 확인 중",
+     "local": "桜島港 船舶局営業課窓口"
+    },
+    {
+     "name": "교통국 사쿠라지마 영업소 (8:30~19:00, 축일·연말연시 휴업)",
+     "local": "交通局桜島営業所"
+    },
+    {
+     "name": "앱 my route(九州MaaS) · わくわく(가고시마시 팬앱)",
      "online": true
     }
    ],
-   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+   "src": "https://www.kagoshima-yokanavi.jp/article/one-day-pass",
+   "by": "사실확인_B1_절차@2026-09-08"
   },
   "how": {
    "v": "CUTEの2日券を大人1枚お願いします。",
@@ -25,23 +41,34 @@
   "get_what": {
    "v": "종이권 또는 디지털 티켓",
    "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  },
+  "where_note": {
+   "v": "교통국 안 매표소와 시청 앞 매표소는 교통국 페이지가 キュート 비취급으로 표시한 곳 — 거기서 사려 하지 말 것",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "キュート 취급 券種 표에 없음",
+   "src": "https://www.kotsu-city-kagoshima.jp/ticket-summary/ticket/"
   }
  },
  "issue": {
   "activate": {
-   "v": "디지털은 **인터넷 연결이 필요**하고 이용 기한이 따로 있다",
-   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+   "v": "「使用」을 탭한 날이 개시일. 카운트다운이 도는 「使用中」 화면을 보여 준다. 자정 넘겨 이월 없음",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "「使用中」の…画面を乗務員（係員）に提示",
+   "src": "https://www.kagoshima-yokanavi.jp/article/mobileCUTE-usage"
   }
  },
  "use": {
   "show": {
-   "v": "쓸 때 티켓 화면을 띄우고, **내릴 때 승무원에게 보인다**",
-   "q": "利用する際は、使用中のチケットを表示し、降車する際に乗務員へお見せください",
+   "v": "전차·버스는 승무원에게 카드 또는 「使用中」 화면. **페리는 탈 때가 아니라 내릴 때** 사쿠라지마항 쪽 계원에게 보인다",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "降車する際に乗務員…へお見せください",
    "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
   },
   "count_rules": {
-   "v": "시버스·시전·가고시마시티뷰 + **사쿠라지마 아일랜드뷰와 사쿠라지마 페리**까지 하루 무제한. 민영버스에는 못 쓴다",
-   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+   "v": "2일권은 **연속 이틀**(개시일과 그 다음 날). 1일권은 당일만",
+   "by": "사실확인_B1_절차@2026-09-08",
+   "q": "2日券は利用開始日及び翌日まで有効",
+   "src": "https://www.kagoshima-yokanavi.jp/article/mobileCUTE-usage"
   },
   "trap": {
    "v": "사쿠라지마 페리가 들어 있는 것이 이 표의 값이다 — 페리를 안 타면 700엔짜리 1일권이 낫다",
@@ -50,7 +77,8 @@
  },
  "end": {
   "refund": {
-   "v": "**구매 후 변경·환불이 안 된다**",
+   "v": "디지털판은 구매 후 변경·환불 불가. 종이판의 환불 규정은 공식에 없음",
+   "by": "사실확인_B1_절차@2026-09-08",
    "q": "購入後の変更・払い戻しできません",
    "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
   }
@@ -69,12 +97,28 @@
   {
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html",
    "checked": "2026-09-07"
+  },
+  {
+   "url": "https://www.kagoshima-yokanavi.jp/article/one-day-pass",
+   "checked": "2026-09-08"
+  },
+  {
+   "url": "https://www.kagoshima-yokanavi.jp/article/mobileCUTE-usage",
+   "checked": "2026-09-08"
+  },
+  {
+   "url": "https://www.kotsu-city-kagoshima.jp/ticket-summary/ticket/",
+   "checked": "2026-09-08"
   }
  ],
  "gaps": [
   {
-   "what": "창구 위치·영업시간",
-   "how": "\"窓口（詳細は別ページ参照）\"로만 적혀 있어 어느 창구인지 이 페이지에 없다"
+   "what": "종이판 환불",
+   "how": "공식 페이지에 없음 → 창구 확인"
+  },
+  {
+   "what": "사쿠라지마항 선박국 창구의 CUTE 취급",
+   "how": "특집 기사에는 판매처, 선박국 창구 페이지의 취급 券種 목록에는 없음 → 창구 확인"
   }
  ],
  "pass_id": "jp-kagoshima-cute",
