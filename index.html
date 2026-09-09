@@ -39,6 +39,17 @@ button{font:inherit;cursor:pointer;color:inherit}
 .chips .lab{flex:0 0 auto;font-size:12.5px;color:var(--mute);margin-right:2px}
 .chips button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 11px;font-size:12.5px;color:var(--ink2)}
 .chips button.on{border-color:var(--ink);background:var(--ink);color:var(--bg);font-weight:600}
+/* 피드 머리(제목+필터) — 내리면 숨고 조금만 올려도 다시 뜬다. 끝까지 올릴 필요가 없다. */
+.feedhead{position:sticky;top:0;z-index:5;background:var(--bg);padding-bottom:6px;transition:transform .22s ease}
+.feedhead.hide{transform:translateY(-100%)}
+.feedhead .top{position:static}
+@media (prefers-reduced-motion:reduce){.feedhead{transition:none}}
+/* 타일 좌상단 지역 이름 */
+.tile .where{position:absolute;top:12px;left:12px;z-index:2;max-width:62%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12.5px;font-weight:600;color:#fff;background:rgba(0,0,0,.5);backdrop-filter:blur(3px);border-radius:999px;padding:4px 10px;letter-spacing:-.2px}
+/* 맨 위로 — 반투명 동그란 버튼 */
+#toTop{position:fixed;right:16px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:20;width:44px;height:44px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.72);backdrop-filter:blur(6px);color:var(--ink);font-size:19px;line-height:1;display:none;align-items:center;justify-content:center;box-shadow:0 2px 10px rgba(0,0,0,.12);cursor:pointer}
+#toTop.on{display:flex}
+@media (prefers-color-scheme:dark){#toTop{background:rgba(30,30,32,.72)}}
 .tiles{padding:6px 0 0}
 .tile{display:block;margin:12px 16px 0}
 .tile .ph{position:relative;background:var(--ph);height:66vh;max-height:540px;border-radius:16px;overflow:hidden;display:flex;align-items:flex-end;isolation:isolate}
@@ -117,6 +128,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 </head>
 <body>
 <div class="app" id="app"></div>
+<button id="toTop" type="button" aria-label="맨 위로">↑</button>
 <div class="toast" id="toast"></div>
 <script>
 /* ── 데이터 ─────────────────────────────────────────────── */
@@ -202,6 +214,9 @@ function hubChips(){
   const pri=['osaka','tokyo','nagoya','fukuoka','sapporo','taipei','kaohsiung'];
   return Object.keys(cnt).sort((a,b)=>(pri.indexOf(a)<0?9:pri.indexOf(a))-(pri.indexOf(b)<0?9:pri.indexOf(b))||cnt[b]-cnt[a]);
 }
+/* 타일 좌상단 — 이용자가 "어디야?"를 사진 보자마자 알게 한다(2026-09-11 지적).
+   지역 이름을 쓰되, 도시 여럿을 묶은 이름("벳푸·유후인")은 그대로 둔다. */
+function placeOf(t){ return (t.region_ko||'').trim(); }
 function renderFeed(){
   let list=TRIPS.filter(t=>t.kind==='trip');
   if(nightsF==='2') list=list.filter(t=>t.nights===2); else if(nightsF==='3') list=list.filter(t=>t.nights===3); else if(nightsF==='4+') list=list.filter(t=>t.nights>=4);
@@ -209,11 +224,13 @@ function renderFeed(){
   if(hub){ const near=list.filter(t=>t.from.some(f=>f.hub_id===hub)).sort((a,b)=>(pickFrom(a,hub).hours??99)-(pickFrom(b,hub).hours??99)); const rest=list.filter(t=>!near.includes(t)); list=near.concat(rest); }
   const hubName=hub&&HUBS[hub]?HUBS[hub].name.ko:'';
   app.innerHTML=`
+  <div class="feedhead" id="feedHead">
   <div class="top"><div class="name">로카패스 <small>현지 패스로 짠 소도시 여행</small></div><a class="pill" href="#/saved">보관 ${saved.size}</a></div>
   <div class="chips" id="hubChips"><span class="lab">출발</span><button data-h="" class="${hub?'':'on'}">안 정함</button>${hubChips().map(h=>`<button data-h="${h}" class="${hub===h?'on':''}">${esc(HUBS[h].name.ko)}</button>`).join('')}</div>
   <div class="chips" id="nChips"><span class="lab">며칠</span>${[['','전부'],['2','2박'],['3','3박'],['4+','4박+']].map(([v,l])=>`<button data-n="${v}" class="${nightsF===v?'on':''}">${l}</button>`).join('')}${hub?`<a class="pill" style="margin-left:auto" href="#/from/${hub}">${esc(hubName)}에서 →</a>`:''}</div>
+  </div>
   <div class="tiles">${list.map(t=>{ const f=pickFrom(t,hub); return `
-    <a class="tile" href="${tripUrl(t,hub)}"><div class="ph"><div class="img" style="${photoStyle(t.photo)}"></div>${saved.has(t.trip_id)?'<span class="saved">보관함에 있어요</span>':''}<div class="tx"><div class="s">${esc(f.scene||t.scene)}</div><div class="a">${esc(assure(t,f))}</div></div></div></a>`; }).join('')}
+    <a class="tile" href="${tripUrl(t,hub)}"><div class="ph"><div class="img" style="${photoStyle(t.photo)}"></div><span class="where">${esc(placeOf(t))}</span>${saved.has(t.trip_id)?'<span class="saved">보관함에 있어요</span>':''}<div class="tx"><div class="s">${esc(f.scene||t.scene)}</div><div class="a">${esc(assure(t,f))}</div></div></div></a>`; }).join('')}
   ${list.length?'':'<p class="empty">이 조건에 맞는 여행이 아직 없어요.</p>'}</div>
   <div class="foot">가격·조건은 각 여행에 적힌 확인 시점의 공식 페이지 기준이에요. 판매자와 무관하고 계정이 없어요. <a href="about.html">이게 뭐예요 · 면책 · 출처 · 연락</a></div>`;
   /* 포토 숏츠: 화면의 절반 넘게 보이는 타일만 움직이고, 벗어나면 멈춘다(다시 들어오면 자막이 다시 뜬다) */
@@ -360,7 +377,45 @@ function parse(){
   if(seg[0]==='from') return {p:'from',id:seg[1],q}; if(seg[0]==='saved') return {p:'saved',q};
   return {p:'feed',q};
 }
-function route(){ const r=parse(); if(r.p==='t') renderTrip(r.id,r.q); else if(r.p==='r') renderRegion(r.id); else if(r.p==='from') renderFrom(r.id); else if(r.p==='saved') renderSaved(r.q); else renderFeed(); }
+function route(){ const r=parse(); if(window.resetScrollUI) setTimeout(window.resetScrollUI,0); if(r.p==='t') renderTrip(r.id,r.q); else if(r.p==='r') renderRegion(r.id); else if(r.p==='from') renderFrom(r.id); else if(r.p==='saved') renderSaved(r.q); else renderFeed(); }
+/* ── 스크롤 두 가지 (2026-09-11 사용자 지적) ─────────────────
+   ① 피드 머리(제목+필터)는 내리면 숨고 **조금만 올려도** 다시 뜬다 — 끝까지 올릴 필요가 없다.
+   ② 어디서든 맨 위로 미끄러져 올라가는 반투명 버튼.
+   화면을 바꿀 때마다 상태를 되돌린다(다른 화면에는 머리가 없다). */
+(function(){
+  var last=0, UP=8, DOWN=6, TOP_AT=600;
+  var head=null, btn=document.getElementById('toTop');
+  function y(){ return window.pageYOffset||document.documentElement.scrollTop||0; }
+  function onScroll(){
+    var cur=y(), d=cur-last;
+    head=document.getElementById('feedHead');
+    if(head){
+      if(cur<=60) head.classList.remove('hide');            // 맨 위 근처면 언제나 보인다
+      else if(d>DOWN) head.classList.add('hide');           // 내리는 중 — 사진에 자리를 준다
+      else if(d<-UP) head.classList.remove('hide');         // 조금만 올려도 바로 나온다
+    }
+    btn.classList.toggle('on', cur>TOP_AT);
+    last=cur;
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  /* html{scroll-behavior:auto}가 scrollTo의 behavior:'smooth'를 눌러 버린다 — 해시 이동 때문에 일부러 둔
+     규칙이라 전역으로는 건드리지 않고, 버튼을 누르는 순간에만 인라인으로 열었다 닫는다.
+     (requestAnimationFrame으로 직접 그리는 방법은 탭이 숨겨져 있을 때 멈춰서 쓰지 않는다.) */
+  function glideTop(){
+    var el=document.documentElement;
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+    if(reduce){ window.scrollTo(0,0); return; }
+    el.style.scrollBehavior='smooth';
+    window.scrollTo(0,0);
+    setTimeout(function(){ el.style.scrollBehavior=''; }, 700);
+  }
+  btn.addEventListener('click', function(){
+    glideTop();
+    if(head) head.classList.remove('hide');
+    ev('toTop','');
+  });
+  window.resetScrollUI=function(){ last=0; btn.classList.remove('on'); var h=document.getElementById('feedHead'); if(h) h.classList.remove('hide'); };
+})();
 window.addEventListener('hashchange',route);
 load().then(route).catch(e=>{ app.innerHTML='<p class="empty">데이터를 불러오지 못했어요. 잠시 뒤 다시 열어 주세요.</p>'; console.error(e); });
 </script>
