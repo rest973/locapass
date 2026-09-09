@@ -299,7 +299,7 @@ async function renderTrip(id,q){
     ${(a.honest||t.honest)?`<div class="sec"><h3>솔직히</h3><p>${esc(a.honest||t.honest)}</p></div>`:''}
     <div class="sec"><div class="btns"><button class="pri" id="shareBtn">같이 갈 사람에게 보내기</button><button id="saveBtn2">${saved.has(t.trip_id)?'보관함에서 빼기':'보관'}</button></div></div>
     <div class="sec"><h3>갈 때 펴 보기</h3>${howtoLines(t,a,h,state)}</div>
-    ${region?`<div class="sec"><h3>이 지역 더</h3><div class="list"><a href="#/r/${esc(t.region_id)}"><div class="ph" style="${photoStyle(t.photo)}"></div><div><b>${esc(region.display.ko)}</b><small>${esc(region.admin.ko)} · 여행 ${TRIPS.filter(x=>x.region_id===t.region_id&&x.kind==='trip').length} · 하루 코스 ${TRIPS.filter(x=>x.region_id===t.region_id&&x.kind==='day').length}</small></div></a></div></div>`:''}
+    ${(region&&(TRIPS.filter(x=>x.region_id===t.region_id&&x.trip_id!==t.trip_id).length))?`<div class="sec"><h3>이 지역 더</h3><div class="list"><a href="#/r/${esc(t.region_id)}"><div class="ph" style="${photoStyle(t.photo)}"></div><div><b>${esc(region.display.ko)}</b><small>${esc(region.admin.ko)} · 여행 ${TRIPS.filter(x=>x.region_id===t.region_id&&x.kind==='trip').length} · 하루 코스 ${TRIPS.filter(x=>x.region_id===t.region_id&&x.kind==='day').length}</small></div></a></div></div>`:''}
     <div class="foot">${esc(checkedLine(t))} <a href="${FORM}" target="_blank" rel="noopener">틀린 곳 알려주기</a><br>${credit(t.photo)}</div>`;
     app.innerHTML=s;
     app.querySelectorAll('.sw button').forEach(b=>b.onclick=()=>{ if(b.dataset.v!==undefined){ state.v=b.dataset.v; } else { state.v=null; state.fromId=b.dataset.f; } draw(); });
@@ -362,16 +362,20 @@ function renderRegion(rid){
   const trips=TRIPS.filter(t=>t.region_id===rid&&t.kind==='trip'), days=TRIPS.filter(t=>t.region_id===rid&&t.kind==='day');
   const photo=(trips[0]||days[0]||{}).photo;
   const ps=PASSES.filter(p=>p.region_id===rid&&p.trust_level!=='retired');
+  /* 카드로 만든 패스만 보여 준다. 조사만 해 둔 패스까지 늘어놓으면 이용자에게는
+     "아직 만드는 중"으로 읽힌다(2026-09-11 지역 페이지 점검). */
+  const usedPass=new Set(trips.concat(days).flatMap(t=>t.passes.map(x=>x.pass_id)));
+  const psCard=ps.filter(p=>usedPass.has(p.pass_id));
   const period=(trips[0]&&PASSES.find(p=>p.pass_id===trips[0].passes[0].pass_id)||{}).use_period;
   const pprice=p=>{ const a=(p.price||[]).find(x=>x.category==='adult'); return a?(a.currency==='JPY'?a.amount.toLocaleString()+'엔':'NT$'+a.amount.toLocaleString()):''; };
   app.innerHTML=`
   <div class="top"><a class="pill" href="#/">← 여행</a><div class="ttl">${esc(r.display.ko)}</div><a class="pill" href="#/saved">보관 ${saved.size}</a></div>
   <div class="hero" style="height:34svh;max-height:260px;${photoStyle(photo)}"><div class="tx"><div class="s">${esc(r.display.ko)} · ${esc(r.display.local)}</div></div></div>
   <div class="sec"><p>${esc(r.admin.ko)}${r.block?` · ${esc(r.block)}`:''}${r.base_city?` · 거점은 ${esc(r.base_city.ko)}(${esc(r.base_city.local)})`:''}. 한국 직항 ${r.direct_flight_kr&&r.direct_flight_kr.value?'있음':'없음'}.</p></div>
-  <div class="sec"><h3>이 지역 여행</h3><div class="list">${trips.map(t=>mini(t,hub)).join('')||'<p class="m">아직 없어요.</p>'}</div></div>
-  <div class="sec"><h3>하루 코스</h3><div class="list">${days.map(t=>mini(t,hub)).join('')||'<p class="m">없음.</p>'}</div></div>
+  ${trips.length?`<div class="sec"><h3>이 지역 여행</h3><div class="list">${trips.map(t=>mini(t,hub)).join('')}</div></div>`:''}
+  ${days.length?`<div class="sec"><h3>하루 코스</h3><div class="list">${days.map(t=>mini(t,hub)).join('')}</div></div>`:''}
   <div class="sec"><h3>가는 법</h3><div class="glance">${(r.nearby_hubs||[]).map(n=>`<div><b>${esc(HUBS[n.hub_id]?HUBS[n.hub_id].name.ko:n.hub_id)}</b>${esc(hoursKo(n.hours))}${n.how?` · ${esc(n.how)}`:''}</div>`).join('')}${period?`<div><b>언제</b>패스 이용 ${esc(period.from)} ~ ${esc(period.to)}</div>`:''}</div></div>
-  <div class="sec"><details><summary>이 지역 패스 전부 (${ps.length})</summary>${ps.map(p=>`<div class="cell"><b>${esc((p.name&&p.name.ko)||'')}</b>${esc((p.name&&p.name.local)||p.pass_id)}${pprice(p)?' · '+pprice(p):''}${p.card_status==='has_card'?'':' <span class="m">· 여행으로는 안 만들었어요</span>'}</div>`).join('')||'<p class="m">없음.</p>'}</details></div>
+  ${psCard.length?`<div class="sec"><details><summary>이 지역에서 쓰는 패스 (${psCard.length})</summary>${psCard.map(p=>`<div class="cell"><b>${esc((p.name&&p.name.ko)||'')}</b>${esc((p.name&&p.name.local)||p.pass_id)}${pprice(p)?' · '+pprice(p):''}</div>`).join('')}</details></div>`:''}
   <div class="foot">${credit(photo)}</div>`;
   window.scrollTo(0,0); track('/r/'+rid);
 }

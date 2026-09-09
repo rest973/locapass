@@ -848,7 +848,9 @@
     {
      "hub_id": "osaka",
      "hours": 3.5,
-     "how": "고속버스·신칸센+특급"
+     "how": "고속버스·고속철도+특급",
+     "how_prev": "고속버스·신칸센+특급",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1120,12 +1122,16 @@
     {
      "hub_id": "osaka",
      "hours": 2.7,
-     "how": "JR 특급 선더버드+신칸센"
+     "how": "JR 특급 선더버드+고속철도",
+     "how_prev": "JR 특급 선더버드+신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     },
     {
      "hub_id": "tokyo",
      "hours": 2.5,
-     "how": "호쿠리쿠 신칸센"
+     "how": "고속철도",
+     "how_prev": "호쿠리쿠 신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1169,12 +1175,16 @@
     {
      "hub_id": "tokyo",
      "hours": 2.2,
-     "how": "호쿠리쿠 신칸센"
+     "how": "고속철도",
+     "how_prev": "호쿠리쿠 신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     },
     {
      "hub_id": "kanazawa",
      "hours": 0.4,
-     "how": "신칸센"
+     "how": "고속철도",
+     "how_prev": "신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1326,12 +1336,16 @@
     {
      "hub_id": "osaka",
      "hours": 1.5,
-     "how": "신칸센"
+     "how": "고속철도",
+     "how_prev": "신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     },
     {
      "hub_id": "fukuoka",
      "hours": 1.1,
-     "how": "신칸센"
+     "how": "고속철도",
+     "how_prev": "신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1385,7 +1399,9 @@
     {
      "hub_id": "osaka",
      "hours": 0.8,
-     "how": "신칸센"
+     "how": "고속철도",
+     "how_prev": "신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1499,7 +1515,9 @@
     {
      "hub_id": "fukuoka",
      "hours": 1.5,
-     "how": "신칸센 가모메+릴레이"
+     "how": "고속철도+특급 환승",
+     "how_prev": "신칸센 가모메+릴레이",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1557,7 +1575,9 @@
     {
      "hub_id": "fukuoka",
      "hours": 0.7,
-     "how": "신칸센"
+     "how": "고속철도",
+     "how_prev": "신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1618,7 +1638,9 @@
     {
      "hub_id": "fukuoka",
      "hours": 1.5,
-     "how": "신칸센"
+     "how": "고속철도",
+     "how_prev": "신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1676,7 +1698,9 @@
     {
      "hub_id": "tokyo",
      "hours": 1.6,
-     "how": "도호쿠 신칸센"
+     "how": "고속철도",
+     "how_prev": "도호쿠 신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1781,7 +1805,9 @@
     {
      "hub_id": "sendai",
      "hours": 1.5,
-     "how": "도호쿠 신칸센"
+     "how": "고속철도",
+     "how_prev": "도호쿠 신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -1907,7 +1933,9 @@
     {
      "hub_id": "tokyo",
      "hours": 4.0,
-     "how": "홋카이도 신칸센"
+     "how": "홋카이도 고속철도",
+     "how_prev": "홋카이도 신칸센",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
@@ -2696,7 +2724,9 @@
     {
      "hub_id": "osaka",
      "hours": 1.0,
-     "how": "JR 신쾌속(신칸센이면 신오사카에서 30분)"
+     "how": "JR 신쾌속(고속철도이면 신오사카에서 30분)",
+     "how_prev": "JR 신쾌속(신칸센이면 신오사카에서 30분)",
+     "how_by": "지역 페이지 정리@2026-09-11"
     }
    ],
    "candidate_passes": [
