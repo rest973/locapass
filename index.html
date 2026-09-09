@@ -40,7 +40,7 @@ button{font:inherit;cursor:pointer;color:inherit}
 .chips button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 11px;font-size:12.5px;color:var(--ink2)}
 .chips button.on{border-color:var(--ink);background:var(--ink);color:var(--bg);font-weight:600}
 /* 피드 머리(제목+필터) — 내리면 숨고 조금만 올려도 다시 뜬다. 끝까지 올릴 필요가 없다. */
-.feedhead{position:sticky;top:0;z-index:5;background:var(--bg);padding-bottom:6px;transition:transform .22s ease}
+.feedhead{position:sticky;top:0;z-index:5;background:var(--bg);padding-bottom:6px;transition:transform .18s ease;will-change:transform;overflow-anchor:none}
 .feedhead.hide{transform:translateY(-100%)}
 .feedhead .top{position:static}
 @media (prefers-reduced-motion:reduce){.feedhead{transition:none}}
@@ -383,19 +383,28 @@ function route(){ const r=parse(); if(window.resetScrollUI) setTimeout(window.re
    ② 어디서든 맨 위로 미끄러져 올라가는 반투명 버튼.
    화면을 바꿀 때마다 상태를 되돌린다(다른 화면에는 머리가 없다). */
 (function(){
-  var last=0, UP=8, DOWN=6, TOP_AT=600;
-  var head=null, btn=document.getElementById('toTop');
+  /* 머리 숨기기/보이기는 **누적**으로 판정한다.
+     스크롤 이벤트 하나하나의 차이로 뒤집으면, 손가락 관성과 주소창이 들락거리며 생기는 미세한 방향 변화에
+     머리가 튀어나왔다 들어갔다를 반복한다(2026-09-11 사용자 지적: "갑자기 위나 아래로 이동, 전혀 매끄럽지 않다").
+     한 방향으로 충분히 움직였을 때만 한 번 뒤집고, 방향이 바뀌면 누적을 0으로 되돌린다. */
+  var HIDE_AFTER=56, SHOW_AFTER=28, TOP_AT=600, NEAR_TOP=80, NEAR_BOTTOM=120;
+  var last=0, acc=0, locked=0, btn=document.getElementById('toTop');
   function y(){ return window.pageYOffset||document.documentElement.scrollTop||0; }
+  function docBottom(){ return document.documentElement.scrollHeight - window.innerHeight; }
   function onScroll(){
-    var cur=y(), d=cur-last;
-    head=document.getElementById('feedHead');
-    if(head){
-      if(cur<=60) head.classList.remove('hide');            // 맨 위 근처면 언제나 보인다
-      else if(d>DOWN) head.classList.add('hide');           // 내리는 중 — 사진에 자리를 준다
-      else if(d<-UP) head.classList.remove('hide');         // 조금만 올려도 바로 나온다
-    }
+    var cur=y(), d=cur-last; last=cur;
     btn.classList.toggle('on', cur>TOP_AT);
-    last=cur;
+    var head=document.getElementById('feedHead');
+    if(!head) return;
+    if(locked && Date.now()<locked) return;              // 맨 위로 버튼이 미끄러지는 동안은 건드리지 않는다
+    if(cur<=NEAR_TOP || cur>=docBottom()-NEAR_BOTTOM){    // 맨 위·맨 아래 근처에서는 언제나 보인다
+      head.classList.remove('hide'); acc=0; return;
+    }
+    if(d===0) return;
+    if((acc>0)!==(d>0)) acc=0;                            // 방향이 바뀌면 처음부터 다시 센다
+    acc+=d;
+    if(acc>HIDE_AFTER){ head.classList.add('hide'); acc=0; }
+    else if(acc<-SHOW_AFTER){ head.classList.remove('hide'); acc=0; }
   }
   window.addEventListener('scroll', onScroll, {passive:true});
   /* html{scroll-behavior:auto}가 scrollTo의 behavior:'smooth'를 눌러 버린다 — 해시 이동 때문에 일부러 둔
@@ -404,17 +413,19 @@ function route(){ const r=parse(); if(window.resetScrollUI) setTimeout(window.re
   function glideTop(){
     var el=document.documentElement;
     var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-    if(reduce){ window.scrollTo(0,0); return; }
+    var head=document.getElementById('feedHead');
+    if(head) head.classList.remove('hide');
+    acc=0; locked=Date.now()+800;                         // 올라가는 동안 판정을 멈춘다
+    /* 다 올라간 뒤에 버튼을 직접 끈다 — 미끄러짐이 끝나며 스크롤 이벤트가 안 오는 경우가 있다 */
+    function done(){ el.style.scrollBehavior=''; locked=0; last=y(); btn.classList.toggle('on', last>TOP_AT); }
+    if(reduce){ window.scrollTo(0,0); done(); return; }
     el.style.scrollBehavior='smooth';
     window.scrollTo(0,0);
-    setTimeout(function(){ el.style.scrollBehavior=''; }, 700);
+    setTimeout(done, 700);
   }
-  btn.addEventListener('click', function(){
-    glideTop();
-    if(head) head.classList.remove('hide');
-    ev('toTop','');
-  });
-  window.resetScrollUI=function(){ last=0; btn.classList.remove('on'); var h=document.getElementById('feedHead'); if(h) h.classList.remove('hide'); };
+  btn.addEventListener('click', function(){ glideTop(); ev('toTop',''); });
+  window.resetScrollUI=function(){ last=y(); acc=0; locked=0; btn.classList.toggle('on', last>TOP_AT);
+    var h=document.getElementById('feedHead'); if(h) h.classList.remove('hide'); };
 })();
 window.addEventListener('hashchange',route);
 load().then(route).catch(e=>{ app.innerHTML='<p class="empty">데이터를 불러오지 못했어요. 잠시 뒤 다시 열어 주세요.</p>'; console.error(e); });
