@@ -1,10 +1,11 @@
 {
  "before": {
   "app_or_account": {
-   "v": "디지털판은 앱 둘 중 하나 — my route(九州MaaS, 교통국·선박국 안내) 또는 わくわく(가고시마시 팬앱). 사용 당일에 「使用」을 눌러야 개시된다",
-   "by": "사실확인_B1_절차@2026-09-08",
+   "v": "앱은 둘 중 하나예요 — my route(규슈 MaaS, 교통국·선박국이 안내해요)나 와쿠와쿠(가고시마시 앱)요. 쓰는 날에 \"사용\" 버튼을 눌러야 시작돼요.",
+   "by": "말투·원어 정리@2026-09-11",
    "q": "必ず使用する当日に行ってください",
-   "src": "https://www.kagoshima-yokanavi.jp/article/mobileCUTE-usage"
+   "src": "https://www.kagoshima-yokanavi.jp/article/mobileCUTE-usage",
+   "v_prev": "디지털판은 앱 둘 중 하나 — my route(九州MaaS, 교통국·선박국 안내) 또는 わくわく(가고시마시 팬앱). 사용 당일에 「使用」을 눌러야 개시된다"
   }
  },
  "buy": {
@@ -43,10 +44,11 @@
    "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
   },
   "where_note": {
-   "v": "교통국 안 매표소와 시청 앞 매표소는 교통국 페이지가 キュート 비취급으로 표시한 곳 — 거기서 사려 하지 말 것",
-   "by": "사실확인_B1_절차@2026-09-08",
+   "v": "교통국 안 매표소와 시청 앞 매표소는 교통국 페이지에 큐트를 취급하지 않는다고 적혀 있어요. 거기서 사려고 하지 마세요.",
+   "by": "말투·원어 정리@2026-09-11",
    "q": "キュート 취급 券種 표에 없음",
-   "src": "https://www.kotsu-city-kagoshima.jp/ticket-summary/ticket/"
+   "src": "https://www.kotsu-city-kagoshima.jp/ticket-summary/ticket/",
+   "v_prev": "교통국 안 매표소와 시청 앞 매표소는 교통국 페이지가 キュート 비취급으로 표시한 곳 — 거기서 사려 하지 말 것"
   }
  },
  "issue": {
@@ -59,10 +61,11 @@
  },
  "use": {
   "show": {
-   "v": "전차·버스는 승무원에게 카드 또는 「使用中」 화면. **페리는 탈 때가 아니라 내릴 때** 사쿠라지마항 쪽 계원에게 보인다",
-   "by": "사실확인_B1_절차@2026-09-08",
+   "v": "전차와 버스는 승무원에게 카드나 \"사용 중\" 화면을 보여 줘요. **페리는 탈 때가 아니라 내릴 때** 사쿠라지마항 쪽 계원에게 보여 줘요.",
+   "by": "말투·원어 정리@2026-09-11",
    "q": "降車する際に乗務員…へお見せください",
-   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html",
+   "v_prev": "전차·버스는 승무원에게 카드 또는 「使用中」 화면. **페리는 탈 때가 아니라 내릴 때** 사쿠라지마항 쪽 계원에게 보인다"
   },
   "count_rules": {
    "v": "2일권은 **연속 이틀**(개시일과 그 다음 날). 1일권은 당일만",
@@ -71,8 +74,10 @@
    "src": "https://www.kagoshima-yokanavi.jp/article/mobileCUTE-usage"
   },
   "trap": {
-   "v": "사쿠라지마 페리가 들어 있는 것이 이 표의 값이다 — 페리를 안 타면 700엔짜리 1일권이 낫다",
-   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+   "v": "사쿠라지마 페리가 들어 있는 게 이 표의 값이에요 — 페리를 안 탈 거면 700엔짜리 1일권이 나아요.",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html",
+   "v_prev": "사쿠라지마 페리가 들어 있는 것이 이 표의 값이다 — 페리를 안 타면 700엔짜리 1일권이 낫다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "end": {

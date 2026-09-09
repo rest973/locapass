@@ -24,8 +24,10 @@
    "src": "카드 본문"
   },
   "get_what": {
-   "v": "**메일로 오는 전자 바우처(QR)**. 여럿이면 인원수만큼 코드를 보여야 한다",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+   "v": "**메일로 전자 바우처(QR)가 와요.** 여럿이면 인원수만큼 코드를 보여 줘야 해요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012",
+   "v_prev": "**메일로 오는 전자 바우처(QR)**. 여럿이면 인원수만큼 코드를 보여야 한다",
+   "by": "말투·원어 정리@2026-09-11"
   },
   "line": {
    "v": "아리산 가는 버스는 A선과 B선 두 갈래예요. **A선은 고속철도 자이역**, **B선은 일반 기차 자이역**에서 출발해요. 고속철도로 왔으면 내린 자리에서 그대로 A선, 시내에서 잤거나 일반 기차로 왔으면 B선이에요. 편수는 B선이 훨씬 많아요 — A선은 하루 5편(첫차 08:40), B선은 하루 10편(첫차 06:05). 일출을 보려면 전날 산 위에서 자야 하니 오전에 올라가는 편이 나아요. 왕복표 한 장으로 A선과 B선을 섞어 탈 수 있어요.",
@@ -36,14 +38,18 @@
  },
  "issue": {
   "exchange": {
-   "v": "QR을 스캔해 승차한다",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+   "v": "QR을 스캔하고 타요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012",
+   "v_prev": "QR을 스캔해 승차한다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "use": {
   "count_rules": {
-   "v": "A선·B선으로 **왕복 4회 승하차**, **3일 안에** 쓴다. 기본 套票는 구매일부터 1년 안에 개시하면 되고, 복합 套票는 첫 사용부터 3~14일",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+   "v": "A선과 B선으로 **왕복 네 번 타고 내릴 수 있고, 사흘 안에** 써요. 기본 세트권은 산 날부터 1년 안에 쓰기 시작하면 되고, 다른 것을 묶은 세트권은 처음 쓴 날부터 3~14일이에요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012",
+   "v_prev": "A선·B선으로 **왕복 4회 승하차**, **3일 안에** 쓴다. 기본 套票는 구매일부터 1년 안에 개시하면 되고, 복합 套票는 첫 사용부터 3~14일",
+   "by": "말투·원어 정리@2026-09-11"
   },
   "trap": {
    "v": "480(왕복)·630(+삼림유락구 입장)·750(+입장+도시락) 셋이 있다 — 입장료를 따로 낼 거면 480이 맞다",
@@ -58,8 +64,10 @@
  },
  "end": {
   "refund": {
-   "v": "**하나라도 쓰면 전체 환불이 안 된다.** 미사용이면 「阿里山EASYGO」에서 신청",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+   "v": "**하나라도 쓰면 전체 환불이 안 돼요.** 하나도 안 썼으면 아리산 EASYGO에서 신청해요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012",
+   "v_prev": "**하나라도 쓰면 전체 환불이 안 된다.** 미사용이면 「阿里山EASYGO」에서 신청",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "languages": {

@@ -24,10 +24,11 @@
    "src": "카드 본문"
   },
   "get_what": {
-   "v": "어른 1,440 · 소인 680(2026-09-01 개정). 본관 神の湯 계하 + 아스카노유 1층 + 츠바키노유, 각 1회",
-   "by": "사실확인_B2@2026-09-09",
+   "v": "어른 1,440엔, 어린이 680엔이에요(2026-09-01 개정). 본관 가미노유 계단 아래층과 아스카노유 1층, 츠바키노유를 각각 한 번씩 쓸 수 있어요.",
+   "by": "말투·원어 정리@2026-09-11",
    "q": "大人 1,440円 小人680円",
-   "src": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/kankomeisho/dogoonsen/info/dougo1126.html"
+   "src": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/kankomeisho/dogoonsen/info/dougo1126.html",
+   "v_prev": "어른 1,440 · 소인 680(2026-09-01 개정). 본관 神の湯 계하 + 아스카노유 1층 + 츠바키노유, 각 1회"
   }
  },
  "issue": {},

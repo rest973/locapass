@@ -27,10 +27,11 @@
    "src": "카드 본문"
   },
   "get_what": {
-   "v": "스크래치식 종이권 1,000엔(소인 550), 미야지마 방문세 100엔이 들어 있다. 디지털은 MOBIRY TRAVEL의 24시간권(1,000엔) — 스마트폰 화면을 보인다",
-   "by": "사실확인_B2@2026-09-09",
+   "v": "긁는 종이표 1,000엔(어린이 550엔)이고, 미야지마 방문세 100엔이 들어 있어요. 앱으로 사면 MOBIRY TRAVEL의 24시간권 1,000엔이고 스마트폰 화면을 보여 줘요.",
+   "by": "말투·원어 정리@2026-09-11",
    "q": "宮島訪問税100円含む",
-   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html",
+   "v_prev": "스크래치식 종이권 1,000엔(소인 550), 미야지마 방문세 100엔이 들어 있다. 디지털은 MOBIRY TRAVEL의 24시간권(1,000엔) — 스마트폰 화면을 보인다"
   },
   "pay": {
    "v": "창구·차내는 현금. 디지털은 앱 결제",
@@ -44,13 +45,16 @@
    "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
   },
   "show": {
-   "v": "종이권은 승차 당일 날짜를 긁어 내릴 때 보인다. 페리는 마쓰다이기선 창구·개찰에서 보인다(JR 페리 불가). 디지털은 MOBIRY TRAVEL 화면",
-   "by": "사실확인_B2@2026-09-09",
-   "src": "https://www.mobirytravel.jp/ticket/iqiksgeq1/"
+   "v": "종이표는 타는 날 날짜를 긁고 내릴 때 보여 줘요. 페리는 마쓰다이기선 창구나 개찰에서 보여 주고요(JR 페리는 안 돼요). 앱은 MOBIRY TRAVEL 화면을 보여 줘요.",
+   "by": "말투·원어 정리@2026-09-11",
+   "src": "https://www.mobirytravel.jp/ticket/iqiksgeq1/",
+   "v_prev": "종이권은 승차 당일 날짜를 긁어 내릴 때 보인다. 페리는 마쓰다이기선 창구·개찰에서 보인다(JR 페리 불가). 디지털은 MOBIRY TRAVEL 화면"
   },
   "trap": {
-   "v": "**미야지마구치에는 JR 페리와 마쓰다이키센 두 회사가 나란히 있다.** 이 표로는 마쓰다이키센만 탄다 — 승선구를 잘못 서면 따로 낸다",
-   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html"
+   "v": "**미야지마구치에는 JR 페리와 마쓰다이기선 두 회사가 나란히 있어요.** 이 표로는 마쓰다이기선만 타요 — 승선구를 잘못 서면 따로 내야 해요.",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html",
+   "v_prev": "**미야지마구치에는 JR 페리와 마쓰다이키센 두 회사가 나란히 있다.** 이 표로는 마쓰다이키센만 탄다 — 승선구를 잘못 서면 따로 낸다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "end": {

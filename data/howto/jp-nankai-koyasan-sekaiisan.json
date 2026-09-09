@@ -62,8 +62,10 @@
  },
  "end": {
   "refund": {
-   "v": "유효기간 내에 **총괄권을 포함한 모든 券片이 미사용일 때만** 구매한 발매처에서, 수수료 520엔",
-   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+   "v": "유효기간 안에 **낱장 표를 하나도 쓰지 않았을 때만** 산 곳에서 환불해 줘요. 수수료는 520엔이에요.",
+   "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html",
+   "v_prev": "유효기간 내에 **총괄권을 포함한 모든 券片이 미사용일 때만** 구매한 발매처에서, 수수료 520엔",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "languages": {

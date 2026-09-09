@@ -34,10 +34,11 @@
    "src": "카드 본문"
   },
   "get_what": {
-   "v": "950元 세트권 = 타이중↔르웨탄 왕복 + 유람선(부두마다 1회) + 케이블카 왕복 + 환호버스 1일권 + 수이서-샹산-처청 편도. 유효 2026-12-31",
-   "by": "사실확인_B3@2026-09-09",
+   "v": "950위안 세트권은 타이중과 르웨탄 왕복에 유람선(부두마다 한 번), 케이블카 왕복, 호수 순환버스 1일권, 수이서에서 샹산을 지나 처청까지 가는 편도가 들어 있어요. 2026년 12월 31일까지 유효해요.",
+   "by": "말투·원어 정리@2026-09-11",
    "q": "效期 2026/12/31",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008",
+   "v_prev": "950元 세트권 = 타이중↔르웨탄 왕복 + 유람선(부두마다 1회) + 케이블카 왕복 + 환호버스 1일권 + 수이서-샹산-처청 편도. 유효 2026-12-31"
   }
  },
  "issue": {},
@@ -49,8 +50,10 @@
    "src": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52"
   },
   "trap": {
-   "v": "**樂齡套票(520·680)는 본국적 65세 이상 전용이라 외국인은 못 산다** — 증명서를 본다",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+   "v": "**어르신 세트권(520·680위안)은 대만 국적 65세 이상만 살 수 있어서 외국인은 못 사요** — 증명서를 확인해요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008",
+   "v_prev": "**樂齡套票(520·680)는 본국적 65세 이상 전용이라 외국인은 못 산다** — 증명서를 본다",
+   "by": "말투·원어 정리@2026-09-11"
   },
   "when_lane_closed": {
    "v": "케이블카 정비일(2026: 6/8~15, 9/2 등)엔 세트권의 케이블카분을 못 쓴다",
@@ -61,8 +64,10 @@
  },
  "end": {
   "refund": {
-   "v": "유효기간 내에 못 썼거나 기한이 지난 표는 **칭징여행사에서 환불, 수수료 30元**",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008"
+   "v": "유효기간 안에 못 썼거나 기한이 지난 표는 **칭징여행사에서 환불해 줘요. 수수료는 30위안이에요.**",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000008",
+   "v_prev": "유효기간 내에 못 썼거나 기한이 지난 표는 **칭징여행사에서 환불, 수수료 30元**",
+   "by": "말투·원어 정리@2026-09-11"
   },
   "overuse": {
    "v": "자전거 대여는 시간을 넘기면 추가 요금",

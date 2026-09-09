@@ -40,8 +40,10 @@
    "src": "https://yonkoh.co.jp/teikan_oboke_iya"
   },
   "trap": {
-   "v": "**2026년 4~11월 중 운행일 캘린더가 정한 날에만 다닌다** — 매일 있는 버스가 아니다",
-   "src": "https://yonkoh.co.jp/teikan_oboke_iya"
+   "v": "**2026년 4~11월 중 운행일 달력이 정한 날에만 다녀요** — 매일 있는 버스가 아니에요.",
+   "src": "https://yonkoh.co.jp/teikan_oboke_iya",
+   "v_prev": "**2026년 4~11월 중 운행일 캘린더가 정한 날에만 다닌다** — 매일 있는 버스가 아니다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "end": {
