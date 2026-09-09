@@ -44,6 +44,9 @@ button{font:inherit;cursor:pointer;color:inherit}
 .chips .lab{flex:0 0 auto;font-size:12.5px;color:var(--mute);margin-right:2px}
 .chips button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:10px 13px;font-size:12.5px;line-height:1;color:var(--ink2);min-height:40px}
 .chips button.on{border-color:var(--ink);background:var(--ink);color:var(--bg);font-weight:600}
+.chips button .n{opacity:.55;font-size:11.5px;margin-left:1px}
+.chips button.on .n{opacity:.75}
+.chips button.none{opacity:.42}
 /* 피드 머리(제목+필터) — 내리면 숨고 조금만 올려도 다시 뜬다. 끝까지 올릴 필요가 없다. */
 .feedhead{position:sticky;top:0;z-index:5;background:var(--bg);padding-bottom:6px;transition:transform .18s ease;overflow-anchor:none}
 .feedhead.hide{transform:translateY(-100%)}
@@ -163,6 +166,7 @@ const LS=k=>{try{return localStorage.getItem(k)}catch(e){return null}};
 const LSs=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
 let hub=LS('lp3_hub')||'';            // hub_id
 let nightsF=LS('lp3_nights')||'';     // ''|'2'|'3'|'4+'
+let feedTouched=false;                // 저장된 칩 조합이 0장이면 첫 렌더에서 한 번만 풀어 준다
 let saved=new Set((LS('lp3_saved')||'').split(',').filter(Boolean));
 const saveSaved=()=>LSs('lp3_saved',[...saved].join(','));
 /* ── 유틸 ─────────────────────────────────────────────── */
@@ -224,20 +228,33 @@ function hubChips(){
    지역 이름을 쓰되, 도시 여럿을 묶은 이름("벳푸·유후인")은 그대로 둔다. */
 function placeOf(t){ return (t.region_ko||'').trim(); }
 function renderFeed(){
-  let list=TRIPS.filter(t=>t.kind==='trip');
+  /* 출발 칩은 **거르고**(2026-09-11 사용자 결정), 며칠 칩에는 개수를 붙인다.
+     전에는 출발 칩이 정렬만 해서 20장이 그대로 남았다 — "눌렀는데 아무 일도 안 일어났다"로 읽혔다. */
+  let base=TRIPS.filter(t=>t.kind==='trip');
+  /* 칩은 브라우저에 저장된다. 이제 정렬이 아니라 거르기라, 저장된 조합이 0장이 되면
+     다시 열었을 때 빈 화면부터 만난다. 그 조합은 한 번 풀어 준다(사람이 고른 뒤 0장이 되는 건 그대로 둔다). */
+  if(!feedTouched){
+    const byHub=hub?base.filter(t=>t.from.some(f=>f.hub_id===hub)):base;
+    const byN=nightsF==='2'?byHub.filter(t=>t.nights===2):nightsF==='3'?byHub.filter(t=>t.nights===3):nightsF==='4+'?byHub.filter(t=>t.nights>=4):byHub;
+    if(!byN.length){ if(nightsF){ nightsF=''; LSs('lp3_nights',''); } if(!byHub.length&&hub){ hub=''; LSs('lp3_hub',''); } }
+    feedTouched=true;
+  }
+  if(hub) base=base.filter(t=>t.from.some(f=>f.hub_id===hub));
+  const nCount=v=>v==='2'?base.filter(t=>t.nights===2).length:v==='3'?base.filter(t=>t.nights===3).length:v==='4+'?base.filter(t=>t.nights>=4).length:base.length;
+  let list=base;
   if(nightsF==='2') list=list.filter(t=>t.nights===2); else if(nightsF==='3') list=list.filter(t=>t.nights===3); else if(nightsF==='4+') list=list.filter(t=>t.nights>=4);
   list=order(list);
-  if(hub){ const near=list.filter(t=>t.from.some(f=>f.hub_id===hub)).sort((a,b)=>(pickFrom(a,hub).hours??99)-(pickFrom(b,hub).hours??99)); const rest=list.filter(t=>!near.includes(t)); list=near.concat(rest); }
+  if(hub) list=list.sort((a,b)=>(pickFrom(a,hub).hours??99)-(pickFrom(b,hub).hours??99));
   const hubName=hub&&HUBS[hub]?HUBS[hub].name.ko:'';
   app.innerHTML=`
   <div class="feedhead" id="feedHead">
   <div class="top"><div class="name">로카패스 <small>현지 패스로 짠 소도시 여행</small></div><a class="pill" href="#/saved">보관 ${saved.size}</a></div>
   <div class="chips" id="hubChips"><span class="lab">출발</span><button data-h="" class="${hub?'':'on'}">안 정함</button>${hubChips().map(h=>`<button data-h="${h}" class="${hub===h?'on':''}">${esc(HUBS[h].name.ko)}</button>`).join('')}</div>
-  <div class="chips" id="nChips"><span class="lab">며칠</span>${[['','전부'],['2','2박'],['3','3박'],['4+','4박+']].map(([v,l])=>`<button data-n="${v}" class="${nightsF===v?'on':''}">${l}</button>`).join('')}${hub?`<a class="pill" style="margin-left:auto" href="#/from/${hub}">${esc(hubName)}에서 →</a>`:''}</div>
+  <div class="chips" id="nChips"><span class="lab">며칠</span>${[['','전부'],['2','2박'],['3','3박'],['4+','4박+']].map(([v,l])=>{const n=nCount(v);return `<button data-n="${v}" class="${nightsF===v?'on':''}${n?'':' none'}">${l} <span class="n">${n}</span></button>`}).join('')}${hub?`<a class="pill" style="margin-left:auto" href="#/from/${hub}">${esc(hubName)}에서 →</a>`:''}</div>
   </div>
   <div class="tiles">${list.map(t=>{ const f=pickFrom(t,hub); return `
     <a class="tile" href="${tripUrl(t,hub)}"><div class="ph"><div class="img" style="${photoStyle(t.photo)}"></div><span class="where">${esc(placeOf(t))}</span>${saved.has(t.trip_id)?'<span class="saved">보관함에 있어요</span>':''}<div class="tx"><div class="s">${esc(f.scene||t.scene)}</div><div class="a">${esc(assure(t,f))}</div></div></div></a>`; }).join('')}
-  ${list.length?'':'<p class="empty">이 조건에 맞는 여행이 아직 없어요.</p>'}</div>
+  ${list.length?'':`<p class="empty">${hub?`${esc(hubName)}에서 가는 ${nightsF?'그 일수의 ':''}여행이 아직 없어요.`:'이 조건에 맞는 여행이 아직 없어요.'}<br><span class="m">칩을 "안 정함"·"전부"로 돌리면 다 볼 수 있어요.</span></p>`}</div>
   <div class="foot">가격·조건은 각 여행에 적힌 확인 시점의 공식 페이지 기준이에요. 판매자와 무관하고 계정이 없어요. <a href="about.html">이게 뭐예요 · 면책 · 출처 · 연락</a></div>`;
   /* 포토 숏츠: 화면의 절반 넘게 보이는 타일만 움직이고, 벗어나면 멈춘다(다시 들어오면 자막이 다시 뜬다) */
   if('IntersectionObserver' in window){
