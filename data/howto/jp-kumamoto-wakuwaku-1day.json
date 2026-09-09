@@ -2,20 +2,9 @@
  "before": {},
  "buy": {
   "where": {
-   "v": [
-    {
-     "name": "각사 창구·구마모토역 관광안내소·조사이엔 안내소·사쿠라마치 버스터미널 안내소",
-     "online": false
-    },
-    {
-     "name": "버스·전차 차내",
-     "online": false
-    },
-    {
-     "name": "my route · RYDE 앱(디지털)",
-     "online": true
-    }
-   ],
+   "v": "my route나 RYDE PASS 앱에서 사요. 이 두 곳에서만 팔아요. 현 전역판 2,300엔, 구간 ① 850엔, ② 1,100엔이고 종이표보다 각각 200·50·100엔 싸요. 산 뒤 한 달 안에 쓰기 시작하면 돼요.",
+   "by": "사실확인_B4@2026-09-10",
+   "q": "利用できる最終停留所から初乗りした運賃を別途",
    "src": "https://www.oneday-pass.jp/"
   },
   "how": {
@@ -39,12 +28,21 @@
    "src": "https://www.oneday-pass.jp/"
   },
   "count_rules": {
-   "v": "**고속·특급·쾌속·규슈횡단·공항 리무진·정기관광·아소화구선은 못 탄다**",
-   "src": "https://www.oneday-pass.jp/"
+   "v": "고속·특급·쾌속버스, 규슈횡단버스, 공항 리무진, 정기관광버스, 아소 산 위로 가는 버스는 못 타요.",
+   "by": "사실확인_B4@2026-09-10",
+   "q": "高速・特急・快速・九州横断バス",
+   "src": "https://www.sankobus.jp/ticket/wakuwaku1day/target/"
   },
   "trap": {
-   "v": "아소 화구까지 가는 버스가 빠져 있다 — 아소역에서 화구선은 따로 낸다",
-   "src": "https://www.oneday-pass.jp/"
+   "v": "구마모토에서 아소로 가는 버스가 통째로 빠져 있어요. 아소는 열차로 가고 운임을 따로 내요. 아소 산 위 화구까지 가는 버스도 이 표에 없는데, 지금은 화구 자체가 출입금지라 아예 못 올라가요.",
+   "by": "사실확인_B4@2026-09-10",
+   "src": "https://www.aso-volcano.jp/info/"
+  },
+  "start": {
+   "v": "첫 버스를 타기 직전에 앱에서 티켓을 켜요. 켠 순간부터 24시간이라 오후에 시작해 다음 날 오전까지 쓸 수 있어요. 버스에서는 타고 내릴 때 차 안 QR 리더기에 화면을 대고, 정리권은 뽑지 않아요. 전차는 달라요 — 내릴 때 승무원에게 화면만 보여 주고 리더기에는 대지 않아요.",
+   "by": "사실확인_B4@2026-09-10",
+   "q": "ゾーンは利用できません",
+   "src": "https://www.kotsu-kumamoto.jp/kihon/pub/detail.aspx?c_id=66&id=1434&pg=1"
   }
  },
  "end": {
@@ -63,12 +61,20 @@
   {
    "url": "https://www.oneday-pass.jp/",
    "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.kotsu-kumamoto.jp/kihon/pub/detail.aspx?c_id=66&id=1434&pg=1",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.sankobus.jp/ticket/wakuwaku1day/target/",
+   "checked": "2026-09-10"
   }
  ],
  "gaps": [
   {
-   "what": "구역 ①②의 범위",
-   "how": "요금(①900/850·②1,200/1,100)은 확인했으나 구역 경계가 지도로만 있다"
+   "what": "구역 ①②의 버스 범위",
+   "how": "전철전차 구간은 공식에 문장으로 있다(①호리카와까지·②스야까지). 버스 범위는 지도 이미지뿐이고 글로 된 경계 설명이 없다 → 상품 페이지의 「バス利用可能エリア」 지도 확인. 특설사이트가 ①②에도 \"현 거의 전역\"이라 적어 둔 것은 현내판 문구의 복사 오류로 보이므로 따라 쓰지 않는다"
   }
  ],
  "pass_id": "jp-kumamoto-wakuwaku-1day",
@@ -78,5 +84,12 @@
   "ko": "와쿠와쿠 1day 패스 구마모토현 전역",
   "en": "Wakuwaku 1day Pass Kumamoto"
  },
- "built_at": "2026-09-07"
+ "built_at": "2026-09-07",
+ "save": {
+  "perk": {
+   "v": "이 표를 보여 주면 시내 시설이 단체요금이 돼요. 구마모토성은 800엔이 640엔, 스이젠지는 500엔이 450엔이에요.",
+   "by": "사실확인_B4@2026-09-10",
+   "src": "https://castle.kumamoto-guide.jp/info/"
+  }
+ }
 }

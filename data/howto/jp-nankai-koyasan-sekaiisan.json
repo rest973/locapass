@@ -26,6 +26,12 @@
   "get_what": {
    "v": "디지털 티켓(화면·QR)",
    "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  },
+  "digital": {
+   "v": "앱으로 미리 사면 3,980엔으로 230엔 싸요. 난카이 디지털 티켓 사이트에서 사고 신용카드가 필요해요. 탑승일 한 달 전부터 살 수 있는데 **당일 분은 오후 3시까지만** 팔아요.",
+   "by": "사실확인_B4@2026-09-10",
+   "q": "高野山・世界遺産デジタルきっぷ",
+   "src": "https://www.nankai.co.jp/traffic/digital/koyasan.html"
   }
  },
  "issue": {
@@ -46,6 +52,12 @@
   "trap": {
    "v": "고야산 안 버스 프리는 **일부 노선이 빠진다** — 급행 다테리선·고야류진선은 별개다",
    "src": "https://www.nankai.co.jp/traffic/otoku/koyasan.html"
+  },
+  "start": {
+   "v": "순서가 중요해요. 특급 좌석이 붙은 상품은 **좌석을 먼저 지정**해요 — 발차 5분 전까지 안 하면 승차권 자체를 못 써요. 개찰구에서는 화면의 2차원코드를 판독부에 대요. 그리고 **버스나 시설 쿠폰을 쓰기 전에 전철 티켓의 \"이용 개시\"를 먼저 눌러야** 버스에서 티켓이 열려요. 버스는 내릴 때 화면을 기사에게 보여 주는데, 단말기를 운임함 리더기에 가까이 대지 마세요 — 운임이 따로 빠져나갈 수 있어요. 배터리가 나가면 재발행도 환불도 안 돼요.",
+   "by": "사실확인_B4@2026-09-10",
+   "q": "ご利用開始後にご利用いただけます",
+   "src": "https://www.nankai.co.jp/traffic/digital/distribution"
   }
  },
  "end": {
@@ -67,14 +79,17 @@
   {
    "url": "https://www.nankai.co.jp/traffic/otoku/koyasan.html",
    "checked": "2026-09-02"
-  }
- ],
- "gaps": [
+  },
   {
-   "what": "디지털킷푸의 개시·제시 방법",
-   "how": "기재 없음"
+   "url": "https://www.nankai.co.jp/traffic/digital/koyasan.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.shukubo.net/contents/reserve/syukubo_reserve/",
+   "checked": "2026-09-10"
   }
  ],
+ "gaps": [],
  "pass_id": "jp-nankai-koyasan-sekaiisan",
  "name": {
   "local": "高野山・世界遺産きっぷ",
@@ -82,5 +97,20 @@
   "ko": "고야산 세계유산 킷푸",
   "en": "Koyasan World Heritage Ticket"
  },
- "built_at": "2026-09-07"
+ "built_at": "2026-09-07",
+ "care": {
+  "checkin": {
+   "v": "절 안 숙소는 체크인이 오후 3시부터 5시까지예요. 예약은 고야산 숙방협회 공식 창구에서 하고, 인터넷은 사흘 전까지, 그 뒤로는 전화로만 받아요. 1박 2식에 13,200엔부터고 화장실 딸린 방은 19,800엔부터예요. 아침 근행에 들어가는 것은 권유이고 의무는 아니에요.",
+   "by": "사실확인_B4@2026-09-10",
+   "q": "チェックインは15：00～17：00までとなっております",
+   "src": "https://www.shukubo.net/contents/reserve/syukubo_reserve/"
+  }
+ },
+ "save": {
+  "tickets": {
+   "v": "시설 요금은 두 가지 중 하나만 골라요. 곤고부지 1,000엔, 곤도 500엔, 곤폰다이토 500엔이 각각 따로인데, 도쿠가와가 영대와 수계까지 다섯 곳을 다 볼 거면 공통권 2,500엔이 700엔 이득이에요. 세 곳만 볼 거면 따로 사고 킷푸에 붙은 할인 쿠폰을 쓰는 쪽이 나아요. 공통권과 쿠폰은 함께 못 써요. 레이호칸은 킷푸를 보여 주면 1,300엔이 1,100엔이 돼요.",
+   "by": "사실확인_B4@2026-09-10",
+   "src": "https://www.koyasan.or.jp/kongobuji/charges/"
+  }
+ }
 }

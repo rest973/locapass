@@ -26,6 +26,12 @@
   "get_what": {
    "v": "**메일로 오는 전자 바우처(QR)**. 여럿이면 인원수만큼 코드를 보여야 한다",
    "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  },
+  "line": {
+   "v": "아리산 가는 버스는 A선과 B선 두 갈래예요. **A선은 고속철도 자이역**, **B선은 일반 기차 자이역**에서 출발해요. 고속철도로 왔으면 내린 자리에서 그대로 A선, 시내에서 잤거나 일반 기차로 왔으면 B선이에요. 편수는 B선이 훨씬 많아요 — A선은 하루 5편(첫차 08:40), B선은 하루 10편(첫차 06:05). 일출을 보려면 전날 산 위에서 자야 하니 오전에 올라가는 편이 나아요. 왕복표 한 장으로 A선과 B선을 섞어 탈 수 있어요.",
+   "by": "사실확인_B4@2026-09-10",
+   "q": "阿里山線A線／B線",
+   "src": "https://www.taiwantrip.com.tw/line/10"
   }
  },
  "issue": {
@@ -42,6 +48,12 @@
   "trap": {
    "v": "480(왕복)·630(+삼림유락구 입장)·750(+입장+도시락) 셋이 있다 — 입장료를 따로 낼 거면 480이 맞다",
    "src": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012"
+  },
+  "sunrise": {
+   "v": "일출 열차는 도착한 날 오후 4시 반 전에 처리해 둬요. 인터넷은 탑승일 1~14일 전에 사는데 다음날 아침 표는 전날 정오에 마감돼요. 가장 확실한 건 아리산역 2층 창구(08:30~16:30)예요. 당일권은 1층에서 발차 30분 전부터 파는데 남아야 사는 거라 기대는 걸지 마세요. 출발 시각은 정해져 있지 않아요 — 일출에 맞춰 매일 바뀌고 전날 오후 4시 반에 공고돼요. 요금은 편도 150위안이에요.",
+   "by": "사실확인_B4@2026-09-10",
+   "q": "祝山線",
+   "src": "https://afrch.forest.gov.tw/0000270"
   }
  },
  "end": {
@@ -60,14 +72,21 @@
   {
    "url": "https://www.taiwantrip.com.tw/Frontend/Reservation/Index/City000012",
    "checked": "2026-09-02"
-  }
- ],
- "gaps": [
+  },
   {
-   "what": "A선·B선의 차이",
-   "how": "고속철 자이 출발과 타이철 자이 출발인데 어느 쪽을 골라 타는지 절차가 없다"
+   "url": "https://www.taiwantrip.com.tw/line/10",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://afrch.forest.gov.tw/0000270",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://recreation.forest.gov.tw/forest/ra?typ_id=0500001",
+   "checked": "2026-09-10"
   }
  ],
+ "gaps": [],
  "pass_id": "tw-haoxing-alishan-roundtrip",
  "name": {
   "local": "台灣好行 阿里山線 來回票",
@@ -75,5 +94,12 @@
   "ko": "타이완하오싱 아리산선 왕복표",
   "en": "Taiwan Trip Alishan Round-trip"
  },
- "built_at": "2026-09-07"
+ "built_at": "2026-09-07",
+ "care": {
+  "fenqihu": {
+   "v": "펀치후는 모든 버스가 서지 않아요. 경유하는 편이 정해져 있어요 — 올라갈 때는 A선 11시나 B선 9시 40분, 내려올 때는 A선 10시 10분·12시 20분이나 B선 2시 10분이에요. 경유편은 30분쯤 더 걸려요.",
+   "by": "사실확인_B4@2026-09-10",
+   "src": "https://www.taiwantrip.com.tw/line/10"
+  }
+ }
 }
