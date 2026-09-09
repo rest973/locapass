@@ -41,8 +41,10 @@
    "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031"
   },
   "trap": {
-   "v": "**표를 사면 승차 당일과 그 다음 날, 펑후현 내 공공버스를 무료로 갈아탈 수 있다** — 종이 표나 승차 증명을 보이면 된다. 카드 61이 아직 안 쓰고 있는 재료다",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031"
+   "v": "**표를 사면 탄 날과 그다음 날까지 펑후현 안 공공버스를 무료로 갈아탈 수 있어요.** 종이 표나 승차 증명을 보여 주면 돼요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0031",
+   "v_prev": "**표를 사면 승차 당일과 그 다음 날, 펑후현 내 공공버스를 무료로 갈아탈 수 있다** — 종이 표나 승차 증명을 보이면 된다. 카드 61이 아직 안 쓰고 있는 재료다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "end": {},

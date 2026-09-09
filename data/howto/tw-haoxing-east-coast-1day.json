@@ -1,8 +1,10 @@
 {
  "before": {
   "when": {
-   "v": "**반드시 미리 좌석을 잡으라고 공식이 적는다**(「請務必事先訂位」). 만석이면 더 받지 않는다",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073"
+   "v": "**공식이 반드시 미리 좌석을 잡으라고 적어 뒀어요.** 자리가 다 차면 더 태우지 않아요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073",
+   "v_prev": "**반드시 미리 좌석을 잡으라고 공식이 적는다**(「請務必事先訂位」). 만석이면 더 받지 않는다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "buy": {
@@ -31,12 +33,16 @@
  "issue": {},
  "use": {
   "count_rules": {
-   "v": "일일권 全票 399·優惠票 250",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073"
+   "v": "1일권은 어른 399원이에요. 우대 250원은 대만 신분증이 있는 65세 이상, 장애수첩 소지자와 동반 한 사람, 키 115~150cm 어린이용이라 여행자는 해당이 없어요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073",
+   "v_prev": "일일권 全票 399·優惠票 250",
+   "by": "말투·원어 정리@2026-09-11"
   },
   "trap": {
-   "v": "**「郵輪式公車」다** — 정류장마다 정해진 시간만 머물고 다시 타는 방식이라 마음대로 오래 머물 수 없다. 가이드가 함께 탄다",
-   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073"
+   "v": "**유람선처럼 도는 버스예요** — 정류장마다 정해진 시간만 머물고 다시 타요. 마음대로 오래 머물 수 없어요. 가이드가 함께 타고 시간을 챙겨 줘요.",
+   "src": "https://www.taiwantrip.com.tw/Frontend/Route/Select_p?RouteID=R0073",
+   "v_prev": "**「郵輪式公車」다** — 정류장마다 정해진 시간만 머물고 다시 타는 방식이라 마음대로 오래 머물 수 없다. 가이드가 함께 탄다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "end": {},

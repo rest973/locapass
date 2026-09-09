@@ -185,7 +185,10 @@ function pickFrom(t,hid){ return (hid && t.from.find(f=>f.hub_id===hid)) || t.fr
 function assure(t,f){ const l2=f.l2||t.l2; return (/박/.test(l2)?l2:(t.days_label+' · '+l2))+' · '+fromLine(f); }
 function nowSec(t){
   const n=t.now; if(!n||!n.items||!n.items.length) return '';   // 특이사항 없으면 절 자체를 안 그린다
-  const d=s=>{ if(!s) return ''; const [y,m,dd]=s.split('-'); return `${+m}월 ${+dd}일`; };
+  /* 올해가 아니면 연도를 붙인다 — 2027-12-31을 "12월 31일까지"로만 쓰면 올해로 읽힌다
+     (2026-09-10 화면 확인에서 싼셴타이 다리가 그렇게 보였다). */
+  const thisYear=String(new Date().getFullYear());
+  const d=s=>{ if(!s) return ''; const [y,m,dd]=s.split('-'); return (y===thisYear?'':`${y}년 `)+`${+m}월 ${+dd}일`; };
   const rows=n.items.map(it=>{
     const when = it.upcoming ? `${d(it.from)}부터` : (it.until ? `${d(it.until)}까지` : '');
     return `<div class="nowit ${it.kind==='혜택'?'good':''}">

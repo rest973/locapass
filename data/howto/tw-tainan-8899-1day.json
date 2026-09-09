@@ -25,8 +25,10 @@
  },
  "issue": {
   "exchange": {
-   "v": "**99선은 타이난역 남측 매표소에서 종이 표로 바꾼 뒤 탄다.** 88선은 탈 때 QR을 보이면 직원이 인식한다",
-   "src": "https://tainan.funcard.com.tw/product/info/AzOy"
+   "v": "98번은 탈 때 QR을 보여 주면 직원이 읽어요. 종이 표로 바꾸러 갈 필요가 없어요.",
+   "src": "https://tainan.funcard.com.tw/product/info/AzOy",
+   "v_prev": "**99선은 타이난역 남측 매표소에서 종이 표로 바꾼 뒤 탄다.** 88선은 탈 때 QR을 보이면 직원이 인식한다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "use": {
@@ -42,8 +44,10 @@
  },
  "end": {
   "refund": {
-   "v": "**미사용분만** 台南好玩卡 사이트·앱·메일로 환불 신청",
-   "src": "https://tainan.funcard.com.tw/product/info/AzOy"
+   "v": "**안 쓴 것만** 환불돼요. 산 곳의 사이트나 앱으로 신청해요.",
+   "src": "https://tainan.funcard.com.tw/product/info/AzOy",
+   "v_prev": "**미사용분만** 台南好玩卡 사이트·앱·메일로 환불 신청",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "languages": {
