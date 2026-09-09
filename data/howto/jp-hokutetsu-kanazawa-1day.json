@@ -23,28 +23,36 @@
    "src": "카드 본문"
   },
   "where_note": {
-   "v": "**차 안에서는 팔지 않는다.** 타기 전에 창구에서 사야 한다",
+   "v": "**버스 안에서는 안 팔아요.** 타기 전에 창구에서 사야 해요. 주유버스 차내에서도 안 팔고요.",
    "q": "バス車内での販売はいたしておりません",
-   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/",
+   "v_prev": "**차 안에서는 팔지 않는다.** 타기 전에 창구에서 사야 한다",
+   "by": "말투·원어 정리@2026-09-11"
   },
   "get_what": {
-   "v": "종이 승차권. 날짜 도장이 찍힌다",
-   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+   "v": "종이 승차권이에요. 날짜 도장을 찍어 줘요.",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/",
+   "v_prev": "종이 승차권. 날짜 도장이 찍힌다",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "issue": {},
  "use": {
   "show": {
-   "v": "내릴 때 운전사에게 券面을 보인다",
-   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+   "v": "내릴 때 운전사에게 표 앞면을 보여 줘요.",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/",
+   "v_prev": "내릴 때 운전사에게 券面을 보인다",
+   "by": "말투·원어 정리@2026-09-11"
   },
   "count_rules": {
    "v": "호쿠테쓰 그룹 노선버스(범위 내)·시로시타마치 가나자와 주유버스·서일본JR버스 노선버스·가나자와 후랏토버스·가나자와 쇼핑버스. **정기관광버스·고속승합·특급버스·라이트업버스는 제외**",
    "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
   },
   "trap": {
-   "v": "**\"차내에서 산다\"고 알려진 정보가 돌아다니지만 공식은 차내 판매를 하지 않는다.** 역앞 안내소에서 먼저 사고 타야 한다",
-   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+   "v": "**\"차 안에서 산다\"는 얘기가 돌아다니는데 공식은 차내 판매를 하지 않아요.** 역 앞 안내소에서 먼저 사고 타세요.",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/",
+   "v_prev": "**\"차내에서 산다\"고 알려진 정보가 돌아다니지만 공식은 차내 판매를 하지 않는다.** 역앞 안내소에서 먼저 사고 타야 한다",
+   "by": "말투·원어 정리@2026-09-11"
   },
   "when_lane_closed": {
    "v": "날짜 도장이 없거나 부정 사용이면 무효",
@@ -53,8 +61,10 @@
  },
  "end": {
   "refund": {
-   "v": "券面 유효일 **전날까지** 판매 창구에서만, 수수료 100엔",
-   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/"
+   "v": "표에 적힌 유효일 **전날까지** 판매 창구에서만 받아 줘요. 수수료는 100엔이에요.",
+   "src": "https://www.hokutetsu.co.jp/ticket/kanazawa-oneday/",
+   "v_prev": "券面 유효일 **전날까지** 판매 창구에서만, 수수료 100엔",
+   "by": "말투·원어 정리@2026-09-11"
   }
  },
  "languages": {

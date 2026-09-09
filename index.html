@@ -101,7 +101,8 @@ button{font:inherit;cursor:pointer;color:inherit}
 .nowit p{margin:4px 0 2px}
 .pass{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 12px;margin:0 0 8px}
 .pass .n{font-size:12px;color:var(--mute)}
-.pass .big{font-size:16px;font-weight:700;margin:2px 0 6px}
+.pass .doeslab{font-size:12px;color:var(--mute);margin:2px 0 1px}
+.pass .big{font-size:16px;font-weight:700;margin:0 0 6px}
 .pass p{margin:0 0 6px;font-size:14px}
 .btns{display:flex;gap:8px;margin:4px 0 0}
 .btns button{flex:1;border:1px solid var(--ink);background:var(--card);border-radius:12px;padding:11px;font-size:14px;font-weight:600}
@@ -294,7 +295,7 @@ async function renderTrip(id,q){
       <div><b>가는 길</b>${esc(fromLine(f))}<br><span class="m">${esc(a.l3||t.l3)}</span></div>
       <div><b>확인</b><span class="m">${esc(checkedLine(t))}</span></div></div></div>
     <div class="sec"><h3>거기서 뭐 해요</h3><p>${esc(a.what||t.what)}</p>${(a.days||t.days)?(a.days||t.days).map(d=>`<div class="day"><h4>${esc(d.label)}</h4><ul>${d.steps.map(st=>`<li>${esc(st.what)}${st.how?` <span class="m">· ${esc(st.how)}</span>`:''}${st.note?`<span class="m">${esc(st.note)}</span>`:''}</li>`).join('')}</ul></div>`).join(''):''}</div>
-    <div class="sec"><h3>어떻게 다녀요</h3>${(p0&&p0.trust_level==='retired')?'<p class="m">이 여행은 패스가 없어요. 운임으로 가요.</p>':''}${t.passes.map((p,i)=>`<div class="pass"><div class="n">${i?'함께 쓰는 패스 · ':''}${p.trust_level==='retired'?'패스 없음 · 운임':esc(p.label)}</div>${i?'':`<div class="big">${esc(a.save||p.save)}</div><p>${esc(a.why||p.why)}</p><p><b>하나만 조심</b> · ${esc(a.care||p.care)}</p>`}</div>`).join('')}</div>
+    <div class="sec"><h3>어떻게 다녀요</h3>${(p0&&p0.trust_level==='retired')?'<p class="m">이 여행은 패스가 없어요. 운임으로 가요.</p>':''}${t.passes.map((p,i)=>`<div class="pass"><div class="n">${i?'함께 쓰는 패스 · ':''}${p.trust_level==='retired'?'패스 없음 · 운임':esc(p.label)}</div>${i?'':`<div class="doeslab">이 표가 하는 일</div><div class="big">${esc(a.save||p.save)}</div><p>${esc(a.why||p.why)}</p><p><b>하나만 조심</b> · ${esc(a.care||p.care)}</p>`}</div>`).join('')}</div>
     ${nowSec(t)}
     ${(a.honest||t.honest)?`<div class="sec"><h3>솔직히</h3><p>${esc(a.honest||t.honest)}</p></div>`:''}
     <div class="sec"><div class="btns"><button class="pri" id="shareBtn">같이 갈 사람에게 보내기</button><button id="saveBtn2">${saved.has(t.trip_id)?'보관함에서 빼기':'보관'}</button></div></div>
