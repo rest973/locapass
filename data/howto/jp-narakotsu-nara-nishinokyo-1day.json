@@ -1,29 +1,57 @@
 {
- "before": {},
+ "before": {
+  "app_or_account": {
+   "v": "**앱으로도 살 수 있어요.** 조르단 모바일 티켓이나 바스모리 지갑에서 같은 값에 사서 화면을 보이고 탑니다.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "スマホアプリでも購入できます",
+   "src": "https://www.narakotsu.co.jp/route/ticket/"
+  }
+ },
  "buy": {
   "where": {
    "v": [
     {
-     "name": "JR나라 안내소·긴테츠나라 안내소",
+     "name": "JR나라역 안내소 (평일 8:30~19:00 / 주말 ~18:00)",
      "online": false
     },
     {
-     "name": "가쿠엔마에·오지·야기 안내소",
+     "name": "긴테츠나라역 안내소 (평일 8:30~19:00 / 주말 ~18:00)",
      "online": false
     },
     {
-     "name": "대형 여행대리점",
-     "online": false,
-     "note": "판매 수수료가 붙는다"
+     "name": "조르단 모바일 티켓 · 바스모리 지갑",
+     "online": true
     }
    ],
+   "by": "사실확인_B10@2026-09-10",
+   "q": "ＪＲ奈良案内所、近鉄奈良案内所",
+   "src": "https://www.narakotsu.co.jp/route/ticket/1day-pass/"
+  },
+  "where_note": {
+   "v": "큰 여행사에서 사면 판매 수수료가 붙어요. 공식마다 판매처 목록이 조금씩 달라서, 여행자가 지나는 두 역 안내소를 쓰는 편이 확실해요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "所定の販売手数料がかかります",
    "src": "https://www.narakotsu.co.jp/route/ticket/1day-pass/"
   }
  },
  "issue": {},
  "use": {
   "count_rules": {
-   "v": "나라공원 에리어와 니시노쿄 에리어의 노선버스 1일 무제한 — 도다이지·가스가타이샤·고후쿠지·도쇼다이지·야쿠시지",
+   "v": "나라공원 쪽과 니시노쿄 쪽 노선버스를 하루 종일 타요. 도다이지·가스가타이샤·고후쿠지·간고지·헤이조궁터·야쿠시지·도쇼다이지가 그 안에 들어가요. **토요일·일요일·공휴일에는 공원을 도는 순환버스도 이 표로 탑니다**(따로 타면 한 번 250엔). 연선 쉰두 곳에서 할인도 받아요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "各種フリー乗車券でもご乗車いただけます",
+   "src": "https://www.narakotsu.co.jp/temporary/gurutto-bus/"
+  },
+  "show": {
+   "v": "탈 때와 내릴 때 운전사에게 보여 줘요. **요금함에 넣지 마세요** — 넣으면 못 씁니다.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "요금함 등에 넣지 않도록 주의하십시오",
+   "src": "https://www.narakotsu.co.jp/language/kr/pass.html"
+  },
+  "trap": {
+   "v": "**철도에는 못 써요.** 긴테츠선도 JR선도 안 됩니다. 호류지·호키지 쪽, 조루리지 쪽, 가쿠엔마에역 남쪽은 범위 밖이에요 — 호류지까지 보려면 1,100엔짜리 넓은 표를 사야 해요. 정기관광버스도 못 탑니다. **도다이지는 할인 대상이 아니고 입장료도 현금만** 받아요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "※近鉄線、JR線にはご利用いただけません。",
    "src": "https://www.narakotsu.co.jp/route/ticket/1day-pass/"
   }
  },
@@ -37,16 +65,36 @@
   {
    "url": "https://www.pref.nara.lg.jp/site/nara-access-navi/oneday/",
    "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.narakotsu.co.jp/language/kr/pass.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.narakotsu.co.jp/route/ticket/",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.narakotsu.co.jp/temporary/gurutto-bus/",
+   "checked": "2026-09-10"
   }
  ],
  "gaps": [
   {
-   "what": "환불·우대·디지털권",
-   "how": "기재 없음"
+   "what": "환불",
+   "how": "나라교통 환불 페이지는 IC카드만 다루고 프리 승차권 조항이 없다"
   },
   {
-   "what": "제외 노선",
-   "how": "고속버스·커뮤니티버스의 취급이 기재 없음"
+   "what": "차내 판매",
+   "how": "발매 장소에 차내가 없다 — 못 산다고 단정할 근거도 없다"
+  },
+  {
+   "what": "노선버스 1회 운임",
+   "how": "공식에 액수가 없다. 「세 번이면 본전」을 아직 못 쓴다"
+  },
+  {
+   "what": "미리 사 두기",
+   "how": "「당일만」과 「구입일과 무관」이 공식끼리 어긋난다"
   }
  ],
  "pass_id": "jp-narakotsu-nara-nishinokyo-1day",

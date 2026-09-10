@@ -1,5 +1,12 @@
 {
- "before": {},
+ "before": {
+  "when": {
+   "v": "「유효기간」이라는 말은 공식에 없는데, **쓰는 날이 기준**이에요. 종이표는 그날 날짜를 동전으로 긁고, 앱으로 산 표는 개시를 누른 당일부터예요. 미리 사 두어도 괜찮아요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "사용하실 날짜에 승차권을 긁은 후",
+   "src": "https://kobeloop.bus-japan.net/ko/ticket/"
+  }
+ },
  "buy": {
   "where": {
    "v": [
@@ -17,6 +24,18 @@
     }
    ],
    "src": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/"
+  },
+  "pay": {
+   "v": "현금이나 교통카드로 사요. **차 안에서 현금을 낼 때는 거스름돈이 없고**, 차에서 교통카드를 충전할 수도 없어요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "事前両替方式です。おつりはでません",
+   "src": "https://www.shinkibus.co.jp/bus/cityloop/how-to-ride/"
+  },
+  "where_note": {
+   "v": "**시티루프 차 안에서는 1일권만** 살 수 있어요. 2일권은 창구에서 사요. 같은 공식 사이트 안에서도 차내 판매를 두고 말이 갈리니, 확실히 하려면 산노미야 인포메이션센터에서 사세요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "シティーループ車内【１日券のみ】",
+   "src": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/"
   }
  },
  "issue": {},
@@ -26,22 +45,61 @@
    "src": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/"
   },
   "trap": {
-   "v": "「見せトク」 제휴 시설 할인이 붙는데 **목록이 다른 페이지에 있다**",
-   "src": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/"
+   "v": "**고베 시영 지하철과 시버스는 안 들어가요.** 이 표가 덮는 아홉 노선은 전부 순환버스 계열이에요. 한 바퀴 도는 데 약 65분이라, 반대 방향으로 가고 싶으면 걸어가는 편이 빠를 때가 있어요. **언덕 쪽 막차가 일러요** — 평일에는 여섯 시가 조금 넘으면 기타노에서 내려오는 버스가 끊깁니다. 시설 할인은 서른네 곳인데 **포트타워는 대상이 아니에요.**",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "1周約65分で運行",
+   "src": "https://www.shinkibus.co.jp/bus/cityloop/about-us/"
+  },
+  "when_lane_closed": {
+   "v": "**2026년 8월 11일부터 차량 사정으로 편수가 줄어 있어요.** 평상시 15분 간격이던 것이 30분까지 벌어지고 아침에는 한 시간 가까이 비는 자리도 있어요. 공식이 포트루프를 같이 쓰라고 안내합니다.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "2026年8月11日から当面の間、減便ダイヤ",
+   "src": "https://www.shinkibus.co.jp/bus/cityloop/time_202608/"
   }
  },
- "end": {},
+ "end": {
+  "refund": {
+   "v": "**한 번 사면 환불이 안 돼요.** 잃어버려도 다시 만들어 주지 않아요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "1-day 승차권은 구입 후 환불이 불가능합니다",
+   "src": "https://kobeloop.bus-japan.net/ko/ticket/"
+  }
+ },
  "languages": {},
  "sources": [
   {
    "url": "https://www.shinkibus.co.jp/bus/cityloop/bus-ticket/",
    "checked": "2026-09-06"
+  },
+  {
+   "url": "https://kobeloop.bus-japan.net/ko/ticket/",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://kobeloop.bus-japan.net/ko/faq/",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.shinkibus.co.jp/bus/cityloop/how-to-ride/",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.shinkibus.co.jp/bus/cityloop/time_202608/",
+   "checked": "2026-09-10"
   }
  ],
  "gaps": [
   {
-   "what": "유효기간 표기·환불",
-   "how": "공식 페이지에 없다"
+   "what": "차내 판매",
+   "how": "판매처 목록은 「가능」, 같은 사이트 FAQ는 「불가」로 공식끼리 어긋난다"
+  },
+  {
+   "what": "감편이 언제 끝나나",
+   "how": "「当面の間」까지만 — 여행 전에 시각표를 다시 볼 것"
+  },
+  {
+   "what": "2일권이 연속인지",
+   "how": "기재 없음"
   }
  ],
  "pass_id": "jp-kobe-cityloop-1day",

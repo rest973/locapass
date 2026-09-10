@@ -1,28 +1,76 @@
 {
- "before": {},
+ "before": {
+  "when": {
+   "v": "연중 팔고 유효는 이용일 하루예요. **미리 사 두어도 됩니다** — 버스에 처음 탈 때 표 뒷면에 그날 날짜가 찍혀요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "事前購入が可能です。初回利用時、裏面に利用日を印字します。",
+   "src": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/ticket/regular_1day_card_comm.html"
+  }
+ },
  "buy": {
   "where": {
    "v": [
     {
-     "name": "지하철 역 창구·발매기·시버스 영업소·안내소",
+     "name": "지하철 각 역 창구",
+     "online": false
+    },
+    {
+     "name": "시버스·지하철 안내소, 정기권 발매소",
+     "online": false
+    },
+    {
+     "name": "시버스 영업소",
+     "online": false
+    },
+    {
+     "name": "시버스 차 안 (수량 한정)",
+     "online": false
+    },
+    {
+     "name": "시내 일부 편의점·관광안내소·숙박시설",
      "online": false
     }
    ],
-   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000357060.html"
+   "by": "사실확인_B10@2026-09-10",
+   "q": "市バス・地下鉄案内所、定期券発売所／市バス営業所／地下鉄各駅窓口",
+   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000028378.html"
+  },
+  "where_note": {
+   "v": "차 안에서 파는 표는 수량이 한정이라 매진될 수 있어요. 공식도 되도록 타기 전에 사라고 안내합니다. 무인 개찰구인 역에서는 개찰 옆 인터폰으로 물어보세요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "バス車内での販売は数に限りがあります",
+   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000028378.html"
   }
  },
  "issue": {},
  "use": {
   "count_rules": {
-   "v": "교토시영 지하철·시버스 전선 + 교토버스·게이한버스·서일본JR버스(**각각 일부 노선 제외**) + 토·휴일의 관광특급버스",
-   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000019521.html"
+   "v": "지하철 전선과 시버스 전선을 하루 종일 타요. **시버스는 균일구간 밖까지 포함**돼서 구간을 따질 필요가 없어요. 여기에 교토버스·게이한버스·JR버스의 시내 구간이 붙고, **토요일·일요일·공휴일에는 관광특급버스도 추가요금 없이** 탑니다. 시내 쉰 곳 넘는 시설에서 할인도 받아요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "市バス全線(均一区間外を含みます。）",
+   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000028378.html"
   },
   "trap": {
-   "v": "**\"일부 노선 제외\"의 목록이 공식에 없다** — 어느 버스가 빠지는지 타기 전에 알 수 없다. 시내 약 50곳에서 할인·우대를 받지만 임시 휴관·시간 단축이 잦다",
-   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000019521.html"
+   "v": "**기부네와 구라마는 이 표로 못 가요.** 교토버스가 이치하라까지만 유효하거든요. 히에이산으로 오르는 버스도 빠져요. 반대로 **아라시야마·오하라·다카오는 다 됩니다** — 그쪽을 걱정할 필요가 없어요. 심야버스는 할증분을 따로 내요. 온라인으로 사는 디지털 쿠폰은 **그것만으로는 못 타요** — 교토역앞이나 코토치카 교토 안내소에서 실물 표로 바꿔야 합니다.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "貴船・鞍馬を除く各方面へは…地下鉄・バス一日券がたいへん便利です",
+   "src": "https://www.city.kyoto.lg.jp/kotsu/page/0000028337.html"
+  },
+  "show": {
+   "v": "버스는 뒷문으로 타고 **내릴 때 요금통에 표를 넣으면** 뒷면에 날짜가 찍혀요. 그다음부터는 찍힌 날짜를 운전사에게 보이고 내립니다. 관광특급버스만 **앞문으로 타면서** 표를 보여요. 게이한버스나 JR버스에 먼저 타면 표 앞면 칸에 날짜를 직접 적어요.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "最初の乗車時に、バス車内の運賃箱で裏面に日付を印字します",
+   "src": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/bus/howtoride_bus_3_0.html"
   }
  },
- "end": {},
+ "end": {
+  "refund": {
+   "v": "**안 쓴 표는 장당 200엔을 떼고 환불해 줘요.** 지하철역, 시버스·지하철 안내소, 시버스 영업소에서 받습니다.",
+   "by": "사실확인_B10@2026-09-10",
+   "q": "手数料 200 円/枚",
+   "src": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/ticket/pop_fare_refund.html"
+  }
+ },
  "languages": {},
  "sources": [
   {
@@ -32,16 +80,40 @@
   {
    "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000019521.html",
    "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000028378.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/ticket/regular_1day_card_comm.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/ticket/pop_fare_refund.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/bus/howtoride_bus_3_0.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/bus/limited_express.html",
+   "checked": "2026-09-10"
   }
  ],
  "gaps": [
   {
-   "what": "요금·유효기간·환불",
-   "how": "이 페이지에 없고 교통국 안내소로 안내한다"
+   "what": "결제 수단",
+   "how": "창구·차내에서 현금 외에 무엇이 되는지 공식 기재 없음"
   },
   {
-   "what": "제외 노선 목록",
-   "how": "\"一部路線を除く\"로만 적혀 있다"
+   "what": "자동발매기",
+   "how": "공식은 「창구」만 적는다 — 발매기로 살 수 있는지 모른다"
+  },
+  {
+   "what": "게이한버스 제외 노선의 정본",
+   "how": "교통국 본 페이지와 웹가이드의 열거가 서로 다르다"
   }
  ],
  "pass_id": "jp-kyoto-subway-bus-1day",
