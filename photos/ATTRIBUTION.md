@@ -49,3 +49,6 @@
 | 63 | card63.jpg | Kobe City Thomas House.jpg | KishujiRapid | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kobe_City_Thomas_House.jpg) |
 | 64 | card64.jpg | Nara Kasuga-taisha Lanterns & Deer 02.jpg | Zairon | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nara_Kasuga-taisha_Lanterns_%26_Deer_02.jpg) |
 | 68 | card68.jpg | Shinsekai and Tsutenkaku Tower.jpg | Sakai Yayoi | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Shinsekai_and_Tsutenkaku_Tower.jpg) |
+| 69 | card69.jpg | Enoden - Shichirigahama.jpg | Kakidai | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Enoden_-_Shichirigahama.jpg) |
+| 70 | card70.jpg | 20250101 Cosmo Clock 21 203252.jpg | Matthide127 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:20250101_Cosmo_Clock_21_203252.jpg) |
+| 76 | card76.jpg | Mount Fuji from Lake Kawaguchi (2015-10-26).jpg | Alpsdake | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Lake_Kawaguchi_%282015-10-26%29.jpg) |
