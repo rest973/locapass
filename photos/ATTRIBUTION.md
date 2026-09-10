@@ -52,3 +52,7 @@
 | 69 | card69.jpg | Enoden - Shichirigahama.jpg | Kakidai | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Enoden_-_Shichirigahama.jpg) |
 | 70 | card70.jpg | 20250101 Cosmo Clock 21 203252.jpg | Matthide127 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:20250101_Cosmo_Clock_21_203252.jpg) |
 | 76 | card76.jpg | Mount Fuji from Lake Kawaguchi (2015-10-26).jpg | Alpsdake | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Lake_Kawaguchi_%282015-10-26%29.jpg) |
+| 73 | card73.jpg | Taipei Taiwan Maokong-Gondola-01.jpg | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Maokong-Gondola-01.jpg) |
+| 80 | card80.jpg | Qixingtan Beach, Taiwan.jpg | Artemas Liu | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Qixingtan_Beach%2C_Taiwan.jpg) |
+| 77 | card77.jpg | Naha Shuri-jo Walls 03.jpg | Zairon | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Naha_Shuri-jo_Walls_03.jpg) |
+| 78 | card78.jpg | Cape Manzamo 2.JPG | そらみみ | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cape_Manzamo_2.JPG) |
