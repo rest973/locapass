@@ -3937,7 +3937,17 @@
   "hub": "오사카",
   "days": "당일치기",
   "editor_pick": false,
-  "photo": null,
+  "photo": {
+   "src": "photos/web/card62.jpg",
+   "pos": "50% 50%",
+   "credit": "Domenico Convertini from Zurich, Schweiz",
+   "license": "CC BY-SA 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Gion_-_Nineizaka_%28Ninenzaka%29%2C_Kyoto%2C_Japan_%2848924001702%29.jpg",
+   "cropped": true,
+   "title": "Gion - Nineizaka (Ninenzaka), Kyoto, Japan (48924001702).jpg",
+   "search_terms": "",
+   "chosen": "커먼즈 검색 후보 중 선정 2026-09-10 (사용자 확인 전)"
+  },
   "front": {
    "scene": "기요미즈데라 언덕길, 니조성 마루, 저녁엔 기온 골목. 흩어진 데를 버스로 이어요.",
    "l2": "지하철·시버스 1일권 1,100엔",
@@ -4008,7 +4018,8 @@
   "itinerary_by": "B10 초안 2026-09-10 (사실확인 반영)",
   "honest": "교토는 이 표를 안 사면 손해 보기 어려운 동네예요. 버스와 지하철을 네댓 번만 타도 1,100엔이 빠지는데, 하루 도는 데 그 정도는 쉽게 탑니다. 토요일·일요일·공휴일에는 기요미즈데라와 긴카쿠지를 잇는 관광특급버스까지 이 표로 타요 — 따로 타면 한 번에 500엔이에요. 다만 **기부네와 구라마, 히에이산은 이 표로 못 가요.** 아라시야마와 오하라, 다카오는 됩니다. 그리고 이 표는 교통만이에요. 기요미즈데라 500엔, 긴카쿠지 1,000엔, 니조성 800엔은 다 따로 냅니다 — 하루에 세 곳만 들어가도 입장료가 표값의 두 배예요. 아침 여섯 시에 문을 여는 곳은 기요미즈데라뿐이니, 사람을 피하려면 거기부터 가세요.",
   "honest_by": "B10 초안 2026-09-10 (사실확인 반영)",
-  "status_prev": "draft"
+  "status_prev": "draft",
+  "photo_prev": {}
  },
  {
   "id": 63,
@@ -4019,7 +4030,17 @@
   "hub": "오사카",
   "days": "당일치기",
   "editor_pick": false,
-  "photo": null,
+  "photo": {
+   "src": "photos/web/card63.jpg",
+   "pos": "50% 50%",
+   "credit": "KishujiRapid",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kobe_City_Thomas_House.jpg",
+   "cropped": true,
+   "title": "Kobe City Thomas House.jpg",
+   "search_terms": "",
+   "chosen": "커먼즈 검색 후보 중 선정 2026-09-10 (사용자 확인 전)"
+  },
   "front": {
    "scene": "언덕 위 기타노 이인관, 항구의 메리켄파크, 난킨마치 만두 골목. 순환버스가 다 이어요.",
    "l2": "시티루프·포트루프 1일권 800엔",
@@ -4099,7 +4120,8 @@
     }
    ]
   },
-  "status_prev": "draft"
+  "status_prev": "draft",
+  "photo_prev": {}
  },
  {
   "id": 64,
@@ -4110,7 +4132,17 @@
   "hub": "오사카",
   "days": "당일치기",
   "editor_pick": false,
-  "photo": null,
+  "photo": {
+   "src": "photos/web/card64.jpg",
+   "pos": "50% 50%",
+   "credit": "Zairon",
+   "license": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Nara_Kasuga-taisha_Lanterns_%26_Deer_02.jpg",
+   "cropped": true,
+   "title": "Nara Kasuga-taisha Lanterns & Deer 02.jpg",
+   "search_terms": "",
+   "chosen": "커먼즈 검색 후보 중 선정 2026-09-10 (사용자 확인 전)"
+  },
   "front": {
    "scene": "사슴이 지나다니는 나라공원, 도다이지 큰 불상. 서쪽 니시노쿄까지 버스 한 장으로.",
    "l2": "나라공원·니시노쿄 1일권 600엔",
@@ -4201,7 +4233,8 @@
     }
    ]
   },
-  "status_prev": "draft"
+  "status_prev": "draft",
+  "photo_prev": {}
  },
  {
   "id": 65,
@@ -4245,7 +4278,17 @@
   "hub": "오사카",
   "days": "1박 2일",
   "editor_pick": false,
-  "photo": null,
+  "photo": {
+   "src": "photos/web/card66.jpg",
+   "pos": "50% 50%",
+   "credit": "そらみみ",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Otemae-dori_Street_and_Himeji_Castle_Loop_Bus.jpg",
+   "cropped": true,
+   "title": "Otemae-dori Street and Himeji Castle Loop Bus.jpg",
+   "search_terms": "",
+   "chosen": "커먼즈 검색 후보 중 선정 2026-09-10 (사용자 확인 전)"
+  },
   "front": {
    "scene": "흰 히메지성이 역에서 곧게 뻗은 길 끝에 서 있어요. 산 위 옛 목조 사찰까지 이틀.",
    "l2": "버스·로프웨이 2일권 1,900엔",
@@ -4351,7 +4394,8 @@
     }
    ]
   },
-  "status_prev": "draft"
+  "status_prev": "draft",
+  "photo_prev": {}
  },
  {
   "id": 67,
@@ -4362,7 +4406,17 @@
   "hub": "요나고",
   "days": "1박 2일",
   "editor_pick": false,
-  "photo": null,
+  "photo": {
+   "src": "photos/web/card67.jpg",
+   "pos": "50% 50%",
+   "credit": "the.Firebottle",
+   "license": "CC BY-SA 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaguraden_Shimenawa%2C_Izumo_Shrine_-_May_8%2C_2013.jpg",
+   "cropped": true,
+   "title": "Kaguraden Shimenawa, Izumo Shrine - May 8, 2013.jpg",
+   "search_terms": "",
+   "chosen": "커먼즈 검색 후보 중 선정 2026-09-10 (사용자 확인 전)"
+  },
   "front": {
    "scene": "검은 마쓰에성과 호수 노을, 서쪽 끝 이즈모타이샤의 굵은 금줄. 옛 전차로 이어요.",
    "l2": "전차·버스 2일권 3,500엔",
@@ -4453,7 +4507,8 @@
   "itinerary_by": "B9 초안 2026-09-10 (사실확인 반영)",
   "honest": "먼저 셈부터 하면, 이즈모를 한 번 왕복하고 마쓰에 시내만 도는 여행이면 이 표는 손해예요. 전차 왕복이 1,800엔이고 시내버스 1일권이 700엔이라 2,500엔이면 되거든요. 3,500엔이 값을 하는 건 이틀 내내 전차를 자유롭게 탈 사람이에요. 그리고 이 표는 창구에서 안 팔아요 — 스마트폰으로만 사고 쓰며 회원 등록이 필요합니다. 산 날부터 이틀이라 오후에 사면 그날이 반쯤 날아가요. JR 열차와 공항 연락버스는 빠져 있어서 요나고 공항에서 들어오는 길은 따로 냅니다.",
   "honest_by": "B9 초안 2026-09-10 (사실확인 반영)",
-  "status_prev": "draft"
+  "status_prev": "draft",
+  "photo_prev": {}
  },
  {
   "id": 68,
@@ -4464,7 +4519,17 @@
   "hub": "오사카",
   "days": "당일치기",
   "editor_pick": false,
-  "photo": null,
+  "photo": {
+   "src": "photos/web/card68.jpg",
+   "pos": "50% 50%",
+   "credit": "Sakai Yayoi",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Shinsekai_and_Tsutenkaku_Tower.jpg",
+   "cropped": true,
+   "title": "Shinsekai and Tsutenkaku Tower.jpg",
+   "search_terms": "",
+   "chosen": "커먼즈 검색 후보 중 선정 2026-09-10 (사용자 확인 전)"
+  },
   "front": {
    "scene": "쓰텐카쿠 아래 꼬치집 골목, 오사카성 천수각, 항구에서 뜨는 대관람차. 하루 3,500엔에 다 들어가요.",
    "l2": "시설 40곳 + 교통 1일 3,500엔",
@@ -4554,7 +4619,8 @@
     }
    ]
   },
-  "status_prev": "draft"
+  "status_prev": "draft",
+  "photo_prev": {}
  },
  {
   "id": 69,
@@ -4879,7 +4945,17 @@
   "hub": "타이베이",
   "days": "2박 3일",
   "editor_pick": false,
-  "photo": null,
+  "photo": {
+   "src": "photos/web/card79.jpg",
+   "pos": "50% 50%",
+   "credit": "othree",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Lanyang_Museum_20121110.jpg",
+   "cropped": true,
+   "title": "Lanyang Museum 20121110.jpg",
+   "search_terms": "",
+   "chosen": "커먼즈 검색 후보 중 선정 2026-09-10 (사용자 확인 전)"
+  },
   "front": {
    "scene": "역에서 걸어가는 노천 온천, 바다로 드는 강어귀의 돌과 유리 박물관. 사흘 299위안.",
    "l2": "버스·철도 72시간 299위안",
@@ -4988,7 +5064,8 @@
     }
    ]
   },
-  "status_prev": "draft"
+  "status_prev": "draft",
+  "photo_prev": {}
  },
  {
   "id": 80,
@@ -5030,7 +5107,17 @@
   "hub": "니가타",
   "days": "2박 3일",
   "editor_pick": false,
-  "photo": null,
+  "photo": {
+   "src": "photos/web/card81.jpg",
+   "pos": "50% 50%",
+   "credit": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Dohyu_no_Warito_ac_%282%29.jpg",
+   "cropped": true,
+   "title": "Dohyu no Warito ac (2).jpg",
+   "search_terms": "",
+   "chosen": "커먼즈 검색 후보 중 선정 2026-09-10 (사용자 확인 전)"
+  },
   "front": {
    "scene": "산을 두 쪽으로 갈라 놓은 옛 금광 갱도, 나무통을 타고 도는 만. 섬 안 버스 사흘 3,500엔.",
    "l2": "사도 섬 안 버스 3일 3,500엔",
@@ -5167,6 +5254,7 @@
   "itinerary_by": "B9 초안 2026-09-10 (사실확인 §12 반영)",
   "honest": "섬까지 오가는 배는 따로 사요. 이 표는 섬 안 버스만입니다. 사도는 도쿄 23구의 한 배 반쯤 되는 섬이라 버스 없이는 다니기 어려운데, 그 버스가 아주 성겨요. **료쓰항에서 금광까지 곧장 가는 편이 평일에 세 편뿐이고, 아이카와에서 오기로 곧장 가는 버스는 아예 없어요.** 그래서 이 여행은 표를 사는 것보다 시각표를 먼저 짜는 게 중요합니다 — 한 편을 놓치면 반나절이 날아가요. 1일권 2,000엔에 3일권이 3,500엔이라 이틀 넘게 있을 거면 3일권이 확실히 싸요. 겨울에는 눈과 결항으로 버스가 갑자기 멈추기도 해요.",
   "honest_by": "B9 초안 2026-09-10 (사실확인 §12 반영)",
-  "status_prev": "draft"
+  "status_prev": "draft",
+  "photo_prev": {}
  }
 ]

@@ -41,3 +41,11 @@
 | 57 | card57.jpg | Eluanbi Lighthouse 20240918-1.jpg | Suicasmo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Eluanbi_Lighthouse_20240918-1.jpg) |
 | 60 | card60.jpg | Taitung-County Taiwan Sansiantai-Bridge-01.jpg | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Taitung-County_Taiwan_Sansiantai-Bridge-01.jpg) |
 | 61 | card61.jpg | 七美島的雙心石滬.jpg | Chia Chia Kuo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%E4%B8%83%E7%BE%8E%E5%B3%B6%E7%9A%84%E9%9B%99%E5%BF%83%E7%9F%B3%E6%BB%AC.jpg) |
+| 66 | card66.jpg | Otemae-dori Street and Himeji Castle Loop Bus.jpg | そらみみ | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Otemae-dori_Street_and_Himeji_Castle_Loop_Bus.jpg) |
+| 67 | card67.jpg | Kaguraden Shimenawa, Izumo Shrine - May 8, 2013.jpg | the.Firebottle | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kaguraden_Shimenawa%2C_Izumo_Shrine_-_May_8%2C_2013.jpg) |
+| 79 | card79.jpg | Lanyang Museum 20121110.jpg | othree | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanyang_Museum_20121110.jpg) |
+| 81 | card81.jpg | Dohyu no Warito ac (2).jpg | Asturio Cantabrio | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dohyu_no_Warito_ac_%282%29.jpg) |
+| 62 | card62.jpg | Gion - Nineizaka (Ninenzaka), Kyoto, Japan (48924001702).jpg | Domenico Convertini from Zurich, Schweiz | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gion_-_Nineizaka_%28Ninenzaka%29%2C_Kyoto%2C_Japan_%2848924001702%29.jpg) |
+| 63 | card63.jpg | Kobe City Thomas House.jpg | KishujiRapid | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kobe_City_Thomas_House.jpg) |
+| 64 | card64.jpg | Nara Kasuga-taisha Lanterns & Deer 02.jpg | Zairon | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nara_Kasuga-taisha_Lanterns_%26_Deer_02.jpg) |
+| 68 | card68.jpg | Shinsekai and Tsutenkaku Tower.jpg | Sakai Yayoi | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Shinsekai_and_Tsutenkaku_Tower.jpg) |
