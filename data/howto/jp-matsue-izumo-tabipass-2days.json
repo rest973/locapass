@@ -1,33 +1,53 @@
 {
  "before": {
   "app_or_account": {
-   "v": "**「tabiwa by WESTER」 웹에서만 판다 — 창구 판매가 없다**",
-   "src": "https://www.kankou-shimane.com/news/50890.html"
+   "v": "**「tabiwa by WESTER」에서만 사요.** 앱으로도 웹으로도 되는데 **WESTER 회원 등록(무료)이 먼저** 필요해요.",
+   "by": "사실확인_B9@2026-09-10",
+   "q": "WESTER会員登録（無料）が必要",
+   "src": "https://www.jr-odekake.net/ticket/tabiwa/"
+  },
+  "when": {
+   "v": "**산 날부터 이틀이에요.** 첫 사용일이 아니라 산 날이 기준이라, 오후에 사면 그날이 반쯤 날아가요. 아침에 사서 그날부터 쓰세요.",
+   "by": "사실확인_B9@2026-09-10",
+   "q": "※購入日から2日間有効",
+   "src": "https://www.kankou-shimane.com/experience/72361"
   }
  },
  "buy": {
   "where": {
    "v": [
     {
-     "name": "이치바타 각 역·이즈모공항·마쓰에 안내소",
+     "name": "tabiwa by WESTER (앱 또는 웹)",
      "online": true
     }
    ],
+   "by": "사실확인_B9@2026-09-10",
+   "q": "JR西日本のWEBサイト「tabiwa by WESTER」にて販売",
    "src": "https://www.kankou-shimane.com/news/50890.html"
   },
   "get_what": {
    "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.kankou-shimane.com/news/50890.html"
+  },
+  "where_note": {
+   "v": "**창구에서 종이표로는 못 사요.** 공식이 \"사는 것도 쓰는 것도 스마트폰으로만\"이라고 못 박았어요.",
+   "by": "사실확인_B9@2026-09-10",
+   "q": "ご購入、ご利用はスマートフォンからのみ",
    "src": "https://www.kankou-shimane.com/news/50890.html"
   }
  },
  "issue": {},
  "use": {
   "count_rules": {
-   "v": "이치바타전차 + 이치바타버스(고속·임시 제외) + 마쓰에시 교통국(레이크라인 포함·임시 제외). 2일간",
-   "src": "https://www.kankou-shimane.com/news/50890.html"
+   "v": "이치바타 전차 전 구간과 이치바타 버스 전 구간, 마쓰에 시내버스 전 구간을 이틀 동안 타요. 호수를 도는 레이크라인 버스도 들어가요. 관광 시설 스물일곱 곳에서 할인도 받아요.",
+   "by": "사실확인_B9@2026-09-10",
+   "q": "一畑電車…の全区間",
+   "src": "https://matsue-bus.jp/otoku"
   },
   "trap": {
-   "v": "**JR서일본 철도와 요나고·이즈모 두 공항 연락버스는 못 탄다** — 공항에서 들어오는 길에는 쓸 수 없다",
+   "v": "**JR 열차와 공항 연락버스는 못 타요.** 요나고 공항에서 마쓰에까지 45분에 1,200엔을 따로 냅니다. 고속버스와 임시버스도 빠져요. **이즈모타이샤로 곧장 가는 열차는 하루 한 편**(평일 9시 26분·주말 9시 2분)이고 나머지는 가와토에서 갈아타요. 낮에는 마쓰에 발이 매시 45분에 한 편뿐이라, 한 편을 놓치면 한 시간을 기다려요.",
+   "by": "사실확인_B9@2026-09-10",
+   "q": "JR西日本の鉄道はご利用できません",
    "src": "https://www.kankou-shimane.com/news/50890.html"
   }
  },
@@ -41,12 +61,32 @@
   {
    "url": "https://www.ichibata.co.jp/railway/enmusubi.html",
    "checked": "2026-09-06"
+  },
+  {
+   "url": "https://matsue-bus.jp/otoku",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.jr-odekake.net/ticket/tabiwa/",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.kankou-shimane.com/experience/72361",
+   "checked": "2026-09-10"
   }
  ],
  "gaps": [
   {
-   "what": "환불·개시 조작·제시 방법",
-   "how": "기재 없음"
+   "what": "개시 조작·제시 방법·환불",
+   "how": "tabiwa 상품 상세 페이지가 일본 밖에서 열리지 않아 확인 못 했다"
+  },
+  {
+   "what": "연속 2일인지",
+   "how": "「2日間」까지만 있고 연속·비연속을 밝힌 공식 문구가 없다"
+  },
+  {
+   "what": "특전 27곳 목록",
+   "how": "공식에 목록이 없다 — 마쓰에성·유람선이 대상인지 모른다"
   }
  ],
  "pass_id": "jp-matsue-izumo-tabipass-2days",
