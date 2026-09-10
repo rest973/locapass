@@ -44,8 +44,10 @@
    "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
   },
   "trap": {
-   "v": "**버스·로프웨이에 계절 운행이 있고 시설 할인도 겨울에는 빠지는 것이 있다** — 겨울에 오쿠닛코까지 넣으면 계획이 어긋난다",
-   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html"
+   "v": "**버스와 로프웨이에 계절 운행이 있고, 시설 할인도 겨울에는 빠지는 데가 있어요.** 겨울에 오쿠닛코까지 넣으면 계획이 어긋나요.",
+   "src": "https://www.tobu.co.jp/en/ticket/nikko/all.html",
+   "v_prev": "**버스·로프웨이에 계절 운행이 있고 시설 할인도 겨울에는 빠지는 것이 있다** — 겨울에 오쿠닛코까지 넣으면 계획이 어긋난다",
+   "by": "말투·메모 정리@2026-09-10"
   }
  },
  "end": {

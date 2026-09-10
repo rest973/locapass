@@ -303,6 +303,7 @@ async function renderTrip(id,q){
     ${(a.honest||t.honest)?`<div class="sec"><h3>솔직히</h3><p>${esc(a.honest||t.honest)}</p></div>`:''}
     <div class="sec"><div class="btns"><button class="pri" id="shareBtn">같이 갈 사람에게 보내기</button><button id="saveBtn2">${saved.has(t.trip_id)?'보관함에서 빼기':'보관'}</button></div></div>
     <div class="sec"><h3>갈 때 펴 보기</h3>${howtoLines(t,a,h,state)}</div>
+    ${(()=>{ const d=dayAdds(t); return d.length?`<div class="sec"><h3>하루 더 있으면</h3><div class="list">${d.map(x=>`<a href="#/t/${esc(x.trip_id)}"><div class="ph" style="${photoStyle(x.photo)}"></div><div><b>${esc(x.region_ko)}</b><small>${esc(x.l2)}</small></div></a>`).join('')}</div></div>`:''; })()}
     ${(region&&(TRIPS.filter(x=>x.region_id===t.region_id&&x.trip_id!==t.trip_id).length))?`<div class="sec"><h3>이 지역 더</h3><div class="list"><a href="#/r/${esc(t.region_id)}"><div class="ph" style="${photoStyle(t.photo)}"></div><div><b>${esc(region.display.ko)}</b><small>${esc(region.admin.ko)} · 여행 ${TRIPS.filter(x=>x.region_id===t.region_id&&x.kind==='trip').length} · 하루 코스 ${TRIPS.filter(x=>x.region_id===t.region_id&&x.kind==='day').length}</small></div></a></div></div>`:''}
     <div class="foot">${esc(checkedLine(t))} <a href="${FORM}" target="_blank" rel="noopener">틀린 곳 알려주기</a><br>${credit(t.photo)}</div>`;
     app.innerHTML=s;
@@ -328,7 +329,7 @@ function howtoLines(t,a,h,state){
   const lines=[];
   if(h){
     const l1=join([v('before','who_can_buy'),v('before','bring'),v('before','app_or_account'),v('before','when')]); if(l1) lines.push(['사기 전에',md(l1),'']);
-    const where=v('buy','where'); let l2=''; if(Array.isArray(where)){ const on=where.filter(w=>w.online), off=where.filter(w=>!w.online); l2=off.slice(0,2).map(w=>w.name).join(' · ')+(on.length?' · 온라인도 돼요('+on.map(w=>w.name).join('·')+')':''); } else if(where) l2=where;
+    const where=v('buy','where'); let l2=''; if(Array.isArray(where)){ const on=where.filter(w=>w.online), off=where.filter(w=>!w.online); const offs=off.slice(0,2).map(w=>w.name).join(' · '), ons=on.length?(offs?' · 온라인도 돼요(':'온라인에서 사요(')+on.map(w=>w.name).join('·')+')':''; l2=offs+ons; } else if(where) l2=where;
     if(l2||a.buy) lines.push(['어디서',md(l2||a.buy),md(v('buy','where_note')||(l2&&a.buy&&a.buy!==l2?a.buy:''))]);
   } else if(a.buy) lines.push(['어디서',md(a.buy),'']);
   const howv=plain(v('buy','how')||'');
@@ -360,6 +361,11 @@ function share(t,a){
   else toast(url);
 }
 /* ── 3. 지역 페이지 ─────────────────────────────────── */
+/* 이 여행과 거점이 겹치는 하루 코스. 같은 지역이면 「이 지역 더」가 이미 맡으므로 뺀다. */
+function dayAdds(t){
+  const hubs=new Set((t.from||[]).map(f=>f.hub_id).filter(Boolean));
+  return TRIPS.filter(x=>x.kind==='day'&&x.region_id!==t.region_id&&(x.from||[]).some(f=>hubs.has(f.hub_id)));
+}
 function mini(t,hid){ const f=pickFrom(t,hid); return `<a href="${tripUrl(t,hid)}"><div class="ph" style="${photoStyle(t.photo)}"></div><div><b>${esc(t.title_ko)}</b><small>${esc(assure(t,f))}</small></div></a>`; }
 function renderRegion(rid){
   const r=REGIONS[rid]; if(!r){ location.hash='#/'; return; }
@@ -388,10 +394,12 @@ function renderFrom(hid){
   const h=HUBS[hid]; if(!h){ location.hash='#/'; return; }
   const list=TRIPS.filter(t=>t.kind==='trip'&&t.from.some(f=>f.hub_id===hid)).sort((a,b)=>(pickFrom(a,hid).hours??99)-(pickFrom(b,hid).hours??99));
   const near=list.find(t=>pickFrom(t,hid).hours!=null&&pickFrom(t,hid).hours<=3&&t.nights===2);
+  const dayList=TRIPS.filter(t=>t.kind==='day'&&t.from.some(f=>f.hub_id===hid));
   app.innerHTML=`
   <div class="top"><a class="pill" href="#/">← 여행</a><div class="ttl">${esc(h.name.ko)}에서</div><a class="pill" href="#/saved">보관 ${saved.size}</a></div>
   ${near?`<div class="sec"><h3>${esc(h.name.ko)} 4일 대신</h3><p>${esc(h.name.ko)} 2일 + ${esc(near.region_ko)} 2일. ${esc(fromLine(pickFrom(near,hid)))}.</p></div>`:''}
   <div class="sec"><h3>가까운 순서</h3><div class="list">${list.map(t=>mini(t,hid)).join('')||'<p class="m">이 도시에서 출발하는 여행이 아직 없어요.</p>'}</div></div>
+  ${dayList.length?`<div class="sec"><h3>하루만 낼 수 있다면</h3><div class="list">${dayList.map(t=>mini(t,hid)).join('')}</div></div>`:''}
   <div class="foot">시간은 특급·버스 기준의 대략이에요. 공항은 ${esc(h.airport||'')}.</div>`;
   window.scrollTo(0,0); track('/from/'+hid);
 }

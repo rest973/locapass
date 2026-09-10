@@ -19,8 +19,10 @@
    "by": "말투·원어 정리@2026-09-09"
   },
   "get_what": {
-   "v": "종이권(날짜 부분이 있다) 또는 모바일 1일 승차권·Pass Case",
-   "src": "https://www.naga-den.com/pages/12/"
+   "v": "날짜 칸이 있는 종이표를 받거나, 모바일 1일 승차권을 받아요.",
+   "src": "https://www.naga-den.com/pages/12/",
+   "v_prev": "종이권(날짜 부분이 있다) 또는 모바일 1일 승차권·Pass Case",
+   "by": "말투·메모 정리@2026-09-10"
   }
  },
  "issue": {},
@@ -32,8 +34,10 @@
    "src": "https://www.naga-den.com/pages/11/"
   },
   "count_rules": {
-   "v": "**한 사람에 한 장.** 여럿이 돌려 쓸 수 없다",
-   "src": "https://www.naga-den.com/pages/12/"
+   "v": "**한 사람에 한 장이에요.** 여럿이 돌려 쓸 수 없어요.",
+   "src": "https://www.naga-den.com/pages/12/",
+   "v_prev": "**한 사람에 한 장.** 여럿이 돌려 쓸 수 없다",
+   "by": "말투·메모 정리@2026-09-10"
   },
   "trap": {
    "v": "나가사키에서 전차를 처음 타는 사람이 차내에서 사려다 막히는 자리다",

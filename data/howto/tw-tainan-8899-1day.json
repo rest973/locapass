@@ -33,9 +33,11 @@
  },
  "use": {
   "count_rules": {
-   "v": "**QR 한 장에 한 사람**, 나눠 쓰거나 날짜를 넘겨 쓸 수 없다",
+   "v": "**QR 한 장에 한 사람이에요.** 나눠 쓰거나 날짜를 넘겨 쓸 수 없어요.",
    "q": "每張QR Code限1人使用，不得分次使用",
-   "src": "https://tainan.funcard.com.tw/product/info/AzOy"
+   "src": "https://tainan.funcard.com.tw/product/info/AzOy",
+   "v_prev": "**QR 한 장에 한 사람**, 나눠 쓰거나 날짜를 넘겨 쓸 수 없다",
+   "by": "말투·메모 정리@2026-09-10"
   },
   "trap": {
    "v": "88선과 99선의 타는 방식이 다르다 — 99선만 종이 교환이 필요하다",

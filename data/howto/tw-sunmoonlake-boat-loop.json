@@ -1,0 +1,125 @@
+{
+ "pass_id": "tw-sunmoonlake-boat-loop",
+ "gaps": [
+  {
+   "what": "부두별 첫배·막배",
+   "how": "공식 미게시. 시각표 PDF는 404 → 선박조합 049-2856428 확인"
+  },
+  {
+   "what": "실제 판매가",
+   "how": "고정가가 없어 창구 공고가 기준. 현정부 승인 상한액도 공고를 못 찾았다"
+  },
+  {
+   "what": "결제 수단",
+   "how": "배표에 대해서는 공식 안내 없음 → 창구 확인"
+  },
+  {
+   "what": "표·도장 분실",
+   "how": "공식 규정 없음"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.sunmoonlake.gov.tw/explore/Faqs?a=57",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.sunmoonlake.gov.tw/Explore/Articles?a=58",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://glrs.nantou.gov.tw/GLRSOUT/LawContent.aspx?id=GL000300",
+   "checked": "2026-09-10"
+  }
+ ],
+ "name": {
+  "local": "日月潭 遊湖船 環湖票",
+  "local_lang": "zh-Hant",
+  "ko": "르웨탄 유람선 환호표",
+  "en": "Sun Moon Lake Boat Loop Ticket"
+ },
+ "built_at": "2026-09-10",
+ "before": {
+  "when": {
+   "v": "첫배가 아홉 시, 막배가 다섯 시예요. 15분에서 20분마다 떠요. 부두는 여름철(4~9월)에 일곱 시부터 여섯 시까지, 겨울철(10~3월)에 여덟 시부터 다섯 시까지 열어요. 예약은 필요 없어요.",
+   "by": "사실확인_B8@2026-09-10",
+   "q": "首班船 09:00；末班船 17:00",
+   "src": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "수이서 · 르웨탄 수륙교통 연합 서비스역 (파출소 맞은편)",
+     "online": false
+    },
+    {
+     "name": "이다샤오 · 이다샤오 여행자센터 2층 (부두 정면, 9~5시)",
+     "online": false
+    },
+    {
+     "name": "쉬안광 · 부두 매표소",
+     "online": false
+    }
+   ],
+   "by": "사실확인_B8@2026-09-10",
+   "q": "各碼頭之日月潭遊艇船隊售票處購買",
+   "src": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52"
+  },
+  "where_note": {
+   "v": "**값은 선사가 각자 정해요.** 2023년에 요금 기준이 없어져서 관리처도 금액을 안 내걸어요. 선사가 일곱 곳이라 창구에 붙은 공고가 기준이에요. 공식이 정식 창구에서 사라고 안내해요 — 길에서 붙잡고 파는 싼 표는 사지 마세요.",
+   "by": "사실확인_B8@2026-09-10",
+   "q": "回歸市場機制，由船家自行訂價",
+   "src": "https://www.sunmoonlake.gov.tw/explore/Faqs?a=57"
+  },
+  "get_what": {
+   "v": "종이표를 받아요. 그 표에 도장을 받아 하루를 써요.",
+   "by": "사실확인_B8@2026-09-10",
+   "src": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52"
+  }
+ },
+ "issue": {
+  "activate": {
+   "v": "**처음 탈 때 부두 매표소 앞 승선 대기소에서 표를 보이고 도장을 받아요.** 그다음부터는 도장만 보이면 타요.",
+   "by": "사실확인_B8@2026-09-10",
+   "q": "初次登船請先至候船處報到並出示船票，蓋章後",
+   "src": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "**부두마다 한 번씩 내렸다 타면서 호수를 한 바퀴 돌고, 처음 떠난 부두로 돌아오는 것까지가 표 한 장이에요.** 아무 데서나 몇 번이든 타는 표가 아니에요. 배는 반시계 한 방향으로만 돌아요 — 수이서에서 쉬안광, 쉬안광에서 이다샤오, 이다샤오에서 다시 수이서예요.",
+   "by": "사실확인_B8@2026-09-10",
+   "q": "每個碼頭可各上下一次環湖一圈，再搭回初始碼頭",
+   "src": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52"
+  },
+  "trap": {
+   "v": "**부두마다 막배 시각이 달라요.** 공식이 전체 시각만 내고 부두별 시각표는 안 내니 탈 때 창구에서 확인하세요(선박조합 049-2856428). 거꾸로 가고 싶어도 배가 한 방향이라 수이서를 거쳐야 해요. 막배를 놓치면 호수를 도는 버스가 있어요 — 하루권 80원이고, 쉬안광에서 여섯 시, 이다샤오에서 여섯 시 십 분, 수이서에서 다섯 시 오분이 막차예요. 태풍이나 짙은 안개에는 부두를 닫고 배를 멈춰요. 타기 전에 날씨와 운항 공고를 보세요. **공식 한국어·영어·일본어 페이지에는 아직 「당일 무제한」이라고 적혀 있는데 중국어 현행 공고와 달라요.** 창구에서는 부두마다 한 번씩이 기준이에요.",
+   "by": "사실확인_B8@2026-09-10",
+   "q": "請注意各碼頭的末班船時間",
+   "src": "https://www.sunmoonlake.gov.tw/explore/ArticlesCollapsed?a=52"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "환불 조건은 선사가 표 뒷면과 창구, 웹사이트에 걸어 두게 돼 있어요. 산 창구에서 확인하세요. 결항했을 때 어떻게 하는지도 같은 자리에 적혀 있어요.",
+   "by": "사실확인_B8@2026-09-10",
+   "q": "退費條件及金額",
+   "src": "https://glrs.nantou.gov.tw/GLRSOUT/LawContent.aspx?id=GL000300"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "zh",
+   "en",
+   "ja",
+   "ko"
+  ],
+  "note": "한국어판이 있으나 낡았다 — 배표를 「당일 무제한」으로 적어 중국어 현행(부두별 1회)과 어긋난다"
+ }
+}
