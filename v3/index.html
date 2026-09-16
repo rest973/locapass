@@ -156,9 +156,9 @@ const HOWTO={};
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform';
 async function load(){
   const [t,r,p]=await Promise.all([
-    fetch('data/trips.json?b=202609161704').then(x=>x.json()),
-    fetch('data/regions.json?b=202609161704').then(x=>x.json()),
-    fetch('data/passes.json?b=202609161704').then(x=>x.json()).catch(()=>[])]);
+    fetch('data/trips.json?b=202609161724').then(x=>x.json()),
+    fetch('data/regions.json?b=202609161724').then(x=>x.json()),
+    fetch('data/passes.json?b=202609161724').then(x=>x.json()).catch(()=>[])]);
   TRIPS=t.trips.filter(x=>x.status==='published');
   r.regions.forEach(x=>REGIONS[x.region_id]=x);
   r.hubs.forEach(h=>{HUBS[h.hub_id]=h; HUBS_KO[h.name.ko]=h;});
@@ -168,7 +168,7 @@ async function load(){
 async function howto(pid){
   if(!pid) return null;
   if(HOWTO[pid]!==undefined) return HOWTO[pid];
-  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609161704').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
+  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609161724').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
   return HOWTO[pid];
 }
 /* ── 상태: 브라우저에만 ───────────────────────────────────── */

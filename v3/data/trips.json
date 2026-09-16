@@ -16,14 +16,14 @@
     0
    ],
    "photo": {
-    "src": "../photos/web/card13.jpg",
+    "src": "../photos/web/sk-yashima.jpg",
     "pos": "50% 50%",
-    "credit": "Sei F",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ritsurin_Garden,_Kagawa_Prefecture;_November_2019_(03).jpg",
+    "credit": "やしまのお城",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%9D%B1%EF%BC%88%E5%B1%8B%E5%B3%B6%E5%8C%97%E5%B6%BA%E5%8C%97%E7%AB%AF%E5%B1%B1%E4%B8%8A%EF%BC%89%E3%81%A7%E9%81%A0%E6%9C%9B.jpg",
     "cropped": true,
-    "search_terms": "讃岐うどん / 金刀比羅宮 石段 / 直島 南瓜",
-    "title": "Ritsurin Garden, Kagawa Prefecture; November 2019 (03).jpg"
+    "title": "北東（屋島北嶺北端山上）で遠望.jpg",
+    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
    },
    "scene": "야시마 산 위 전망 · 시코쿠무라(민가 야외 박물관)",
    "l2": "2박 3일, 교통·입장 다 해서 10,540엔",
@@ -462,14 +462,14 @@
     3
    ],
    "photo": {
-    "src": "../photos/web/card13.jpg",
+    "src": "../photos/web/sk-tamamo.jpg",
     "pos": "50% 50%",
-    "credit": "Sei F",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ritsurin_Garden,_Kagawa_Prefecture;_November_2019_(03).jpg",
+    "credit": "先従隗始",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Takamatsu_Castle_-_Tamamo_Park_20211125_08.jpg",
     "cropped": true,
-    "search_terms": "讃岐うどん / 金刀比羅宮 石段 / 直島 南瓜",
-    "title": "Ritsurin Garden, Kagawa Prefecture; November 2019 (03).jpg"
+    "title": "Takamatsu Castle - Tamamo Park 20211125 08.jpg",
+    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
    },
    "scene": "다마모 공원(다카마쓰성 터) · 야시마 산 위 전망",
    "l2": "4박 5일, 교통·입장 다 해서 25,780엔",
@@ -646,14 +646,14 @@
     4
    ],
    "photo": {
-    "src": "../photos/web/card13.jpg",
+    "src": "../photos/web/sk-naoshima.jpg",
     "pos": "50% 50%",
-    "credit": "Sei F",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ritsurin_Garden,_Kagawa_Prefecture;_November_2019_(03).jpg",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:150505_Chichu_Art_Museum_Naoshima_Island_Kagawa_pref_Japan01s3.jpg",
     "cropped": true,
-    "search_terms": "讃岐うどん / 金刀比羅宮 石段 / 直島 南瓜",
-    "title": "Ritsurin Garden, Kagawa Prefecture; November 2019 (03).jpg"
+    "title": "150505 Chichu Art Museum Naoshima Island Kagawa pref Japan01s3.jpg",
+    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
    },
    "scene": "지추 미술관 · 베네세하우스 뮤지엄",
    "l2": "4박 5일, 교통·입장 다 해서 26,520엔",
@@ -840,14 +840,14 @@
     5
    ],
    "photo": {
-    "src": "../photos/web/card13.jpg",
+    "src": "../photos/web/sk-oboke.jpg",
     "pos": "50% 50%",
-    "credit": "Sei F",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ritsurin_Garden,_Kagawa_Prefecture;_November_2019_(03).jpg",
+    "credit": "さかおり",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oboke_gorge_pleasure_boat_2106_August_13.B.jpg",
     "cropped": true,
-    "search_terms": "讃岐うどん / 金刀比羅宮 石段 / 直島 南瓜",
-    "title": "Ritsurin Garden, Kagawa Prefecture; November 2019 (03).jpg"
+    "title": "Oboke gorge pleasure boat 2106 August 13.B.jpg",
+    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
    },
    "scene": "지추 미술관 · 베네세하우스 뮤지엄",
    "l2": "4박 5일, 교통·입장 다 해서 24,320엔",
@@ -1032,7 +1032,16 @@
    "source_cards": [
     6
    ],
-   "photo": {},
+   "photo": {
+    "src": "../photos/web/sk-otsuka.jpg",
+    "pos": "50% 50%",
+    "credit": "EMS-62",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Otsuka_Museum_of_Art_syoumen.jpg",
+    "cropped": true,
+    "title": "Otsuka Museum of Art syoumen.jpg",
+    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
+   },
    "scene": "도쿠시마성 박물관·중앙공원 · 오쓰카 국제미술관",
    "l2": "3박 4일, 교통·입장 다 해서 9,820엔",
    "l3": "인천에서 화·목·토 주 3편 · 공항버스로 도쿠시마역 30분",
@@ -1177,7 +1186,16 @@
    "source_cards": [
     7
    ],
-   "photo": {},
+   "photo": {
+    "src": "../photos/web/sk-bizan.jpg",
+    "pos": "50% 50%",
+    "credit": "新幹線",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Bizan_from_Shimmachi_River_20200607.jpg",
+    "cropped": true,
+    "title": "Mount Bizan from Shimmachi River 20200607.jpg",
+    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
+   },
    "scene": "비잔 로프웨이 · 아와오도리 회관",
    "l2": "2박 3일, 교통·입장 다 해서 9,520엔",
    "l3": "인천에서 화·목·토 주 3편 · 공항버스로 도쿠시마역 30분",
@@ -1303,14 +1321,14 @@
     8
    ],
    "photo": {
-    "src": "../photos/web/card13.jpg",
+    "src": "../photos/web/sk-shikokumura.jpg",
     "pos": "50% 50%",
-    "credit": "Sei F",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ritsurin_Garden,_Kagawa_Prefecture;_November_2019_(03).jpg",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Shikokumura01s3200.jpg",
     "cropped": true,
-    "search_terms": "讃岐うどん / 金刀比羅宮 石段 / 直島 南瓜",
-    "title": "Ritsurin Garden, Kagawa Prefecture; November 2019 (03).jpg"
+    "title": "Shikokumura01s3200.jpg",
+    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
    },
    "scene": "다마모 공원(다카마쓰성 터) · 야시마 산 위 전망",
    "l2": "4박 5일, 교통·입장 다 해서 25,150엔",
@@ -1490,14 +1508,14 @@
     9
    ],
    "photo": {
-    "src": "../photos/web/card13.jpg",
+    "src": "../photos/web/sk-kotohira.jpg",
     "pos": "50% 50%",
-    "credit": "Sei F",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ritsurin_Garden,_Kagawa_Prefecture;_November_2019_(03).jpg",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Kotohira-gu07n4500.jpg",
     "cropped": true,
-    "search_terms": "讃岐うどん / 金刀比羅宮 石段 / 直島 南瓜",
-    "title": "Ritsurin Garden, Kagawa Prefecture; November 2019 (03).jpg"
+    "title": "Kotohira-gu07n4500.jpg",
+    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
    },
    "scene": "지추 미술관 · 베네세하우스 뮤지엄",
    "l2": "4박 5일, 교통·입장 다 해서 22,420엔",

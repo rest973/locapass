@@ -56,3 +56,17 @@
 | 80 | card80.jpg | Qixingtan Beach, Taiwan.jpg | Artemas Liu | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Qixingtan_Beach%2C_Taiwan.jpg) |
 | 77 | card77.jpg | Naha Shuri-jo Walls 03.jpg | Zairon | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Naha_Shuri-jo_Walls_03.jpg) |
 | 78 | card78.jpg | Cape Manzamo 2.JPG | そらみみ | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cape_Manzamo_2.JPG) |
+| v3 야시마 | sk-yashima.jpg | 北東（屋島北嶺北端山上）で遠望.jpg | やしまのお城 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%9D%B1%EF%BC%88%E5%B1%8B%E5%B3%B6%E5%8C%97%E5%B6%BA%E5%8C%97%E7%AB%AF%E5%B1%B1%E4%B8%8A%EF%BC%89%E3%81%A7%E9%81%A0%E6%9C%9B.jpg) |
+| v3 다마모공원 | sk-tamamo.jpg | Takamatsu Castle - Tamamo Park 20211125 08.jpg | 先従隗始 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Takamatsu_Castle_-_Tamamo_Park_20211125_08.jpg) |
+| v3 시코쿠무라 | sk-shikokumura.jpg | Shikokumura01s3200.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Shikokumura01s3200.jpg) |
+| v3 곤피라 | sk-kotohira.jpg | Kotohira-gu07n4500.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Kotohira-gu07n4500.jpg) |
+| v3 나오시마 | sk-naoshima.jpg | 150505 Chichu Art Museum Naoshima Island Kagawa pref Japan01s3.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:150505_Chichu_Art_Museum_Naoshima_Island_Kagawa_pref_Japan01s3.jpg) |
+| v3 오쓰카미술관 | sk-otsuka.jpg | Otsuka Museum of Art syoumen.jpg | EMS-62 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Otsuka_Museum_of_Art_syoumen.jpg) |
+| v3 나루토 | sk-naruto.jpg | Naruto whirlpools 20170609-1.jpg | Suicasmo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Naruto_whirlpools_20170609-1.jpg) |
+| v3 비잔 | sk-bizan.jpg | Mount Bizan from Shimmachi River 20200607.jpg | 新幹線 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mount_Bizan_from_Shimmachi_River_20200607.jpg) |
+| v3 아와오도리 | sk-awaodori.jpg | Awa Odori Memorial Hall, Tokushima - March 7, 2018 (2).jpg | Gian Luca Sgaggero | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Awa_Odori_Memorial_Hall%2C_Tokushima_-_March_7%2C_2018_%282%29.jpg) |
+| v3 간카케이 | sk-kankakei.jpg | 201211Kankakei Shodoshima Kagawa pref Japan07st.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:201211Kankakei_Shodoshima_Kagawa_pref_Japan07st.jpg) |
+| v3 올리브공원 | sk-olive.jpg | Shodoshima Olive Park Shodo Island Japan01s3.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Shodoshima_Olive_Park_Shodo_Island_Japan01s3.jpg) |
+| v3 오보케 | sk-oboke.jpg | Oboke gorge pleasure boat 2106 August 13.B.jpg | さかおり | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Oboke_gorge_pleasure_boat_2106_August_13.B.jpg) |
+| v3 오즈성 | sk-ozu.jpg | Ozu Castle, enkei.jpg | Saigen Jiro | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Ozu_Castle%2C_enkei.jpg) |
+| v3 우치코 | sk-uchiko.jpg | Yokaichi Gokoku201102.JPG | At by At | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Yokaichi_Gokoku201102.JPG) |
