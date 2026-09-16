@@ -137,6 +137,12 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 [hidden]{display:none!important}
   ul.rides{margin:8px 0 0;padding-left:18px}
   ul.rides li{margin:6px 0;font-size:14.5px;line-height:1.55}
+  /* 사진이 아직 없는 여행 — 회색 빈 칸 대신 읽히는 바탕(사진을 아무거나 끌어오지 않는다) */
+  .tile .ph:not([style*="background-image"]), .hero:not([style*="background-image"]){
+    background:linear-gradient(160deg,#20514c,#0e2f2c)}
+  .tile .ph:not([style*="background-image"])::after, .hero:not([style*="background-image"])::after{
+    content:"사진은 아직 없어요";position:absolute;right:10px;top:10px;
+    font-size:11px;color:rgba(255,255,255,.72);letter-spacing:-.01em}
 </style>
 </head>
 <body>
@@ -300,7 +306,7 @@ async function renderTrip(id,q){
     <div class="hero" style="${photoStyle(t.photo)}"><div class="tx"><div class="s">${esc(a.scene||t.scene)}</div></div></div>
     <div class="sec"><h3>한눈에</h3>${switches}<div class="glance">
       <div><b>며칠</b>${esc(t.days_label)}</div><div><b>얼마</b>${esc(a.l2||t.l2)}</div>
-      <div><b>가는 길</b>${esc(fromLine(f))}<br><span class="m">${esc(a.l3||t.l3)}</span></div>
+      <div><b>가는 길</b>${esc(fromLine(f))}${(a.l3||t.l3)&&(a.l3||t.l3)!==fromLine(f)?`<br><span class="m">${esc(a.l3||t.l3)}</span>`:''}</div>
       <div><b>확인</b><span class="m">${esc(checkedLine(t))}</span></div></div></div>
     ${t.pre?`<div class="sec"><h3>미리 잡아 둘 것</h3><p>${md(t.pre)}</p></div>`:''}
     <div class="sec"><h3>거기서 뭐 해요</h3><p>${md(a.what||t.what)}</p>${(a.days||t.days)?(a.days||t.days).map(d=>`<div class="day"><h4>${esc(d.label)}</h4><ul>${d.steps.map(st=>`<li>${md(st.what)}${st.how?` <span class="m">· ${md(st.how)}</span>`:''}${st.note?`<span class="m">${md(st.note)}</span>`:''}</li>`).join('')}</ul></div>`).join(''):''}</div>
