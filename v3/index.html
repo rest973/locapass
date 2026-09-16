@@ -138,9 +138,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
   ul.rides{margin:8px 0 0;padding-left:18px}
   ul.rides li{margin:6px 0;font-size:14.5px;line-height:1.55}
   /* 사진이 아직 없는 여행 — 회색 빈 칸 대신 읽히는 바탕(사진을 아무거나 끌어오지 않는다) */
-  .tile .ph:not([style*="background-image"]), .hero:not([style*="background-image"]){
+  .tile .ph .img:not([style*="background-image"]), .hero:not([style*="background-image"]){
     background:linear-gradient(160deg,#20514c,#0e2f2c)}
-  .tile .ph:not([style*="background-image"])::after, .hero:not([style*="background-image"])::after{
+  .tile .ph .img:not([style*="background-image"])::after, .hero:not([style*="background-image"])::after{
     content:"사진은 아직 없어요";position:absolute;right:10px;top:10px;
     font-size:11px;color:rgba(255,255,255,.72);letter-spacing:-.01em}
 </style>
@@ -156,9 +156,9 @@ const HOWTO={};
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform';
 async function load(){
   const [t,r,p]=await Promise.all([
-    fetch('data/trips.json?b=202609161724').then(x=>x.json()),
-    fetch('data/regions.json?b=202609161724').then(x=>x.json()),
-    fetch('data/passes.json?b=202609161724').then(x=>x.json()).catch(()=>[])]);
+    fetch('data/trips.json?b=202609161752').then(x=>x.json()),
+    fetch('data/regions.json?b=202609161752').then(x=>x.json()),
+    fetch('data/passes.json?b=202609161752').then(x=>x.json()).catch(()=>[])]);
   TRIPS=t.trips.filter(x=>x.status==='published');
   r.regions.forEach(x=>REGIONS[x.region_id]=x);
   r.hubs.forEach(h=>{HUBS[h.hub_id]=h; HUBS_KO[h.name.ko]=h;});
@@ -168,7 +168,7 @@ async function load(){
 async function howto(pid){
   if(!pid) return null;
   if(HOWTO[pid]!==undefined) return HOWTO[pid];
-  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609161724').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
+  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609161752').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
   return HOWTO[pid];
 }
 /* ── 상태: 브라우저에만 ───────────────────────────────────── */
