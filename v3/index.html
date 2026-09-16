@@ -156,10 +156,11 @@ const HOWTO={};
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform';
 async function load(){
   const [t,r,p]=await Promise.all([
-    fetch('data/trips.json?b=202609161752').then(x=>x.json()),
-    fetch('data/regions.json?b=202609161752').then(x=>x.json()),
-    fetch('data/passes.json?b=202609161752').then(x=>x.json()).catch(()=>[])]);
+    fetch('data/trips.json?b=202609161954').then(x=>x.json()),
+    fetch('data/regions.json?b=202609161954').then(x=>x.json()),
+    fetch('data/passes.json?b=202609161954').then(x=>x.json()).catch(()=>[])]);
   TRIPS=t.trips.filter(x=>x.status==='published');
+  REGION_SIGHTS=t['지역볼거리']||{};   /* v3: 지역 페이지의 「여기서 보는 곳」은 그 지역 것만 */
   r.regions.forEach(x=>REGIONS[x.region_id]=x);
   r.hubs.forEach(h=>{HUBS[h.hub_id]=h; HUBS_KO[h.name.ko]=h;});
   BLOCKS=r.blocks||{};
@@ -168,12 +169,13 @@ async function load(){
 async function howto(pid){
   if(!pid) return null;
   if(HOWTO[pid]!==undefined) return HOWTO[pid];
-  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609161752').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
+  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609161954').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
   return HOWTO[pid];
 }
 /* ── 상태: 브라우저에만 ───────────────────────────────────── */
 const LS=k=>{try{return localStorage.getItem(k)}catch(e){return null}};
 const LSs=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+let REGION_SIGHTS={};
 let hub=LS('lp3_hub')||'';            // hub_id
 let nightsF=LS('lp3_nights')||'';     // ''|'2'|'3'|'4+'
 let feedTouched=false;                // 저장된 칩 조합이 0장이면 첫 렌더에서 한 번만 풀어 준다
@@ -397,6 +399,11 @@ function renderRegion(rid){
   <div class="sec"><p>${esc(r.admin.ko)}${r.block?` · ${esc(r.block)}`:''}${r.base_city?` · 거점은 ${esc(r.base_city.ko)}(${esc(r.base_city.local)})`:''}. 한국 직항 ${r.direct_flight_kr&&r.direct_flight_kr.value?'있음':'없음'}.</p></div>
   ${trips.length?`<div class="sec"><h3>이 지역 여행</h3><div class="list">${trips.map(t=>mini(t,hub)).join('')}</div></div>`:''}
   ${days.length?`<div class="sec"><h3>하루 코스</h3><div class="list">${days.map(t=>mini(t,hub)).join('')}</div></div>`:''}
+  ${(()=>{ /* v3: 이 지역 여행들이 실제로 보는 곳과 인천에서 오는 편 — 카드 시절 소개 대신 우리 값으로 */
+    const seen=(REGION_SIGHTS[rid]||[...new Set(trips.concat(days).flatMap(t=>String(t.what||'').split(' · ')).filter(Boolean))]);
+    const air=[...new Set(trips.concat(days).map(t=>(t.from&&t.from[0]&&t.from[0].l3)||'').filter(Boolean))];
+    return (seen.length?`<div class="sec"><h3>여기서 보는 곳</h3><p>${seen.map(esc).join(' · ')}</p></div>`:'')
+      + (air.length?`<div class="sec"><h3>인천에서</h3><div class="glance">${air.map(a=>`<div><b>가는 편</b>${esc(a)}</div>`).join('')}</div></div>`:''); })()}
   <div class="sec"><h3>가는 법</h3><div class="glance">${(r.nearby_hubs||[]).map(n=>`<div><b>${esc(HUBS[n.hub_id]?HUBS[n.hub_id].name.ko:n.hub_id)}</b>${esc(hoursKo(n.hours))}${n.how?` · ${esc(n.how)}`:''}</div>`).join('')}${period?`<div><b>언제</b>패스 이용 ${esc(period.from)} ~ ${esc(period.to)}</div>`:''}</div></div>
   ${psCard.length?`<div class="sec"><details><summary>이 지역에서 쓰는 패스 (${psCard.length})</summary>${psCard.map(p=>`<div class="cell"><b>${esc((p.name&&p.name.ko)||'')}</b>${esc((p.name&&p.name.local)||p.pass_id)}${pprice(p)?' · '+pprice(p):''}</div>`).join('')}</details></div>`:''}
   <div class="foot">${credit(photo)}</div>`;
