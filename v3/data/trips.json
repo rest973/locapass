@@ -183,12 +183,12 @@
    "photo": {
     "src": "../photos/web/sk-kotohira.jpg",
     "pos": "50% 50%",
-    "credit": "663highland",
-    "license": "CC BY 2.5",
-    "source": "https://commons.wikimedia.org/wiki/File:Kotohira-gu07n4500.jpg",
+    "credit": "Sei F",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Konpira_Shrine%2C_Kagawa_Prefecture%3B_November_2019_%2803%29.jpg",
     "cropped": true,
-    "title": "Kotohira-gu07n4500.jpg",
-    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
+    "title": "Konpira Shrine, Kagawa Prefecture; November 2019 (03).jpg",
+    "chosen": "사용자 선택 2026-09-17 (사진후보_시코쿠_미리보기)"
    }
   },
   {
@@ -672,12 +672,12 @@
    "photo": {
     "src": "../photos/web/sk-yashima.jpg",
     "pos": "50% 50%",
-    "credit": "やしまのお城",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%9D%B1%EF%BC%88%E5%B1%8B%E5%B3%B6%E5%8C%97%E5%B6%BA%E5%8C%97%E7%AB%AF%E5%B1%B1%E4%B8%8A%EF%BC%89%E3%81%A7%E9%81%A0%E6%9C%9B.jpg",
+    "credit": "KimonBerlin",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Takamatsu_from_Yashima_%288925519374%29.jpg",
     "cropped": true,
-    "title": "北東（屋島北嶺北端山上）で遠望.jpg",
-    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
+    "title": "Takamatsu from Yashima (8925519374).jpg",
+    "chosen": "사용자 선택 2026-09-17 (사진후보_시코쿠_미리보기)"
    }
   },
   {
@@ -866,12 +866,12 @@
    "photo": {
     "src": "../photos/web/sk-awaodori.jpg",
     "pos": "50% 50%",
-    "credit": "Gian Luca Sgaggero",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Awa_Odori_Memorial_Hall%2C_Tokushima_-_March_7%2C_2018_%282%29.jpg",
+    "credit": "Mason tang photography",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Awa_Odori_Museum.jpg",
     "cropped": true,
-    "title": "Awa Odori Memorial Hall, Tokushima - March 7, 2018 (2).jpg",
-    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
+    "title": "Awa Odori Museum.jpg",
+    "chosen": "사용자 선택 2026-09-17 (사진후보_시코쿠_미리보기)"
    }
   },
   {
@@ -1064,7 +1064,7 @@
     "source": "https://commons.wikimedia.org/wiki/File:150505_Chichu_Art_Museum_Naoshima_Island_Kagawa_pref_Japan01s3.jpg",
     "cropped": true,
     "title": "150505 Chichu Art Museum Naoshima Island Kagawa pref Japan01s3.jpg",
-    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
+    "chosen": "사용자 선택 2026-09-17 (사진후보_시코쿠_미리보기)"
    }
   },
   {
@@ -1215,10 +1215,10 @@
     "pos": "50% 50%",
     "credit": "新幹線",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Mount_Bizan_from_Shimmachi_River_20200607.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokushima_City_View_from_the_Top_of_Bizan_20200405.jpg",
     "cropped": true,
-    "title": "Mount Bizan from Shimmachi River 20200607.jpg",
-    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
+    "title": "Tokushima City View from the Top of Bizan 20200405.jpg",
+    "chosen": "사용자 선택 2026-09-17 (사진후보_시코쿠_미리보기)"
    }
   },
   {
@@ -1347,12 +1347,12 @@
    "photo": {
     "src": "../photos/web/sk-otsuka.jpg",
     "pos": "50% 50%",
-    "credit": "EMS-62",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Otsuka_Museum_of_Art_syoumen.jpg",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Otsuka_Museum_of_Art10s3872.jpg",
     "cropped": true,
-    "title": "Otsuka Museum of Art syoumen.jpg",
-    "chosen": "Claude 고름 2026-09-16 · 사용자 확인 전(사진후보_시코쿠_미리보기.html에서 바꿀 수 있음)"
+    "title": "The Otsuka Museum of Art10s3872.jpg",
+    "chosen": "사용자 선택 2026-09-17 (사진후보_시코쿠_미리보기)"
    }
   },
   {
@@ -1724,7 +1724,16 @@
     ]
    },
    "cond": "조건 ⑤",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sk-udon.jpg",
+    "pos": "50% 50%",
+    "credit": "sekido",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kama-age_sanuki_udon_by_sekido_in_Takamatsu%2C_Kagawa.jpg",
+    "cropped": true,
+    "title": "Kama-age sanuki udon by sekido in Takamatsu, Kagawa.jpg",
+    "chosen": "사용자 선택 2026-09-17 (사진후보_시코쿠_미리보기)"
+   }
   }
  ]
 }
