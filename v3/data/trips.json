@@ -1557,7 +1557,16 @@
     ]
    },
    "cond": "조건 ①",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-izumotaisha.jpg",
+    "pos": "50% 50%",
+    "credit": "Saigen Jiro",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Haiden_of_Izumo-taisha-1.JPG",
+    "cropped": true,
+    "title": "Haiden of Izumo-taisha-1.JPG",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   },
   {
    "trip_id": "sn1-2",
@@ -1687,7 +1696,16 @@
     ]
    },
    "cond": "조건 ①",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-adachi.jpg",
+    "pos": "50% 50%",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Adachi_Museum_of_Art01st3200.jpg",
+    "cropped": true,
+    "title": "Adachi Museum of Art01st3200.jpg",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   },
   {
    "trip_id": "sn2-1",
@@ -1845,7 +1863,16 @@
     ]
    },
    "cond": "조건 ②",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-vogelpark.jpg",
+    "pos": "50% 50%",
+    "credit": "Tzu-hsun Hsu",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Matsue_Vogel_Park_-_Center_Greenhouse_1.jpg",
+    "cropped": true,
+    "title": "Matsue Vogel Park - Center Greenhouse 1.jpg",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   },
   {
    "trip_id": "sn2-2",
@@ -2002,7 +2029,16 @@
     ]
    },
    "cond": "조건 ②",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-sakyu.jpg",
+    "pos": "50% 50%",
+    "credit": "Hashi photo",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tottori-Sakyu_Tottori_Japan.JPG",
+    "cropped": true,
+    "title": "Tottori-Sakyu Tottori Japan.JPG",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   },
   {
    "trip_id": "sn2-3",
@@ -2158,7 +2194,16 @@
     ]
    },
    "cond": "조건 ②",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-misasa.jpg",
+    "pos": "50% 50%",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Misasa_onsen03n4592.jpg",
+    "cropped": true,
+    "title": "Misasa onsen03n4592.jpg",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   },
   {
    "trip_id": "sn3-1",
@@ -2344,7 +2389,16 @@
     ]
    },
    "cond": "조건 ③",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-kurayoshi.jpg",
+    "pos": "50% 50%",
+    "credit": "Hiroaki Kaneko",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%80%89%E5%90%89%E7%99%BD%E5%A3%81%E5%9C%9F%E8%94%B5%E7%BE%A4%28Group_of_Traditional_Buildings_in_Kurayoshi%29_23_Nov%2C_2015_-_panoramio.jpg",
+    "cropped": true,
+    "title": "倉吉白壁土蔵群(Group of Traditional Buildings in Kurayoshi) 23 Nov, 2015 - panoramio.jpg",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   },
   {
    "trip_id": "sn3-2",
@@ -2359,7 +2413,7 @@
    "source_cards": [
     14
    ],
-   "scene": "모래와 물로만 빚은 조각인데, 전시가 끝나면 다 허물어 버려요.",
+   "scene": "바다에서 솟는 온천이라 노천탕에서 바닷바람을 맞아요.",
    "l2": "4박 5일, 교통·입장 다 해서 20,420엔",
    "l3": "요나고 공항에 주 5편 · 요나고역에서 특급 65분",
    "hub": "요나고",
@@ -2369,7 +2423,7 @@
      "hub_id": "yonago",
      "hours": null,
      "how": "요나고 공항에 주 5편 · 요나고역에서 특급 65분",
-     "scene": "모래와 물로만 빚은 조각인데, 전시가 끝나면 다 허물어 버려요.",
+     "scene": "바다에서 솟는 온천이라 노천탕에서 바닷바람을 맞아요.",
      "l2": "4박 5일, 교통·입장 다 해서 20,420엔",
      "l3": "요나고 공항에 주 5편 · 요나고역에서 특급 65분",
      "buy": "일본국 밖의 여행사(발매 장소)에서 교환권(전자티켓·E-TICKET)을 산다. 발행한 전자티켓은 3개월 안에 일본에서 패스로 바꿔야 한다 · 산인 안에서 교환하는 곳(공식 장소 검색 「여행사에서 구입한 MCO / E-TICKET 교환」): 요나고역 6:45-19:30 · 마쓰에역 7:00-19:00 · 돗토리역 6:00-19:00. 산인 밖은 신오사카역·오사카역·간사이공항역 등 · 요나고 공항에 내린 사람은 요나고역으로 가서 교환한다. 패스 안내 페이지에는 「사카이미나토역 또는 요나고역」이라고 남아 있지만, 공식 장소 검색에는 2026년 4월 1일 이후 사카이미나토역에서 교환할 수 없다고 적혀 있다 · 온라인 예약분 수령(JR-WEST ONLINE TRAIN RESERVATION)과 일본 안 매표 창구 구입은 이 패스로 공식 장소 검색을 돌리면 둘 다 「검색 결과가 없습니다」 — 공식에 적힌 구입 길은 일본국 밖 여행사 교환권 하나다",
@@ -2530,7 +2584,16 @@
     ]
    },
    "cond": "조건 ③",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-kaike.jpg",
+    "pos": "50% 50%",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Kaike_onsen08n4592.jpg",
+    "cropped": true,
+    "title": "Kaike onsen08n4592.jpg",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   },
   {
    "trip_id": "sn4-1",
@@ -2545,7 +2608,7 @@
    "source_cards": [
     15
    ],
-   "scene": "바다에서 솟는 온천이라 노천탕에서 바닷바람을 맞아요.",
+   "scene": "역에서 나오면 길 양쪽에 요괴 동상이 줄줄이 서서 지켜봐요.",
    "l2": "3박 4일, 교통·입장 다 해서 13,780엔",
    "l3": "요나고 공항에 주 5편 · 요나고역에서 특급 65분",
    "hub": "요나고",
@@ -2555,7 +2618,7 @@
      "hub_id": "yonago",
      "hours": null,
      "how": "요나고 공항에 주 5편 · 요나고역에서 특급 65분",
-     "scene": "바다에서 솟는 온천이라 노천탕에서 바닷바람을 맞아요.",
+     "scene": "역에서 나오면 길 양쪽에 요괴 동상이 줄줄이 서서 지켜봐요.",
      "l2": "3박 4일, 교통·입장 다 해서 13,780엔",
      "l3": "요나고 공항에 주 5편 · 요나고역에서 특급 65분",
      "buy": "일본국 밖의 여행사(발매 장소)에서 교환권(전자티켓·E-TICKET)을 산다. 발행한 전자티켓은 3개월 안에 일본에서 패스로 바꿔야 한다 · 산인 안에서 교환하는 곳(공식 장소 검색 「여행사에서 구입한 MCO / E-TICKET 교환」): 요나고역 6:45-19:30 · 마쓰에역 7:00-19:00 · 돗토리역 6:00-19:00. 산인 밖은 신오사카역·오사카역·간사이공항역 등 · 요나고 공항에 내린 사람은 요나고역으로 가서 교환한다. 패스 안내 페이지에는 「사카이미나토역 또는 요나고역」이라고 남아 있지만, 공식 장소 검색에는 2026년 4월 1일 이후 사카이미나토역에서 교환할 수 없다고 적혀 있다 · 온라인 예약분 수령(JR-WEST ONLINE TRAIN RESERVATION)과 일본 안 매표 창구 구입은 이 패스로 공식 장소 검색을 돌리면 둘 다 「검색 결과가 없습니다」 — 공식에 적힌 구입 길은 일본국 밖 여행사 교환권 하나다",
@@ -2691,7 +2754,16 @@
     ]
    },
    "cond": "조건 ④",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-mizukiroad.jpg",
+    "pos": "50% 50%",
+    "credit": "kajikawa",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taishomachi%2C_Sakaiminato%2C_Tottori_Prefecture_684-0004%2C_Japan_-_panoramio_%288%29.jpg",
+    "cropped": true,
+    "title": "Taishomachi, Sakaiminato, Tottori Prefecture 684-0004, Japan - panoramio (8).jpg",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   },
   {
    "trip_id": "sn5-1",
@@ -2876,7 +2948,16 @@
     ]
    },
    "cond": "조건 ⑤",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/sn-horikawa.jpg",
+    "pos": "50% 50%",
+    "credit": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Matsue_Horikawa_Pleasure_Boat_ac.jpg",
+    "cropped": true,
+    "title": "Matsue Horikawa Pleasure Boat ac.jpg",
+    "chosen": "사용자 선택 2026-09-19 (사진후보_산인_미리보기)"
+   }
   }
  ]
 }
