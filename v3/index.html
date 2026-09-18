@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>로카패스 · 시코쿠 미리보기(엔진 v0.7)</title>
+<title>로카패스 · 시코쿠·산인 미리보기(엔진 v0.7)</title>
 <meta name="robots" content="noindex,nofollow">
 <meta name="description" content="현지 사람이 쓰는 지역 패스로 짠 일본·대만 소도시 여행을, 검색하기 전에 먼저 보여줘요. 며칠·얼마·어디서 출발·어떻게 다니나까지. 판매자와 무관, 계정 없음.">
 <meta property="og:type" content="website">
@@ -156,9 +156,9 @@ const HOWTO={};
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform';
 async function load(){
   const [t,r,p]=await Promise.all([
-    fetch('data/trips.json?b=202609170021').then(x=>x.json()),
-    fetch('data/regions.json?b=202609170021').then(x=>x.json()),
-    fetch('data/passes.json?b=202609170021').then(x=>x.json()).catch(()=>[])]);
+    fetch('data/trips.json?b=202609190029').then(x=>x.json()),
+    fetch('data/regions.json?b=202609190029').then(x=>x.json()),
+    fetch('data/passes.json?b=202609190029').then(x=>x.json()).catch(()=>[])]);
   TRIPS=t.trips.filter(x=>x.status==='published');
   REGION_SIGHTS=t['지역볼거리']||{};   /* v3: 지역 페이지의 「여기서 보는 곳」은 그 지역 것만 */
   r.regions.forEach(x=>REGIONS[x.region_id]=x);
@@ -169,7 +169,7 @@ async function load(){
 async function howto(pid){
   if(!pid) return null;
   if(HOWTO[pid]!==undefined) return HOWTO[pid];
-  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609170021').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
+  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609190029').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
   return HOWTO[pid];
 }
 /* ── 상태: 브라우저에만 ───────────────────────────────────── */
