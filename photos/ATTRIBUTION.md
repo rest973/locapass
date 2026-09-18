@@ -90,3 +90,6 @@
 | v3 지즈 | sn-chizu.jpg | 150425 Ishitani Residence Chizu Tottori pref Japan08s3.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:150425_Ishitani_Residence_Chizu_Tottori_pref_Japan08s3.jpg) |
 | v3 와카사 | sn-wakasa.jpg | Wakasa Railway WT3300 series at Wakasa Station.jpg | Cheng-en Cheng | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Wakasa_Railway_WT3300_series_at_Wakasa_Station.jpg) |
 | v3 마쓰바가니 | sn-matsubagani.jpg | Matsuba crab (35108455735).jpg | Nishimuraya Kinosaki Onsen | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Matsuba_crab_%2835108455735%29.jpg) |
+| v3 다이센 | sn-daisen.jpg | 381 series midori yakumo livery & mt. daisen.jpg | Shellparakeet | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:381_series_midori_yakumo_livery_%26_mt._daisen.jpg) |
+| v3 모래미술관 | sn-sandmuseum.jpg | The Sand Museum, Tottori - Sep 5, 2014.jpg | Cheng-en Cheng | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Sand_Museum%2C_Tottori_-_Sep_5%2C_2014.jpg) |
+| v3 돗토리성터 | sn-tottorijo.jpg | Tottori castle06 2816.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Tottori_castle06_2816.jpg) |
