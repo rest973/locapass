@@ -1,0 +1,72 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR마쓰에역 「오미야게 라쿠이치 마쓰에 샤미네점」",
+     "online": false
+    },
+    {
+     "name": "마쓰에신지코온센역 매점",
+     "online": false
+    },
+    {
+     "name": "디지털",
+     "online": true
+    }
+   ],
+   "src": "https://matsue-bus.jp/lakeline"
+  },
+  "where_note": {
+   "v": "**차내에서는 팔지 않는다**",
+   "q": "車内では発売しておりません",
+   "src": "https://matsue-bus.jp/lakeline"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://matsue-bus.jp/lakeline"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "승차권을 보이면 대상 시설 할인",
+   "src": "https://matsue-bus.jp/lakeline"
+  },
+  "trap": {
+   "v": "1회 승차가 250/130이라 **세 번 타면 남는다**",
+   "src": "https://matsue-bus.jp/lakeline"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://matsue-bus.jp/lakeline",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://matsue-bus.jp/otoku",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "운행일·간격·겨울 운행",
+   "how": "공식 페이지에 기재 없음"
+  },
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-matsue-lakeline-1day",
+ "name": {
+  "local": "ぐるっと松江レイクライン 1日乗車券",
+  "local_lang": "ja",
+  "ko": "마쓰에 레이크라인 1일 승차권",
+  "en": "Matsue Lake Line 1-Day Pass"
+ },
+ "built_at": "2026-09-07"
+}

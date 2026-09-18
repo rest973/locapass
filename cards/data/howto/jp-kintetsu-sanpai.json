@@ -1,0 +1,188 @@
+{
+ "before": {
+  "bring": {
+   "v": "디지털판은 이용자 본인이 반드시 정보 단말을 지녀야 하고, 그 화면에 표시된 구입 정보만 유효하다.",
+   "q": "利用者自身が必ず情報端末を携行し",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/eticket/kitei/",
+   "role": "terms_digital"
+  },
+  "when": {
+   "v": "승차 개시일 한 달 전부터 팔지만 승차 개시일 당일에는 살 수 없다. 종이판·디지털판 모두 전매 한정이다.",
+   "q": "ご乗車開始日当日はご購入いただけません",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/sanpai/",
+   "role": "main"
+  },
+  "app_or_account": {
+   "v": "디지털판은 「きんてつチケットEモール」 계정으로 사고, 표를 나눠 받는 사람도 미리 회원 등록을 해야 한다.",
+   "q": "事前に「Eモール」へ会員登録する必要があります",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/eticket/kitei/",
+   "role": "terms_digital"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "역 창구·발매기",
+     "online": false,
+     "local": "駅窓口（特急券うりば） 大阪難波・京都・近鉄奈良・大阪阿部野橋・近鉄名古屋・桑名ほか"
+    },
+    {
+     "name": "여행사 점포",
+     "online": false,
+     "local": "クラブツーリズム（含:近畿日本ツーリスト）･日本旅行の主要支店･営業所"
+    },
+    {
+     "name": "운영사 온라인",
+     "online": true,
+     "local": "「きんてつチケットEモール」（特急券付き伊勢神宮参拝デジタルきっぷ）",
+     "note": "0時00分から23時59分まで（メンテナンス時間を除く）"
+    }
+   ],
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/sanpai/"
+  },
+  "where_note": {
+   "v": "발매 시간을 줄인 역이 있고, 여행사에서는 여행업무취급요금을 따로 받는 곳이 있다.",
+   "q": "発売時間を短縮している駅がありますので",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/sanpai/",
+   "role": "main"
+  },
+  "how": {
+   "v": "발매처에서 상품 이름과 여행 개시일·구간 같은 필요한 사항을 말하고 산다. 관서발·동해발 가운데 어느 쪽인지도 정해야 한다. (창구에서 뭐라고 말하나 / 앱의 어느 화면. 원문에 있을 때만)",
+   "q": "発売箇所において、企画乗車券類の商品名称と旅",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/pdf/kitei.pdf",
+   "role": "terms"
+  },
+  "pay": {
+   "v": "디지털판은 신용카드 결제(Apple Pay·Google Pay 포함) 또는 전자머니로 내고 일시불만 된다. (현금·카드·IC·QR결제)",
+   "q": "クレジットカード決済（Apple Pay、Google Payを含む）",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/eticket/kitei/",
+   "role": "terms_digital"
+  },
+  "get_what": {
+   "v": "왕복 승차권과 프리구간 승차권, 「ゆき」「かえり」의 特急券引換券, 프리구간용 特急券引換券 2장, 三重交通バス 伊勢·二見·朝熊 지정 구간 3일 자유 승차권, 「パールシャトル」 편도 1회 이용권을 받는다. (손에 쥐는 것 — 종이권·교환권·QR)",
+   "q": "近鉄電車フリー区間(松阪～賢島間)用特急券引換券２枚",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/sanpai/",
+   "role": "main"
+  }
+ },
+ "issue": {
+  "exchange": {
+   "v": "特急券引換券은 유효기간 안의 열차와 좌석을 지정받은 特急券으로 반드시 바꿔야 하고, 프리구간용은 近鉄特急券発売駅 창구에서만 바꾼다. (교환권을 실권으로 바꾸는 곳·방법)",
+   "q": "有効期間中の列車および座席の指定を受けた企画特別急行券に引き",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/pdf/kitei.pdf",
+   "role": "terms"
+  },
+  "activate": {
+   "v": "따로 개시 버튼은 없고, 개찰을 받은 날짜가 그대로 乗車開始日이 된다. (디지털의 '이용 개시' 시점과 되돌릴 수 있는지)",
+   "q": "「乗車開始日」とは、第１２条に定める改札を受けた日付をいいます",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/eticket/kitei/",
+   "role": "terms_digital"
+  },
+  "seat": {
+   "v": "近鉄特急은 전석 좌석지정이라 종이판은 교환할 때 좌석을 지정받고, 디지털판은 승차일 1개월 전 10시 30분부터 승차역 출발 1분 전까지 스스로 좌석을 예약한다. (좌석·지정석을 어떻게 잡나)",
+   "q": "乗車日1ヵ月前の10時30分から、乗車駅の出発時刻1分前まで",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/eticket/kitei/",
+   "role": "terms_digital"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "프리구간 안에서는 타고 내릴 때마다 그 구간에 유효한 券片을 역무원에게 보이고 개찰을 받는다. 버스는 내릴 때 승차권 화면을 승무원에게 보인다. (개찰·차내·시설에서 무엇을 어떻게 보이나)",
+   "q": "有効な乗車券片を係員に呈示して改札を受けるものとします。",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/pdf/kitei.pdf",
+   "role": "terms"
+  },
+  "count_rules": {
+   "v": "券片 하나는 한 번만 쓰지만 프리구간 안에서는 승차 횟수 제한이 없다. 三重交通バス는 지정 구간 안에서만 3일간 자유롭게 탄다. (회수·1인1회·구간 밖·차종 같은 규칙)",
+   "q": "１券片をもって１回限り",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/pdf/kitei.pdf",
+   "role": "terms"
+  },
+  "when_lane_closed": {
+   "v": "디지털판은 단말 고장이나 배터리 방전으로 구입 정보를 확인할 수 없으면 쓸 수 없고, 그때는 입장역부터 출장역까지의 보통 운임을 낸다. (예외 처리 — 앱 화면이 안 뜰 때)",
+   "q": "情報端末の故障、充電切れ等によりデジタルきっぷの購入情報を確認できない場合",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/eticket/kitei/",
+   "role": "terms_digital"
+  },
+  "trap": {
+   "v": "돌아오는 길에 프리구간 밖의 역에서 내리면 유효기간이 남아 있어도 그 시점에 표가 끝나고 회수된다. (가장 자주 걸리는 것 하나)",
+   "q": "フリー区間以外の駅で降車した時点で当該乗車券片の有効期間は終了",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/pdf/kitei.pdf",
+   "role": "terms"
+  }
+ },
+ "end": {
+  "return": {
+   "v": "종이판은 여행을 마칠 때 그 표를 역무원에게 건넨다. (반납할 것)",
+   "q": "旅行を終了した際は、当該企画乗車券を係員に引き渡",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/pdf/kitei.pdf",
+   "role": "terms"
+  },
+  "refund": {
+   "v": "전 券片 미사용이고 유효기간 안일 때만 발매처에서 환불하며 수수료 500엔이 든다. 디지털판은 구입 사이트에서 본인이 처리한다.",
+   "q": "きっぷの有効期間内で全券片未使用の場合に限り、発売箇所にて手数料(500円)",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/sanpai/",
+   "role": "main"
+  },
+  "overuse": {
+   "v": "구간 변경은 할 수 없고, 경로 밖에서 여행을 시작하면 그 구간 운임을 따로 사야 한다. (초과·구역 밖·연장 시 정산)",
+   "q": "区間変更（乗り越し、方向変更、経路変更）はで",
+   "src": "https://www.kintetsu.co.jp/senden/Railway/Ticket/pdf/kitei.pdf",
+   "role": "terms"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "아카이브에 일본어 페이지만 있다"
+ },
+ "sources": [
+  {
+   "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/sanpai/",
+   "role": "main"
+  },
+  {
+   "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/pdf/kitei.pdf",
+   "role": "terms"
+  },
+  {
+   "url": "https://www.kintetsu.co.jp/senden/Railway/eticket/sanpai/",
+   "role": "eticket"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "사는 곳 이름",
+   "how": "추출이 우리말 이름(`name_ko`)을 안 냈다 — 원어만 있어 종류 이름으로 대신했다. 원어: 駅窓口（特急券うりば） 大阪難波・京都・近鉄奈良・大阪阿部野橋・近鉄名古屋・桑名ほか / クラブツーリズム（含:近畿日本ツーリスト）･日本旅行の主要支店･営業所 / 「きんてつチケットEモール」（特急券付き伊勢神宮参拝デジタルきっぷ）"
+  },
+  {
+   "what": "구매 자격",
+   "how": "약관·상품 페이지 어디에도 살 수 있는 사람의 제약이 적혀 있지 않다"
+  },
+  {
+   "what": "종이판 결제수단",
+   "how": "디지털판만 デジタルきっぷ取扱規程 제11조에 있고 역 창구 결제수단은 없다 → 발매 역에 확인"
+  },
+  {
+   "what": "이용 기간",
+   "how": "발매는 通年이라고만 하고 이용 가능 기간을 따로 밝힌 문장이 없다"
+  },
+  {
+   "what": "이 패스 전용 FAQ",
+   "how": "레지스트리에 jp-kintetsu-sanpai/faq 역할 URL이 없어 まわりゃんせ FAQ와 デジタルきっぷ FAQ만 있다"
+  },
+  {
+   "what": "이용 안내 페이지",
+   "how": "guide 역할 URL이 레지스트리에 없다 — 이용 안내가 main 안에 섞여 있다"
+  }
+ ],
+ "pass_id": "jp-kintetsu-sanpai",
+ "name": {
+  "local": "伊勢神宮参拝きっぷ"
+ },
+ "built_at": "2026-09-08",
+ "built_by": "extract_to_howto.py",
+ "merged_at": "2026-09-08"
+}

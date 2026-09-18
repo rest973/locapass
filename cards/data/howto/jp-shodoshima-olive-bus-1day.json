@@ -1,0 +1,58 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "영업소 창구(도노쇼항 터미널)",
+     "online": false
+    },
+    {
+     "name": "차내",
+     "online": false
+    },
+    {
+     "name": "항만 시설·일부 숙박 시설",
+     "online": false
+    }
+   ],
+   "src": "https://shodoshima-olive-bus.com/ticket/"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://shodoshima-olive-bus.com/"
+  }
+ },
+ "issue": {},
+ "use": {},
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://shodoshima-olive-bus.com/",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://shodoshima-olive-bus.com/ticket/",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "유효기간·환불·제외 노선",
+   "how": "올리브버스 공식 승차권 페이지에 하나도 없다"
+  },
+  {
+   "what": "2일·3일권",
+   "how": "공식에 없다 — 1일권만 판다"
+  }
+ ],
+ "pass_id": "jp-shodoshima-olive-bus-1day",
+ "name": {
+  "local": "小豆島フリー乗車券（1日）",
+  "local_lang": "ja",
+  "ko": "쇼도시마 프리 승차권 1일",
+  "en": "Shodoshima Olive Bus 1-Day Free Ticket"
+ },
+ "built_at": "2026-09-07"
+}

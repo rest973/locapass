@@ -1,0 +1,61 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "鹿児島中央駅 관광안내소·페리터미널·모바일",
+     "online": true
+    }
+   ],
+   "src": "https://www.kagoshima-yokanavi.jp/article/one-day-pass"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.kagoshima-yokanavi.jp/article/one-day-pass"
+  }
+ },
+ "issue": {},
+ "use": {
+  "trap": {
+   "v": "**`jp-kagoshima-cute`가 이미 1일·2일을 함께 담고 있어 같은 상품이 레코드 둘로 나뉘어 있다** — 절차는 1일권과 같다",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**구매 후 변경·환불이 안 된다**",
+   "q": "購入後の変更・払い戻しできません",
+   "src": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html"
+  }
+ },
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.kagoshima-yokanavi.jp/article/one-day-pass",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://kyushu-maas.jp/ticket/920",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/unchin/cute.html",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "레코드 통합",
+   "how": "1일권 쪽 howto를 정본으로 삼고 이 레코드는 합치는 것이 맞다"
+  }
+ ],
+ "pass_id": "jp-kagoshima-cute-2day",
+ "name": {
+  "local": "CUTE 2日券",
+  "local_lang": "ja",
+  "ko": "가고시마 CUTE 2일권",
+  "en": "Kagoshima CUTE 2-Day"
+ },
+ "built_at": "2026-09-07"
+}

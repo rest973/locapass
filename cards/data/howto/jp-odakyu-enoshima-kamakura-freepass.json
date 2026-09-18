@@ -1,0 +1,131 @@
+{
+ "pass_id": "jp-odakyu-enoshima-kamakura-freepass",
+ "gaps": [
+  {
+   "what": "에노시마 벤텐바시 길이",
+   "how": "후지사와시 공식에 수치가 없다 — 2차의 389m·408m는 쓰지 않았다"
+  },
+  {
+   "what": "고토쿠인·하세데라 휴관일",
+   "how": "둘 다 기재 없음. 「연중무휴」라 쓰면 안 된다"
+  },
+  {
+   "what": "노리오리쿤 발매기 결제 수단",
+   "how": "공식 명시 없음"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.odakyu-freepass.jp/enokama/",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.odakyu-freepass.jp/enokama/buy.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.odakyu-freepass.jp/assets/files/terms.pdf",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.odakyu-freepass.jp/digitaltickets/use.html",
+   "checked": "2026-09-10"
+  }
+ ],
+ "name": {
+  "local": "江の島・鎌倉フリーパス",
+  "local_lang": "ja",
+  "ko": "에노시마·가마쿠라 프리패스",
+  "en": "Enoshima-Kamakura Free Pass"
+ },
+ "built_at": "2026-09-10",
+ "before": {
+  "when": {
+   "v": "유효는 하루예요. **승차일 1개월 전부터 살 수 있는데, 자동발매기만 당일분을 팔아요** — 미리 사 두려면 창구나 앱으로 하세요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "※自動券売機は当日から有効分のみ購入可能",
+   "src": "https://www.odakyu-freepass.jp/enokama/buy.html"
+  },
+  "who_can_buy": {
+   "v": "어린이는 6세부터 11세까지예요. **어디서 타든 430엔**이라 어른값과 비율이 맞지 않아요 — 균일가거든요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "어린이 요금은 6세부터 11세까지",
+   "src": "https://www.odakyu-global.com/korean/passes/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "오다큐선 각 역 발매기·창구 (발매기는 당일분만)",
+     "online": false
+    },
+    {
+     "name": "오다큐 여행센터",
+     "online": false
+    },
+    {
+     "name": "EMot 앱 · EMot 온라인 티켓",
+     "online": true
+    }
+   ],
+   "by": "사실확인_B11@2026-09-10",
+   "q": "小田急線各駅自動券売機、窓口",
+   "src": "https://www.odakyu-freepass.jp/enokama/buy.html"
+  },
+  "where_note": {
+   "v": "**모든 발매기가 파는 건 아니에요.** 발매기에서는 「프리패스」 버튼을 누르고 「에노시마·가마쿠라」 그림을 고르면 돼요. 화면 오른쪽 위에서 영어로 바꿀 수 있어요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "※一部の券売機では取り扱っておりません",
+   "src": "https://www.odakyu-freepass.jp/enokama/buy.html"
+  },
+  "pay": {
+   "v": "역 발매기에서는 현금과 **신용카드**가 돼요. 온라인은 비자·JCB·마스터·다이너스·아멕스예요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "※クレジットカードもご利用いただけます",
+   "src": "https://www.odakyu-freepass.jp/enokama/buy.html"
+  },
+  "get_what": {
+   "v": "역에서 사면 **종이 승차권**이에요. 앱으로 사면 상품 이름이 「디지털 에노시마·가마쿠라 프리패스」로 따로 있고 화면에 QR이 떠요. **스마트폰 전용**이라 태블릿으로는 안 돼요. 단체용으로 사면 한 대로 네 명까지 써요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "アプリ「ＥＭｏｔ」およびウェブサイト",
+   "src": "https://www.odakyu-freepass.jp/assets/files/terms.pdf"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "오다큐선은 **탄 역에서 후지사와까지 왕복 한 번**이에요. **후지사와에서 가타세에노시마까지는 자유**라 몇 번을 타고 내려도 돼요. **에노덴은 전 구간 자유**예요 — 후지사와부터 가마쿠라까지 열다섯 역 전부요. 중간에 내리는 데 제한이 없어요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "藤沢駅～片瀬江ノ島駅間…乗車回数の制限はしません",
+   "src": "https://www.odakyu-freepass.jp/assets/files/terms.pdf"
+  },
+  "show": {
+   "v": "종이표는 **오다큐선에서는 개찰기에 넣고, 에노덴에서는 역무원에게 보여요.** 앱 표는 양쪽 다 QR 리더에 화면을 대요. 여럿이면 동행자 것을 먼저 찍고 산 사람이 마지막이에요. 중간에 내릴 때는 리더에 대지 말고 역무원에게 말하세요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "Insert the ticket into the gate on Odakyu Line",
+   "src": "https://www.odakyu-global.com/passes/"
+  },
+  "trap": {
+   "v": "**특급 로망스카는 이 표로 못 타요.** 특급권을 따로 사는데 신주쿠에서 후지사와까지 750엔, 앱으로 사면 700엔이에요. **종이표는 여행이 끝나는 역에서 걷어가요** — 기념으로 못 가져갑니다. 앱 표는 휴대폰이 고장 나거나 배터리가 나가면 못 써요. 정해진 구간을 벗어나면 그만큼 따로 냅니다.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "携帯電話の故障や電池切れ等により…利用できません",
+   "src": "https://www.odakyu-freepass.jp/assets/files/terms.pdf"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "쓰기 전이면 **장당 220엔**을 떼고 물러 줘요. 쓰기 시작한 뒤에는 왕복 구간 안에서 신청한 경우만 되고, 실제 탄 만큼과 220엔을 뺍니다. **에노덴 창구에서는 환불을 안 해요.** 에노덴이 운휴하면 어른 650엔·어린이 330엔을 돌려줘요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "１枚につき２２０円の払いもどし手数料を差し引いた",
+   "src": "https://www.odakyu-freepass.jp/assets/files/terms.pdf"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "ko"
+  ],
+  "note": "오다큐가 한국어 공식 페이지를 낸다"
+ }
+}

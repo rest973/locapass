@@ -1,0 +1,77 @@
+{
+ "before": {
+  "app_or_account": {
+   "v": "「스룻토QRtto」 온라인 판매 사이트. **신용카드 결제만**",
+   "src": "https://www.sanyo-railway.co.jp/railway/untin/himeji-qr1day.html"
+  },
+  "who_can_buy": {
+   "v": "**어른만** 판다",
+   "src": "https://www.sanyo-railway.co.jp/railway/untin/himeji-qr1day.html"
+  },
+  "when": {
+   "v": "**발매 2026-07-24~10-24 중 원하는 하루**",
+   "src": "https://www.sanyo-railway.co.jp/railway/untin/himeji-qr1day.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "스룻토QRtto 온라인 판매 사이트",
+     "online": true
+    }
+   ],
+   "src": "https://www.sanyo-railway.co.jp/railway/untin/himeji-qr1day.html"
+  },
+  "get_what": {
+   "v": "QR 디지털 티켓",
+   "src": "https://www.sanyo-railway.co.jp/railway/untin/himeji-qr1day.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "**히메지성 입성권 + 포트라이너(고베공항→산노미야) 편도 + 산요전차** — 프리版 3,950은 산요전차 무제한, 편도版 3,250은 편도",
+   "src": "https://www.sanyo-railway.co.jp/railway/untin/himeji-qr1day.html"
+  },
+  "trap": {
+   "v": "**고베공항에 내리는 사람을 위한 상품이다** — 포트라이너 편도가 들어 있다. 오사카·간사이공항에서 오면 이 표의 값이 반쯤 죽는다",
+   "src": "https://www.sanyo-railway.co.jp/railway/untin/himeji-qr1day.html"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.sanyo-railway.co.jp/railway/untin/himeji-qr1day.html",
+   "checked": "2026-09-07"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "개찰에서 QR을 어디에 대나",
+   "how": "기재 없음"
+  },
+  {
+   "what": "이용 개시 조작",
+   "how": "기재 없음"
+  },
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-sanyo-himeji-qr1day",
+ "name": {
+  "local": "姫路城おでかけQR1dayチケット",
+  "local_lang": "ja",
+  "ko": "히메지성 오데카케 QR 1day 티켓",
+  "en": "Himeji Castle QR 1-Day Ticket"
+ },
+ "built_at": "2026-09-07"
+}

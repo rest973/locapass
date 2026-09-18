@@ -1,0 +1,122 @@
+{
+ "pass_id": "jp-yokohama-minato-burari",
+ "gaps": [
+  {
+   "what": "결제 수단",
+   "how": "역·호텔·YCAT에서 현금만인지 카드가 되는지 공식에 없다"
+  },
+  {
+   "what": "자동개찰 통과 여부",
+   "how": "공식은 「역무원이 눈으로 본다」까지만 적는다"
+  },
+  {
+   "what": "디지털판 환불",
+   "how": "판매처 세 곳 각각 미확인"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/minatoburari.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/burariguide_jpn.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/dejideji.html",
+   "checked": "2026-09-10"
+  },
+  {
+   "url": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/tokuten.html",
+   "checked": "2026-09-10"
+  }
+ ],
+ "name": {
+  "local": "みなとぶらりチケット",
+  "local_lang": "ja",
+  "ko": "미나토부라리 티켓",
+  "en": "Minato Burari Ticket"
+ },
+ "built_at": "2026-09-10",
+ "before": {
+  "when": {
+   "v": "**표에 적힌 그 날 하루**만 써요. 살 때 날짜를 넣어 주기도 하고, 처음 타기 전에 본인이 유성펜으로 적어도 돼요. **날짜를 바꿀 수는 없어요.**",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "券面に表示してある乗車日に限り",
+   "src": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/burariguide_jpn.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "지하철 블루라인 역 (요코하마·다카시마초·사쿠라기초·간나이·이세자키초자마치·반도바시·요시노초)",
+     "online": false
+    },
+    {
+     "name": "요코하마역 서비스센터 · 사쿠라기초역 관광안내소",
+     "online": false
+    },
+    {
+     "name": "시내 취급 호텔 · YCAT 1층 버스권 카운터",
+     "online": false
+    },
+    {
+     "name": "my route · 클룩 · 앳요코하마",
+     "online": true
+    }
+   ],
+   "by": "사실확인_B11@2026-09-10",
+   "q": "横浜・高島町・桜木町・関内・伊勢佐木長者町・阪東橋・吉野町",
+   "src": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/minatoburari.html"
+  },
+  "where_note": {
+   "v": "**차 안에서는 안 팔아요.** 타기 전에 사 두세요. 신요코하마역에서는 **와이드판만** 팔아요. 디지털은 종이와 값이 같아요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "新横浜駅はみなとぶらりチケットワイドのみ販売",
+   "src": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/minatoburari.html"
+  },
+  "get_what": {
+   "v": "종이 승차권 한 장이에요. **자르지 마세요** — 오른쪽 위 삼각형을 눈으로 보고 어른·어린이를 가릅니다.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "チケットお取扱いの際は切り離さないよう",
+   "src": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/burariguide_jpn.html"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "지하철 요코하마~요시노초 구간과 시버스·가나추버스의 정해진 구역, 관광버스 아카이쿠츠, 베이사이드 블루를 하루 종일 타요. 산케이엔 가는 버스도 들어가요. **이 표를 보이면 130곳 넘는 데서 깎아 줘요** — 산케이엔 900→800엔, 히카와마루 300→250엔, 코스모월드 이용권 3,500→3,000엔이에요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "130を超える提携施設の割引",
+   "src": "https://www.city.yokohama.lg.jp/faq/kukyoku/kotsu/jidosha-eigyo/20211013150203933.html"
+  },
+  "show": {
+   "v": "표를 보이면 돼요. 디지털은 화면에 뜬 승차권을 **기사나 역무원에게 보여요** — 자동개찰에 대는 방식이 아니에요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "バス乗務員/駅務員に見せて、乗車/改札を入場",
+   "src": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/dejideji.html"
+  },
+  "trap": {
+   "v": "**와이드판으로 열리는 건 신요코하마역 한 역뿐이에요.** 그 사이 역들(기시네공원~미쓰자와시모초)은 와이드로도 타고 내릴 수 없어요. **심야버스는 못 타요.** 정해진 구역을 벗어나면 그 정류장부터 따로 냅니다. 특전은 표에 적힌 그 날만 되고 다른 할인과 겹쳐 쓸 수 없어요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "「岸根公園」～「三ツ沢下町」では乗降できません",
+   "src": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/burariguide_jpn.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**안 쓴 표는 승차일 전날까지 물러 줘요.** 지하철 전 역과 정기권 발매소에서 받고 **수수료는 장당 100엔**이에요.",
+   "by": "사실확인_B11@2026-09-10",
+   "q": "手数料は1枚につき100円です",
+   "src": "https://www.city.yokohama.lg.jp/kotsu/bus/unchin/minatoburari.html"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en"
+  ],
+  "note": "요코하마시가 영문 안내 페이지를 따로 낸다"
+ }
+}

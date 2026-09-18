@@ -1,0 +1,71 @@
+{
+ "before": {
+  "when": {
+   "v": "**발매 2026-03-15~11-26, 이용 4/15~11/30.** **단 4/27~5/6과 8/10~19는 이용할 수 없다**",
+   "src": "https://railway.jr-central.co.jp/tickets/tateyama-kurobe-alpine/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR서일본 넷 예약 「e5489」",
+     "online": true
+    }
+   ],
+   "src": "https://railway.jr-central.co.jp/tickets/tateyama-kurobe-alpine/"
+  },
+  "get_what": {
+   "v": "e5489에서 산 뒤 **JR도카이 표 매장이나 발매기에서 받는다**",
+   "src": "https://railway.jr-central.co.jp/tickets/tateyama-kurobe-alpine/"
+  }
+ },
+ "issue": {
+  "exchange": {
+   "v": "**당일 오기사와역 또는 다테야마역 표 매장에서 이 표를 보이고 「승차 정리표」를 받아야** 알펜루트를 탄다",
+   "src": "https://railway.jr-central.co.jp/tickets/tateyama-kurobe-alpine/"
+  },
+  "seat": {
+   "v": "특급·급행·쾌속의 **보통차 지정석을 4회까지** 쓸 수 있다",
+   "src": "https://railway.jr-central.co.jp/tickets/tateyama-kurobe-alpine/"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "5일간. 나고야~도야마 특급·급행·쾌속·보통 자유석 무제한 + 시나노오마치~도야마 알펜루트 안(버스·로프웨이·케이블카) **승차 횟수 무제한**",
+   "src": "https://railway.jr-central.co.jp/tickets/tateyama-kurobe-alpine/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**수령 전**에는 유효기간 개시일 당일에만 e5489에서 수수료 560엔. **수령 후**에는 미사용분만 수수료 560엔",
+   "src": "https://railway.jr-central.co.jp/tickets/tateyama-kurobe-alpine/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://railway.jr-central.co.jp/tickets/tateyama-kurobe-alpine/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "알펜루트 시간 지정",
+   "how": "알펜루트 자체는 WEB킷푸에서 시각을 고르는데, 이 표로 탈 때 혼잡기 시간 지정을 어떻게 받는지 기재 없음"
+  }
+ ],
+ "pass_id": "jp-jrc-tateyama-kurobe-alpine-free",
+ "name": {
+  "local": "立山黒部アルペンフリーきっぷ（普通車指定席用）",
+  "local_lang": "ja",
+  "ko": "다테야마 구로베 알펜 프리킷푸",
+  "en": "Tateyama-Kurobe Alpine Free Ticket"
+ },
+ "built_at": "2026-09-07"
+}

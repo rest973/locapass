@@ -1,0 +1,66 @@
+{
+ "before": {
+  "when": {
+   "v": "**당일 한정**",
+   "src": "https://www.e-tix.jp/otaru-art-base/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "온라인 e-tix",
+     "online": true,
+     "note": "온라인이 싸다"
+    },
+    {
+     "name": "현지 각 관 창구",
+     "online": false
+    }
+   ],
+   "src": "https://www.e-tix.jp/otaru-art-base/"
+  },
+  "get_what": {
+   "v": "**온라인이 정가보다 싸다** — 일반 3,500 → 3,000, 대학생 2,700 → 2,300, 고교생 2,100 → 1,800, 초중생 1,400 → 1,200, 유아 900 → 800",
+   "src": "https://www.e-tix.jp/otaru-art-base/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "다섯 관 — 니토리미술관·스테인드글라스미술관·구 미쓰이은행·기타이치硝子미술관·아르누보硝子미술관",
+   "src": "https://www.e-tix.jp/otaru-art-base/"
+  },
+  "trap": {
+   "v": "**휴관일이 계절마다 다르다** — 5~10월은 월요일, **11~4월은 월요일과 일요일·공휴일**이 쉰다. 겨울 주말에 가면 닫혀 있다. 개관은 5~10월 9:30~17:00, 11~4월 10:00~17:00",
+   "src": "https://www.e-tix.jp/otaru-art-base/"
+  }
+ },
+ "end": {},
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "e-tix는 일본어"
+ },
+ "sources": [
+  {
+   "url": "https://www.e-tix.jp/otaru-art-base/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-otaru-art-base-5kan",
+ "name": {
+  "local": "小樽芸術村 5館共通券",
+  "local_lang": "ja",
+  "ko": "오타루 예술촌 5관 공통권",
+  "en": "Otaru Art Base 5-Museum Ticket"
+ },
+ "built_at": "2026-09-07"
+}

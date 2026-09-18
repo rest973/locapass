@@ -1,0 +1,84 @@
+{
+ "before": {
+  "when": {
+   "v": "**전매는 유효기간 개시일 1개월 전부터 당일까지**. 종이판 발매 2026-03-01~2027-03-31, WEB판 2026-04-01~2027-03-31",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "지정된 JR역(하코다테·신하코다테호쿠토 등)",
+     "online": false
+    },
+    {
+     "name": "WEB판 전용 사이트 「DohNa!!」",
+     "online": true
+    }
+   ],
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/"
+  },
+  "how": {
+   "v": "はこだて旅するパスポートの2日券を大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "종이 승차권 또는 스마트폰 화면",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/"
+  }
+ },
+ "issue": {
+  "activate": {
+   "v": "**WEB판은 구매 뒤 1개월 안에 「이용 개시」를 눌러야 한다**",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/"
+  }
+ },
+ "use": {
+  "when_lane_closed": {
+   "v": "**잃어버려도 재발행이 없다.** 지연·운행 불능으로 유효기간을 늘려 주지도 않는다",
+   "q": "再発行の取扱いはいたしません",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/"
+  },
+  "count_rules": {
+   "v": "JR 하코다테본선 森~函館 보통·쾌속 자유석 + 하코다테버스 전선 + 시전 전선 + 도난이사리비철도 전선. **신칸센·특급/급행 지정석·그린차·침대차는 못 탄다**",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/"
+  },
+  "trap": {
+   "v": "삿포로 방면 특급을 타려면 이 표로는 안 된다 — 하코다테본선 **森까지**가 프리 구간이다",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "사용 개시 **전에만** 환불(수수료 220엔). 개시 후에는 불가",
+   "src": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "일본어 페이지만 확인했다"
+ },
+ "sources": [
+  {
+   "url": "https://www.jrhokkaido.co.jp/CM/Otoku/007200/",
+   "checked": "2026-09-02"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "DohNa!! 앱의 언어·결제수단",
+   "how": "전용 사이트의 대응 언어와 해외 신용카드 가능 여부가 기재 없음"
+  }
+ ],
+ "pass_id": "jp-hakodate-tabisuru-passport",
+ "name": {
+  "local": "はこだて旅するパスポート",
+  "local_lang": "ja",
+  "ko": "하코다테 여행 패스포트",
+  "en": "Hakodate Travel Passport"
+ },
+ "built_at": "2026-09-07"
+}

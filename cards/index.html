@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>로카패스 · 현지 패스로 짠 소도시 여행</title>
+<title>로카패스 · 카드 시절 보관판(2026-09)</title>
+<meta name="robots" content="noindex,nofollow">
 <meta name="description" content="현지 사람이 쓰는 지역 패스로 짠 일본·대만 소도시 여행을, 검색하기 전에 먼저 보여줘요. 며칠·얼마·어디서 출발·어떻게 다니나까지. 판매자와 무관, 계정 없음.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="로카패스">
@@ -15,7 +16,7 @@
 <meta property="og:url" content="https://rest973.github.io/locapass/">
 <meta property="og:locale" content="ko_KR">
 <meta name="twitter:card" content="summary_large_image">
-<script data-goatcounter="https://locapass.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<!-- 보관판: 계측기 뺌 -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%230E6F6A%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2718%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27%3E%E1%84%85%E1%85%A9%3C/text%3E%3C/svg%3E">
 <style>
 /* 뼈대_재설계_v1 §4 — 화면 다섯: 피드 · 여행 · 지역 · 출발 도시 · 보관함. 이용자 화면에 내부 어휘·계측·버전 없음 */
@@ -134,14 +135,6 @@ summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--ink)}
 .toast.show{opacity:1}
 a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 [hidden]{display:none!important}
-  ul.rides{margin:8px 0 0;padding-left:18px}
-  ul.rides li{margin:6px 0;font-size:14.5px;line-height:1.55}
-  /* 사진이 아직 없는 여행 — 회색 빈 칸 대신 읽히는 바탕(사진을 아무거나 끌어오지 않는다) */
-  .tile .ph .img:not([style*="background-image"]), .hero:not([style*="background-image"]){
-    background:linear-gradient(160deg,#20514c,#0e2f2c)}
-  .tile .ph .img:not([style*="background-image"])::after, .hero:not([style*="background-image"])::after{
-    content:"사진은 아직 없어요";position:absolute;right:10px;top:10px;
-    font-size:11px;color:rgba(255,255,255,.72);letter-spacing:-.01em}
 </style>
 </head>
 <body>
@@ -155,11 +148,10 @@ const HOWTO={};
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform';
 async function load(){
   const [t,r,p]=await Promise.all([
-    fetch('data/trips.json?b=202609190149').then(x=>x.json()),
-    fetch('data/regions.json?b=202609190149').then(x=>x.json()),
-    fetch('data/passes.json?b=202609190149').then(x=>x.json()).catch(()=>[])]);
+    fetch('data/trips.json').then(x=>x.json()),
+    fetch('data/regions.json').then(x=>x.json()),
+    fetch('data/passes.json').then(x=>x.json()).catch(()=>[])]);
   TRIPS=t.trips.filter(x=>x.status==='published');
-  REGION_SIGHTS=t['지역볼거리']||{};   /* v3: 지역 페이지의 「여기서 보는 곳」은 그 지역 것만 */
   r.regions.forEach(x=>REGIONS[x.region_id]=x);
   r.hubs.forEach(h=>{HUBS[h.hub_id]=h; HUBS_KO[h.name.ko]=h;});
   BLOCKS=r.blocks||{};
@@ -168,13 +160,12 @@ async function load(){
 async function howto(pid){
   if(!pid) return null;
   if(HOWTO[pid]!==undefined) return HOWTO[pid];
-  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609190149').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
+  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
   return HOWTO[pid];
 }
 /* ── 상태: 브라우저에만 ───────────────────────────────────── */
 const LS=k=>{try{return localStorage.getItem(k)}catch(e){return null}};
 const LSs=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
-let REGION_SIGHTS={};
 let hub=LS('lp3_hub')||'';            // hub_id
 let nightsF=LS('lp3_nights')||'';     // ''|'2'|'3'|'4+'
 let feedTouched=false;                // 저장된 칩 조합이 0장이면 첫 렌더에서 한 번만 풀어 준다
@@ -271,7 +262,7 @@ function renderFeed(){
   <div class="tiles">${list.map(t=>{ const f=pickFrom(t,hub); return `
     <a class="tile" href="${tripUrl(t,hub)}"><div class="ph"><div class="img" style="${photoStyle(t.photo)}"></div><span class="where">${esc(placeOf(t))}</span>${saved.has(t.trip_id)?'<span class="saved">보관함에 있어요</span>':''}<div class="tx"><div class="s">${esc(f.scene||t.scene)}</div><div class="a">${esc(assure(t,f))}</div></div></div></a>`; }).join('')}
   ${list.length?'':`<p class="empty">${hub?`${esc(hubName)}에서 가는 ${nightsF?'그 일수의 ':''}여행이 아직 없어요.`:'이 조건에 맞는 여행이 아직 없어요.'}<br><span class="m">칩을 "안 정함"·"전부"로 돌리면 다 볼 수 있어요.</span></p>`}</div>
-  <div class="foot">가격·조건은 각 여행에 적힌 확인 시점의 공식 페이지 기준이에요. 판매자와 무관하고 계정이 없어요. <a href="about.html">이게 뭐예요 · 면책 · 출처 · 연락</a></div>`;
+  <div class="foot">가격·조건은 각 여행에 적힌 확인 시점의 공식 페이지 기준이에요. 판매자와 무관하고 계정이 없어요. <a href="../about.html">이게 뭐예요 · 면책 · 출처 · 연락</a></div>`;
   /* 포토 숏츠: 화면의 절반 넘게 보이는 타일만 움직이고, 벗어나면 멈춘다(다시 들어오면 자막이 다시 뜬다) */
   if('IntersectionObserver' in window){
     /* live = 사진 움직임을 재생/정지만 한다(클래스를 떼면 확대가 1로 스냅해 사진이 튄다).
@@ -307,12 +298,10 @@ async function renderTrip(id,q){
     <div class="hero" style="${photoStyle(t.photo)}"><div class="tx"><div class="s">${esc(a.scene||t.scene)}</div></div></div>
     <div class="sec"><h3>한눈에</h3>${switches}<div class="glance">
       <div><b>며칠</b>${esc(t.days_label)}</div><div><b>얼마</b>${esc(a.l2||t.l2)}</div>
-      <div><b>가는 길</b>${esc(fromLine(f))}${(a.l3||t.l3)&&(a.l3||t.l3)!==fromLine(f)?`<br><span class="m">${esc(a.l3||t.l3)}</span>`:''}</div>
+      <div><b>가는 길</b>${esc(fromLine(f))}<br><span class="m">${esc(a.l3||t.l3)}</span></div>
       <div><b>확인</b><span class="m">${esc(checkedLine(t))}</span></div></div></div>
-    ${t.pre?`<div class="sec"><h3>미리 잡아 둘 것</h3><p>${md(t.pre)}</p></div>`:''}
     <div class="sec"><h3>거기서 뭐 해요</h3><p>${md(a.what||t.what)}</p>${(a.days||t.days)?(a.days||t.days).map(d=>`<div class="day"><h4>${esc(d.label)}</h4><ul>${d.steps.map(st=>`<li>${md(st.what)}${st.how?` <span class="m">· ${md(st.how)}</span>`:''}${st.note?`<span class="m">${md(st.note)}</span>`:''}</li>`).join('')}</ul></div>`).join(''):''}</div>
     <div class="sec"><h3>어떻게 다녀요</h3>${(p0&&p0.trust_level==='retired')?'<p class="m">이 여행은 패스가 없어요. 운임으로 가요.</p>':''}${t.passes.map((p,i)=>`<div class="pass"><div class="n">${i?'함께 쓰는 패스 · ':''}${p.trust_level==='retired'?'패스 없음 · 운임':esc(p.label)}</div>${i?'':`<div class="doeslab">이 표가 하는 일</div><div class="big">${md(a.save||p.save)}</div><p>${md(a.why||p.why)}</p><p><b>하나만 조심</b> · ${md(a.care||p.care)}</p>`}</div>`).join('')}</div>
-    ${t.care_rides?`<div class="sec"><h3>타는 법</h3><ul class="rides">${t.care_rides.split(' · **').map((x,i)=>`<li>${md(i?'**'+x:x)}</li>`).join('')}</ul></div>`:''}
     ${nowSec(t)}
     ${(a.honest||t.honest)?`<div class="sec"><h3>솔직히</h3><p>${md(a.honest||t.honest)}</p></div>`:''}
     <div class="sec"><div class="btns"><button class="pri" id="shareBtn">같이 갈 사람에게 보내기</button><button id="saveBtn2">${saved.has(t.trip_id)?'보관함에서 빼기':'보관'}</button></div></div>
@@ -398,11 +387,6 @@ function renderRegion(rid){
   <div class="sec"><p>${esc(r.admin.ko)}${r.block?` · ${esc(r.block)}`:''}${r.base_city?` · 거점은 ${esc(r.base_city.ko)}(${esc(r.base_city.local)})`:''}. 한국 직항 ${r.direct_flight_kr&&r.direct_flight_kr.value?'있음':'없음'}.</p></div>
   ${trips.length?`<div class="sec"><h3>이 지역 여행</h3><div class="list">${trips.map(t=>mini(t,hub)).join('')}</div></div>`:''}
   ${days.length?`<div class="sec"><h3>하루 코스</h3><div class="list">${days.map(t=>mini(t,hub)).join('')}</div></div>`:''}
-  ${(()=>{ /* v3: 이 지역 여행들이 실제로 보는 곳과 인천에서 오는 편 — 카드 시절 소개 대신 우리 값으로 */
-    const seen=(REGION_SIGHTS[rid]||[...new Set(trips.concat(days).flatMap(t=>String(t.what||'').split(' · ')).filter(Boolean))]);
-    const air=[...new Set(trips.concat(days).map(t=>(t.from&&t.from[0]&&t.from[0].l3)||'').filter(Boolean))];
-    return (seen.length?`<div class="sec"><h3>여기서 보는 곳</h3><p>${seen.map(esc).join(' · ')}</p></div>`:'')
-      + (air.length?`<div class="sec"><h3>인천에서</h3><div class="glance">${air.map(a=>`<div><b>가는 편</b>${esc(a)}</div>`).join('')}</div></div>`:''); })()}
   <div class="sec"><h3>가는 법</h3><div class="glance">${(r.nearby_hubs||[]).map(n=>`<div><b>${esc(HUBS[n.hub_id]?HUBS[n.hub_id].name.ko:n.hub_id)}</b>${esc(hoursKo(n.hours))}${n.how?` · ${esc(n.how)}`:''}</div>`).join('')}${period?`<div><b>언제</b>패스 이용 ${esc(period.from)} ~ ${esc(period.to)}</div>`:''}</div></div>
   ${psCard.length?`<div class="sec"><details><summary>이 지역에서 쓰는 패스 (${psCard.length})</summary>${psCard.map(p=>`<div class="cell"><b>${esc((p.name&&p.name.ko)||'')}</b>${esc((p.name&&p.name.local)||p.pass_id)}${pprice(p)?' · '+pprice(p):''}</div>`).join('')}</details></div>`:''}
   <div class="foot">${credit(photo)}</div>`;

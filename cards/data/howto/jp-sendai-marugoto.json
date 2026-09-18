@@ -1,0 +1,118 @@
+{
+ "before": {
+  "when": {
+   "v": "이용 개시 1개월 전부터 당일까지. 센다이공항역은 당일권만",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "仙台空港駅発売分は当日券のみ",
+   "src": "https://sendaitravelpass.jp/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "프리에리어 내 JR동일본 역의 지정석 발매기·みどりの窓口",
+     "online": false
+    },
+    {
+     "name": "JR EAST Travel Service Center(역 여행 컨시어지)",
+     "online": false
+    },
+    {
+     "name": "센다이공항 액세스선 센다이공항역 발매기",
+     "online": false
+    },
+    {
+     "name": "주요 여행사",
+     "online": false
+    }
+   ],
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991"
+  },
+  "how": {
+   "v": "仙台まるごとパスを大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "재래선 특급·급행과 그린차·지정석은 **운임만 유효해요.** 특급권과 좌석 요금은 따로 사요.",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991",
+   "v_prev": "재래선 특급·급행과 그린차·지정석은 **운임만 유효(▲)**라 특급권·좌석 요금을 따로 산다",
+   "by": "말투·원어 정리@2026-09-09"
+  },
+  "exchange": {
+   "v": "쿠폰북은 산 곳에 따라 센다이시 관광정보센터(센다이역 3층)나 공항역 개찰 창구에서 본권을 보여 주고 받아요. 유람선은 마루분마쓰시마기선만 10% 할인이에요(1,500엔 → 1,350엔).",
+   "by": "말투·원어 정리@2026-09-09",
+   "q": "乗船券：10％引き 1,500円→1,350円",
+   "src": "https://sendaitravelpass.jp/pdf/couponbook.pdf",
+   "v_prev": "쿠폰북은 사는 곳에 따라 센다이시 관광정보센터(센다이역 3F)나 공항역 개찰 창구 등에서 본권을 보이고 받는다. 유람선은 마루분마쓰시마기선만 10% 할인(1,500→1,350)"
+  }
+ },
+ "use": {
+  "show": {
+   "v": "JR·지하철·센다이공항 액세스선은 **자동 개찰**로 지나가요. 버스는 내릴 때, 아부쿠마 급행은 타고 내릴 때 본권을 보여 줘요.",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991",
+   "v_prev": "JR·지하철·센다이공항 액세스선은 **자동 개찰**을 쓴다. 버스는 내릴 때, 아부쿠마 급행은 타고 내릴 때 본권을 보인다",
+   "by": "말투·원어 정리@2026-09-09"
+  },
+  "count_rules": {
+   "v": "**신칸센은 전 계통 못 탄다(×).** 보통·쾌속 자유석은 무제한(○), **BRT는 못 탄다(×)**. 시영버스 중 **라쿠텐 셔틀버스 제외**",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991"
+  },
+  "trap": {
+   "v": "센다이역에서 신칸센 개찰로 들어가면 안 돼요 — 이 표는 재래선 자유석 표예요.",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991",
+   "v_prev": "센다이역에서 신칸센 개찰로 들어가면 안 된다 — 이 표는 재래선 자유석 표다",
+   "by": "말투·원어 정리@2026-09-09"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "유효기간 내 **미사용분만**, 수수료 220엔. 사용 개시 후에는 일부 교통기관의 운행 불능으로도 환불하지 않는다(전면 운행 불능은 예외)",
+   "src": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en"
+  ],
+  "note": "JR동일본 사이트에 영어판이 있다"
+ },
+ "sources": [
+  {
+   "url": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2991",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.kotsu.city.sendai.jp/fare/sendai_area_pass/",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.jreast.co.jp/sendai/tohoku_tickets/",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://sendaitravelpass.jp/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://sendaitravelpass.jp/pdf/couponbook.pdf",
+   "checked": "2026-09-09"
+  }
+ ],
+ "gaps": [],
+ "pass_id": "jp-sendai-marugoto",
+ "name": {
+  "local": "仙台まるごとパス",
+  "local_lang": "ja",
+  "ko": "센다이 마루고토 패스",
+  "en": "Sendai Marugoto Pass"
+ },
+ "built_at": "2026-09-07"
+}

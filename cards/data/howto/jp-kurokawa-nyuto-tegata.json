@@ -1,0 +1,89 @@
+{
+ "before": {
+  "who_can_buy": {
+   "v": "제한 없음",
+   "src": "https://www.kurokawaonsen.or.jp/tegata/"
+  },
+  "app_or_account": {
+   "v": "앱 불필요",
+   "src": "https://www.kurokawaonsen.or.jp/tegata/"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "구로카와온천 각 여관 프론트",
+     "online": false
+    },
+    {
+     "name": "조합 「風の舎(카제노야)」",
+     "online": false
+    }
+   ],
+   "src": "https://www.kurokawaonsen.or.jp/tegata/"
+  },
+  "get_what": {
+   "v": "**나무 手形.** 뒷면에 실 3장 — 빨강 2장은 노천탕, 초록 1장은 음식·기념품 또는 노천탕",
+   "src": "https://www.kurokawaonsen.or.jp/tegata/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "입욕 8:30~21:00. 점검이나 인원 제한이 있을 수 있다",
+   "src": "https://www.kurokawaonsen.or.jp/tegata/"
+  },
+  "show": {
+   "v": "가고 싶은 여관 프론트에 手形를 내면 **스탬프를 찍고 실을 뗀다.** 한 곳 1회",
+   "src": "https://www.kurokawaonsen.or.jp/tegata/"
+  },
+  "trap": {
+   "v": "**여관마다 휴탕일과 입욕 시간이 다르다** — 風の舎의 당일 안내판을 먼저 보는 것이 확실하다",
+   "src": "https://www.kurokawaonsen.or.jp/tegata/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "구매일로부터 6개월. 환불은 기재 없음. **남은 실은 기념품으로 남는다**",
+   "src": "https://www.kurokawaonsen.or.jp/tegata/"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja",
+   "en",
+   "zh",
+   "ko"
+  ],
+  "note": "구매 시 통하는 언어는 미기재"
+ },
+ "sources": [
+  {
+   "url": "https://www.kurokawaonsen.or.jp/tegata/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "결제수단",
+   "how": "기재 없음"
+  },
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  },
+  {
+   "what": "휴탕 확인 방법",
+   "how": "風の舎 안내판은 관광 정보로 알려져 있으나 공식 페이지에 없다"
+  }
+ ],
+ "pass_id": "jp-kurokawa-nyuto-tegata",
+ "name": {
+  "local": "黒川温泉 入湯手形",
+  "local_lang": "ja",
+  "ko": "구로카와온천 입탕 수형",
+  "en": "Kurokawa Onsen Nyuto Tegata"
+ },
+ "built_at": "2026-09-07"
+}

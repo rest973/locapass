@@ -1,0 +1,94 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "아오모리역 앞 JR버스 승차장 — 예약 없이 타고 내릴 때 낸다",
+     "local": "青森駅 JRバス乗り場"
+    }
+   ],
+   "q": "降車時にお支払い",
+   "src": "https://www.jrbustohoku.co.jp/route/11/274/",
+   "by": "사실확인_B3@2026-09-09"
+  },
+  "how": {
+   "v": "十和田湖まで大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "pay": {
+   "v": "내릴 때 현금 또는 IC. 아오모리역→도와다코 3,480, →오이라세 계류관 2,650(2026)",
+   "by": "사실확인_B3@2026-09-09",
+   "src": "https://www.jrbustohoku.co.jp/route/11/274/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "trap": {
+   "v": "예전에 있던 2일 프리킷푸는 2024년에 없어졌어요. 지금은 표를 미리 사는 게 아니라 **내릴 때 구간마다 요금을 내요** — 현금이나 교통카드로요. 계류에서 여러 번 타고 내릴 거면 교통카드가 편해요.",
+   "src": "https://www.jrbustohoku.co.jp/route/11/274/",
+   "v_prev": "**프리킷푸가 2024-03에 판매를 끝냈다.** 카드 33은 지금 패스 없는 운임 카드다",
+   "by": "말투·메모 정리@2026-09-10"
+  },
+  "count_rules": {
+   "v": "아오모리역에서 하루 세 편이에요(8시 10분·9시·11시 35분). 4월부터 다녀요. 계류에서 마지막 버스를 놓치면 다른 길이 없어요.",
+   "by": "말투·메모 정리@2026-09-10",
+   "q": "2026年4月1日(水)～",
+   "src": "https://www.jrbustohoku.co.jp/information/1388/",
+   "v_prev": "아오모리역 발 하루 3편(8:10·9:00·11:35). 운행 4/1~. 계류에서 마지막 버스를 놓치면 대안이 없다"
+  },
+  "when_lane_closed": {
+   "v": "자가용을 막는 기간에는 계류 안에 셔틀이 따로 다녀요. 종이표 2,000엔, 미리 온라인으로 사면 1,500엔이에요. 이 버스표와는 서로 통하지 않아요.",
+   "by": "말투·메모 정리@2026-09-10",
+   "q": "2026年9月7日（月）〜 9月13日（日）",
+   "src": "https://www.eco-oirase.com/mycar/",
+   "v_prev": "마이카 규제 기간(2026-09-07~13)엔 계류 안 셔틀 1일권(2,000·전자 1,500)이 따로 있다"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.jrbustohoku.co.jp/route/11/274/",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://howtojourney.com/15221/",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://ja.wikipedia.org/wiki/青森・八戸・十和田湖フリーきっぷ",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.jrbustohoku.co.jp/information/1388/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.eco-oirase.com/mycar/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.jrbustohoku.co.jp/qa/?aomori=qa",
+   "checked": "2026-09-09"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "2026 운행 종료일",
+   "how": "공식 노선 페이지에 없음(예년 11월 초) → 시각표 PDF 확인"
+  },
+  {
+   "what": "현재의 대안 패스",
+   "how": "없음 — JR EAST PASS·JAPAN RAIL PASS 소지자만 무료. 쓰가루 프리패스는 히로사키용"
+  }
+ ],
+ "pass_id": "jp-jrbus-towada-free",
+ "name": {
+  "local": "青森・八戸・十和田湖フリーきっぷ",
+  "local_lang": "ja",
+  "ko": "아오모리·하치노헤·도와다코 프리킷푸(판매 종료)",
+  "en": "Aomori-Hachinohe-Towadako Free Ticket (discontinued)"
+ },
+ "built_at": "2026-09-07"
+}

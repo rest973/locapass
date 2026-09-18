@@ -1,0 +1,46 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "우즈시오기센 매표소",
+     "online": false
+    }
+   ],
+   "src": "https://www.uzushio-kisen.com/"
+  }
+ },
+ "issue": {},
+ "use": {},
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.uzushio-kisen.com/",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.uzunomichi.jp/usage-guide-uzu-no-michi/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "절차 전반",
+   "how": "**우즈시오기센 공식에 세트권 기재가 없다**(전화 088-687-0613·info@uzushio-kisen.com). 우즈노미치 쪽에는 「우즈노미치+에디」 세트만 있고 기선 세트는 별도다"
+  },
+  {
+   "what": "배 시각",
+   "how": "소용돌이는 **대조(大潮) 시각**에 맞춰야 하는데 조견표가 링크로만 있다"
+  }
+ ],
+ "pass_id": "jp-uzushio-kisen-uzunomichi-set",
+ "name": {
+  "local": "うずしお汽船＋渦の道 セット券",
+  "local_lang": "ja",
+  "ko": "우즈시오기센+우즈노미치 세트권",
+  "en": "Uzushio Kisen & Uzunomichi Set"
+ },
+ "built_at": "2026-09-07"
+}

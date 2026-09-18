@@ -1,0 +1,76 @@
+{
+ "before": {
+  "when": {
+   "v": "**사용 개시일 7일 전부터** 살 수 있다. 디지털은 **구매일 포함 90일 안에** 개시하면 된다",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/travel.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR히로시마역 신칸센구 버스표 매장·히로시마 버스센터",
+     "online": false
+    },
+    {
+     "name": "각 영업센터·히로시마공항 국내선 안내소",
+     "online": false
+    },
+    {
+     "name": "MOBIRY TRAVEL(디지털)",
+     "online": true
+    }
+   ],
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/travel.html"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/travel.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "히로덴 전선 + 미야지마 항로 페리 + 시내·교외 버스 여러 회사(구레·다케하라 일부) + 대상 고속버스. 1day 1,000 · 2day 1,500 · 3day 2,000 · 3day 미들에리어 4,500",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/travel.html"
+  },
+  "trap": {
+   "v": "**JR·일부 고속버스·히로시마공항 리무진·구레히로시마공항선·심야버스는 제외.** 공항에서 시내로 들어오는 리무진은 이 표로 못 탄다",
+   "src": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/travel.html"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/travel.html",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.bus-kyo.or.jp/tabipass",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.mobirytravel.jp/ticket/1vf0m4hys4/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "소인 요금",
+   "how": "공식 표에 어른만 있다"
+  },
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-hiroshima-tabipass",
+ "name": {
+  "local": "広島たびパス",
+  "local_lang": "ja",
+  "ko": "히로시마 타비패스",
+  "en": "Visit Hiroshima Tourist Pass"
+ },
+ "built_at": "2026-09-07"
+}

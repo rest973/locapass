@@ -1,0 +1,48 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "이즈모타이샤마에·덴테쓰이즈모시·가와토·운슈히라타·마쓰에신지코온센 **다섯 역**",
+     "online": false
+    }
+   ],
+   "src": "https://railway.ichibata.co.jp/tichet/free/"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "이치바타전차 전 구간 승하차 자유. **판매 당일만 유효**",
+   "src": "https://railway.ichibata.co.jp/tichet/free/"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "**이용 개시 후 환불 불가**",
+   "src": "https://railway.ichibata.co.jp/tichet/free/"
+  }
+ },
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://railway.ichibata.co.jp/tichet/free/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "무인역에서 사기",
+   "how": "판매가 다섯 역뿐이라 무인역에서 타기 시작하면 어떻게 하는지 기재 없음"
+  }
+ ],
+ "pass_id": "jp-ichibata-rail-1day",
+ "name": {
+  "local": "一畑電車 1日フリー乗車券",
+  "local_lang": "ja",
+  "ko": "이치바타전차 1일 프리 승차권",
+  "en": "Ichibata Railway 1-Day Free Ticket"
+ },
+ "built_at": "2026-09-07"
+}

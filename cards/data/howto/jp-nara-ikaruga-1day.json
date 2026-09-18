@@ -1,0 +1,69 @@
+{
+ "before": {
+  "app_or_account": {
+   "v": "**「스룻토QRtto」 디지털 전용**",
+   "src": "https://www.keihan.co.jp/traffic/valueticket/detail/nara1day.html"
+  },
+  "when": {
+   "v": "판매 2026-04-01~2027-03-31, 통용 2027-04-30까지 중 **구매일부터 3개월 안의 원하는 하루**",
+   "src": "https://www.keihan.co.jp/traffic/valueticket/detail/nara1day.html"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "발행사 각 역·안내소",
+     "online": false
+    }
+   ],
+   "src": "https://www.keihan.co.jp/traffic/valueticket/detail/nara1day.html"
+  }
+ },
+ "issue": {},
+ "use": {
+  "count_rules": {
+   "v": "게이한선 전선(**오쓰선·이와시미즈하치만구 참도 케이블 제외**) + 긴테츠 지정 구간 + 나라교통 프리 구간. 좌석 지정 특급은 특급 요금 별도",
+   "src": "https://www.keihan.co.jp/traffic/valueticket/detail/nara1day.html"
+  },
+  "when_lane_closed": {
+   "v": "**디지털 승차권이 표시되지 않으면 이용도 재발행도 안 된다**",
+   "src": "https://www.keihan.co.jp/traffic/valueticket/detail/nara1day.html"
+  },
+  "trap": {
+   "v": "**정기관광·고속·공항버스는 못 탄다.** 게이한판은 **어른권만** 판다",
+   "src": "https://www.keihan.co.jp/traffic/valueticket/detail/nara1day.html"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "구매로부터 3개월 이내이고 **이용 개시 전**일 때만",
+   "src": "https://www.keihan.co.jp/traffic/valueticket/detail/nara1day.html"
+  }
+ },
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.keihan.co.jp/traffic/valueticket/detail/nara1day.html",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://www.kintetsu.co.jp/senden/Railway/Ticket/ikaruga/",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "오사카메트로판·한신판·고베고속판",
+   "how": "값이 2,100·2,300으로 다른데 절차 차이는 안 봤다"
+  }
+ ],
+ "pass_id": "jp-nara-ikaruga-1day",
+ "name": {
+  "local": "奈良・斑鳩1dayチケット",
+  "local_lang": "ja",
+  "ko": "나라·이카루가 1day 티켓",
+  "en": "Nara-Ikaruga 1-Day Ticket"
+ },
+ "built_at": "2026-09-07"
+}

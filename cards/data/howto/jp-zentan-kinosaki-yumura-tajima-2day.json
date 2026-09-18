@@ -1,0 +1,60 @@
+{
+ "before": {},
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "오사카 우메다·신오사카(한큐버스)",
+     "online": false
+    },
+    {
+     "name": "고베 산노미야(신키버스)",
+     "online": false
+    },
+    {
+     "name": "기노사키온천 SOZORO",
+     "online": false
+    }
+   ],
+   "src": "https://www.hyogobus.or.jp/bustabi/tajima"
+  }
+ },
+ "issue": {
+  "seat": {
+   "v": "**고속버스는 발차 1시간 전까지 예약이 필요하다**",
+   "src": "https://www.hyogobus.or.jp/bustabi/tajima"
+  }
+ },
+ "use": {
+  "count_rules": {
+   "v": "젠탄버스 일반 노선 전선 + 다케다성터 주유버스 「덴쿠버스」 + 유메타지마 주유버스 「다지마와루」 + 각 시정촌 커뮤니티버스. **연속 2일**",
+   "src": "https://www.hyogobus.or.jp/bustabi/tajima"
+  },
+  "trap": {
+   "v": "**도요오카시 「이나카」는 못 탄다. 고속버스는 2회까지만**",
+   "src": "https://www.hyogobus.or.jp/bustabi/tajima"
+  }
+ },
+ "end": {},
+ "languages": {},
+ "sources": [
+  {
+   "url": "https://www.hyogobus.or.jp/bustabi/tajima",
+   "checked": "2026-09-06"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "환불",
+   "how": "기재 없음"
+  }
+ ],
+ "pass_id": "jp-zentan-kinosaki-yumura-tajima-2day",
+ "name": {
+  "local": "城崎温泉・湯村温泉・但馬バス乗り放題きっぷ",
+  "local_lang": "ja",
+  "ko": "기노사키·유무라·다지마 버스 노리호다이 킷푸",
+  "en": "Kinosaki-Yumura-Tajima Bus Unlimited Ticket"
+ },
+ "built_at": "2026-09-07"
+}

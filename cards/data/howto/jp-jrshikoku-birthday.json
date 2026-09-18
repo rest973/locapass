@@ -1,0 +1,117 @@
+{
+ "before": {
+  "who_can_buy": {
+   "v": "**출발일이 자기 생일 달에 든 사람**이요. 동행 세 명까지 동행용 표를 함께 살 수 있어요.",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN",
+   "v_prev": "**출발일이 자기 생일月인 사람.** 동행 3명까지 「お連れ様用」을 함께 살 수 있다",
+   "by": "말투·원어 정리@2026-09-09"
+  },
+  "bring": {
+   "v": "생일 달이 적힌 공적 신분증 원본. 공식 예시는 마이넘버카드·운전면허증 등이고 **여권이 되는지는 명시가 없다** → 창구 확인",
+   "by": "사실확인_B3@2026-09-09",
+   "q": "公的証明書（マイナンバーカード、運転免許証等）",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  },
+  "when": {
+   "v": "출발일 1개월 전부터 당일까지",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "JR시코쿠 역 みどりの窓口·みどりの券売機プラス",
+     "online": false
+    },
+    {
+     "name": "JR四国ツアー 지점",
+     "online": false
+    },
+    {
+     "name": "시코쿠 내 주요 여행사",
+     "online": false
+    }
+   ],
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  },
+  "how": {
+   "v": "バースデイきっぷを大人1枚お願いします。誕生月です。（パスポートを提示）",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "**기명식 표.** 이름은 발매 창구 직원이 적는다",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "생일 달을 확인할 수 있는 공적 증명서를 들고 가요. 이름이 적힌 본인만 쓸 수 있어요.",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN",
+   "v_prev": "생일月 공적 증명서를 지참하고, 기명된 본인만 쓴다",
+   "by": "말투·원어 정리@2026-09-09"
+  },
+  "count_rules": {
+   "v": "JR시코쿠 전 노선(우타즈~고지마 포함)과 도사쿠로시오철도 전 노선의 **특급 자유석**이에요. JR시코쿠버스 노선버스(오토치선·구마코겐선)도 타요(고속버스는 안 돼요). **동행용만으로는 못 타요** — 본인 표를 가진 사람과 전 여정을 함께해야 해요.",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN",
+   "v_prev": "JR시코쿠 전선(우타즈~고지마 포함)과 도사쿠로시오철도 전선의 **특급 자유석**. JR시코쿠버스 노선버스(오토치선·구마코겐선)도 탄다(고속버스 불가). **「お連れ様用」만으로는 못 탄다** — 본인권 소지자와 전 여정을 함께해야 한다",
+   "by": "말투·원어 정리@2026-09-09"
+  },
+  "trap": {
+   "v": "**출발일이 생일 달 안이어야 해요.** 생일이 4월이면 3월 31일에 출발해 4월 2일까지 쓰는 건 안 되고, 4월 30일에 출발해 5월 2일까지 쓰는 건 돼요.",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN",
+   "v_prev": "**출발일이 생일月이어야 한다.** 생일이 4월이면 3/31 출발~4/2는 안 되고 4/30 출발~5/2는 된다",
+   "by": "말투·원어 정리@2026-09-09"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용·유효기간 내 자유석용 660엔, 그린용 900엔",
+   "by": "사실확인_B3@2026-09-09",
+   "src": "https://www.jr-eki.com/ticket/brand/2-3WN"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "JR四国ツアー 사이트에 다국어 전환이 있다"
+ },
+ "sources": [
+  {
+   "url": "https://www.jr-eki.com/ticket/brand/2-3WN",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.jr-eki.com/ticket/brand/2-3WM",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.jr-shikoku.co.jp/01_trainbus/rosen/yosan.pdf",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://www.jr-shikoku.co.jp/01_trainbus/rosen/dosan.pdf",
+   "checked": "2026-09-09"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "여권으로 생일 확인이 되는지",
+   "how": "공식 예시에 없음 → 창구 확인"
+  }
+ ],
+ "pass_id": "jp-jrshikoku-birthday",
+ "name": {
+  "local": "バースデイきっぷ",
+  "local_lang": "ja",
+  "ko": "버스데이킷푸",
+  "en": "Birthday Ticket"
+ },
+ "built_at": "2026-09-07"
+}

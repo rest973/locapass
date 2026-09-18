@@ -1,0 +1,113 @@
+{
+ "before": {
+  "when": {
+   "v": "출발일 1개월 전부터 당일까지. 발매 2027-03-31까지, 이용 2027-04-02까지. **2026-09-01부터 발매를 재개했다**",
+   "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
+  }
+ },
+ "buy": {
+  "where": {
+   "v": [
+    {
+     "name": "しこくスマートえきちゃん 앱",
+     "online": true
+    },
+    {
+     "name": "JR시코쿠 역 창구",
+     "local": "JR四国 駅窓口"
+    },
+    {
+     "name": "시시쿠이역, 고치 료마공항 종합안내소(종이)",
+     "local": "宍喰駅・高知龍馬空港総合案内所"
+    }
+   ],
+   "src": "https://asatetu.com/shikokumigishita/",
+   "by": "사실확인_B2@2026-09-09"
+  },
+  "how": {
+   "v": "徳島・室戸・高知55フリーきっぷを大人1枚お願いします。",
+   "src": "카드 본문"
+  },
+  "get_what": {
+   "v": "디지털 티켓(화면·QR)",
+   "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
+  }
+ },
+ "issue": {},
+ "use": {
+  "show": {
+   "v": "디지털판은 **스마트폰 화면에 띄운 표를 역 직원이나 승무원에게 보인다**",
+   "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
+  },
+  "count_rules": {
+   "v": "DMV는 아와카이난 문화촌부터 미치노에키 시시쿠이온천까지 전 구간이 들어 있어요. **이 표로는 좌석 예약이 안 되고** 빈자리가 있을 때만 탈 수 있어요(앉는 자리 18석, 서서 가는 자리 3). 토·일·공휴일에만 다니는 무로토 편은 이 표로 못 타요.",
+   "by": "말투·원어 정리@2026-09-09",
+   "q": "土・日・祝日運行の室戸便はご利用いただけません",
+   "src": "https://www.jr-eki.com/ticket/brand/2-5HA",
+   "v_prev": "DMV는 아와카이난 문화촌~미치노에키 시시쿠이온천 전 구간 포함. **이 표로는 좌석 예약이 안 되고** 빈자리가 있을 때만 탄다(18석·입석 3). 토·일·공휴일에만 다니는 무로토 편은 이 표로 못 탄다"
+  },
+  "when_lane_closed": {
+   "v": "**스크린샷과 종이 인쇄본은 못 쓴다. 스마트폰을 잃어버려도 재발행이 없다**",
+   "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
+  },
+  "trap": {
+   "v": "평일 편도 8편, 주말 편은 2026-09-01부터 일부 운휴. 만석이면 다음 편을 기다린다 — 시간표를 먼저",
+   "by": "사실확인_B2@2026-09-09",
+   "q": "座席の事前予約はできません",
+   "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
+  }
+ },
+ "end": {
+  "refund": {
+   "v": "미사용·유효기간 내 220엔",
+   "by": "사실확인_B2@2026-09-09",
+   "src": "https://www.jr-eki.com/ticket/brand/2-5HA"
+  }
+ },
+ "languages": {
+  "official_page": [
+   "ja"
+  ],
+  "note": "JR四国ツアー 사이트에 다국어 전환이 있다"
+ },
+ "sources": [
+  {
+   "url": "https://www.jr-eki.com/ticket/brand/2-5HA",
+   "checked": "2026-09-04"
+  },
+  {
+   "url": "https://www.kzlifelog.com/entry/jrs-freepass-matome-2026",
+   "checked": "2026-09-02"
+  },
+  {
+   "url": "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/kanko/7246092",
+   "checked": "2026-09-06"
+  },
+  {
+   "url": "https://asatetu.com/GoGoFreePass/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://asatetu.com/archives/547/",
+   "checked": "2026-09-09"
+  },
+  {
+   "url": "https://asatetu.com/shikokumigishita/",
+   "checked": "2026-09-09"
+  }
+ ],
+ "gaps": [
+  {
+   "what": "주말 운휴 편의 현행 시각표",
+   "how": "아사해안철도 시각표 페이지(2026-08 운휴 고지) 확인"
+  }
+ ],
+ "pass_id": "jp-jrshikoku-tokushima-muroto-kochi55",
+ "name": {
+  "local": "徳島・室戸・高知55フリーきっぷ",
+  "local_lang": "ja",
+  "ko": "도쿠시마·무로토·고치 55 프리킷푸",
+  "en": "Tokushima-Muroto-Kochi 55 Free Ticket"
+ },
+ "built_at": "2026-09-07"
+}
