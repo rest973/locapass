@@ -93,3 +93,26 @@
 | v3 다이센 | sn-daisen.jpg | 381 series midori yakumo livery & mt. daisen.jpg | Shellparakeet | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:381_series_midori_yakumo_livery_%26_mt._daisen.jpg) |
 | v3 모래미술관 | sn-sandmuseum.jpg | The Sand Museum, Tottori - Sep 5, 2014.jpg | Cheng-en Cheng | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Sand_Museum%2C_Tottori_-_Sep_5%2C_2014.jpg) |
 | v3 돗토리성터 | sn-tottorijo.jpg | Tottori castle06 2816.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Tottori_castle06_2816.jpg) |
+| v3 구마모토성 | ks-kumamotojo.jpg | Kumamoto Castle 02n3200.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Kumamoto_Castle_02n3200.jpg) |
+| v3 조사이엔 | ks-josaien.jpg | Johsaien 57T3202small.jpg | Jdjuice | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Johsaien_57T3202small.jpg) |
+| v3 스이젠지 | ks-suizenji.jpg | Kumamoto Suizenji-jojuen01n4272.jpg | 663highland | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Kumamoto_Suizenji-jojuen01n4272.jpg) |
+| v3 시모도오리 | ks-shimotori.jpg | Shimotori ac (1).jpg | Asturio Cantabrio | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Shimotori_ac_%281%29.jpg) |
+| v3 다이칸보 | ks-daikanbo.jpg | Mt.Aso and caldera01.jpg | Miya.m | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mt.Aso_and_caldera01.jpg) |
+| v3 구사센리 | ks-kusasenri.jpg | Aso-san (5274095463).jpg | KimonBerlin | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Aso-san_%285274095463%29.jpg) |
+| v3 트롯코 | ks-minamiaso.jpg | 阿蘇立野ダム15.jpg | Takeiwatathunori | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%E9%98%BF%E8%98%87%E7%AB%8B%E9%87%8E%E3%83%80%E3%83%A015.jpg) |
+| v3 시라카와수원 | ks-shirakawa.jpg | Shirakawa Spring 2023.jpg | ブルーノ・プラス | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Shirakawa_Spring_2023.jpg) |
+| v3 센간엔 | ks-senganen.jpg | Kagoshima neighborhood, Kagoshima Prefecture; March 2019 (13).jpg | _steffen | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kagoshima_neighborhood%2C_Kagoshima_Prefecture%3B_March_2019_%2813%29.jpg) |
+| v3 시로야마 | ks-shiroyama.jpg | View of Sakurajima from Shiroyama Park Observatory - Jan 27, 2010.jpg | Jody McIntyre | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:View_of_Sakurajima_from_Shiroyama_Park_Observatory_-_Jan_27%2C_2010.jpg) |
+| v3 데루쿠니신사 | ks-terukuni.jpg | Terukuni-jinja (Terukuni-chō, Kagoshima) VLux5 hdsr ho05.jpg | Hyppolyte de Saint-Rambert | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Terukuni-jinja_%28Terukuni-ch%C5%8D%2C_Kagoshima%29_VLux5_hdsr_ho05.jpg) |
+| v3 가고시마성터 | ks-kagoshimajo.jpg | Tsurumaru Castle Ruins.jpg | NMaia | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tsurumaru_Castle_Ruins.jpg) |
+| v3 이신후루사토관 | ks-ishin.jpg | Museum of Meiji Restoration with Kotsuki-River.jpg | 鹿児島市 | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Museum_of_Meiji_Restoration_with_Kotsuki-River.jpg) |
+| v3 덴몬칸 | ks-tenmonkan.jpg | Tenmonkan G3 - Jul 20, 2009.jpg | Osamu Iwasaki | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tenmonkan_G3_-_Jul_20%2C_2009.jpg) |
+| v3 사쿠라지마센터 | ks-sakurajimavc.jpg | View of Sakurajima Visitor Center.jpg | そらみみ | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:View_of_Sakurajima_Visitor_Center.jpg) |
+| v3 나기사족탕 | ks-nagisaashiyu.jpg | 桜島溶岩なぎさ公園 足湯 鹿児島市 Nov 9, 2017.jpg | Pete Birkinshaw | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%E6%A1%9C%E5%B3%B6%E6%BA%B6%E5%B2%A9%E3%81%AA%E3%81%8E%E3%81%95%E5%85%AC%E5%9C%92_%E8%B6%B3%E6%B9%AF_%E9%B9%BF%E5%85%90%E5%B3%B6%E5%B8%82_Nov_9%2C_2017.jpg) |
+| v3 유노히라 | ks-yunohira.jpg | Sakurajima Yunohira Observation Deck.JPG | At by At | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sakurajima_Yunohira_Observation_Deck.JPG) |
+| v3 쓰키요미신사 | ks-tsukiyomi.jpg | Tsukiyomi-jinja (Sakurajima, Kagoshima) VLux5 hdsr 09.jpg | Hyppolyte de Saint-Rambert | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tsukiyomi-jinja_%28Sakurajima%2C_Kagoshima%29_VLux5_hdsr_09.jpg) |
+| v3 모래찜질 | ks-sunamushi.jpg | Ibusuki hot sands - panoramio.jpg | BirdsEyeLV | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ibusuki_hot_sands_-_panoramio.jpg) |
+| v3 니시오야마역 | ks-nishioyama.jpg | Nishi-Ōyama Station 20260222-6.jpg | Suicasmo | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Nishi-%C5%8Cyama_Station_20260222-6.jpg) |
+| v3 나가사키바나 | ks-nagasakibana.jpg | Nagasaki-bana lighthouse - panoramio.jpg | BirdsEyeLV | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nagasaki-bana_lighthouse_-_panoramio.jpg) |
+| v3 이케다호 | ks-ikedako.jpg | Aerial Photo of Ikedako.jpg | Ray_go | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Aerial_Photo_of_Ikedako.jpg) |
+| v3 아소신사 | ks-asojinja.jpg | Aso Jinja Romon 20251005-1.jpg | Totti | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Aso_Jinja_Romon_20251005-1.jpg) |
