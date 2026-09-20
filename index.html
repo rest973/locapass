@@ -155,9 +155,9 @@ const HOWTO={};
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform';
 async function load(){
   const [t,r,p]=await Promise.all([
-    fetch('data/trips.json?b=202609200121').then(x=>x.json()),
-    fetch('data/regions.json?b=202609200121').then(x=>x.json()),
-    fetch('data/passes.json?b=202609200121').then(x=>x.json()).catch(()=>[])]);
+    fetch('data/trips.json?b=202609201256').then(x=>x.json()),
+    fetch('data/regions.json?b=202609201256').then(x=>x.json()),
+    fetch('data/passes.json?b=202609201256').then(x=>x.json()).catch(()=>[])]);
   TRIPS=t.trips.filter(x=>x.status==='published');
   REGION_SIGHTS=t['지역볼거리']||{};   /* v3: 지역 페이지의 「여기서 보는 곳」은 그 지역 것만 */
   r.regions.forEach(x=>REGIONS[x.region_id]=x);
@@ -168,7 +168,7 @@ async function load(){
 async function howto(pid){
   if(!pid) return null;
   if(HOWTO[pid]!==undefined) return HOWTO[pid];
-  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609200121').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
+  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609201256').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
   return HOWTO[pid];
 }
 /* ── 상태: 브라우저에만 ───────────────────────────────────── */
