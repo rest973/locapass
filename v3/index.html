@@ -156,11 +156,12 @@ const HOWTO={};
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform';
 async function load(){
   const [t,r,p]=await Promise.all([
-    fetch('data/trips.json?b=202609281525').then(x=>x.json()),
-    fetch('data/regions.json?b=202609281525').then(x=>x.json()),
-    fetch('data/passes.json?b=202609281525').then(x=>x.json()).catch(()=>[])]);
+    fetch('data/trips.json?b=202609281557').then(x=>x.json()),
+    fetch('data/regions.json?b=202609281557').then(x=>x.json()),
+    fetch('data/passes.json?b=202609281557').then(x=>x.json()).catch(()=>[])]);
   TRIPS=t.trips.filter(x=>x.status==='published');
   REGION_SIGHTS=t['지역볼거리']||{};   /* v3: 지역 페이지의 「여기서 보는 곳」은 그 지역 것만 */
+  THEMES=(t['테마차례']||[]).filter(v=>TRIPS.some(x=>(x.themes||[]).includes(v)));   /* 테마 칩 — 실제로 여행이 있는 것만(2026-09-28) */
   r.regions.forEach(x=>REGIONS[x.region_id]=x);
   r.hubs.forEach(h=>{HUBS[h.hub_id]=h; HUBS_KO[h.name.ko]=h;});
   BLOCKS=r.blocks||{};
@@ -169,7 +170,7 @@ async function load(){
 async function howto(pid){
   if(!pid) return null;
   if(HOWTO[pid]!==undefined) return HOWTO[pid];
-  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609281525').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
+  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609281557').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
   return HOWTO[pid];
 }
 /* ── 상태: 브라우저에만 ───────────────────────────────────── */
@@ -178,6 +179,11 @@ const LSs=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
 let REGION_SIGHTS={};
 let hub=LS('lp3_hub')||'';            // hub_id
 let nightsF=LS('lp3_nights')||'';     // ''|'2'|'3'|'4+'
+let themeF=LS('lp3_theme')||'';       // '' | 온천·자연·옛 거리·음식·예술·섬 (2026-09-28)
+/* 테마 칩 — 「여행자는 권역을 고른 다음 테마를 정하지 않는다, 거꾸로다」(2026-09-20 사용자).
+   그래서 테마가 **첫 줄**이고, 눌리면 권역을 가로질러 걸러진다. 테마는 조건의 취향 그대로다(엔진이 그 취향에 맞춰 짠 여행).
+   취향이 「무관」인 여행은 테마가 없어 「전부」에서만 보인다 — 아무거나 가려는 사람의 자리다. */
+let THEMES=[];
 let feedTouched=false;                // 저장된 칩 조합이 0장이면 첫 렌더에서 한 번만 풀어 준다
 let saved=new Set((LS('lp3_saved')||'').split(',').filter(Boolean));
 const saveSaved=()=>LSs('lp3_saved',[...saved].join(','));
@@ -252,11 +258,15 @@ function renderFeed(){
      다시 열었을 때 빈 화면부터 만난다. 그 조합은 한 번 풀어 준다(사람이 고른 뒤 0장이 되는 건 그대로 둔다). */
   if(!feedTouched){
     const byHub=hub?base.filter(t=>t.from.some(f=>f.hub_id===hub)):base;
-    const byN=nightsF==='2'?byHub.filter(t=>t.nights===2):nightsF==='3'?byHub.filter(t=>t.nights===3):nightsF==='4+'?byHub.filter(t=>t.nights>=4):byHub;
-    if(!byN.length){ if(nightsF){ nightsF=''; LSs('lp3_nights',''); } if(!byHub.length&&hub){ hub=''; LSs('lp3_hub',''); } }
+    const byT=themeF?byHub.filter(t=>(t.themes||[]).includes(themeF)):byHub;
+    const byN=nightsF==='2'?byT.filter(t=>t.nights===2):nightsF==='3'?byT.filter(t=>t.nights===3):nightsF==='4+'?byT.filter(t=>t.nights>=4):byT;
+    if(!byN.length){ if(nightsF){ nightsF=''; LSs('lp3_nights',''); } if(!byT.length&&themeF){ themeF=''; LSs('lp3_theme',''); } if(!byHub.length&&hub){ hub=''; LSs('lp3_hub',''); } }
     feedTouched=true;
   }
   if(hub) base=base.filter(t=>t.from.some(f=>f.hub_id===hub));
+  const baseT=base;                                  /* 테마 칩의 수는 **테마를 거르기 전** 것으로 센다 — 안 그러면 고른 테마만 남고 나머지가 0으로 보인다 */
+  const tCount=v=>v?baseT.filter(t=>(t.themes||[]).includes(v)).length:baseT.length;
+  if(themeF) base=base.filter(t=>(t.themes||[]).includes(themeF));
   const nCount=v=>v==='2'?base.filter(t=>t.nights===2).length:v==='3'?base.filter(t=>t.nights===3).length:v==='4+'?base.filter(t=>t.nights>=4).length:base.length;
   let list=base;
   if(nightsF==='2') list=list.filter(t=>t.nights===2); else if(nightsF==='3') list=list.filter(t=>t.nights===3); else if(nightsF==='4+') list=list.filter(t=>t.nights>=4);
@@ -266,12 +276,13 @@ function renderFeed(){
   app.innerHTML=`
   <div class="feedhead" id="feedHead">
   <div class="top"><div class="name">로카패스 <small>현지 패스로 짠 소도시 여행</small></div><a class="pill" href="#/saved">보관 ${saved.size}</a></div>
+  <div class="chips" id="tChips"><span class="lab">테마</span><button data-t="" class="${themeF?'':'on'}">전부 <span class="n">${tCount('')}</span></button>${THEMES.map(v=>{const n=tCount(v);return `<button data-t="${esc(v)}" class="${themeF===v?'on':''}${n?'':' none'}">${esc(v)} <span class="n">${n}</span></button>`}).join('')}</div>
   <div class="chips" id="hubChips"><span class="lab">출발</span><button data-h="" class="${hub?'':'on'}">안 정함</button>${hubChips().map(h=>`<button data-h="${h}" class="${hub===h?'on':''}">${esc(HUBS[h].name.ko)}</button>`).join('')}</div>
   <div class="chips" id="nChips"><span class="lab">며칠</span>${[['','전부'],['2','2박'],['3','3박'],['4+','4박+']].map(([v,l])=>{const n=nCount(v);return `<button data-n="${v}" class="${nightsF===v?'on':''}${n?'':' none'}">${l} <span class="n">${n}</span></button>`}).join('')}${hub?`<a class="pill" style="margin-left:auto" href="#/from/${hub}">${esc(hubName)}에서 →</a>`:''}</div>
   </div>
   <div class="tiles">${list.map(t=>{ const f=pickFrom(t,hub); return `
     <a class="tile" href="${tripUrl(t,hub)}"><div class="ph"><div class="img" style="${photoStyle(t.photo)}"></div><span class="where">${esc(placeOf(t))}</span>${saved.has(t.trip_id)?'<span class="saved">보관함에 있어요</span>':''}<div class="tx"><div class="s">${esc(f.scene||t.scene)}</div><div class="a">${esc(assure(t,f))}</div></div></div></a>`; }).join('')}
-  ${list.length?'':`<p class="empty">${hub?`${esc(hubName)}에서 가는 ${nightsF?'그 일수의 ':''}여행이 아직 없어요.`:'이 조건에 맞는 여행이 아직 없어요.'}<br><span class="m">칩을 "안 정함"·"전부"로 돌리면 다 볼 수 있어요.</span></p>`}</div>
+  ${list.length?'':`<p class="empty">${themeF?`${esc(themeF)} 여행이 ${hub?esc(hubName)+'에서 가는 것 가운데 ':''}아직 없어요.`:(hub?`${esc(hubName)}에서 가는 ${nightsF?'그 일수의 ':''}여행이 아직 없어요.`:'이 조건에 맞는 여행이 아직 없어요.')}<br><span class="m">칩을 "안 정함"·"전부"로 돌리면 다 볼 수 있어요.</span></p>`}</div>
   <div class="foot">가격·조건은 각 여행에 적힌 확인 시점의 공식 페이지 기준이에요. 판매자와 무관하고 계정이 없어요. <a href="../about.html">이게 뭐예요 · 면책 · 출처 · 연락</a></div>`;
   /* 포토 숏츠: 화면의 절반 넘게 보이는 타일만 움직이고, 벗어나면 멈춘다(다시 들어오면 자막이 다시 뜬다) */
   if('IntersectionObserver' in window){
@@ -286,6 +297,7 @@ function renderFeed(){
   }
   else app.querySelectorAll('.tile').forEach(x=>{ x.classList.add('live'); x.classList.add('seen'); });
   document.getElementById('hubChips').onclick=e=>{ const b=e.target.closest('button[data-h]'); if(!b) return; hub=b.dataset.h; LSs('lp3_hub',hub); ev('hub',hub||'none'); renderFeed(); };
+  document.getElementById('tChips').onclick=e=>{ const b=e.target.closest('button[data-t]'); if(!b) return; themeF=b.dataset.t; LSs('lp3_theme',themeF); ev('theme',themeF||'none'); renderFeed(); };
   document.getElementById('nChips').onclick=e=>{ const b=e.target.closest('button[data-n]'); if(!b) return; nightsF=b.dataset.n; LSs('lp3_nights',nightsF); renderFeed(); };
   window.scrollTo(0,0); track('/');
 }
