@@ -95,6 +95,8 @@ button{font:inherit;cursor:pointer;color:inherit}
 .day ul{margin:0;padding:8px 12px 8px 28px;font-size:14px}
 .day li{margin:0 0 4px}
 .day li .m{display:block}
+.day li.money{list-style:none;margin-left:-16px}
+.day details.times{margin:2px 0 0}.day details.times summary{font-size:12.5px;color:var(--mute);cursor:pointer}.day details.times div{font-size:13px;color:var(--mute);margin:4px 0 2px}
 .nowit{border:1px solid var(--line);border-left:3px solid #c2643a;background:var(--card);border-radius:10px;padding:9px 12px;margin:0 0 8px}
 .nowit.good{border-left-color:#3a7d5c}
 .nowit .n{font-size:14.5px}
@@ -155,9 +157,9 @@ const HOWTO={};
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfPXCP5U7lA57gtxzOIILrijgkbbuAIwVVsBoXa_RXaeyOAHQ/viewform';
 async function load(){
   const [t,r,p]=await Promise.all([
-    fetch('data/trips.json?b=202609281618').then(x=>x.json()),
-    fetch('data/regions.json?b=202609281618').then(x=>x.json()),
-    fetch('data/passes.json?b=202609281618').then(x=>x.json()).catch(()=>[])]);
+    fetch('data/trips.json?b=202610131103').then(x=>x.json()),
+    fetch('data/regions.json?b=202610131103').then(x=>x.json()),
+    fetch('data/passes.json?b=202610131103').then(x=>x.json()).catch(()=>[])]);
   TRIPS=t.trips.filter(x=>x.status==='published');
   REGION_SIGHTS=t['지역볼거리']||{};   /* v3: 지역 페이지의 「여기서 보는 곳」은 그 지역 것만 */
   THEMES=(t['테마차례']||[]).filter(v=>TRIPS.some(x=>(x.themes||[]).includes(v)));   /* 테마 칩 — 실제로 여행이 있는 것만(2026-09-28) */
@@ -169,7 +171,7 @@ async function load(){
 async function howto(pid){
   if(!pid) return null;
   if(HOWTO[pid]!==undefined) return HOWTO[pid];
-  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202609281618').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
+  try{ HOWTO[pid]=await fetch('data/howto/'+pid+'.json?b=202610131103').then(r=>r.ok?r.json():null); }catch(e){ HOWTO[pid]=null; }
   return HOWTO[pid];
 }
 /* ── 상태: 브라우저에만 ───────────────────────────────────── */
@@ -201,6 +203,15 @@ function hoursKo(h){
 function fromLine(f){ if(!f) return ''; const hk=hoursKo(f.hours); if(!hk) return f.l3||''; return hk==='인천 직항'?hk:(f.hub+'에서 '+hk); }
 function pickFrom(t,hid){ return (hid && t.from.find(f=>f.hub_id===hid)) || t.from[0]; }
 function assure(t,f){ const l2=f.l2||t.l2; return (/박/.test(l2)?l2:(t.days_label+' · '+l2))+' · '+fromLine(f); }
+/* 2026-10-13 패스 먼저: 타일 둘째 줄은 패스 이름과 아끼는 값이 먼저다(사용자 「패스를 소개하고 그 패스를 활용한 대략적인 여행 제안」). */
+function passLine(t,f){
+  const l2=f.l2||t.l2; const p=t.passes&&t.passes[0];
+  const tot=(l2.match(/다 해서 ([\d,]+엔)/)||[])[1]||''; const sv=(l2.match(/([\d,]+엔) 아껴요/)||[])[1]||'';
+  if(!p||p.trust_level==='retired'||!sv) return (t.days_label+(tot?' '+tot:'')+' · 패스 없이 운임으로');
+  const name=(p.label||'').replace(/\(.*$/,'').replace(/\s[\d,]+엔$/,'').trim();
+  const c=name.charCodeAt(name.length-1); const jong=(c>=0xAC00&&c<=0xD7A3)?(c-0xAC00)%28:0; const ro=(jong===0||jong===8)?'로':'으로';
+  return name+ro+' '+sv+' 아껴요 · '+t.days_label+(tot?' '+tot:'');
+}
 function nowSec(t){
   const n=t.now; if(!n||!n.items||!n.items.length) return '';   // 특이사항 없으면 절 자체를 안 그린다
   /* 올해가 아니면 연도를 붙인다 — 2027-12-31을 "12월 31일까지"로만 쓰면 올해로 읽힌다
@@ -280,7 +291,7 @@ function renderFeed(){
   <div class="chips" id="nChips"><span class="lab">며칠</span>${[['','전부'],['2','2박'],['3','3박'],['4+','4박+']].map(([v,l])=>{const n=nCount(v);return `<button data-n="${v}" class="${nightsF===v?'on':''}${n?'':' none'}">${l} <span class="n">${n}</span></button>`}).join('')}${hub?`<a class="pill" style="margin-left:auto" href="#/from/${hub}">${esc(hubName)}에서 →</a>`:''}</div>
   </div>
   <div class="tiles">${list.map(t=>{ const f=pickFrom(t,hub); return `
-    <a class="tile" href="${tripUrl(t,hub)}"><div class="ph"><div class="img" style="${photoStyle(t.photo)}"></div><span class="where">${esc(placeOf(t))}</span>${saved.has(t.trip_id)?'<span class="saved">보관함에 있어요</span>':''}<div class="tx"><div class="s">${esc(f.scene||t.scene)}</div><div class="a">${esc(assure(t,f))}</div></div></div></a>`; }).join('')}
+    <a class="tile" href="${tripUrl(t,hub)}"><div class="ph"><div class="img" style="${photoStyle(t.photo)}"></div><span class="where">${esc(placeOf(t))}</span>${saved.has(t.trip_id)?'<span class="saved">보관함에 있어요</span>':''}<div class="tx"><div class="s">${esc(f.scene||t.scene)}</div><div class="a">${esc(passLine(t,f))}</div></div></div></a>`; }).join('')}
   ${list.length?'':`<p class="empty">${themeF?`${esc(themeF)} 여행이 ${hub?esc(hubName)+'에서 가는 것 가운데 ':''}아직 없어요.`:(hub?`${esc(hubName)}에서 가는 ${nightsF?'그 일수의 ':''}여행이 아직 없어요.`:'이 조건에 맞는 여행이 아직 없어요.')}<br><span class="m">칩을 "안 정함"·"전부"로 돌리면 다 볼 수 있어요.</span></p>`}</div>
   <div class="foot">가격·조건은 각 여행에 적힌 확인 시점의 공식 페이지 기준이에요. 판매자와 무관하고 계정이 없어요. <a href="about.html">이게 뭐예요 · 면책 · 출처 · 연락</a></div>`;
   /* 포토 숏츠: 화면의 절반 넘게 보이는 타일만 움직이고, 벗어나면 멈춘다(다시 들어오면 자막이 다시 뜬다) */
@@ -317,19 +328,20 @@ async function renderTrip(id,q){
     let s=`
     <div class="top"><a class="pill" href="#/">← 여행</a><div class="ttl">${esc(t.title_ko)}</div><button class="pill ${saved.has(t.trip_id)?'on':''}" id="saveBtn">${saved.has(t.trip_id)?'보관함에 있어요':'보관'}</button></div>
     <div class="hero" style="${photoStyle(t.photo)}"><div class="tx"><div class="s">${esc(a.scene||t.scene)}</div></div></div>
+    <div class="sec"><h3>이 여행의 패스</h3>${(p0&&p0.trust_level==='retired')?'<p class="m">이 여행은 패스가 없어요. 운임으로 가요.</p>':''}${t.passes.map((p,i)=>`<div class="pass"><div class="n">${i?'함께 쓰는 패스 · ':''}${p.trust_level==='retired'?'패스 없음 · 운임':esc(p.label)}</div>${i?'':`<div class="doeslab">이 표가 하는 일</div><div class="big">${md(a.save||p.save)}</div><p>${md(a.why||p.why)}</p><p><b>하나만 조심</b> · ${md(a.care||p.care)}</p>`}</div>`).join('')}</div>
+    ${(p0&&p0.trust_level!=='retired')?`<div class="sec"><h3>갈 때 펴 보기</h3>${howtoLines(t,a,h,state)}</div>`:''}
     <div class="sec"><h3>한눈에</h3>${switches}<div class="glance">
       <div><b>며칠</b>${esc(t.days_label)}</div><div><b>얼마</b>${esc(a.l2||t.l2)}</div>
       <div><b>가는 길</b>${esc(fromLine(f))}${(a.l3||t.l3)&&(a.l3||t.l3)!==fromLine(f)?`<br><span class="m">${esc(a.l3||t.l3)}</span>`:''}</div>
       ${(t.themes&&t.themes.length)?`<div><b>테마</b>${t.themes.map(v=>`<a href="#/" class="thlink" data-theme="${esc(v)}">${esc(v)}</a>`).join(' · ')}<br><span class="m">누르면 그 테마의 여행만 봅니다</span></div>`:''}
       <div><b>확인</b><span class="m">${esc(checkedLine(t))}</span></div></div></div>
     ${t.pre?`<div class="sec"><h3>미리 잡아 둘 것</h3><p>${md(t.pre)}</p></div>`:''}
-    <div class="sec"><h3>거기서 뭐 해요</h3><p>${md(a.what||t.what)}</p>${(a.days||t.days)?(a.days||t.days).map(d=>`<div class="day"><h4>${esc(d.label)}</h4><ul>${d.steps.map(st=>`<li>${md(st.what)}${st.how?` <span class="m">· ${md(st.how)}</span>`:''}${st.note?`<span class="m">${md(st.note)}</span>`:''}</li>`).join('')}</ul></div>`).join(''):''}</div>
-    <div class="sec"><h3>어떻게 다녀요</h3>${(p0&&p0.trust_level==='retired')?'<p class="m">이 여행은 패스가 없어요. 운임으로 가요.</p>':''}${t.passes.map((p,i)=>`<div class="pass"><div class="n">${i?'함께 쓰는 패스 · ':''}${p.trust_level==='retired'?'패스 없음 · 운임':esc(p.label)}</div>${i?'':`<div class="doeslab">이 표가 하는 일</div><div class="big">${md(a.save||p.save)}</div><p>${md(a.why||p.why)}</p><p><b>하나만 조심</b> · ${md(a.care||p.care)}</p>`}</div>`).join('')}</div>
+    <div class="sec"><h3>거기서 뭐 해요</h3><p>${md(a.what||t.what)}</p>${(a.days||t.days)?(a.days||t.days).map(d=>`<div class="day"><h4>${esc(d.label)}</h4><ul>${d.steps.map(st=>stepLine(st)).join('')}</ul></div>`).join(''):''}</div>
     ${t.care_rides?`<div class="sec"><h3>타는 법</h3><ul class="rides">${t.care_rides.split(' · **').map((x,i)=>`<li>${md(i?'**'+x:x)}</li>`).join('')}</ul></div>`:''}
     ${nowSec(t)}
     ${(a.honest||t.honest)?`<div class="sec"><h3>솔직히</h3><p>${md(a.honest||t.honest)}</p></div>`:''}
     <div class="sec"><div class="btns"><button class="pri" id="shareBtn">같이 갈 사람에게 보내기</button><button id="saveBtn2">${saved.has(t.trip_id)?'보관함에서 빼기':'보관'}</button></div></div>
-    <div class="sec"><h3>갈 때 펴 보기</h3>${howtoLines(t,a,h,state)}</div>
+    ${(p0&&p0.trust_level==='retired')?`<div class="sec"><h3>갈 때 펴 보기</h3>${howtoLines(t,a,h,state)}</div>`:''}
     ${(()=>{ const d=dayAdds(t); return d.length?`<div class="sec"><h3>하루 더 있으면</h3><div class="list">${d.map(x=>`<a href="#/t/${esc(x.trip_id)}"><div class="ph" style="${photoStyle(x.photo)}"></div><div><b>${esc(x.region_ko)}</b><small>${esc(x.l2)}</small></div></a>`).join('')}</div></div>`:''; })()}
     ${(region&&(TRIPS.filter(x=>x.region_id===t.region_id&&x.trip_id!==t.trip_id).length))?`<div class="sec"><h3>이 지역 더</h3><div class="list"><a href="#/r/${esc(t.region_id)}"><div class="ph" style="${photoStyle(t.photo)}"></div><div><b>${esc(region.display.ko)}</b><small>${esc(region.admin.ko)} · 여행 ${TRIPS.filter(x=>x.region_id===t.region_id&&x.kind==='trip').length} · 하루 코스 ${TRIPS.filter(x=>x.region_id===t.region_id&&x.kind==='day').length}</small></div></a></div></div>`:''}
     <div class="foot">${esc(checkedLine(t))} <a href="${FORM}" target="_blank" rel="noopener">틀린 곳 알려주기</a><br>${credit(t.photo)}</div>`;
@@ -368,8 +380,9 @@ function howtoLines(t,a,h,state){
     const l5=join([v('use','show'),v('use','count_rules')]); const trap=v('use','trap'); if(l5||trap) lines.push(['쓸 때',md(l5)+(trap?` <b>함정</b> — ${md(trap)}`:''),md(v('use','when_lane_closed')||'')]);
     const l6=join([v('end','return'),v('end','refund'),v('end','overuse')]); if(l6) lines.push(['돌아올 때',md(l6),'']);
   }
+  const pair=(t.pair&&state.adults>=2)?t.pair.map(x=>`<div class="step"><i>+</i><div><b class="t">둘이 가면</b>${md(x.text)}${x.phrase?`<small><span class="ja">${esc(x.phrase)}</span></small>`:''}</div></div>`).join(''):'';  /* 2026-10-02 두 장 한 벌 표 — 어른 2명 이상일 때만 */
   const pf=(t.plan&&t.plan.phrase_template&&!state.v)?`<div class="pf" id="pf"><label>출발일<input type="date" name="d" value="${esc(state.date)}"></label><label>어른<select name="a">${[1,2,3,4].map(n=>`<option ${state.adults===n?'selected':''}>${n}</option>`).join('')}</select></label><label>초등학생<select name="c">${[0,1,2,3].map(n=>`<option ${state.children===n?'selected':''}>${n}</option>`).join('')}</select></label></div>`:'';
-  let s=`<details open><summary>사는 곳부터 돌아올 때까지 · ${lines.length}줄</summary>${pf}${lines.map((l,i)=>`<div class="step"><i>${i+1}</i><div><b class="t">${esc(l[0])}</b>${l[1]}${l[2]?`<small>${l[2]}</small>`:''}</div></div>`).join('')}${lines.length?'':'<p class="m">이 패스의 절차는 아직 확인 중이에요.</p>'}</details>`;
+  let s=`<details open><summary>사는 곳부터 돌아올 때까지 · ${lines.length}줄</summary>${pf}${lines.map((l,i)=>`<div class="step"><i>${i+1}</i><div><b class="t">${esc(l[0])}</b>${l[1]}${l[2]?`<small>${l[2]}</small>`:''}</div></div>`).join('')}${pair}${lines.length?'':'<p class="m">이 패스의 절차는 아직 확인 중이에요.</p>'}</details>`;
   /* 근거: 19칸 원문 + 못 채운 것 + 출처 */
   const SECS=[['before',[['who_can_buy','살 수 있는 사람'],['bring','가져갈 것'],['when','언제 사나'],['app_or_account','앱·계정']]],['buy',[['where','어디서 사나'],['where_note','파는 자리 주의'],['how','창구에서'],['pay','결제'],['get_what','손에 쥐는 것']]],['issue',[['exchange','교환'],['activate','이용 개시'],['seat','좌석']]],['use',[['show','어떻게 보여 주나'],['count_rules','쓰는 규칙'],['when_lane_closed','안 될 때'],['trap','가장 자주 걸리는 것']]],['end',[['return','반납'],['refund','환불'],['overuse','초과·구역 밖']]]];
   let g='';
@@ -390,6 +403,14 @@ function share(t,a){
 }
 /* ── 3. 지역 페이지 ─────────────────────────────────── */
 /* 이 여행과 거점이 겹치는 하루 코스. 같은 지역이면 「이 지역 더」가 이미 맡으므로 뺀다. */
+/* 2026-10-13 패스 먼저: 일정은 「대략」 — 분 단위 시각 줄은 접힌 「시각으로 보면」 안으로, 교통·입장 값은 그대로 보인다. */
+function stepLine(st){
+  if(st.what&&st.what.includes('→')&&/^타고 있는 시간/.test(st.how||'')){
+    const money=(st.how.match(/교통 .*$/)||[st.how])[0];
+    return `<li class="money"><span class="m">${md(money)}</span><details class="times"><summary>시각으로 보면</summary><div>${md(st.what)}<br>${md(st.how)}</div></details>${st.note?`<span class="m">${md(st.note)}</span>`:''}</li>`;
+  }
+  return `<li>${md(st.what)}${st.how?` <span class="m">· ${md(st.how)}</span>`:''}${st.note?`<span class="m">${md(st.note)}</span>`:''}</li>`;
+}
 function dayAdds(t){
   const hubs=new Set((t.from||[]).map(f=>f.hub_id).filter(Boolean));
   return TRIPS.filter(x=>x.kind==='day'&&x.region_id!==t.region_id&&(x.from||[]).some(f=>hubs.has(f.hub_id)));
