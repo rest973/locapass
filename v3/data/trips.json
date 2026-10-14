@@ -6186,7 +6186,16 @@
     ]
    },
    "cond": "조건 ①",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-shirakawago.jpg",
+    "pos": "50% 50%",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Ogi_Shirakawa06n3200.jpg",
+    "cropped": true,
+    "title": "Ogi Shirakawa06n3200.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk1-2",
@@ -6313,7 +6322,16 @@
     ]
    },
    "cond": "조건 ①",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-yunokuni.jpg",
+    "pos": "50% 50%",
+    "credit": "663highland",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:260719_Traditional_Handicrafts_Village_Yunokuni_no_Mori_Komatsu_Ishikawa_pref_Japan02s3.jpg",
+    "cropped": true,
+    "title": "260719 Traditional Handicrafts Village Yunokuni no Mori Komatsu Ishikawa pref Japan02s3.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk1-3",
@@ -6455,7 +6473,16 @@
     ]
    },
    "cond": "조건 ①",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-kenrokuen.jpg",
+    "pos": "50% 50%",
+    "credit": "Winniepix",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kenrokuen_Garden%2C_Kanazawa_%2853621201294%29.jpg",
+    "cropped": true,
+    "title": "Kenrokuen Garden, Kanazawa (53621201294).jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk2-1",
@@ -6633,7 +6660,16 @@
     ]
    },
    "cond": "조건 ②",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-ainokura.jpg",
+    "pos": "50% 50%",
+    "credit": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gokayama_Ainokura_Gassho-zukuri_01.jpg",
+    "cropped": true,
+    "title": "Gokayama Ainokura Gassho-zukuri 01.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk2-2",
@@ -6810,7 +6846,16 @@
     ]
    },
    "cond": "조건 ②",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-sanmachi.jpg",
+    "pos": "50% 50%",
+    "credit": "663highland",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:260922_Sanmachi_Takayama_Japan01s3.jpg",
+    "cropped": true,
+    "title": "260922 Sanmachi Takayama Japan01s3.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk2-3",
@@ -6968,7 +7013,16 @@
     ]
    },
    "cond": "조건 ②",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-kanazawajo.jpg",
+    "pos": "50% 50%",
+    "credit": "Balon Greyjoy",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:20190705_Kanazawa_Castle-7.jpg",
+    "cropped": true,
+    "title": "20190705 Kanazawa Castle-7.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk3-1",
@@ -7129,7 +7183,16 @@
     ]
    },
    "cond": "조건 ③",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-minkaen.jpg",
+    "pos": "50% 50%",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Gasshodukuri-minkaen14n4272.jpg",
+    "cropped": true,
+    "title": "Gasshodukuri-minkaen14n4272.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk3-2",
@@ -7294,7 +7357,16 @@
     ]
    },
    "cond": "조건 ③",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-toyamabijutsukan.jpg",
+    "pos": "50% 50%",
+    "credit": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyama_Prefectural_Museum_of_Art_and_Design_seen_from_Fugan_Unga_Kansui_Park_20180504.jpg",
+    "cropped": true,
+    "title": "Toyama Prefectural Museum of Art and Design seen from Fugan Unga Kansui Park 20180504.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk3-3",
@@ -7473,7 +7545,16 @@
     ]
    },
    "cond": "조건 ③",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-omicho.jpg",
+    "pos": "50% 50%",
+    "credit": "DimiTalen",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Omicho_covered_market_western_entrance%2C_Kanazawa%2C_2016.jpg",
+    "cropped": true,
+    "title": "Omicho covered market western entrance, Kanazawa, 2016.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk4-1",
@@ -7664,7 +7745,16 @@
     ]
    },
    "cond": "조건 ④",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-murodo.jpg",
+    "pos": "50% 50%",
+    "credit": "くろふね",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E3%81%BF%E3%81%8F%E3%82%8A%E3%81%8C%E6%B1%A001.jpg",
+    "cropped": true,
+    "title": "みくりが池01.jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk4-2",
@@ -7849,7 +7939,16 @@
     ]
    },
    "cond": "조건 ④",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-ohi.jpg",
+    "pos": "50% 50%",
+    "credit": "Lemonz commons",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ohimuseum_MG_1821.JPG",
+    "cropped": true,
+    "title": "Ohimuseum MG 1821.JPG",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk4-3",
@@ -8045,7 +8144,16 @@
     ]
    },
    "cond": "조건 ④",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-fugansuijo.jpg",
+    "pos": "50% 50%",
+    "credit": "kiwa dokokano",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2_Chome_Nakajima%2C_Toyama-shi%2C_Toyama-ken_930-0801%2C_Japan_-_panoramio_%283%29.jpg",
+    "cropped": true,
+    "title": "2 Chome Nakajima, Toyama-shi, Toyama-ken 930-0801, Japan - panoramio (3).jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk5-1",
@@ -8241,7 +8349,16 @@
     ]
    },
    "cond": "조건 ⑤",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-hidanosato.jpg",
+    "pos": "50% 50%",
+    "credit": "KimonBerlin",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Takayama_2013_%2811272889086%29.jpg",
+    "cropped": true,
+    "title": "Takayama 2013 (11272889086).jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   },
   {
    "trip_id": "hk5-2",
@@ -8256,7 +8373,7 @@
    "source_cards": [
     44
    ],
-   "scene": "눈 덮인 합장 지붕에 불이 켜지는 밤. 옛이야기 속에 뛰어든 듯하다.",
+   "scene": "역에서 걸어 9분. 운하 다리 탑에 오르면 다테야마 연봉까지 보인다.",
    "l2": "4박 5일, 다 해서 27,220엔 · 표 2장으로 880엔 아껴요",
    "l3": "인천에서 고마쓰 공항으로 매일 한 편(09:15 착·10:15 발, 10월 25일부터는 요일에 따라 10:25·10:50 발) · 리무진버스로 가나자와, 재래선으로 도야마까지 2,690엔(도야마 공항의 인천선은 운휴 중)",
    "hub": "고마쓰",
@@ -8266,7 +8383,7 @@
      "hub_id": "kanazawa",
      "hours": 0,
      "how": "인천에서 고마쓰 공항으로 매일 한 편(09:15 착·10:15 발, 10월 25일부터는 요일에 따라 10:25·10:50 발) · 리무진버스로 가나자와, 재래선으로 도야마까지 2,690엔(도야마 공항의 인천선은 운휴 중)",
-     "scene": "눈 덮인 합장 지붕에 불이 켜지는 밤. 옛이야기 속에 뛰어든 듯하다.",
+     "scene": "역에서 걸어 9분. 운하 다리 탑에 오르면 다테야마 연봉까지 보인다.",
      "l2": "4박 5일, 다 해서 27,220엔 · 표 2장으로 880엔 아껴요",
      "l3": "인천에서 고마쓰 공항으로 매일 한 편(09:15 착·10:15 발, 10월 25일부터는 요일에 따라 10:25·10:50 발) · 리무진버스로 가나자와, 재래선으로 도야마까지 2,690엔(도야마 공항의 인천선은 운휴 중)",
      "buy": "JR가가온천역 안 관광안내소 「KAGA 다비·마치넷(KAGA旅・まちネット)」에서 산다. 8:45에 열고 17:30에 닫으며 쉬는 날이 없다. 캔버스는 이 역 앞에서 떠나니 내리자마자 사는 것이 가장 쉽다 · 온천가에서도 판다. 야마나카자(야마나카 온천)는 8:30~22:00 — 다만 제2·제4 화요일은 17:30까지, 겨울(12/1~3/31)은 8:30~20:00. 야마시로온천 소유매점(야마시로 온천)은 7:00~19:00. 가타야마즈온천 소유(가타야마즈 온천)는 6:00~22:00이고 임시 휴관이 있다 · 이시카와현 구타니야키 미술관(9:00~17:00, 월요일 휴관·공휴일은 연다)과 기타마에부네노사토 자료관(9:00~17:00)에서도 판다. 가가 시내 료칸에 묵으면 숙소에 물어본다 · 캔버스 차 안과 캔버스 사무소에서는 팔지 않는다 — 타기 전에 사 둔다. 쓰는 날보다 미리 사 두어도 된다",
@@ -8448,7 +8565,16 @@
     ]
    },
    "cond": "조건 ⑤",
-   "photo": {}
+   "photo": {
+    "src": "../photos/web/hk-kansui.jpg",
+    "pos": "50% 50%",
+    "credit": "kiwa dokokano",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1_Minatoirifunech%C5%8D%2C_Toyama-shi%2C_Toyama-ken_930-0805%2C_Japan_-_panoramio_%281%29.jpg",
+    "cropped": true,
+    "title": "1 Minatoirifunechō, Toyama-shi, Toyama-ken 930-0805, Japan - panoramio (1).jpg",
+    "chosen": "사용자 선택 2026-10-14 (사진후보_호쿠리쿠_미리보기)"
+   }
   }
  ]
 }
